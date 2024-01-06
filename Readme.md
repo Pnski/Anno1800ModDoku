@@ -1,3 +1,7 @@
+- [TextSources.TextSourcesRoots](Readme.md#TextSources.TextSourcesRoots (ts))
+- [Game](Readme.md#game)
+- [Session](Readme.md#session)
+
 # TextSources.TextSourcesRoots (ts)
 ## Area
 ### CurrentSelectedArea (Current)
