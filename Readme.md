@@ -73,6 +73,12 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 ## Weather
 ```ts.Weather.SetChangeWind()```
 >Changes wind direction to a random new one.
+## Selection
+```ts.Selection.DestructSelected()```
+>only works on buildings, removes them (no ruins).
+
+```ts.Selection.SelectIslandKontor()```
+>opens the contor menue from the current island
 # game
 ```game.getCorporationTime()```
 >get Session? time in ms
@@ -89,3 +95,6 @@ everywhere else it just flickers snow for 1 gametick.
 
 ```session.killGameObject()```
 forces ruins to current selected Object (Player or NPC) or destroys ship. Does not Work on stuff like Emperor Ketemas buildings.
+
+```session.getSessionGUID()```
+>returns... a number
