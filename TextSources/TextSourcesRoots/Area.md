@@ -23,7 +23,7 @@ Holds table with IslandID, AreaIndex, SessionID
 
 Functions
 
-TextSources.TextSourcesRoots.Area.Current.SetCheatItem(GUID:Int)
+TextSources.TextSourcesRoots.Area.Current.Economy.SetCheatItem(GUID:Int)
 
 Adds the Item with <GUID> to the island storage.
 
