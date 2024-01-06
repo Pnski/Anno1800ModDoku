@@ -69,9 +69,6 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 ## Weather
 ```ts.Weather.SetChangeWind()```
 >Changes wind direction to a random new one.
-
-```game.environmentSetWindDir(Direction:int)```
->Changes wind direction to set direction 0 is NE 90 is NW etc.
 # game
 ```game.getCorporationTime()```
 >get Session? time in ms
@@ -79,6 +76,9 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 ```game.environmentSetSnowDensity(Percent:float)```
 >Sets the snow density in the ARCTIC (only) to int (0-1 with ',' instead of '.'). 0 is lowest but not gone...
 everywhere else it just flickers snow for 1 gametick.
+
+```game.environmentSetWindDir(Direction:int)```
+>Changes wind direction to set direction 0 is NE 90 is NW etc.
 # session
 ```session.toggleResidentView()```
 >goes into first Person mode to current selected Building
