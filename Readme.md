@@ -98,3 +98,6 @@ forces ruins to current selected Object (Player or NPC) or destroys ship. Does n
 
 ```session.getSessionGUID()```
 >returns... a number
+
+session.selectNextObject(True)
+speed.Up()
