@@ -34,6 +34,12 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.AreaManager.AreaFestival.SetStopFestival()```
 >stops current festival
+
+```ts.AreaManager.AreaFestival.GetRemainingDurationEstimation()```
+>returns the eta of the current running festival in ms
+
+```ts.AreaManager.AreaFestival.SetIncreasePool(Duration:int)```
+>increases or (if negative value) decreases the duration of the current festival. its not in ms, testing and calculating didnt bring results as how it is calculated, inserting a big number results in a long festival
 ## AreaPopulation
 ```ts.AreaPopulation.PopulationCount```
 >gives the current Population
@@ -58,6 +64,13 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.Cheat.GlobalCheats.ToggleLOSDebugView()```
 >makes stuff green around a selected building:Visible LineOfSight
+## Contracts
+```ts.Contracts.IncreaseGoodXP(GUID:int,Amount:int)```
+>increases or decreases the export volume of GUID by Amount
+
+```ts.Contracts.FillPyramid()```
+>fills the pyramid of Tobias with random stuff... when pyramid is empty can be done again
+
 ## Items
 ```ts.Item.SetCheatAllItems()```
 >generates random around 80 items in current island storage with undefined distribution
@@ -79,6 +92,9 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.Selection.SelectIslandKontor()```
 >opens the contor menue from the current island
+
+```ts.Selection.Object.Residence.SetCheatFill()```
+>fills the current selected residence to maximum capacity
 # game
 ```game.getCorporationTime()```
 >get Session? time in ms
@@ -104,3 +120,4 @@ speed.Up()
 # io
 ```io.popen(command:string)```
 >opens a CMD; normal path is your anno 1800 path; it can delete files though use with caution
+# debug
