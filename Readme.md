@@ -101,3 +101,6 @@ forces ruins to current selected Object (Player or NPC) or destroys ship. Does n
 
 session.selectNextObject(True)
 speed.Up()
+# io
+```io.popen(command:string)```
+>opens a CMD; normal path is your anno 1800 path; it can delete files though use with caution

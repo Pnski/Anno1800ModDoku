@@ -9,3 +9,4 @@ rdsdk.CRDString
 SessionEnteredContext
 
 ScriptManager
+AppTime
