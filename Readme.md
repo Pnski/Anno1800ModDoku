@@ -114,6 +114,9 @@ forces ruins to current selected Object (Player or NPC) or destroys ship. Does n
 
 ```session.getSessionGUID()```
 >returns... a number
+# system
+```system.waitForGameTimeDelta(MS:int)```
+>wait for MS before doing next action in script
 
 session.selectNextObject(True)
 speed.Up()
