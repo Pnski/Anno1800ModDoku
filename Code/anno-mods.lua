@@ -11,7 +11,7 @@ end
 
 local function getkvtable(_table)
   if check_mt(_table) == true then
-    return = getmetatable(_table)
+    return getmetatable(_table)
   else
     return _table
   end
@@ -21,29 +21,42 @@ local function resetTable()
   _ttable = {}
 end
 
-local function getDeepTable(_table, int)
-  local int = int or 0
-  if type(_table) == 'table' then
-    _table = getkvtable(_table)
-    for k,v in pairs(_table) do
-      if type(v) == 'table' then
-        getDeepTable(k, int+1)
-      end
-    end
-  else
-    table.insert(_ttable, string.rep('\t', int)..tostring(k).." : "..tostring(v))
+local function getDeepTable(_table, indent)
+  local indent = indent or 0
+  print(indent)
+  if type(_table) ~= 'table' then
+    print("error, no table given")
+    return
   end
+  -- convert every array or metatable to array (pairs might fail if C-API call is blocked)
+  _table = getkvtable(_table)
+  table.insert(_ttable, " - "..tostring(_table)"\n")
+  for k,v in pairs(_table) do
+    if type(_table[k]) == 'table' then
+      table.insert(_ttable, string.rep('\t', indent).." - "..tostring(k).." : "..tostring(v).."\n")
+      getDeepTable(_table[k], indent + 1)
+    else
+      table.insert(_ttable, string.rep('\t', indent).." - "..tostring(k).." : "..tostring(v).."\n")
+    end
+  end
+  return
 end
 
 local function saveTableToFile(_table,fileName)
+  if type(fileName) ~= 'string' then
+    print("error no string given as filename")
+    return
+  end -- errorhandling
   file = io.open(fileName,"a")
   for i = 1,tableLength(_table) do
     file:write(_table[i])
   end
   file:close()
+  -- flush table after printing
+  resetTable()
 end
 
-function tableLength(T)
+local function tableLength(T)
   local count = 0
   for _ in pairs(T) do
     count = count + 1
@@ -54,6 +67,7 @@ end
 
 amods = {
   getDeepTable = getDeepTable,
-  saveTable = saveTableToFile
+  saveTable = saveTableToFile,
+  reset = resetTable
 }
 print("anno-mods.lua loaded")
