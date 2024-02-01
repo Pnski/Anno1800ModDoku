@@ -11,7 +11,7 @@ end
 
 local function getkvtable(_table)
   if check_mt(_table) == true then
-    return getmetatable(_table)
+    return debug.getmetatable(_table)
   else
     return _table
   end

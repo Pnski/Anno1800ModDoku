@@ -83,6 +83,9 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.Newspaper.ShowLatestNewspaperUI()```
 >Opens UI of latest Newspaper
+## Participants
+```ts.Participants.Highscore.HighscoreData.GetDifficultyFactor()```
+>Returns the Difficulty as a Factor eg. 1.1 as mentioned in the profile highscoredata, but not rounded.
 ## Weather
 ```ts.Weather.SetChangeWind()```
 >Changes wind direction to a random new one.
@@ -105,6 +108,9 @@ everywhere else it just flickers snow for 1 gametick.
 
 ```game.environmentSetWindDir(Direction:int)```
 >Changes wind direction to set direction 0 is NE 90 is NW etc.
+
+```game.GUIManager.isUIStartUpPastSceneCreation()```
+>returns a bool; with console probably always true (tests returned true)
 # session
 ```session.toggleResidentView()```
 >goes into first Person mode to current selected Building

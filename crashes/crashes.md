@@ -5,6 +5,7 @@ expected registry table -> just crashes the game
 session.drawDebugLayer()
 session.createTestStreetGidTiles()
 rdsdk.CRDString
+g4.CreateGear
 
 SessionEnteredContext
 
