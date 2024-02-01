@@ -1,0 +1,254 @@
+	 - GetEcoDeltaCausedBy : function: 00007FF6EA2AE730
+	 - Memorize : property<CMemorizeManager>
+	 - HideUndiscoverVisuals : function: 00007FF6EA2ACF20
+	 - GetDebugRender : function: 00007FF6EA2ACD60
+	 - GetGamepadActionManager : function: 00007FF6EA2AD4C0
+	 - GetArea : function: 00007FF6EA2AC490
+	 - MetaIncidents : property<CMetaIncidentManager>
+	 - SetEnableObjectGroup : function: 00007FF6EA2AC680
+	 - Online : property<COnlineManager>
+	 - AreaFetch : property<CAreaFetchManager>
+	 - GetMetaGameManager : function: 00007FF6EA2ADC90
+	 - GetCooldown : function: 00007FF6EA2AF400
+	 - GetAreaManager : function: 00007FF6EA2AC500
+	 - ScenarioWorkshop : property<CScenarioWorkshopManager>
+	 - GetAnimals : function: 00007FF6EA2AC230
+	 - WorldMap : property<CWorldMapSessionManager>
+	 - GetHappyDayEventManager : function: 00007FF6EA2AD6F0
+	 - GetActiveTrade : function: 00007FF6EA2AC0E0
+	 - GetSound : function: 00007FF6EA2AF710
+	 - AreaProductDelta : property<CAreaProductDeltaManager>
+	 - GetGreater : function: 00007FF6EA2AFBE0
+	 - WorkforceTransferManager : property<CWorkforceTransferManager>
+	 - GetWorkforceTransferManager : function: 00007FF6EA2B00A0
+	 - GetText : function: 00007FF6EA2AF940
+	 - GetDifficultyHelper : function: 00007FF6EA2ACE40
+	 - GetGameObject : function: 00007FF6EA2AD3B0
+	 - GetPopup : function: 00007FF6EA2AD610
+	 - WinLose : property<CWinLoseManager>
+	 - GetIncidents : function: 00007FF6EA2AD760
+	 - Objects : property<CGameObjectManager>
+	 - AccountSettings : property<CAccountSettings>
+	 - GetEngineMetrics : function: 00007FF6EA2AD0E0
+	 - Stamp : property<CStampManager>
+	 - GetSessionCamera : function: 00007FF6EA2AF320
+	 - Item : property<CItemSessionManager>
+	 - GetSessionTransferSpeedFactorForGUID : function: 00007FF6EA2AEB90
+	 - Weather : property<CWeatherManager>
+	 - GetDaytime : function: 00007FF6EA2ACCF0
+	 - GetIsGamepadModeActive : function: 00007FF6EA2AD970
+	 - GetAccount : function: 00007FF6EA2ABEF0
+	 - GetNewspaper : function: 00007FF6EA2AE0F0
+	 - Visitors : property<CVisitorManager>
+	 - GetVisitors : function: 00007FF6EA2AFF50
+	 - GetBlueprint : function: 00007FF6EA2ACA50
+	 - GetFactoryAssetData : function: 00007FF6EA2AD150
+	 - Unlock : property<CUnlockManager>
+	 - GetUnlock : function: 00007FF6EA2AFEE0
+	 - GetTradeRoute : function: 00007FF6EA2AFE00
+	 - GameClock : property<CGameClock>
+	 - Interface : property<CUIBindings>
+	 - Contracts : property<CTradeContractManager>
+	 - Pause : property<CPauseManager>
+	 - GetInterface : function: 00007FF6EA2AFE70
+	 - GetFestivalManager : function: 00007FF6EA2AC310
+	 - GetAttractivity : function: 00007FF6EA2AC2A0
+	 - GetOnline : function: 00007FF6EA2AE1D0
+	 - ShowPhotographyNewspaper : function: 00007FF6EA2AEC10
+	 - GetToolOneHelper : function: 00007FF6EA2AFD20
+	 - Input : property<CInputManager>
+	 - ToolOneManager : property<CToolOneManager>
+	 - GetEcoQualityIcon : function: 00007FF6EA2AE840
+	 - GetNot : function: 00007FF6EA2AFB50
+	 - Incidents : property<CIncidentManager>
+	 - GetSeason : function: 00007FF6EA2AF240
+	 - GetAnd : function: 00007FF6EA2AFA80
+	 - Conditions : property<CConditionManager>
+	 - GetAssetForValue : function: 00007FF6EA2AF9B0
+	 - AreaManager : property<CAreaManager>
+	 - Popup : property<CGenericPopupManager>
+	 - Text : property<CTextManager>
+	 - Selection : property<CSelectionManager>
+	 - Terrain : property<CTerrainManager>
+	 - GetStaticData : function: 00007FF6EA2B0180
+	 - Newspaper : property<CNewspaperManager>
+	 - ScenarioItemTrade : property<CScenarioItemTradeManager>
+	 - GetTarget : function: 00007FF6EA2AF860
+	 - GetFreeAreaProductivity : function: 00007FF6EA2AF4E0
+	 - Railway : property<CAreaRailwayManager>
+	 - GetCheat : function: 00007FF6EA2ACBA0
+	 - GetStreetOverlay : function: 00007FF6EA2AF7F0
+	 - Blueprint : property<CBlueprintManager>
+	 - Research : property<CResearchManager>
+	 - AreaNeedUnlock : property<CAreaNeedUnlockManager>
+	 - Records : property<CRecordingManager>
+	 - GetRefGuid : function: 00007FF6EA2AD840
+	 - Sound : property<CSoundManager>
+	 - GetPalaceDecreeData : function: 00007FF6EA2AE2B0
+	 - CameraSequenceManager : property<CCameraSequenceManager>
+	 - ShortcutManager : property<CShortcutManager>
+	 - GetAchievements : function: 00007FF6EA2AC070
+	 - GetPlayerHasLostTargetShip : function: 00007FF6EA2AE640
+	 - GetWorldMap : function: 00007FF6EA2B0110
+	 - ModInfo : property<CModInfo>
+	 - GetDiscovery : function: 00007FF6EA2ACEB0
+	 - GetShortcutManager : function: 00007FF6EA2AF6A0
+	 - SessionCamera : property<CSessionCameraManager>
+	 - GamepadActionManager : property<CGamepadActionManager>
+	 - SessionTransfer : property<CSessionTransferManager>
+	 - GetSessionTransfer : function: 00007FF6EA2AF630
+	 - GUI : property<CGUIManager>
+	 - GetRecords : function: 00007FF6EA2AEEC0
+	 - GetDlcUpgrade : function: 00007FF6EA2ACC80
+	 - GetRandom : function: 00007FF6EA2AF5C0
+	 - SessionParticipants : property<CSessionParticipantManager>
+	 - GetSessionParticipants : function: 00007FF6EA2AF550
+	 - FreeAreaProductivity : property<CSessionFreeAreaProductivityManager>
+	 - GetNotifications : function: 00007FF6EA2AE160
+	 - GetEconomyStatistic : function: 00007FF6EA2AD070
+	 - StreetOverlay : property<CStreetOverlayManager>
+	 - GetModInfo : function: 00007FF6EA2AE010
+	 - Feedback : property<CSessionFeedbackManager>
+	 - GetFeedback : function: 00007FF6EA2AF470
+	 - GetSavegameFetcher : function: 00007FF6EA2AD1F0
+	 - Savegame : property<CSavegameManager>
+	 - EngineMetrics : property<CEngineMetricInfos>
+	 - GetInfoTip : function: 00007FF6EA2AD7D0
+	 - MetaObjects : property<CMetaGameObjectManager>
+	 - AreaCoast : property<CSessionCoastManager>
+	 - GetAreaCoast : function: 00007FF6EA2AF390
+	 - GetWinLose : function: 00007FF6EA2B0030
+	 - GetSelection : function: 00007FF6EA2AF2B0
+	 - Season : property<CSeasonManager>
+	 - GetAssetData : function: 00007FF6EA2AC9B0
+	 - GetTerrain : function: 00007FF6EA2AF8D0
+	 - classtable : this
+	 - Expedition : property<CMetaPropertyExpeditionUser>
+	 - IsGamepadModeActive : property<bool>
+	 - GetDesyncRecover : function: 00007FF6EA2ACDD0
+	 - Palace : property<CPropertyPalace>
+	 - __index : function: 00007FF6EA2AA4E0
+	 - GetItemAssetData : function: 00007FF6EA2ADAA0
+	 - AreaResidenceConsumption : property<CAreaResidenceConsumptionManager>
+	 - GetBaseSpeed_MaxWindSlowdown : function: 00007FF6EA2AEA90
+	 - GetScenarios : function: 00007FF6EA2AF160
+	 - MetaGameManager : property<CMetaGameManager>
+	 - DebugRender : property<CDebugRenderManager>
+	 - GetMoney : function: 00007FF6EA2ADDE0
+	 - GetScenarioItemTrade : function: 00007FF6EA2AF0F0
+	 - GetToolOneManager : function: 00007FF6EA2AFCB0
+	 - Rewards : property<CRewardsManager>
+	 - GetRewards : function: 00007FF6EA2AF010
+	 - GetPopulationAssetData : function: 00007FF6EA2AE500
+	 - PlayerHasLostTargetShip : property<bool>
+	 - Animals : property<CAnimalManager>
+	 - GetIsEcoImpactCausedBy : function: 00007FF6EA2AE6A0
+	 - DesyncRecover : property<CDesyncRecoverFlow>
+	 - Regrow : property<CRegrowManager>
+	 - SetToggleEnable : function: 00007FF6EA2AE8D0
+	 - GetRegrow : function: 00007FF6EA2AEF30
+	 - GetRailway : function: 00007FF6EA2AC8D0
+	 - GetStamp : function: 00007FF6EA2AF780
+	 - GetRecipeAssetData : function: 00007FF6EA2AEE20
+	 - Quests : property<CQuestManager>
+	 - GetLoadingSpeedFactorForGUID : function: 00007FF6EA2AE990
+	 - EconomyStatistic : property<CEconomyStatisticManager>
+	 - GetBaseSpeed_MaxWindSpeedup : function: 00007FF6EA2AEB10
+	 - GetAiUnit : function: 00007FF6EA2AC1C0
+	 - Discovery : property<CDiscoveryManager>
+	 - GetAreaResidenceConsumption : function: 00007FF6EA2AC940
+	 - Participants : property<CParticipantManager>
+	 - GetQuests : function: 00007FF6EA2AEDB0
+	 - Scenarios : property<CScenarioManager>
+	 - GetGame : function: 00007FF6EA2AD340
+	 - GetEconomy : function: 00007FF6EA2ACFB0
+	 - GetBuildMode : function: 00007FF6EA2ACAC0
+	 - GetPalace : function: 00007FF6EA2AE920
+	 - GetOptions : function: 00007FF6EA2AE240
+	 - GetConditions : function: 00007FF6EA2ACC10
+	 - GetSavegame : function: 00007FF6EA2AF080
+	 - GetEcoQualityIndexCausedBy : function: 00007FF6EA2AE7B0
+	 - GetProductAssetData : function: 00007FF6EA2AE5A0
+	 - GetAreaProductDelta : function: 00007FF6EA2AC860
+	 - Economy : property<CEconomyManager>
+	 - GameSetup : property<CGameSetupManager>
+	 - GetResearch : function: 00007FF6EA2AEFA0
+	 - GetMemorize : function: 00007FF6EA2ADC20
+	 - TradeRoute : property<CTradeRouteManager>
+	 - GetLoadingPier : function: 00007FF6EA2ADBB0
+	 - GetHappiness : function: 00007FF6EA2AC420
+	 - Path : property<CPathManager>
+	 - GetObjects : function: 00007FF6EA2AD450
+	 - GetPath : function: 00007FF6EA2AE420
+	 - IsPassiveTradeFeatureEnabled : property<bool>
+	 - DifficultyHelper : property<CDifficultyHelper>
+	 - ToggleDebugInfo : function: 00007FF6EA2AD020
+	 - GetGameClock : function: 00007FF6EA2AD2D0
+	 - FullscreenMovieQueueManager : property<CFullscreenMovieQueueManager>
+	 - GetAreaNeedUnlock : function: 00007FF6EA2AC610
+	 - GetGameSetup : function: 00007FF6EA2AD530
+	 - Military : property<CMilitaryManager>
+	 - RefOid : property<GameObjectID>
+	 - GetParticipants : function: 00007FF6EA2AE350
+	 - AreaPopulation : property<CAreaPopulationManager>
+	 - GetFullscreenMovieQueueManager : function: 00007FF6EA2AD260
+	 - GetContracts : function: 00007FF6EA2AFD90
+	 - GetAreaPopulation : function: 00007FF6EA2AC7F0
+	 - Notifications : property<CNotificationManager>
+	 - GetBuildPermits : function: 00007FF6EA2ADE50
+	 - RefGuid : property<int>
+	 - Account : property<CAccountManager>
+	 - BuildMode : property<CBuildModeManager>
+	 - Target : property<CTargetManager>
+	 - GetIrrigation : function: 00007FF6EA2ADA30
+	 - Mods : property<CModManager>
+	 - Happiness : property<CAreaHappinessManager>
+	 - GetPause : function: 00007FF6EA2AE490
+	 - MetaInfluence : property<CMetaPropertyInfluence>
+	 - GetMetaInfluence : function: 00007FF6EA2ADF30
+	 - GetExpedition : function: 00007FF6EA2ADEC0
+	 - BuildPermits : property<CMetaPropertyBuildPermits>
+	 - GetIsPassiveTradeFeatureEnabled : function: 00007FF6EA2AE3C0
+	 - Random : property<CSessionRandomManager>
+	 - Achievements : property<CAchievementManager>
+	 - HappyDayEventManager : property<CHappyDayEventManager>
+	 - Area : property<CAreaLoader>
+	 - IsNintendoProControllerActive : property<bool>
+	 - GetAiConstruction : function: 00007FF6EA2AC150
+	 - InfoTip : property<CInfoTipManager>
+	 - Game : property<CGameManager>
+	 - GetWeather : function: 00007FF6EA2AFFC0
+	 - AiConstruction : property<CAIConstructionManager>
+	 - GetAccountSettings : function: 00007FF6EA2ABF60
+	 - Money : property<CMetaMoneyManager>
+	 - __name : CRootTextSource*MT
+	 - Options : property<COptionsManager>
+	 - GetMetaIncidents : function: 00007FF6EA2ADD70
+	 - Cooldown : property<CSessionCooldownManager>
+	 - GetIsNintendoProControllerActive : function: 00007FF6EA2AD9D0
+	 - GetMods : function: 00007FF6EA2AE080
+	 - GetAreaManagerByIslandGUID : function: 00007FF6EA2AC570
+	 - LoadingPier : property<CLoadingPierManager>
+	 - StaticData : property<VirtualSpaceStaticData>
+	 - GetMilitary : function: 00007FF6EA2ADFA0
+	 - GetGUI : function: 00007FF6EA2AD680
+	 - Cheat : property<CCheatManager>
+	 - GetItem : function: 00007FF6EA2ADB40
+	 - Daytime : property<CDaytimeManager>
+	 - Irrigation : property<CIrrigationManager>
+	 - GetMetaObjects : function: 00007FF6EA2ADD00
+	 - Attractivity : property<CAreaAttractivityManager>
+	 - ToolOneHelper : property<CToolOneTextHelper>
+	 - AiUnit : property<CAIUnitManager>
+	 - DlcUpgrade : property<CCorporationDlcUpgradeManager>
+	 - GetToolOneDataHelper : function: 00007FF6EA2AD5A0
+	 - GetAreaFetch : function: 00007FF6EA2AC3B0
+	 - GetBaseSpeed : function: 00007FF6EA2AEA10
+	 - ToolOneDataHelper : property<CGameToolOneDataHelper>
+	 - GetInput : function: 00007FF6EA2AD900
+	 - GetScenarioWorkshop : function: 00007FF6EA2AF1D0
+	 - ActiveTrade : property<CActiveTradeManager>
+	 - GetAchievementAssetData : function: 00007FF6EA2ABFD0
+	 - SavegameFetcher : property<CFetchSavegameFlow>
+	 - GetRefOid : function: 00007FF6EA2AD8A0
+	 - GetCameraSequenceManager : function: 00007FF6EA2ACB30
