@@ -4,8 +4,10 @@
 
 \# | Mod | V
 --- | --- | ---
+1600020000 | SuddenDeath | 0.0.1
 1600019999 | AddFertilities | 0.0.1
 1600019998 | AddItems | 0.0.1
+1600019997 | Rickroll | 0.0.1
 
 ## UniqueType
 
