@@ -2,6 +2,9 @@
 - [Game](Readme.md#game)
 - [Session](Readme.md#session)
 
+# net
+```net.showOverlayUrl(URL:string)```
+>url can be anything e.g. ```"www.google.de"```
 # TextSources.TextSourcesRoots (ts)
 ## Area
 ### CurrentSelectedArea (Current)
@@ -85,7 +88,10 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 >Opens UI of latest Newspaper
 ## Participants
 ```ts.Participants.Highscore.HighscoreData.GetDifficultyFactor()```
->Returns the Difficulty as a Factor eg. 1.1 as mentioned in the profile highscoredata, but not rounded.
+>Returns the difficulty as a Factor eg. 1.1 as mentioned in the profile highscoredata, but not rounded.
+
+```ts.Participants.Current.Profile.CompanyName```
+>Returns the name of the current savegame, which is equivalent to the name of the folder in your accountdata.
 ## Weather
 ```ts.Weather.SetChangeWind()```
 >Changes wind direction to a random new one.
