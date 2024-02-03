@@ -5,6 +5,15 @@
 # net
 ```net.showOverlayUrl(URL:string)```
 >url can be anything e.g. ```"www.google.de"```
+
+```net.forceDeSync()```
+>forces desync...
+
+```net.suspendStorm()```
+>anno goes offline
+
+```net.resumeStorm()```
+>anno goes online
 # TextSources.TextSourcesRoots (ts)
 ## Area
 ### CurrentSelectedArea (Current)
@@ -17,6 +26,9 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.Area.Current.ID```
 >Holds table with IslandID, AreaIndex, SessionID
+
+```ts.Area.Current.KontorID```
+>Hold table with AsyncObjectFlag, AreaID (see ID), EditorFlag, ObjectID, EditorChunkID
 
 ```ts.Area.Current.Economy.SetCheatItem(GUID:Int)```
 >Adds the Item with _GUID_ to the island storage.
@@ -86,6 +98,11 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.Newspaper.ShowLatestNewspaperUI()```
 >Opens UI of latest Newspaper
+## Online
+```ts.Online.FirstPartySignedIn```
+>returns a bool
+```ts.Online.FirstPartyAvailability```
+>returns a bool
 ## Participants
 ```ts.Participants.Highscore.HighscoreData.GetDifficultyFactor()```
 >Returns the difficulty as a Factor eg. 1.1 as mentioned in the profile highscoredata, but not rounded.
@@ -117,6 +134,9 @@ everywhere else it just flickers snow for 1 gametick.
 
 ```game.GUIManager.isUIStartUpPastSceneCreation()```
 >returns a bool; with console probably always true (tests returned true)
+# MetaGameManager
+```ts.MetaGameManager.GetActiveSessionGUIDOfPeerInt(Peer: int)```
+>gets the current Session (Arctic, OW, NW, CT, Enbesa etc.) of the Player (number/peer), guess only usefull for MP.
 # session
 ```session.toggleResidentView()```
 >goes into first Person mode to current selected Building

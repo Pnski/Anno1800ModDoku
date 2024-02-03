@@ -24,14 +24,16 @@ end
 local function getDeepTable(_table, indent)
   local indent = indent or 0
   print(indent)
-  if type(_table) ~= 'table' then
+  if type(_table) ~= 'table' or indent >= 8 then
+    -- stop at depth of 8 to prevent endless loops.... still takes ages to finish looping
     print("error, no table given")
     return
   end
   -- convert every array or metatable to array (pairs might fail if C-API call is blocked)
-  _table = getkvtable(_table)
-  table.insert(_ttable, " - "..tostring(_table)"\n")
-  for k,v in pairs(_table) do
+  local _kvtable = getkvtable(_table)
+ -- table.insert(_ttable, " - "..tostring(_table)"\n")
+  for k,v in pairs(_kvtable) do
+    print(k, type(_table[k]))
     if type(_table[k]) == 'table' then
       table.insert(_ttable, string.rep('\t', indent).." - "..tostring(k).." : "..tostring(v).."\n")
       getDeepTable(_table[k], indent + 1)
@@ -48,9 +50,12 @@ local function saveTableToFile(_table,fileName)
     return
   end -- errorhandling
   file = io.open(fileName,"a")
-  for i = 1,tableLength(_table) do
+  print("opening done attempting to write")
+  for i = 1,#_table do
+    print(i)
     file:write(_table[i])
   end
+  print("finished writing -> closing file")
   file:close()
   -- flush table after printing
   resetTable()
@@ -61,6 +66,7 @@ local function tableLength(T)
   for _ in pairs(T) do
     count = count + 1
   end
+  print(count)
   return count
 end
 
