@@ -33,7 +33,7 @@ local function getDeepTable(_table, indent)
   local _kvtable = getkvtable(_table)
  -- table.insert(_ttable, " - "..tostring(_table)"\n")
   for k,v in pairs(_kvtable) do
-    print(k, type(_table[k]))
+    --print(k, type(_table[k]))
     if type(_table[k]) == 'table' then
       table.insert(_ttable, string.rep('\t', indent).." - "..tostring(k).." : "..tostring(v).."\n")
       getDeepTable(_table[k], indent + 1)
@@ -52,7 +52,6 @@ local function saveTableToFile(_table,fileName)
   file = io.open(fileName,"a")
   print("opening done attempting to write")
   for i = 1,#_table do
-    print(i)
     file:write(_table[i])
   end
   print("finished writing -> closing file")
@@ -61,19 +60,10 @@ local function saveTableToFile(_table,fileName)
   resetTable()
 end
 
-local function tableLength(T)
-  local count = 0
-  for _ in pairs(T) do
-    count = count + 1
-  end
-  print(count)
-  return count
-end
-
-
 amods = {
   getDeepTable = getDeepTable,
   saveTable = saveTableToFile,
   reset = resetTable
 }
+
 print("anno-mods.lua loaded")
