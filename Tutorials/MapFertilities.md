@@ -1,6 +1,6 @@
-Got permission to copy this via discord.
 
-# Fertilities
+
+# Fertilities [^1]
 Fertilities are defined for every island and depend on the type of island (Starter, normal(large?), medium, small).
 >A starter island for example always has potatoes and oil.
 ## Generation
@@ -43,7 +43,7 @@ If you look at the XML view and try to understand the code you can find a lot of
 ## dunno
 If you would look inside the assets.xml or on a1800.net you will find 121 different fertility sets
 ## ResourceSetCondition
-If we go back to the set I posted above, and we go a bit down, we can see <ResourceSetCondition>
+If we go back to the set I posted above, and we go a bit down, we can see \<ResourceSetCondition>
 This defines the conditions for this set. 
 <AllowedRegion>Moderate</AllowedRegion>  > The region this set is used is in the moderate region, which is Old World and Cape. If we would add the New World and/or Arctic, New World and Enbesa here, this would make those fertilities also there avaialble. 
 ### AllowedIslandDifficulty
@@ -68,3 +68,5 @@ And then... well... then you are in trouble. AI will also not advance because th
 Unless you are ok with it that you need to use the fertility items to get a fertility. But AI do not use those.
 You could say, "I'll just rerstart the game if I do not have a fertiliy on an island"
 But... that would only work if you would already know what you will get in the Arctic, New World and Enbesa. The Old World you can see, but the other regions you only know later when you have already invested a lot of time into that game. You could use the "testmod" where you can enter every region from the start to see if all the islands provide the right fertilities. But that would be a lot of work if you need to restart over and over again untill you find the seed that gives you at least 1 fertility on every island in every region. If you do that, make sure to write down your seed every time and if you found the correct seed, RESTART the game WITHOUT the testmod. That mod breaks things in the game if you use it to actually play.
+
+[^1]: Original by Hier0nimus; Got permission to copy this via discord.
