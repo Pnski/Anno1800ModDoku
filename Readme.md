@@ -92,6 +92,9 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.Item.SetCheatItems(GUID:int)```
 >Adds the Item with <GUID> to the island storage.
+## Mods
+```ts.Mods.GetModName(ModIONumber:int)```
+> getModName(3058150) -> gives back console of taubenangriff, im unsure if its corresponding to the internal number of mod.io or the foldername, needs further testing.
 ## Newspaper
 ```ts.Newspaper.CreateNewspaper()```
 >triggers new newspaper to be published in (5 min)
