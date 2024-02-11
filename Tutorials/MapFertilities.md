@@ -11,7 +11,8 @@ Every setting has different combinations of islands AND fertilities.Those combin
 On https://www.a1800.net/ you can search for example for GUID "141508". This is from the template "FertilitySet" with the name "Set 1".
 If you look at the XML view and try to understand the code you can find a lot of information there and it tells you exactly what it does.
 ## Example
-```<Asset>
+```
+<Asset>
     <Template>FertilitySet</Template>
     <Values>
         <Standard>
@@ -37,7 +38,8 @@ If you look at the XML view and try to understand the code you can find a lot of
             </Fertilities>
         </FertilitySet>
     </Values>
-</Asset>```
+</Asset>
+```
 ## dunno
 If you would look inside the assets.xml or on a1800.net you will find 121 different fertility sets
 ## ResourceSetCondition
