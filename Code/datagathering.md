@@ -7,3 +7,51 @@ function weakref(data) local weak = setmetatable({content=data}, {__mode="v"}) r
 ```lua
 function vc(x) print(debug.getlocal(1, 1)) end
 ```
+taubenangriff:
+```lua
+for j=1,50 do 
+    for possibleSession = 1,20 do -- Sessions are dynamic :frowning:
+        local AreaID = {
+            SessionID = possibleSession,
+            AreaIndex = 1,
+            IslandID = j
+        }
+        if(ts.Area.GetArea(AreaID).IsOwnedByCurrentParticipant) then --only use Player area
+            -- do shit for player area
+        end
+    end
+end
+```
+```lua
+function toIntRepres(AreaID)
+    -- bitshift sessionid to 13 left, fill bottom 13 with 0
+    -- bitshift islandid 6 to left, fill bottom 6 with 0
+    -- AND everything 
+end 
+
+function toAreaID(int_AreaID)
+    -- sessionID: AND with 111 00000 0000 0000, bitshift 13 to right 
+    -- islandID: AND with 000 1111111 00 0000, bitshift 6 to right
+    -- areaID: AND with 0000 0000 0000 1111 
+    -- construct areaID 
+end
+
+function toObjectID(objectId, areaID) 
+-- x = toIntRepres(AreaID)
+-- bitshift objectID by 32 to left
+-- AND with x 
+end
+```
+```
+Taubenangriff: let's take 8514. In binary
+
+0b0010 0001 0100 0010
+regrouped:
+0b001 0000101 000010
+
+converts to: 
+
+3 bit areaindex: 0b001 = 1 
+7 bit islandID: 0b0000101 = 5
+6 bit sessionID: 0b000010 = 2
+```
