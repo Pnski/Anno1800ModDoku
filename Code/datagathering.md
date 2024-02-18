@@ -38,8 +38,8 @@ end
 
 function toObjectID(objectId, areaID) 
 -- x = toIntRepres(AreaID)
--- bitshift objectID by 32 to left
--- AND with x 
+-- bitshift areaID by 32 to left
+-- OR with x 
 end
 ```
 ```
@@ -67,4 +67,6 @@ local t= {}
   t[2] = ((_test & 8128)>>6)
   t[3] = (_test & 15)
 print(t[1],t[2],t[3])
+print(12884901925,(3<<32)+(37))
+print(8589934626,(2<<32)+(34))
 ```
