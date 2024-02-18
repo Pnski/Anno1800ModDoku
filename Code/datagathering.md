@@ -61,10 +61,10 @@ for n = 1,2 do
     print((n << 13)+(m << 6)+2)
   end
 end
-_test =9156
+_test =8514
 local t= {}
   t[1] = ((_test & 57344)>>13)
-  t[2] = ((_test & 8064)>>6)
+  t[2] = ((_test & 8128)>>6)
   t[3] = (_test & 15)
 print(t[1],t[2],t[3])
 ```
