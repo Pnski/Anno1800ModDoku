@@ -55,3 +55,16 @@ converts to:
 7 bit islandID: 0b0000101 = 5
 6 bit sessionID: 0b000010 = 2
 ```
+```lua
+for n = 1,2 do
+  for m = 5,26 do
+    print((n << 13)+(m << 6)+2)
+  end
+end
+_test =9156
+local t= {}
+  t[1] = ((_test & 57344)>>13)
+  t[2] = ((_test & 8064)>>6)
+  t[3] = (_test & 15)
+print(t[1],t[2],t[3])
+```
