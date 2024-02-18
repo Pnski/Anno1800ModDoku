@@ -67,6 +67,25 @@ local t= {}
   t[2] = ((_test & 8128)>>6)
   t[3] = (_test & 15)
 print(t[1],t[2],t[3])
+_test =8514
+local t= {}
+  t[1] = ((_test & 0xE000)>>13)
+  t[2] = ((_test & 0x1FC0)>>6)
+  t[3] = (_test & 0xF)
+print(t[1],t[2],t[3])
+```
+```lua
 print(12884901925,(3<<32)+(37))
 print(8589934626,(2<<32)+(34))
+print('hand:',(2<<32)+34)
+print('eimer:',(3<<32)+34)
+print('kühlschrank:',(4<<32)+34)
+print('hand:',(2<<32)+34)
+SessionID = 2 --OW
+ObjectID = 32 --Schiff/Kitkat
+print('OW:',(SessionID<<32)+ObjectID)
+SessionID = 3 --NW
+print('NW:',(SessionID<<32)+ObjectID)
+SessionID = 2 --OW
+print('OW:',(SessionID<<32)+ObjectID)
 ```
