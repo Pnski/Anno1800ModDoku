@@ -1,17 +1,21 @@
-
-
 # Fertilities [^1]
-Fertilities are defined for every island and depend on the type of island (Starter, normal(large?), medium, small).
+Fertilities are defined for every island and depend on the type of island.
+Types of islands:
+1. Starter
+2. Small
+3. Medium
+4. Normal
+5. Large
 >A starter island for example always has potatoes and oil.
 ## Generation
-When a region is entered (Start of the game > Old World, New World at Artisans, ect) A list of islands is choosen by the game. With the choice of those islands the game also defines the fertilities. Those can not be changed after this point unless you start a new game. 
+When a region is unlocked (e.g. start of the game > Old World, New World at Artisans, etc.) A list of islands is choosen by the game. With the choice of those islands the game also defines the fertilities. Those can not be changed after this point unless you start a new game. 
 Which islands the game chooses depends on the settings you choose at the setup of the game. If you choose a harder setting, the game will take other types of islands. Again, once you choose that setting at that point, no way to change it after that point unless you start a new game.
 Every setting has different combinations of islands AND fertilities.Those combinations are combines in POOLS and those islands in those pools use FERTILITYSETS.
 ## DataMine
 On https://www.a1800.net/ you can search for example for GUID "141508". This is from the template "FertilitySet" with the name "Set 1".
 If you look at the XML view and try to understand the code you can find a lot of information there and it tells you exactly what it does.
 ## Example
-```
+```xml
 <Asset>
     <Template>FertilitySet</Template>
     <Values>
@@ -47,10 +51,10 @@ If we go back to the set I posted above, and we go a bit down, we can see `<Reso
 This defines the conditions for this set. 
 `<AllowedRegion>Moderate</AllowedRegion>` The region this set is used is in the moderate region, which is Old World and Cape. If we would add the New World and/or Arctic, New World and Enbesa here, this would make those fertilities also there avaialble. 
 ### AllowedIslandDifficulty
-<AllowedIslandType>Normal;Starter</AllowedIslandType> > This tells us on which island types this set is used. Normal or Starter. The starter island is the one you will get a harbor when you choose as starting conditions "Harbour". Normal are the island which have the same size as the started island but have some things less because started islands are given some fixed things like oil.
-<AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty> This tells us on which Diffifulty setting this fertilityset is used. Only when you choose Normal or Hard, this set will be added to a Normal or Started island. If you choose "Easy" settings, this fertilityset will not be used.
+`<AllowedIslandType>Normal;Starter</AllowedIslandType>` > This tells us on which island types this set is used. Normal or Starter. The starter island is the one you will get a harbor when you choose as starting conditions "Harbour". Normal are the island which have the same size as the started island but have some things less because started islands are given some fixed things like oil.
+`<AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>` This tells us on which Diffifulty setting this fertilityset is used. Only when you choose Normal or Hard, this set will be added to a Normal or Started island. If you choose "Easy" settings, this fertilityset will not be used.
 ### AllowedResourceAmounts
-<AllowedResourceAmounts>Low</AllowedResourceAmounts> Here we see another setting that is defined when you setup the game, the Allowed resources. When this setting is set to LOW, this fertilityset will be used. Otherwise if you would habe choosen PLENTY and the other I can not remember at the moment. This set will not be given to an island.
+`<AllowedResourceAmounts>Low</AllowedResourceAmounts>` Here we see another setting that is defined when you setup the game, the Allowed resources. When this setting is set to LOW, this fertilityset will be used. Otherwise if you would habe choosen PLENTY and the other I can not remember at the moment. This set will not be given to an island.
  ## FertilitySet
 We see there 2 fertilities, Potato and Grain.
 So, if this fertilityset is given to an island, that island will have potatoes and Grain as fertilities.
