@@ -16,6 +16,10 @@
 >anno goes online
 # TextSources.TextSourcesRoots (ts)
 ## Area
+```ts.Area.GetArea({SessionID=SID:int,AreaIndex=AID:int,IslandID=IID:int})```
+>
+```ts.Area.GetAreaFromID(ID:int16)```
+> ID is the bitshifted integer of the SessionID, AreaIndex and IslandID combined. Returns the defined area as an object.
 ### CurrentSelectedArea (Current)
 Effects the area your window is hovering over and displaying the Name of the Island.
 ```ts.Area.Current.CityName```
@@ -104,6 +108,7 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 ## Online
 ```ts.Online.FirstPartySignedIn```
 >returns a bool
+
 ```ts.Online.FirstPartyAvailability```
 >returns a bool
 ## Participants
@@ -112,9 +117,15 @@ Effects the area your window is hovering over and displaying the Name of the Isl
 
 ```ts.Participants.Current.Profile.CompanyName```
 >Returns the name of the current savegame, which is equivalent to the name of the folder in your accountdata.
+
+```ts.Participants.GetReputationTo(Participant1:int, Participant2:int)```
+>Returns the reputationvalue between the 2 participants as a value between 0-100
 ## Weather
 ```ts.Weather.SetChangeWind()```
 >Changes wind direction to a random new one.
+
+```ts.Weather.ForcePreset(WeatherPreset:number,WeatherEffectType:number)```
+>changes the weather to the designated preset (u can let it snow in enbesa if u want)
 ## Selection
 ```ts.Selection.DestructSelected()```
 >only works on buildings, removes them (no ruins).
@@ -136,7 +147,9 @@ everywhere else it just flickers snow for 1 gametick.
 >Changes wind direction to set direction 0 is NE 90 is NW etc.
 
 ```game.GUIManager.isUIStartUpPastSceneCreation()```
->returns a bool; with console probably always true (tests returned true)
+>returns a bool; with console probably always true
+>from log: rdui::SendTelemetryMarker: UI-Flow: Startup Complete (A)
+after that it always returns true, probably impossible to get a false with lua
 # MetaGameManager
 ```ts.MetaGameManager.GetActiveSessionGUIDOfPeerInt(Peer: int)```
 >gets the current Session (Arctic, OW, NW, CT, Enbesa etc.) of the Player (number/peer), guess only usefull for MP.

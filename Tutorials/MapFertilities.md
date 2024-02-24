@@ -43,9 +43,9 @@ If you look at the XML view and try to understand the code you can find a lot of
 ## dunno
 If you would look inside the assets.xml or on a1800.net you will find 121 different fertility sets
 ## ResourceSetCondition
-If we go back to the set I posted above, and we go a bit down, we can see \<ResourceSetCondition>
+If we go back to the set I posted above, and we go a bit down, we can see `<ResourceSetCondition>`
 This defines the conditions for this set. 
-<AllowedRegion>Moderate</AllowedRegion>  > The region this set is used is in the moderate region, which is Old World and Cape. If we would add the New World and/or Arctic, New World and Enbesa here, this would make those fertilities also there avaialble. 
+`<AllowedRegion>Moderate</AllowedRegion>` The region this set is used is in the moderate region, which is Old World and Cape. If we would add the New World and/or Arctic, New World and Enbesa here, this would make those fertilities also there avaialble. 
 ### AllowedIslandDifficulty
 <AllowedIslandType>Normal;Starter</AllowedIslandType> > This tells us on which island types this set is used. Normal or Starter. The starter island is the one you will get a harbor when you choose as starting conditions "Harbour". Normal are the island which have the same size as the started island but have some things less because started islands are given some fixed things like oil.
 <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty> This tells us on which Diffifulty setting this fertilityset is used. Only when you choose Normal or Hard, this set will be added to a Normal or Started island. If you choose "Easy" settings, this fertilityset will not be used.
