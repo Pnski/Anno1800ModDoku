@@ -150,6 +150,9 @@ everywhere else it just flickers snow for 1 gametick.
 >returns a bool; with console probably always true
 >from log: rdui::SendTelemetryMarker: UI-Flow: Startup Complete (A)
 after that it always returns true, probably impossible to get a false with lua
+
+```game.TextSourceManager.setDebugTextSource(EmbedString:string)```
+> 
 # MetaGameManager
 ```ts.MetaGameManager.GetActiveSessionGUIDOfPeerInt(Peer: int)```
 >gets the current Session (Arctic, OW, NW, CT, Enbesa etc.) of the Player (number/peer), guess only usefull for MP.
