@@ -17,8 +17,8 @@
             4. ThirdParty
             5. PirateIsland
             6. CliffIsland
-        </td></tr>
-        <tr><td>
+        </td>
+        <td>
             Difficulty of islands[^3]:
             1. Normal
             2. Hard
@@ -27,7 +27,8 @@
             1. Low
             2. Medium
             3. High
-        </td></tr>
+        </td>
+        </tr>
     </table>
 </div>    
 
