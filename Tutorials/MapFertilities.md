@@ -7,9 +7,11 @@ Types of islands [^2]:
 4. ThirdParty
 5. PirateIsland
 6. CliffIsland
+
 Difficulty of islands[^3]:
 1. Normal
 2. Hard
+
 Size of islands [^4]:
 1. Small
 2. Medium
