@@ -10,16 +10,16 @@
     - [AllowedIslandDifficulty](#allowedislanddifficulty)
     - [AllowedIslandDifficulty](#allowedislanddifficulty-1)
     - [AllowedResourceAmounts](#allowedresourceamounts)
-  - [FertilitySet](#fertilityset)
-  - [dunno part 2](#dunno-part-2)
-  - [Restrictions](#restrictions)
+  - [Modding Fertility Sets](#modding-fertility-sets)
+    - [Restrictions](#restrictions)
+    - [Removing Fertilities](#removing-fertilities)
 
 # Fertilities
 [^1]
 [^1]: Original by Hier0nimus; Got permission to copy this via discord. Rewritten and modified by me.
 --Fertilities are defined for every island and depend on the type of island.
 ## Datamine
-In this section we take first a look at possible (vanilla) datasets, as a basis to learn which combinations might be possible. Datasets can be easy looked up at [a1800.net](http://a1800.net/). For further investigation it is given to always have the vanilla version.
+In this section we take first a look at possible (vanilla) datasets[^2], as a basis to learn which combinations might be possible. Datasets can be easy looked up at [a1800.net](http://a1800.net/). For further investigation it is given to always have the vanilla version.
 <div align="center">
     <table>
         <tr><td>
@@ -38,7 +38,7 @@ In this section we take first a look at possible (vanilla) datasets, as a basis 
             <ul><li>Low</li>
             <li>Medium</li>
             <li>High</li></ul>
-        </td></tr><tfoot>[^2]</tfoot>
+        </td></tr>
     </table>
 </div>
 [^2]: Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)
@@ -46,7 +46,7 @@ In this section we take first a look at possible (vanilla) datasets, as a basis 
 ## Fertility Sets
 Taking a look inside the assets.xml or on [a1800.net](http://a1800.net/?itemSearch=FertilitySet&prevSearch=) shows that there are 121 different fertily sets. Every set has its own combinations of the possible datasets, combined with a certain amount of fertilities.
 ### Example
-[^3]
+For this example we use fertility "Set 1" with Guid 141508[^3] with potatoe and grain fertility.
 [^3]: [a1800.net](http://a1800.net/?itemSearch=141508)
 ```xml
 <Asset>
@@ -91,20 +91,9 @@ Looking at the [Example ^3](#example-3) `<ResourceSetCondition>` defines the con
 `<AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>` tells on which diffifulty setting this fertilityset is used. This example will not be used when choosing the "easy" settings.
 ### AllowedResourceAmounts
 `<AllowedResourceAmounts>Low</AllowedResourceAmounts>` Here we see another setting that is defined when you setup the game, the Allowed resources. When this setting is set to LOW, this fertilityset will be used. Otherwise if you would habe choosen PLENTY and the other I can not remember at the moment. This set will not be given to an island.
- ## FertilitySet
-We see there 2 fertilities, Potato and Grain.
-So, if this fertilityset is given to an island, that island will have potatoes and Grain as fertilities.
-We now have analysed 1 of the 121 fertilitysets. Ever set has their own settings based on all the mentioned above proporties.
-## dunno part 2
-In your case there are I think a couple possibilities:
-1: You overwrite every 121 fertilitysets removing the ones you do not want with a ModOp Type="remove". Leaving only 1  fertility in every set.
-If you want to give yourself a bit less work, you could define which difficultysetting you will play and only adapt the ones that your difficultysetting would use. For example, only adapt the ones from the "Low" AllowedResourceAmounts. Do know that this Low Resource amount also affects Mines! And mines is a completly other path ... 😄
-3: (Maybe the easiest) Remove ALL fertilitysets with a ModOp Type="remove" and then add 1 fertilityset for every type of fertility. Then you build them all up in combination with the right conditions.
-## Restrictions
-The reason is that there are a lot of fertilities. Only providing 1 fertility / island is really restrictive. If you would throw AI in the mix, that is just not going to work.
-You could say that you have to conquer an island to get the fertility, but the limitation will be the randomly choosen fertilities by the game.
-The reason there are at least 2 fertilities / island is because if you only have 1 fertility there is a big change that the game does not roll certain fertilities on ANY island.
-And then... well... then you are in trouble. AI will also not advance because they do not have certain fertilities.
-Unless you are ok with it that you need to use the fertility items to get a fertility. But AI do not use those.
-You could say, "I'll just rerstart the game if I do not have a fertiliy on an island"
-But... that would only work if you would already know what you will get in the Arctic, New World and Enbesa. The Old World you can see, but the other regions you only know later when you have already invested a lot of time into that game. You could use the "testmod" where you can enter every region from the start to see if all the islands provide the right fertilities. But that would be a lot of work if you need to restart over and over again untill you find the seed that gives you at least 1 fertility on every island in every region. If you do that, make sure to write down your seed every time and if you found the correct seed, RESTART the game WITHOUT the testmod. That mod breaks things in the game if you use it to actually play.
+## Modding Fertility Sets
+After having an idea, its up to the modder to be active and modify the fertilities as he pleases.
+### Restrictions
+Providing only one fertility per island for a harder experience is very restrictive and might, if combined with AI player(s), break the game. Without the right fertility on the wrong setup, the player cannot advance, without (passive) trade, to te next population tier. The fertilities are chosen depending on the seed, so there are probably seeds that might work and others that will not work. Depending on the seed there might even be games without a specific needed fertility at all. The AI will not try to compensate these absent fertilities with specialists like a human player might do.
+### Removing Fertilities
+Editing every 121 possible fertilityset is possible, and best be done with for example:`<ModOp Type="remove" Path="//Assets/Values/FertilitySet/Fertilities/Item/Fertility[GUID = 1010571]">` this would remove *_EVERY_* grain fertility from every fertility set. Depending on what the mod shall achieve it might be better to edit certain sets instead of every.
