@@ -11,7 +11,7 @@
     <table>
         <tr><td>
             Types of islands [^2]:
-            <li>Normal</li>
+            <ul><li>Normal</li>
             <li>Starter</li>
             <li>Decoration</li>
             <li>ThirdParty</li>
