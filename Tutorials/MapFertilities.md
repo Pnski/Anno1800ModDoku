@@ -1,32 +1,48 @@
+# Table of Contents
+1. [Generation](##Generation)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
 # Fertilities [^1]
-Fertilities are defined for every island and depend on the type of island.
-Types of islands [^2]:
-1. Normal
-2. Starter
-3. Decoration
-4. ThirdParty
-5. PirateIsland
-6. CliffIsland
+--Fertilities are defined for every island and depend on the type of island.
+## Datamine
+<div align="center">
+    <table>
+        <tr><td>
+            Types of islands [^2]:
+            1. Normal
+            2. Starter
+            3. Decoration
+            4. ThirdParty
+            5. PirateIsland
+            6. CliffIsland
+        </td></tr>
+        <tr><td>
+            Difficulty of islands[^3]:
+            1. Normal
+            2. Hard
 
-Difficulty of islands[^3]:
-1. Normal
-2. Hard
+            Resource Amount [^4]:
+            1. Low
+            2. Medium
+            3. High
+        </td></tr>
+    </table>
+</div>    
 
-Size of islands [^4]:
-1. Small
-2. Medium
-3. Large
->A starter island for example always has potatoes and oil.
 [^2]: Dataset: IslandType (Id: 431) 
 [^3]: Dataset: IslandDifficulty (Id: 429) 
-[^4]: Dataset: IslandSize (Id: 430)
+[^4]: Dataset: ResourceAmount (Id: 433)
+
 ## Generation
+>A starter island for example always has potatoes and oil.
 
 When a region is unlocked (e.g. start of the game > Old World, New World at Artisans, etc.) A list of islands is choosen by the game. With the choice of those islands the game also defines the fertilities. Those can not be changed after this point unless you start a new game. 
 Which islands the game chooses depends on the settings you choose at the setup of the game. If you choose a harder setting, the game will take other types of islands. Again, once you choose that setting at that point, no way to change it after that point unless you start a new game.
 Every setting has different combinations of islands AND fertilities.Those combinations are combines in POOLS and those islands in those pools use FERTILITYSETS.
 ## DataMine
-On https://www.a1800.net/ you can search for example for GUID "141508". This is from the template "FertilitySet" with the name "Set 1".
+On [a1800.net](http://a1800.net/?itemSearch=141508) you can search for example for GUID "141508". This is from the template "FertilitySet" with the name "Set 1".
 If you look at the XML view and try to understand the code you can find a lot of information there and it tells you exactly what it does.
 ## Example
 ```xml
