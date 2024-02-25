@@ -17,17 +17,14 @@
             <li>ThirdParty</li>
             <li>PirateIsland</li>
             <li>CliffIsland</li></ul>
-        </td>
-        <td>
+        </td><td>
             Difficulty of islands [^3]:
-            1. Normal
-            2. Hard
-
-            Resource Amount [^4]:
-            3. Low
-            4.  Medium
-            5.  High
-        </td>
+            <ul><li>Normal</li>
+            <li>Hard</li></ul>
+        Resource Amount [^4]:
+            <ul><li>Low</li>
+            <li>Medium</li>
+            <li>High</li></ul>
         </tr>
     </table>
 </div>    
