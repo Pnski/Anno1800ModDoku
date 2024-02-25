@@ -19,7 +19,6 @@
 [^1]: Original by Hier0nimus; Got permission to copy this via discord. Rewritten and modified by me.
 --Fertilities are defined for every island and depend on the type of island.
 ## Datamine
-[^2]
 In this section we take first a look at possible (vanilla) datasets, as a basis to learn which combinations might be possible. Datasets can be easy looked up at [a1800.net](http://a1800.net/). For further investigation it is given to always have the vanilla version.
 <div align="center">
     <table>
@@ -41,7 +40,7 @@ In this section we take first a look at possible (vanilla) datasets, as a basis 
             <li>High</li></ul>
         </td></tr>
     </table>
-</div>
+</div>[^2]
 [^2]: Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)
 
 ## Fertility Sets
