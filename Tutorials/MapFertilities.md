@@ -11,22 +11,22 @@
     <table>
         <tr><td>
             Types of islands [^2]:
-            1. Normal
-            2. Starter
-            3. Decoration
-            4. ThirdParty
-            5. PirateIsland
-            6. CliffIsland
+            <li>Normal</li>
+            <li>Starter</li>
+            <li>Decoration</li>
+            <li>ThirdParty</li>
+            <li>PirateIsland</li>
+            <li>CliffIsland</li></ul>
         </td>
         <td>
             Difficulty of islands [^3]:
-            7. Normal
-            8. Hard
+            1. Normal
+            2. Hard
 
             Resource Amount [^4]:
-            9. Low
-            10. Medium
-            11. High
+            3. Low
+            4.  Medium
+            5.  High
         </td>
         </tr>
     </table>
