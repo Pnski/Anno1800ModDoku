@@ -1,0 +1,8661 @@
+ - GetIncidents : function: 00007FF6EA2AD760
+ - GetTerrain : function: 00007FF6EA2AF8D0
+ - GetCheat : function: 00007FF6EA2ACBA0
+ - HideUndiscoverVisuals : function: 00007FF6EA2ACF20
+ - ActiveTrade : property<CActiveTradeManager>
+	 - GetTradeOffer : function: 00007FF6E9FCECC0
+	 - TradeOffer : property<CActiveTradeOffer>
+		 - GetIsActiveTradeActive : function: 00007FF6E9FCF8D0
+		 - GetGetBuyPriceForSingleGood : function: 00007FF6E9FCF9A0
+		 - GetTraderPassiveTrade : function: 00007FF6E9FCF930
+		 - __index : function: 00007FF6E9FCF640
+		 - KontorTrader : property<CPropertyTrader>
+			 - ForceBuild : function: 00007FF6EA58B6A0
+			 - ShipTradeFailed : function: 00007FF6EA58B630
+			 - ClearSellCooldown : function: 00007FF6EA58B5C0
+			 - __name : CPropertyTraderTextSource*MT
+			 - classtable : this
+			 - __index : function: 00007FF6E9FCAE40
+		 - IsActiveTradeActive : property<bool>
+		 - GetGetSellPriceForSingleGood : function: 00007FF6E9FCFA30
+		 - TraderPassiveTrade : property<CPassiveTradeController>
+			 - GetDetailBuyPrice : function: 00007FF6EA87D4B0
+			 - GetSellPrice : function: 00007FF6EA87D540
+			 - GetHasOffer : function: 00007FF6EA87D8C0
+			 - GetMinimumStock : function: 00007FF6EA87D950
+			 - GetOffer : function: 00007FF6EA87D820
+			 - GetBuyPrice : function: 00007FF6EA87D420
+			 - __name : CPassiveTradeControllerTextSource*MT
+			 - GetDetailSellPrice : function: 00007FF6EA87D6B0
+		 - __name : CActiveTradeOfferTextSource*MT
+		 - classtable : this
+		 - GetKontorTrader : function: 00007FF6E9FCFAC0
+	 - __name : CActiveTradeManagerTextSource*MT
+	 - classtable : this
+	 - __index : function: 00007FF6E9FCEAD0
+ - GetVisitors : function: 00007FF6EA2AFF50
+ - GetStaticData : function: 00007FF6EA2B0180
+ - GetFactoryAssetData : function: 00007FF6EA2AD150
+ - GetToolOneHelper : function: 00007FF6EA2AFD20
+ - TradeRoute : property<CTradeRouteManager>
+	 - UIEditRoute : property<CSessionTradeRoute>
+		 - GetNotEnoughStationsActive : function: 00007FF6EA5DFCF0
+		 - GetNotEnoughSlotsErrorActive : function: 00007FF6EA5DFBD0
+		 - GetNoTradeRightsActive : function: 00007FF6EA5DFE70
+		 - GetIslandUnderSiegeActive : function: 00007FF6EA5DFD50
+		 - ActiveErrorCount : property<int>
+		 - __index : function: 00007FF6EA5DF720
+		 - NoGoodsActive : property<bool>
+		 - GetActiveErrorCount : function: 00007FF6EA5E0770
+		 - GetMismatchingGoodActiveForGood : function: 00007FF6EA5E0680
+		 - GetStorageEmptyActive : function: 00007FF6EA5E0360
+		 - GetLongWaitingTimeActive : function: 00007FF6EA5E0560
+		 - GetMismatchingGoodActive : function: 00007FF6EA5E05F0
+		 - AllShipsPausedActive : property<bool>
+		 - GetUnloadedGoodNeverLoadedActive : function: 00007FF6EA5E00C0
+		 - NotEnoughStationsActive : property<bool>
+		 - GetNoValidPierActive : function: 00007FF6EA5DFDE0
+		 - GetIsErrorActive : function: 00007FF6EA5DFB40
+		 - NoShipsActive : property<bool>
+		 - GetNotEnoughSlotsForShipsErrorActive : function: 00007FF6EA5DFC60
+		 - GetNoShipsActive : function: 00007FF6EA5E04A0
+		 - GetLoadedGoodNeverUnloadedActive : function: 00007FF6EA5DFFE0
+		 - GetStorageFullActive : function: 00007FF6EA5E0280
+		 - GetNoGoodsActive : function: 00007FF6EA5E0440
+		 - GetGoodsDontMatchActive : function: 00007FF6EA5E01A0
+		 - GetStation : function: 00007FF6EA5DFA00
+		 - GetLostShipName : function: 00007FF6EA5DFAA0
+		 - GetConfiguredGoodNotTradedActive : function: 00007FF6EA5DFF00
+		 - __name : CSessionTradeRouteTextSource*MT
+		 - GetAllShipsPausedActive : function: 00007FF6EA5E0500
+	 - GetRoute : function: 00007FF6EA21F440
+	 - GetUIEditRoute : function: 00007FF6EA21F550
+	 - SetShowRouteUI : function: 00007FF6EA21F4E0
+	 - __name : CTradeRouteManagerTextSource*MT
+	 - __index : function: 00007FF6EA21F250
+ - GetAttractivity : function: 00007FF6EA2AC2A0
+ - MetaInfluence : property<CMetaPropertyInfluence>
+	 - GetFreeRemainingInfluence : function: 00007FF6EA7D8B00
+	 - GetHaciendaInfluence : function: 00007FF6EA7D8F80
+	 - GetResidenceInfluence : function: 00007FF6EA7D8DA0
+	 - InfluenceGainOnNextLevel : property<int>
+	 - BaseInfluence : property<int>
+	 - GetProfileLevelInfluence : function: 00007FF6EA7D8E00
+	 - GetUsedPoints : function: 00007FF6EA7D87D0
+	 - GetFreeProgress : function: 00007FF6EA7D8A80
+	 - MonumentEventInfluence : property<int>
+	 - GetMonumentEventInfluence : function: 00007FF6EA7D8FE0
+	 - CharterInfluencePayback : property<int>
+	 - GetCharterInfluencePayback : function: 00007FF6EA7D8D40
+	 - GetInfluenceCategory : function: 00007FF6EA7D88C0
+	 - GetEngineerInfluence : function: 00007FF6EA7D8F20
+	 - GetSpentInfluence : function: 00007FF6EA7D8740
+	 - CultureInfluence : property<int>
+	 - GetInfluenceGainOnNextLevel : function: 00007FF6EA7D8860
+	 - GetCultureInfluence : function: 00007FF6EA7D8EC0
+	 - GetBaseInfluence : function: 00007FF6EA7D8E60
+	 - GetSpentInfluencePerCategory : function: 00007FF6EA7D8960
+	 - GetFreeTotalInfluence : function: 00007FF6EA7D8B90
+	 - GetCategoryOfBuff : function: 00007FF6EA7D8CB0
+	 - GetPreviewDifferenceForDifficulty : function: 00007FF6EA7D86B0
+	 - HaciendaInfluence : property<int>
+	 - GetFreePoints : function: 00007FF6EA7D89F0
+	 - __index : function: 00007FF6EA7D8270
+	 - EngineerInfluence : property<int>
+	 - GetPreviewForDifficulty : function: 00007FF6EA7D8620
+	 - ProfileLevelInfluence : property<int>
+	 - __name : CMetaPropertyInfluenceTextSource*MT
+	 - ResidenceInfluence : property<int>
+	 - GetMinInfluenceNeededToReachBuff : function: 00007FF6EA7D8C20
+ - GetRecords : function: 00007FF6EA2AEEC0
+ - GetBaseSpeed : function: 00007FF6EA2AEA10
+ - GetItemAssetData : function: 00007FF6EA2ADAA0
+ - IsPassiveTradeFeatureEnabled : property<bool>
+ - GetWinLose : function: 00007FF6EA2B0030
+ - AiUnit : property<CAIUnitManager>
+	 - ToggleDebugOption : function: 00007FF6E9FD79A0
+	 - SetDebugParticipant : function: 00007FF6E9FD1820
+	 - SetDebugAddShipGUID : function: 00007FF6E9FDBE80
+	 - SetDebugCommand : function: 00007FF6E9FD16E0
+	 - __name : CAIUnitManagerTextSource*MT
+	 - __index : function: 00007FF6E9FCAE40
+ - GetAreaPopulation : function: 00007FF6EA2AC7F0
+ - GetScenarioItemTrade : function: 00007FF6EA2AF0F0
+ - GetAreaResidenceConsumption : function: 00007FF6EA2AC940
+ - ToolOneDataHelper : property<CGameToolOneDataHelper>
+	 - GetCanBuildingEquipItems : function: 00007FF6EA713650
+	 - GetUnlockTriggerForAsset : function: 00007FF6EA713890
+	 - FirstPartySubscriptionServiceName : property<rdsdk::CRDStringW>
+	 - SetPlotConstructionMenuContent : function: 00007FF6EA7137B0
+	 - GetFirstPartyServiceName : function: 00007FF6EA713920
+	 - SetTriggerScenarioTest : function: 00007FF6EA7136E0
+	 - __index : function: 00007FF6EA713380
+	 - GetFirstPartySubscriptionServiceName : function: 00007FF6EA713990
+	 - GetIsBusHotspot : function: 00007FF6EA7135C0
+	 - FirstPartyServiceName : property<rdsdk::CRDStringW>
+	 - GetIsConstructionMenuSubCategoryAsset : function: 00007FF6EA713800
+	 - __name : CGameToolOneDataHelperTextSource*MT
+	 - SetTriggerRevertScenarios : function: 00007FF6EA713760
+ - GetOnline : function: 00007FF6EA2AE1D0
+ - Contracts : property<CTradeContractManager>
+	 - FillPyramid : function: 00007FF6EA20F720
+	 - GetNeededExportXP : function: 00007FF6EA2100D0
+	 - GetIsImporting : function: 00007FF6EA2106D0
+	 - GetCurrentExportLevelNameForGood : function: 00007FF6EA20FE90
+	 - GetExchangeRatio : function: 00007FF6EA210380
+	 - SetExportGoodGUID : function: 00007FF6EA20EF90
+	 - GetExportModifierForGood : function: 00007FF6EA210160
+	 - GetIsConditionExportCounter : function: 00007FF6EA20FA30
+	 - SkipLoadingTime : function: 00007FF6EA20F7E0
+	 - GetConditionForImportGood : function: 00007FF6EA20F880
+	 - GetExportLevelColorForGood : function: 00007FF6EA210260
+	 - GetModifier : function: 00007FF6EA2101E0
+	 - GetNeededExportXPForGood : function: 00007FF6EA210040
+	 - GetLevelColor : function: 00007FF6EA2102F0
+	 - GetTraderMoodImage : function: 00007FF6EA20FD70
+	 - ToggleSkipTransit : function: 00007FF6EA20F830
+	 - RemoveContract : function: 00007FF6EA20EDC0
+	 - GetTraderIcon : function: 00007FF6EA20FCE0
+	 - __index : function: 00007FF6EA20EBC0
+	 - GetExportLevelNameForGood : function: 00007FF6EA20FE00
+	 - GetImportLevel : function: 00007FF6EA210640
+	 - SkipTransit : function: 00007FF6EA20F770
+	 - GetIsExportLevel : function: 00007FF6EA2105B0
+	 - SetTraderGUID : function: 00007FF6EA20EE40
+	 - GetIsConditionContractCounter : function: 00007FF6EA20FAC0
+	 - GetReachedLevelForProduct : function: 00007FF6EA210520
+	 - GetIsConditionImportCounter : function: 00007FF6EA20F9A0
+	 - GetTradeHistory : function: 00007FF6EA20F4D0
+	 - SetExportAmount : function: 00007FF6EA20F230
+	 - GetExportXPForGood : function: 00007FF6EA20FFB0
+	 - GetLevelName : function: 00007FF6EA20FF20
+	 - GetTraderStatus : function: 00007FF6EA2107E0
+	 - GetIsImportGoodLocked : function: 00007FF6EA20F910
+	 - DebugSelectGoodForMoreInfo : function: 00007FF6EA20F5F0
+	 - GetHighestExportGood : function: 00007FF6EA20FB50
+	 - GetTraderName : function: 00007FF6EA20FBC0
+	 - SetImportAmount : function: 00007FF6EA20F380
+	 - IncreaseGoodXP : function: 00007FF6EA20F660
+	 - GetProgressForGood : function: 00007FF6EA2104A0
+	 - HighestExportGood : property<CAsset>
+		 - Guid : property<int>
+		 - Text : property<rdsdk::CRDStringW>
+		 - GetText : function: 00007FF6EA00DD10
+		 - __index : function: 00007FF6EA00D9E0
+		 - GetGuid : function: 00007FF6EA00DC40
+		 - Icon : property<rdsdk::CRDStringW>
+		 - __name : CAssetTextSource*MT
+		 - GetIcon : function: 00007FF6EA00DCA0
+	 - __name : CTradeContractManagerTextSource*MT
+	 - GetTraderDescription : function: 00007FF6EA20FC50
+	 - SetImportGoodGUID : function: 00007FF6EA20F0E0
+ - GetAccount : function: 00007FF6EA2ABEF0
+ - EngineMetrics : property<CEngineMetricInfos>
+	 - ToggleProperty : function: 00007FF6EA6DA2A0
+	 - SetPropertySearch : function: 00007FF6EA6DA360
+	 - ToggleSession : function: 00007FF6EA6DA1C0
+	 - ToggleParticipant : function: 00007FF6EA6DA230
+	 - SetUpdatePropertyMeshStatistic : function: 00007FF6EA6DA4B0
+	 - ResetPropertySearch : function: 00007FF6EA6DA460
+	 - __name : CEngineMetricInfosTextSource*MT
+	 - SetClearParticipantFilter : function: 00007FF6EA6DA310
+ - IsGamepadModeActive : property<bool>
+ - GetShortcutManager : function: 00007FF6EA2AF6A0
+ - Unlock : property<CUnlockManager>
+	 - SetUnlockNet : function: 00007FF6EA22FC20
+	 - SetRelockNet : function: 00007FF6EA22FD20
+	 - GetIsUnlocked : function: 00007FF6EA22FC90
+	 - SetRelock : function: 00007FF6EA22FD90
+	 - SetUnlock : function: 00007FF6EA22FBB0
+	 - __name : CUnlockManagerTextSource*MT
+ - GetWeather : function: 00007FF6EA2AFFC0
+ - Visitors : property<CVisitorManager>
+	 - GetArea : function: 00007FF6EA232CF0
+	 - SetResetArea : function: 00007FF6EA232D90
+	 - ToggleDebugFlag : function: 00007FF6EA232E00
+	 - __name : CVisitorManagerTextSource*MT
+ - StaticData : property<VirtualSpaceStaticData>
+	 - GetAttacker : function: 00007FF6EA600CA0
+	 - GetUniqueBuildings : function: 00007FF6EA600C30
+	 - GetWater : function: 00007FF6EA6011E0
+	 - GetHeatProvider : function: 00007FF6EA600FB0
+	 - Factory : property<VirtualSpaceFactory>
+		 - GetCurrentAreaHasNeededFertility : function: 00007FF6EA5F07A0
+		 - GetCycleTime : function: 00007FF6EA5F05F0
+		 - __index : function: 00007FF6E9FCAE40
+		 - GetIsHeatProvider : function: 00007FF6EA5F08C0
+		 - GetNeededFertility : function: 00007FF6EA5F0710
+		 - GetCycleTimeRespectElectricity : function: 00007FF6EA5F0680
+		 - __name : VirtualSpaceFactoryTextSource*MT
+		 - GetIsPowerplant : function: 00007FF6EA5F0830
+	 - Distribution : property<VirtualSpaceDistribution>
+		 - __name : VirtualSpaceDistributionTextSource*MT
+	 - GetScenarios : function: 00007FF6EA600A70
+	 - Heat : property<VirtualSpaceHeat>
+		 - GetNeedsHeat : function: 00007FF6EA5F5B00
+		 - __name : VirtualSpaceHeatTextSource*MT
+	 - GetPostManScenario : function: 00007FF6EA601250
+	 - GetDistribution : function: 00007FF6EA600D80
+	 - Expedition : property<VirtualSpaceExpedition>
+		 - GetOptionAttribute : function: 00007FF6EA2BA1C0
+		 - __name : VirtualSpaceExpeditionTextSource*MT
+	 - TrainStation : property<VirtualSpaceTrainStation>
+		 - GetTrainIncreaseToPreviousTier : function: 00007FF6EA605D70
+		 - __name : VirtualSpaceTrainStationTextSource*MT
+	 - Electricity : property<VirtualSpaceElectricity>
+		 - GetNeedsElectricity : function: 00007FF6EA2B9250
+		 - GetCanBeBoostedByElectricity : function: 00007FF6EA2B92E0
+		 - __name : VirtualSpaceElectricityTextSource*MT
+	 - Scenario : property<VirtualSpaceScenario>
+		 - SCenarioResetDescriptionInfotipText : function: 00007FF6EA5FD670
+		 - __name : VirtualSpaceScenarioTextSource*MT
+	 - GetSeasons : function: 00007FF6EA600BC0
+	 - BuildCost : property<VirtualSpaceBuildCost>
+		 - __name : VirtualSpaceBuildCostTextSource*MT
+	 - RepairCrane : property<VirtualSpaceRepairCrane>
+		 - GetRepairAmountMinute : function: 00007FF6EA5F8850
+		 - GetRepairAmountSecond : function: 00007FF6EA5F88D0
+		 - __name : VirtualSpaceRepairCraneTextSource*MT
+	 - GetTrade : function: 00007FF6EA6012C0
+	 - HeatProvider : property<VirtualSpaceHeatProvider>
+		 - GetHasNeededFertility : function: 00007FF6EA01EA80
+		 - GetProductivity : function: 00007FF6EAB62440
+		 - GetPostboxResidents : function: 00007FF6EAB62980
+		 - GetProductivityFarmFieldBoost : function: 00007FF6EAB62620
+		 - NewspaperProductivityByProductivityEffect : property<float>
+		 - ProductivityUpgrade : property<float>
+		 - GetEconomyModifier : function: 00007FF6EA76B4D0
+		 - TeleportsProducedGoodsDirectlyIntoAreaStorage : property<bool>
+		 - GetCurrentProductivity : function: 00007FF6EAB624A0
+		 - HasNeededFertility : property<bool>
+		 - GetTeleportsProducedGoodsDirectlyIntoAreaStorage : function: 00007FF6EAB62320
+		 - GetNeededFertility : function: 00007FF6EAB62800
+		 - NewspaperProductivityByArmamentEffect : property<float>
+		 - ProductivityFarmFieldBoost : property<float>
+		 - Productivity : property<float>
+		 - GetFillStorage : function: 00007FF6EAB622C0
+		 - GetNewspaperProductivityIncrease : function: 00007FF6EA585820
+		 - GetNewspaperProductivityByArmamentEffect : function: 00007FF6EAB62680
+		 - ProductivityBoostPotential : property<float>
+		 - GetNewspaperProductivityByProductivityEffect : function: 00007FF6EAB626E0
+		 - FillStorage : property<bool>
+		 - GetProductionGood : function: 00007FF6EA5F5450
+		 - GetProductivityUpgrade : function: 00007FF6EAB62500
+		 - __index : function: 00007FF6EA5F4D40
+		 - NewspaperProductivityIncrease : property<float>
+		 - ToggleCheatFertility : function: 00007FF6EAB628D0
+		 - RelativeCycleTime : property<rdtime>
+		 - ProductionGood : property<CAsset>
+			 - Guid : property<int>
+			 - Text : property<rdsdk::CRDStringW>
+			 - GetText : function: 00007FF6EA00DD10
+			 - __index : function: 00007FF6EA00D9E0
+			 - GetGuid : function: 00007FF6EA00DC40
+			 - Icon : property<rdsdk::CRDStringW>
+			 - __name : CAssetTextSource*MT
+			 - GetIcon : function: 00007FF6EA00DCA0
+		 - GetProductivityBoostPotential : function: 00007FF6EAB625C0
+		 - PostboxProductivity : property<float>
+		 - Progress : property<float>
+		 - GetPostboxProductivity : function: 00007FF6EAB62920
+		 - NeedsAFertility : property<bool>
+		 - GetNeedsAFertility : function: 00007FF6EAB62870
+		 - GetCycleTime : function: 00007FF6EAB62380
+		 - NeededFertility : property<CAsset>
+		 - GetProductivityBase : function: 00007FF6EAB62560
+		 - NoWarehouseInRange : property<bool>
+		 - GetNoWarehouseInRange : function: 00007FF6EAB627A0
+		 - GetFullOutputStorage : function: 00007FF6EAB62740
+		 - ProductivityBase : property<float>
+		 - FullOutputStorage : property<bool>
+		 - PostboxResidents : property<int>
+		 - GetRelativeCycleTime : function: 00007FF6EAB623E0
+		 - CurrentProductivity : property<float>
+		 - __name : VirtualSpaceHeatProviderTextSource*MT
+		 - GetProgress : function: 00007FF6EA585630
+		 - CycleTime : property<rdtime>
+	 - GetBuilding : function: 00007FF6EA600D10
+	 - PostManScenario : property<VirtualSpacePostManScenario>
+		 - UnpauseBonusNeeds : function: 00007FF6EA5F7FA0
+		 - __name : VirtualSpacePostManScenarioTextSource*MT
+	 - GetTrainStation : function: 00007FF6EA600A00
+	 - GetElectricity : function: 00007FF6EA600E60
+	 - Water : property<VirtualSpaceWater>
+		 - GetNeedsWater : function: 00007FF6EA60A6F0
+		 - __name : VirtualSpaceWaterTextSource*MT
+	 - TransferActions : property<VirtualSpaceTransferActions>
+		 - GetIsDirectTransferAllowed : function: 00007FF6EA606A10
+		 - IsDirectTransferAllowed : property<bool>
+		 - __name : VirtualSpaceTransferActionsTextSource*MT
+		 - __index : function: 00007FF6EA606840
+	 - __index : function: 00007FF6EA6001F0
+	 - Warehouse : property<VirtualSpaceWarehouse>
+		 - GetStrategicGood : function: 00007FF6EA609310
+		 - GetStorageIncreaseToPreviousTier : function: 00007FF6EA6091F0
+		 - GetStorageBonus : function: 00007FF6EA609280
+		 - __name : VirtualSpaceWarehouseTextSource*MT
+	 - GetWarehouse : function: 00007FF6EA601170
+	 - Trade : property<VirtualSpaceTrade>
+		 - GetThirdPartyBuyPrice : function: 00007FF6EA604D60
+		 - GetThirdPartySellPrice : function: 00007FF6EA604DF0
+		 - __name : VirtualSpaceTradeTextSource*MT
+	 - GetRepairCrane : function: 00007FF6EA601100
+	 - Maintenance : property<VirtualSpaceMaintenance>
+		 - GetPopulationLevel : function: 00007FF6EA5F6510
+		 - GetWorkforce : function: 00007FF6EA5F65B0
+		 - GetCanUseWorkforceTransfer : function: 00007FF6EA5F6650
+		 - __name : VirtualSpaceMaintenanceTextSource*MT
+	 - Seasons : property<VirtualSpaceSeasons>
+		 - GetSeasonName : function: 00007FF6EA5FE060
+		 - GetSeasonFluff : function: 00007FF6EA5FE0F0
+		 - __name : VirtualSpaceSeasonsTextSource*MT
+	 - Pier : property<VirtualSpacePier>
+		 - GetTonsPerSec : function: 00007FF6EA5F75E0
+		 - __name : VirtualSpacePierTextSource*MT
+	 - GetFactory : function: 00007FF6EA600ED0
+	 - GetPier : function: 00007FF6EA601020
+	 - GetExpedition : function: 00007FF6EA600920
+	 - GetDockland : function: 00007FF6EA600DF0
+	 - GetHeat : function: 00007FF6EA600F40
+	 - Attacker : property<VirtualSpaceAttacker>
+		 - GetDPS : function: 00007FF6EA1ED6E0
+		 - __name : VirtualSpaceAttackerTextSource*MT
+	 - Dockland : property<VirtualSpaceDockland>
+		 - GetLoadingSpeedBoostPerModule : function: 00007FF6EA2B8840
+		 - __name : VirtualSpaceDocklandTextSource*MT
+	 - GetHappiness : function: 00007FF6EA600990
+	 - GetTransferActions : function: 00007FF6EA600AE0
+	 - Scenarios : property<VirtualSpaceScenarios>
+		 - GetMedalIcon : function: 00007FF6EA5F9980
+		 - GetMedalFirstTimeCurrencyRewardBonus : function: 00007FF6EA5F9B30
+		 - GetBadgeBaseCurrencyReward : function: 00007FF6EA5F9E00
+		 - GetBadgeFirstTimeCurrencyRewardBonus : function: 00007FF6EA5F9E90
+		 - GetBadgeCrypticObjective : function: 00007FF6EA5F9CE0
+		 - GetMedalTitle : function: 00007FF6EA5F9A10
+		 - GetBadgeDetailedObjective : function: 00007FF6EA5F9D70
+		 - GetMedalBaseCurrencyReward : function: 00007FF6EA5F9AA0
+		 - GetBadgeTitle : function: 00007FF6EA5F9C50
+		 - __name : VirtualSpaceScenariosTextSource*MT
+		 - GetBadgeIcon : function: 00007FF6EA5F9BC0
+	 - GetMaintenance : function: 00007FF6EA601090
+	 - GetScenario : function: 00007FF6EA600B50
+	 - Happiness : property<VirtualSpaceHappiness>
+		 - GetUsesHappinessCategory : function: 00007FF6EA5F2C30
+		 - GetBelongsToNeedHappinessCategory : function: 00007FF6EA5F2D10
+		 - __name : VirtualSpaceHappinessTextSource*MT
+	 - GetBuildCost : function: 00007FF6EA6008B0
+	 - __name : VirtualSpaceStaticDataTextSource*MT
+	 - Building : property<VirtualSpaceBuilding>
+		 - GetIsStreet : function: 00007FF6EA2B4080
+		 - GetIsOilStorage : function: 00007FF6EA2B4230
+		 - GetIsCreativeModeOrnament : function: 00007FF6EA2B43E0
+		 - GetKontorSwitchCosts : function: 00007FF6EA2B4020
+		 - GetIsUnique : function: 00007FF6EA2B42C0
+		 - GetIsOilHarbor : function: 00007FF6EA2B41A0
+		 - GetTerrainType : function: 00007FF6EA2B3F90
+		 - __index : function: 00007FF6EA2B3BA0
+		 - GetAllowedInRegion : function: 00007FF6EA2B3E20
+		 - KontorSwitchCosts : property<int>
+		 - GetNeededSlotType : function: 00007FF6EA2B3F00
+		 - GetHideCount : function: 00007FF6EA2B4350
+		 - GetIsRailway : function: 00007FF6EA2B4110
+		 - __name : VirtualSpaceBuildingTextSource*MT
+		 - GetIsAllowedInCurrentRegion : function: 00007FF6EA2B3D90
+	 - UniqueBuildings : property<VirtualSpaceUniqueBuildings>
+		 - GetDuplicateObjectText : function: 00007FF6EA607380
+		 - GetIsUniqueModuleParentMissing : function: 00007FF6EA607710
+		 - GetIsUniquenessFulfilled : function: 00007FF6EA607500
+		 - __name : VirtualSpaceUniqueBuildingsTextSource*MT
+ - GetUnlock : function: 00007FF6EA2AFEE0
+ - GetGamepadActionManager : function: 00007FF6EA2AD4C0
+ - Interface : property<CUIBindings>
+	 - ToggleCompanyMenu : function: 00007FF6EA222EB0
+	 - TogglePauseMenu : function: 00007FF6EA223270
+	 - ToggleStateVisibility : function: 00007FF6EA223600
+	 - JumpToSession : function: 00007FF6EA2232C0
+	 - ToggleVersionLabel : function: 00007FF6EA222F00
+	 - ToggleDebugUI : function: 00007FF6EA223900
+	 - ToggleTraderouteMenu : function: 00007FF6EA222E60
+	 - OpenStatisticsShipList : function: 00007FF6EA223180
+	 - ResetUiScreenConfig : function: 00007FF6EA2235B0
+	 - OpenInfluencePopUp : function: 00007FF6EA2231D0
+	 - OpenStatisticsPopulationMenu : function: 00007FF6EA223040
+	 - ToggleDiplomacyMenu : function: 00007FF6EA222E10
+	 - ToggleRotatingCameraView : function: 00007FF6EA222BC0
+	 - PopUI : function: 00007FF6EA222CD0
+	 - SimulateGamepadInUI : function: 00007FF6EA223BE0
+	 - ToggleUI : function: 00007FF6EA222C80
+	 - OpenStatisticsItemMenu : function: 00007FF6EA223130
+	 - SetUiScreenScaling : function: 00007FF6EA223330
+	 - SetUIProfilingSceneNameFilter : function: 00007FF6EA2239F0
+	 - ToggleBuildmenu : function: 00007FF6EA222D70
+	 - ToggleDebugAlwaysShowReward : function: 00007FF6EA2239A0
+	 - ToggleQuickNavigationMap : function: 00007FF6EA222FA0
+	 - ToggleHighlightDynamicButtonPrompts : function: 00007FF6EA223950
+	 - ChatInput : function: 00007FF6EA223800
+	 - ToggleMetaUI : function: 00007FF6EA222D20
+	 - SetUiScreenVerticalSpacing : function: 00007FF6EA223430
+	 - ToggleStateUpdates : function: 00007FF6EA223700
+	 - SetUiScreenVerticalPosition : function: 00007FF6EA223530
+	 - SetUiScreenHorizontalPosition : function: 00007FF6EA2234B0
+	 - SetUiScreenHorizontalSpacing : function: 00007FF6EA2233B0
+	 - ReloadUI : function: 00007FF6EA223220
+	 - ToggleUiPlayground : function: 00007FF6EA222F50
+	 - OpenStatisticsStorageMenu : function: 00007FF6EA2230E0
+	 - OpenStatisticsProductionMenu : function: 00007FF6EA223090
+	 - ToggleRotatingCameraViewWithoutSlot : function: 00007FF6EA222C30
+	 - TogglePostcardView : function: 00007FF6EA222B70
+	 - ResetUIProfilingSceneNameFilter : function: 00007FF6EA223B20
+	 - OpenStatisticsIncomeMenu : function: 00007FF6EA222FF0
+	 - __name : CUIBindingsTextSource*MT
+	 - SimulatePlatformInUI : function: 00007FF6EA223B70
+	 - ToggleShipList : function: 00007FF6EA222DC0
+ - ShowPhotographyNewspaper : function: 00007FF6EA2AEC10
+ - GetInterface : function: 00007FF6EA2AFE70
+ - __index : function: 00007FF6EA2AA4E0
+ - GetEngineMetrics : function: 00007FF6EA2AD0E0
+ - GetGreater : function: 00007FF6EA2AFBE0
+ - RefGuid : property<int>
+ - Economy : property<CEconomyManager>
+	 - MetaStorage : property<CMetaEconomy>
+		 - AddAmount : function: 00007FF6E9FE1B80
+		 - GetReservedStorageAmount : function: 00007FF6EA767BC0
+		 - GetMaxTransporterCount : function: 00007FF6EA767D70
+		 - GetNextResearchCapIncreaseRequirement : function: 00007FF6EA76B6A0
+		 - GetResearchPerPopulation : function: 00007FF6EA76B5B0
+		 - GetNextResearchCapIncrease : function: 00007FF6EA76B640
+		 - GetFreeSpace : function: 00007FF6EA767C50
+		 - NextResearchCapIncreaseRequirement : property<int>
+		 - NextResearchCapIncrease : property<int>
+		 - GetAvailableAmount : function: 00007FF6EA767AA0
+		 - GetStorageCapacity : function: 00007FF6EA767B30
+		 - ResearchPerMinute : property<int>
+		 - __index : function: 00007FF6EA76B1D0
+		 - SetEconomyModifier : function: 00007FF6EA76B420
+		 - GetStorageAmount : function: 00007FF6EA767A10
+		 - GetResearchPerMinute : function: 00007FF6EA76B550
+		 - GetCurrentTransporterCount : function: 00007FF6EA767CE0
+		 - __name : CMetaEconomyTextSource*MT
+		 - GetAvailableTransporterCount : function: 00007FF6EA767E00
+	 - __index : function: 00007FF6EA6D5870
+	 - GetRegisteredDeltaConsumption : function: 00007FF6E9FE2830
+	 - GetPopulationCount : function: 00007FF6EA6D5B20
+	 - GetMaxReachedPopulationCount : function: 00007FF6EA6D5BB0
+	 - GetMetaStorage : function: 00007FF6EA6D5AB0
+	 - GetRegisteredDeltaProduction : function: 00007FF6E9FE26F0
+	 - __name : CEconomyManagerTextSource*MT
+	 - PopulationCount : property<int>
+ - GetWorldMap : function: 00007FF6EA2B0110
+ - GetPause : function: 00007FF6EA2AE490
+ - GetContracts : function: 00007FF6EA2AFD90
+ - ToolOneHelper : property<CToolOneTextHelper>
+	 - GroupSelectionMoveIndividually : property<bool>
+	 - GetWeaponIcon : function: 00007FF6EA1ED5C0
+	 - GetItemCooldown : function: 00007FF6EA1EC590
+	 - GetBaseSpeed_MaxWindSpeedup : function: 00007FF6EA1ED8F0
+	 - GetHasSlotType : function: 00007FF6EA1EBC20
+	 - GetIsOrnamentalPack : function: 00007FF6EA1EF040
+	 - GetMainBuildingOutput : function: 00007FF6EA1ECCD0
+	 - SelectionDefensive : property<bool>
+	 - GetExpeditionIcon : function: 00007FF6EA1ED140
+	 - GetExpeditionDifficulty : function: 00007FF6EA1ED260
+	 - GetAmountPalaceModulesForCompanyLevel : function: 00007FF6EA1EE1D0
+	 - GetNextUnlockAttractiveness : function: 00007FF6EA1EE470
+	 - GetItemGUIDFromEffectOrEffectContainer : function: 00007FF6EA1EDF90
+	 - GetItemTradePrice : function: 00007FF6EA1EDD30
+	 - GetIsPalaceModule : function: 00007FF6EA1EE2C0
+	 - GetItemIsSpecialist : function: 00007FF6EA1EC3E0
+	 - SelectionContainsDropGood : property<bool>
+	 - BaseShareInfluence : property<int>
+	 - GetHighscoreIcon : function: 00007FF6EA1EE8F0
+	 - GetExpeditionRegion : function: 00007FF6EA1ED2F0
+	 - GetEffectivityPercentage : function: 00007FF6EA1EECC0
+	 - GetExpeditionThreatFirstAttribute : function: 00007FF6EA1ECBB0
+	 - GetIsBoostedByIrrigation : function: 00007FF6EA1EE620
+	 - GetSelectionControlledByCoopPartner : function: 00007FF6EA1EEDA0
+	 - MainBuildingOutput : property<CAsset>
+	 - GetSelectionContainsDropGood : function: 00007FF6EA1EED40
+	 - GetIsItemRarityQuest : function: 00007FF6EA1EC070
+	 - GetSkinDescription : function: 00007FF6EA1EE7D0
+	 - GetEffectivityTargetGroup : function: 00007FF6EA1EEC30
+	 - GetGroupSelectionMixed : function: 00007FF6EA1EDC40
+	 - GetItemHasExclusiveGroup : function: 00007FF6EA1EC230
+	 - GetShaftCount : function: 00007FF6EA1EEB10
+	 - GetItemActionDescription : function: 00007FF6EA1EC470
+	 - GetIsProductInProductionRegionList : function: 00007FF6EA1EBD90
+	 - GetItemRarityColor : function: 00007FF6EA1EBFE0
+	 - GetRequiresDirectCanalConnection : function: 00007FF6EA1EE6B0
+	 - GetStatusEffectChainDescription : function: 00007FF6EA1EE9F0
+	 - GetItemIsActive : function: 00007FF6EA1EC980
+	 - GetReloadTimeInMS : function: 00007FF6EA1ED650
+	 - GetSelectionMixedStance : function: 00007FF6EA1EDB20
+	 - GetHasStatusEffectChain : function: 00007FF6EA1EE960
+	 - GetIsAnyModule : function: 00007FF6EA1EE3E0
+	 - GetBaseShareInfluence : function: 00007FF6EA1EDF30
+	 - GetConstructionCategoryDescription : function: 00007FF6EA1EB930
+	 - GetExpeditionItemFluff : function: 00007FF6EA1EC100
+	 - GetSelectionDefensive : function: 00007FF6EA1EDA60
+	 - GetDPS : function: 00007FF6EA1ED6E0
+	 - GetIsObjectEffectTarget : function: 00007FF6EA1ECA10
+	 - GetItemDuration : function: 00007FF6EA1EC620
+	 - GetSkinName : function: 00007FF6EA1EE740
+	 - GetProductCategory : function: 00007FF6EA1EB7F0
+	 - GetKamikazeItemDamageForSelected : function: 00007FF6EA1ECC40
+	 - GetStatusEffectChainDuration : function: 00007FF6EA1EEA80
+	 - GetRequiresIrrigation : function: 00007FF6EA1EE590
+	 - GetHasEffectivitiy : function: 00007FF6EA1EEBA0
+	 - GetSlotAmount : function: 00007FF6EA1ED380
+	 - GetPalaceRangePerModule : function: 00007FF6EA1EE260
+	 - GroupSelectionStayTogether : property<bool>
+	 - GetIsMainModule : function: 00007FF6EA1EE350
+	 - DowngradePaybackSelected : property<CBuildCost>
+		 - MoneyCost : property<int>
+		 - GetInfluencePayable : function: 00007FF6EA0147B0
+		 - InfluencePayback : property<int>
+		 - GetIsPayable : function: 00007FF6EA014690
+		 - __index : function: 00007FF6EA014240
+		 - HasInfluenceChanges : property<bool>
+		 - GetMoneyCost : function: 00007FF6EA0146F0
+		 - GetHasInfluenceChanges : function: 00007FF6EA014630
+		 - GetEmpty : function: 00007FF6EA0145D0
+		 - GetInfluencePayback : function: 00007FF6EA014810
+		 - IsPayable : property<bool>
+		 - GetInfluenceCost : function: 00007FF6EA014750
+		 - InfluenceUsageCost : property<int>
+		 - GetInfluenceUsageCost : function: 00007FF6EA014870
+		 - Empty : property<bool>
+		 - InfluencePayable : property<bool>
+		 - __name : CBuildCostTextSource*MT
+		 - InfluenceCost : property<int>
+	 - GetIsBombardementAmmo : function: 00007FF6EA1ECF90
+	 - GetBaseSpeed_MaxWindSlowdown : function: 00007FF6EA1ED870
+	 - PalaceRangePerModule : property<int>
+	 - GetDLCName : function: 00007FF6EA1EEF20
+	 - GetStartProducts : function: 00007FF6EA1EDE50
+	 - GetExpeditionDescription : function: 00007FF6EA1ED1D0
+	 - GetMinistryName : function: 00007FF6EA1EE140
+	 - GetIsProductInCurrentProductionRegionList : function: 00007FF6EA1EBD00
+	 - GetHasItemActionDescription : function: 00007FF6EA1EC500
+	 - GetIsForwardingEffect : function: 00007FF6EA1EE0B0
+	 - GetItemHasAllocation : function: 00007FF6EA1EC350
+	 - GetForwardedEffectGuidOrSelf : function: 00007FF6EA1EE020
+	 - GetRequiredDlcForAsset : function: 00007FF6EA1EEE90
+	 - GetItemSet : function: 00007FF6EA1EC8F0
+	 - GetSkinCategoryDescription : function: 00007FF6EA1EB9D0
+	 - SelectionControlledByCoopPartner : property<bool>
+	 - SelectionStandGround : property<bool>
+	 - GetMaxPopulationNeededForUnlocks : function: 00007FF6EA1EDCA0
+	 - GroupSelectionMixed : property<bool>
+	 - GetMinistryIndex : function: 00007FF6EA1EE500
+	 - GetItemExclusiveGroup : function: 00007FF6EA1EC1A0
+	 - GetDLCIcon : function: 00007FF6EA1EEFB0
+	 - GetItemIsDestroyedAfterCooldown : function: 00007FF6EA1EC740
+	 - SelectionAggresive : property<bool>
+	 - GetItemAllocation : function: 00007FF6EA1EC2C0
+	 - GetGetProductInProductionRegionListDLC : function: 00007FF6EA1EBE70
+	 - GetGroupSelectionStayTogether : function: 00007FF6EA1EDB80
+	 - GetBuildingCategory : function: 00007FF6EA1EB890
+	 - GetAttackDamage : function: 00007FF6EA1ED530
+	 - GetAffectedByWind : function: 00007FF6EA1ED760
+	 - SelectionMixedStance : property<bool>
+	 - GetProductBasePrice : function: 00007FF6EA1EDDC0
+	 - GetSelectionStandGround : function: 00007FF6EA1EDAC0
+	 - GetIsTree : function: 00007FF6EA1EBB00
+	 - GetBombardementTargetText : function: 00007FF6EA1ED020
+	 - GetGroupSelectionMoveIndividually : function: 00007FF6EA1EDBE0
+	 - GetInfoDescription : function: 00007FF6EA1EB750
+	 - GetAttractiveness : function: 00007FF6EA1EBA70
+	 - GetItemHasExpeditionAttribute : function: 00007FF6EA1ECAF0
+	 - GetIsMonument : function: 00007FF6EA1EE860
+	 - GetSelectionAggresive : function: 00007FF6EA1EDA00
+	 - GetShipMaintenance : function: 00007FF6EA1ED970
+	 - GetHitPoints : function: 00007FF6EA1ED4A0
+	 - GetItemHasCharges : function: 00007FF6EA1EC7D0
+	 - GetBuildCostSelected : function: 00007FF6EA1ECE80
+	 - GetDowngradePaybackSelected : function: 00007FF6EA1ECF20
+	 - HighscoreIcon : property<rdsdk::CRDStringW>
+	 - GetBaseSpeed : function: 00007FF6EA1ED7F0
+	 - GetBuildingOutput : function: 00007FF6EA1ECD40
+	 - GetItemRarity : function: 00007FF6EA1EBF50
+	 - GetIsSlotObject : function: 00007FF6EA1EBB90
+	 - GetSocketAmount : function: 00007FF6EA1ED410
+	 - GetPermitSource : function: 00007FF6EA1EF0D0
+	 - GetIsMailProduct : function: 00007FF6EA1EEE00
+	 - GetExpeditionName : function: 00007FF6EA1ED0B0
+	 - GetItemActiveBuff : function: 00007FF6EA1EC860
+	 - GetBuildCost : function: 00007FF6EA1ECDE0
+	 - __name : CToolOneTextHelperTextSource*MT
+	 - __index : function: 00007FF6EA1EB210
+	 - GetBarrageDuration : function: 00007FF6EA1EC6B0
+ - Selection : property<CSelectionManager>
+	 - SetSelectNextRuin : function: 00007FF6EA5CE050
+	 - GetContainsWarship : function: 00007FF6EA5CDF60
+	 - GetObject : function: 00007FF6EA01ED20
+	 - Object : property<CGameObject>
+		 - TradeRouteVehicle : property<CPropertyTradeRouteVehicle>
+			 - OnCharterRoute : property<bool>
+			 - GetOnCharterRoute : function: 00007FF6EA588DA0
+			 - GetOnMailRoute : function: 00007FF6EA588E60
+			 - GetLoadingSpeedFactor : function: 00007FF6EA588EC0
+			 - __index : function: 00007FF6EA588920
+			 - LoadingSpeedFactor : property<float>
+			 - IsPaused : property<bool>
+			 - RouteName : property<rdsdk::CRDStringW>
+			 - OnOilRoute : property<bool>
+			 - GetOnOilRoute : function: 00007FF6EA588E00
+			 - GetRouteName : function: 00007FF6EA588C70
+			 - GetOnRegularRoute : function: 00007FF6EA588D40
+			 - GetIsPaused : function: 00007FF6EA588CE0
+			 - OnMailRoute : property<bool>
+			 - __name : CPropertyTradeRouteVehicleTextSource*MT
+			 - OnRegularRoute : property<bool>
+		 - GetTradeRouteVehicle : function: 00007FF6EA6F5400
+		 - Repair : property<CPropertyRepairCrane>
+			 - GetNewspaperProductivityIncrease : function: 00007FF6EA585820
+			 - RepairAmountPerSecond : property<float>
+			 - __index : function: 00007FF6EABA85E0
+			 - GetRepairAmount : function: 00007FF6EABA8850
+			 - GetRepairAmountPerSecond : function: 00007FF6EABA88B0
+			 - RepairAmount : property<int>
+			 - __name : CPropertyRepairCraneTextSource*MT
+			 - NewspaperProductivityIncrease : property<float>
+		 - Infectable : property<CPropertyIncidentInfectable>
+			 - GetRiotInfectionChance : function: 00007FF6EAB6D450
+			 - GetArcticIllnessInfectionChance : function: 00007FF6EAB6D5A0
+			 - ArcticIllnessInfectionChance : property<CIncidentChances>
+				 - TotalChance : property<float>
+				 - GetTotalChance : function: 00007FF6EA7346C0
+				 - __name : CIncidentChancesTextSource*MT
+				 - classtable : this
+				 - __index : function: 00007FF6EA7344E0
+			 - __index : function: 00007FF6EAB6CF80
+			 - RiotInfectionChance : property<CIncidentChances>
+			 - ExplosionInfectionChance : property<CIncidentChances>
+			 - GetIsInfected : function: 00007FF6EAB6D380
+			 - FireInfectionChance : property<CIncidentChances>
+			 - IsInfected : property<bool>
+			 - GetExplosionInfectionChance : function: 00007FF6EAB6D530
+			 - IsGettingHealed : property<bool>
+			 - GetIllnessInfectionChance : function: 00007FF6EAB6D4C0
+			 - GetFireInfectionChance : function: 00007FF6EAB6D3E0
+			 - ResetProtection : function: 00007FF6EAB6D310
+			 - GetIsGettingHealed : function: 00007FF6EAB6D2B0
+			 - __name : CPropertyIncidentInfectableTextSource*MT
+			 - IllnessInfectionChance : property<CIncidentChances>
+		 - River : property<CPropertyRiver>
+			 - SetMoveRiverLevel : function: 00007FF6EABBC440
+			 - __name : CPropertyRiverTextSource*MT
+		 - Downgradability : property<CUpgradabilityChecker>
+			 - UpgradeCosts : property<CBuildCost>
+				 - MoneyCost : property<int>
+				 - GetInfluencePayable : function: 00007FF6EA0147B0
+				 - InfluencePayback : property<int>
+				 - GetIsPayable : function: 00007FF6EA014690
+				 - __index : function: 00007FF6EA014240
+				 - HasInfluenceChanges : property<bool>
+				 - GetMoneyCost : function: 00007FF6EA0146F0
+				 - GetHasInfluenceChanges : function: 00007FF6EA014630
+				 - GetEmpty : function: 00007FF6EA0145D0
+				 - GetInfluencePayback : function: 00007FF6EA014810
+				 - IsPayable : property<bool>
+				 - GetInfluenceCost : function: 00007FF6EA014750
+				 - InfluenceUsageCost : property<int>
+				 - GetInfluenceUsageCost : function: 00007FF6EA014870
+				 - Empty : property<bool>
+				 - InfluencePayable : property<bool>
+				 - __name : CBuildCostTextSource*MT
+				 - InfluenceCost : property<int>
+			 - __index : function: 00007FF6EA231B60
+			 - UpgradeTargetGUID : property<int>
+			 - IsUpgradable : property<bool>
+			 - GetUpgradeTargetGUID : function: 00007FF6EA231E50
+			 - GetIsUpgradable : function: 00007FF6EA231DF0
+			 - __name : CUpgradabilityCheckerTextSource*MT
+			 - GetUpgradeCosts : function: 00007FF6EA1E12C0
+		 - GetIrrigationSouce : function: 00007FF6EA6F5A90
+		 - GetDistribution : function: 00007FF6EA6F48A0
+		 - GetIsKontor : function: 00007FF6EA6F5DD0
+		 - VisitorHarbor : property<CPropertyVisitorHarbor>
+			 - GetAreaVisitors : function: 00007FF6E9FFD610
+			 - AreaVisitors : property<CAreaVisitors>
+				 - HasSpecialist : property<bool>
+				 - GetNextIntervalVisitorDelta : function: 00007FF6EA009020
+				 - GetHasVisitorPier : function: 00007FF6EA0090E0
+				 - GetHasSpecialist : function: 00007FF6EA0092D0
+				 - MaxVisitors : property<float>
+				 - GetRemainingIntervalTime : function: 00007FF6EA009080
+				 - GetVisitorPierUnlocked : function: 00007FF6EA009140
+				 - GetCurrentVisitors : function: 00007FF6EA008F60
+				 - EndInterval : function: 00007FF6EA008EB0
+				 - GetMaxVisitors : function: 00007FF6EA008F00
+				 - GetSpecialistSpawnProbability : function: 00007FF6EA009330
+				 - HasVisitorPier : property<bool>
+				 - DenySpecialistNet : function: 00007FF6EA0091F0
+				 - VisitorIncome : property<float>
+				 - VisitorPierUnlocked : property<bool>
+				 - GetVisitorIncome : function: 00007FF6EA008FC0
+				 - CurrentVisitors : property<float>
+				 - SpawnSpecialist : function: 00007FF6EA009280
+				 - SpecialistSpawnProbability : property<float>
+				 - RemainingIntervalTime : property<rdtime>
+				 - NextIntervalVisitorDelta : property<int>
+				 - __index : function: 00007FF6EA008AB0
+				 - __name : CAreaVisitorsTextSource*MT
+				 - AcceptSpecialistNet : function: 00007FF6EA0091A0
+			 - __name : CPropertyVisitorHarborTextSource*MT
+			 - __index : function: 00007FF6EA58CA50
+		 - GetPirate : function: 00007FF6EA6F4FA0
+		 - Nameable : property<CPropertyNameable>
+			 - Name : property<rdsdk::CRDStringW>
+			 - SetName : function: 00007FF6EAB9C910
+			 - GetName : function: 00007FF6EA011E20
+			 - __name : CPropertyNameableTextSource*MT
+			 - __index : function: 00007FF6EAB9C730
+		 - Collectable : property<CPropertyCollectable>
+			 - IsTargetStoragePartiallyFull : property<bool>
+			 - CanBeCollected : property<bool>
+			 - __index : function: 00007FF6EAB504E0
+			 - GetIsTargetStorageFull : function: 00007FF6EAB507B0
+			 - IsTargetStorageFull : property<bool>
+			 - GetIsTargetStoragePartiallyFull : function: 00007FF6EAB50810
+			 - GetCanBeDropped : function: 00007FF6EAB50870
+			 - GetCanBeCollected : function: 00007FF6EAB50750
+			 - __name : CPropertyCollectableTextSource*MT
+			 - CanBeDropped : property<bool>
+		 - Mesh : property<CPropertyMesh>
+			 - SetShortenSails : function: 00007FF6EAB86CF0
+			 - SetVisible : function: 00007FF6EAB86D80
+			 - SetToggleDecalCondition : function: 00007FF6EAB86E10
+			 - SetLocalWind : function: 00007FF6EAB86C60
+			 - __name : CPropertyMeshTextSource*MT
+		 - GetItemContainer : function: 00007FF6EA6F51D0
+		 - GetBombarder : function: 00007FF6EA6F5BE0
+		 - GetInfectable : function: 00007FF6EA6F57F0
+		 - GetVisitorHarbor : function: 00007FF6EA6F5550
+		 - IsKontor : property<bool>
+		 - BusStop : property<CPropertyBusStop>
+			 - GetNeedSaturation : function: 00007FF6EAB4ED70
+			 - GetBusNeedDistanceSatisfaction : function: 00007FF6EAB4EC60
+			 - GetIsBusNeedSatisfactionReduced : function: 00007FF6EAB4ECE0
+			 - __name : CPropertyBusStopTextSource*MT
+		 - GetIncidentResolver : function: 00007FF6EA6F50F0
+		 - Dockland : property<CPropertyDockland>
+			 - GetLoadingSpeedBoost : function: 00007FF6EAB5BFC0
+			 - GetModuleStorageBonus : function: 00007FF6EAB5C020
+			 - LoadingSpeedBoost : property<float>
+			 - ModuleStorageBonus : property<int>
+			 - __name : CPropertyDocklandTextSource*MT
+			 - __index : function: 00007FF6EAB5BD70
+		 - SetChangeSkin : function: 00007FF6EA6F6210
+		 - IsOwnedByCurrentParticipant : property<bool>
+		 - DelayedConstruction : property<CPropertyDelayedConstruction>
+			 - GetRemainingConstructionTime : function: 00007FF6EAB5A3E0
+			 - RemainingConstructionTime : property<rdtime>
+			 - SetCheatReady : function: 00007FF6EAB5A440
+			 - __name : CPropertyDelayedConstructionTextSource*MT
+			 - __index : function: 00007FF6EAB5A200
+		 - IsBlueprunt : property<bool>
+		 - GetGUID : function: 00007FF6EA6F5F50
+		 - AreaManager : property<CAreaManager>
+			 - NeedUnlock : property<CAreaNeedUnlockManager>
+				 - GetAdditionalNeedUnlockPopulation : function: 00007FF6EA000830
+				 - GetNeedLocked : function: 00007FF6EA000660
+				 - GetAdditionalNeedUnlockAmount : function: 00007FF6EA000910
+				 - GetHasAdditionalNeedUnlock : function: 00007FF6EA000750
+				 - GetNeedUnlockPopulation : function: 00007FF6E9FE22E0
+				 - __name : CAreaNeedUnlockManagerTextSource*MT
+				 - __index : function: 00007FF6E9FCAE40
+			 - GetAreaFestival : function: 00007FF6E9FFD4C0
+			 - __index : function: 00007FF6E9FFCF60
+			 - AreaObjects : property<CAreaObjectManager>
+				 - GetObjectLists : function: 00007FF6EA002D30
+				 - SaveBuildingCountSnapshot : function: 00007FF6EA002CE0
+				 - ObjectLists : property<CFilteredObjectLists>
+					 - GetBuildingsWithGameLogicCount : function: 00007FF6EA6E84A0
+					 - __name : CFilteredObjectListsTextSource*MT
+					 - classtable : this
+					 - __index : function: 00007FF6E9FCAE40
+				 - __name : CAreaObjectManagerTextSource*MT
+				 - __index : function: 00007FF6EA002AF0
+			 - GetAttractivity : function: 00007FF6E9FFD680
+			 - GetAreaObjects : function: 00007FF6E9FFD450
+			 - GetEcoSystem : function: 00007FF6E9FFD760
+			 - GetAreaMoney : function: 00007FF6E9FFD5A0
+			 - Attractivity : property<CAreaAttractivityManager>
+				 - Attractivity : property<int>
+				 - CityStatus : property<int>
+				 - GetNextCityStatusAttractivity : function: 00007FF6E9FDDEF0
+				 - GetCityStatus : function: 00007FF6E9FDDFE0
+				 - GetAttractivenessForCityLevel : function: 00007FF6E9FDDF50
+				 - CityStatusMissingAttractivity : property<int>
+				 - GetAttractivityType : function: 00007FF6E9FDDCD0
+				 - __index : function: 00007FF6E9FDD990
+				 - NextCityStatusAttractivity : property<int>
+				 - GetCityStatusMissingAttractivity : function: 00007FF6E9FDDE90
+				 - GetCultureStatusFluff : function: 00007FF6E9FDDE20
+				 - SetCheatChangeAttractivityNet : function: 00007FF6E9FDDD60
+				 - GetAttractivity : function: 00007FF6E9FDDC70
+				 - __name : CAreaAttractivityManagerTextSource*MT
+				 - CultureStatusFluff : property<rdsdk::CRDStringW>
+			 - AreaPopulation : property<CAreaPopulationManager>
+				 - GetHighestPopulationLevel : function: 00007FF6EA003E00
+				 - GetSatisfaction_ExcludeBonusNeeds : function: 00007FF6EA003F40
+				 - GetNeedAreaPopulationFulfilled : function: 00007FF6EA003D20
+				 - __index : function: 00007FF6EA003AE0
+				 - SetFillAllResidencesOnIsland : function: 00007FF6EA003E70
+				 - HighestPopulationLevel : property<CPopulationAsset>
+					 - Guid : property<int>
+					 - Text : property<rdsdk::CRDStringW>
+					 - GetText : function: 00007FF6EA00DD10
+					 - __index : function: 00007FF6EA886D20
+					 - Workforce : property<CAsset>
+						 - Guid : property<int>
+						 - Text : property<rdsdk::CRDStringW>
+						 - GetText : function: 00007FF6EA00DD10
+						 - __index : function: 00007FF6EA00D9E0
+						 - GetGuid : function: 00007FF6EA00DC40
+						 - Icon : property<rdsdk::CRDStringW>
+						 - __name : CAssetTextSource*MT
+						 - classtable : this
+						 - GetIcon : function: 00007FF6EA00DCA0
+					 - GetGuid : function: 00007FF6EA00DC40
+					 - GetWorkforce : function: 00007FF6EA886FE0
+					 - Icon : property<rdsdk::CRDStringW>
+					 - __name : CPopulationAssetTextSource*MT
+					 - GetIcon : function: 00007FF6EA00DCA0
+				 - GetSatisfaction_IncludeBonusNeeds : function: 00007FF6EA003EC0
+				 - GetPopulationCount : function: 00007FF6E9FE1CF0
+				 - GetSatisfaction : function: 00007FF6EA003FC0
+				 - __name : CAreaPopulationManagerTextSource*MT
+				 - PopulationCount : property<int>
+			 - GetNeedUnlock : function: 00007FF6E9FFD6F0
+			 - GetAreaPopulation : function: 00007FF6E9FFD530
+			 - EcoSystem : property<CAreaEcoSystemManager>
+				 - IllnessChance : property<float>
+				 - GetWaterQuality : function: 00007FF6E9FEC790
+				 - SoilQualityDelta : property<float>
+				 - GetQualityDelta : function: 00007FF6E9FECA40
+				 - __index : function: 00007FF6E9FEC370
+				 - IslandHealth : property<float>
+				 - GetAirQuality : function: 00007FF6E9FEC850
+				 - GetQualityMaximum : function: 00007FF6E9FEC9E0
+				 - AirQuality : property<float>
+				 - GetIllnessChance : function: 00007FF6E9FECC40
+				 - WaterQuality : property<float>
+				 - GetSoilQuality : function: 00007FF6E9FEC7F0
+				 - SoilQuality : property<float>
+				 - SetQualityPaused : function: 00007FF6E9FECD30
+				 - SetFeaturePaused : function: 00007FF6E9FECCA0
+				 - QualityMaximum : property<float>
+				 - GetIslandHealth : function: 00007FF6E9FECBE0
+				 - AirQualityDelta : property<float>
+				 - GetAirQualityDelta : function: 00007FF6E9FECB80
+				 - GetQuality : function: 00007FF6E9FEC960
+				 - GetSoilQualityDelta : function: 00007FF6E9FECB20
+				 - WaterQualityDelta : property<float>
+				 - GetWaterQualityDelta : function: 00007FF6E9FECAC0
+				 - __name : CAreaEcoSystemManagerTextSource*MT
+				 - SetQuality : function: 00007FF6E9FEC8B0
+			 - Happiness : property<CAreaHappinessManager>
+				 - CurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : property<int>
+				 - GetGlobalNewspaperHappiness : function: 00007FF6E9FF57E0
+				 - AttractivenessHappiness : property<float>
+				 - PollutionHappiness : property<float>
+				 - __index : function: 00007FF6E9FF5440
+				 - GetWorkingConditionsHappiness : function: 00007FF6E9FF5A00
+				 - GetWarfareHappiness : function: 00007FF6E9FF5A80
+				 - GlobalNewspaperHappiness : property<float>
+				 - AverageHappiness : property<float>
+				 - GetAverageHappiness : function: 00007FF6E9FF5C50
+				 - WarfareHappiness : property<float>
+				 - GetHappinessImpact : function: 00007FF6E9FF5BD0
+				 - GetTotalNewspaperHappiness : function: 00007FF6E9FF58C0
+				 - GetCurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : function: 00007FF6E9FF5D30
+				 - GetAttractivenessHappiness : function: 00007FF6E9FF59A0
+				 - GetStressedWorkforce : function: 00007FF6E9FF5B40
+				 - GetPopulationNewspaperHappiness : function: 00007FF6E9FF5840
+				 - WarfareHappinessThreshold : property<float>
+				 - GetAverageHappinessByPopulation : function: 00007FF6E9FF5CB0
+				 - GetWarfareHappinessThreshold : function: 00007FF6E9FF5AE0
+				 - __name : CAreaHappinessManagerTextSource*MT
+				 - GetPollutionHappiness : function: 00007FF6E9FF5940
+			 - Railway : property<CAreaRailwayManager>
+				 - SetRandomSkin : function: 00007FF6EA006E10
+				 - SetToggleDebugVisualization : function: 00007FF6EA006DC0
+				 - __name : CAreaRailwayManagerTextSource*MT
+			 - AreaMoney : property<CAreaMoneyManager>
+				 - GetTotalMoneyIncome : function: 00007FF6E9FFF7C0
+				 - TotalMoneyIncome : property<int>
+				 - GetVisitorIncome : function: 00007FF6E9FFF760
+				 - VisitorIncome : property<int>
+				 - __name : CAreaMoneyManagerTextSource*MT
+				 - __index : function: 00007FF6E9FFF540
+			 - GetRailway : function: 00007FF6E9FFD3E0
+			 - GetHappiness : function: 00007FF6E9FFD370
+			 - __name : CAreaManagerTextSource*MT
+			 - AreaFestival : property<CAreaFestivalManager>
+				 - GetIsActive : function: 00007FF6E9FF2000
+				 - GetBonusAttractiveness : function: 00007FF6E9FF21D0
+				 - SetIncreasePool : function: 00007FF6E9FF20C0
+				 - GetProtectsFromIncidents : function: 00007FF6E9FF2230
+				 - IsActive : property<bool>
+				 - __index : function: 00007FF6E9FF1D80
+				 - GetRemainingDurationEstimation : function: 00007FF6E9FF2060
+				 - BonusAttractiveness : property<int>
+				 - ProtectsFromIncidents : property<bool>
+				 - SetStopFestival : function: 00007FF6E9FF2180
+				 - SetTriggerFestival : function: 00007FF6E9FF2130
+				 - __name : CAreaFestivalManagerTextSource*MT
+				 - RemainingDurationEstimation : property<rdtime>
+		 - Palace : property<CPropertyPalace>
+			 - GetCurrentParagonLevel : function: 00007FF6EAB9F440
+			 - GetObject : function: 00007FF6EA01ED20
+			 - Object : property<CGameObject>
+				 - TradeRouteVehicle : property<CPropertyTradeRouteVehicle>
+					 - OnCharterRoute : property<bool>
+					 - GetOnCharterRoute : function: 00007FF6EA588DA0
+					 - GetOnMailRoute : function: 00007FF6EA588E60
+					 - GetLoadingSpeedFactor : function: 00007FF6EA588EC0
+					 - __index : function: 00007FF6EA588920
+					 - LoadingSpeedFactor : property<float>
+					 - IsPaused : property<bool>
+					 - RouteName : property<rdsdk::CRDStringW>
+					 - OnOilRoute : property<bool>
+					 - GetOnOilRoute : function: 00007FF6EA588E00
+					 - GetRouteName : function: 00007FF6EA588C70
+					 - GetOnRegularRoute : function: 00007FF6EA588D40
+					 - GetIsPaused : function: 00007FF6EA588CE0
+					 - OnMailRoute : property<bool>
+					 - __name : CPropertyTradeRouteVehicleTextSource*MT
+					 - OnRegularRoute : property<bool>
+				 - GetTradeRouteVehicle : function: 00007FF6EA6F5400
+				 - Repair : property<CPropertyRepairCrane>
+					 - GetNewspaperProductivityIncrease : function: 00007FF6EA585820
+					 - RepairAmountPerSecond : property<float>
+					 - __index : function: 00007FF6EABA85E0
+					 - GetRepairAmount : function: 00007FF6EABA8850
+					 - GetRepairAmountPerSecond : function: 00007FF6EABA88B0
+					 - RepairAmount : property<int>
+					 - __name : CPropertyRepairCraneTextSource*MT
+					 - NewspaperProductivityIncrease : property<float>
+				 - Infectable : property<CPropertyIncidentInfectable>
+					 - GetRiotInfectionChance : function: 00007FF6EAB6D450
+					 - GetArcticIllnessInfectionChance : function: 00007FF6EAB6D5A0
+					 - ArcticIllnessInfectionChance : property<CIncidentChances>
+						 - TotalChance : property<float>
+						 - GetTotalChance : function: 00007FF6EA7346C0
+						 - __name : CIncidentChancesTextSource*MT
+						 - __index : function: 00007FF6EA7344E0
+					 - __index : function: 00007FF6EAB6CF80
+					 - RiotInfectionChance : property<CIncidentChances>
+					 - ExplosionInfectionChance : property<CIncidentChances>
+					 - GetIsInfected : function: 00007FF6EAB6D380
+					 - FireInfectionChance : property<CIncidentChances>
+					 - IsInfected : property<bool>
+					 - GetExplosionInfectionChance : function: 00007FF6EAB6D530
+					 - IsGettingHealed : property<bool>
+					 - GetIllnessInfectionChance : function: 00007FF6EAB6D4C0
+					 - GetFireInfectionChance : function: 00007FF6EAB6D3E0
+					 - ResetProtection : function: 00007FF6EAB6D310
+					 - GetIsGettingHealed : function: 00007FF6EAB6D2B0
+					 - __name : CPropertyIncidentInfectableTextSource*MT
+					 - IllnessInfectionChance : property<CIncidentChances>
+				 - River : property<CPropertyRiver>
+					 - SetMoveRiverLevel : function: 00007FF6EABBC440
+					 - __name : CPropertyRiverTextSource*MT
+				 - Downgradability : property<CUpgradabilityChecker>
+					 - UpgradeCosts : property<CBuildCost>
+						 - MoneyCost : property<int>
+						 - GetInfluencePayable : function: 00007FF6EA0147B0
+						 - InfluencePayback : property<int>
+						 - GetIsPayable : function: 00007FF6EA014690
+						 - __index : function: 00007FF6EA014240
+						 - HasInfluenceChanges : property<bool>
+						 - GetMoneyCost : function: 00007FF6EA0146F0
+						 - GetHasInfluenceChanges : function: 00007FF6EA014630
+						 - GetEmpty : function: 00007FF6EA0145D0
+						 - GetInfluencePayback : function: 00007FF6EA014810
+						 - IsPayable : property<bool>
+						 - GetInfluenceCost : function: 00007FF6EA014750
+						 - InfluenceUsageCost : property<int>
+						 - GetInfluenceUsageCost : function: 00007FF6EA014870
+						 - Empty : property<bool>
+						 - InfluencePayable : property<bool>
+						 - __name : CBuildCostTextSource*MT
+						 - InfluenceCost : property<int>
+					 - __index : function: 00007FF6EA231B60
+					 - UpgradeTargetGUID : property<int>
+					 - IsUpgradable : property<bool>
+					 - GetUpgradeTargetGUID : function: 00007FF6EA231E50
+					 - GetIsUpgradable : function: 00007FF6EA231DF0
+					 - __name : CUpgradabilityCheckerTextSource*MT
+					 - GetUpgradeCosts : function: 00007FF6EA1E12C0
+				 - GetIrrigationSouce : function: 00007FF6EA6F5A90
+				 - GetDistribution : function: 00007FF6EA6F48A0
+				 - GetIsKontor : function: 00007FF6EA6F5DD0
+				 - VisitorHarbor : property<CPropertyVisitorHarbor>
+					 - GetAreaVisitors : function: 00007FF6E9FFD610
+					 - AreaVisitors : property<CAreaVisitors>
+						 - HasSpecialist : property<bool>
+						 - GetNextIntervalVisitorDelta : function: 00007FF6EA009020
+						 - GetHasVisitorPier : function: 00007FF6EA0090E0
+						 - GetHasSpecialist : function: 00007FF6EA0092D0
+						 - MaxVisitors : property<float>
+						 - GetRemainingIntervalTime : function: 00007FF6EA009080
+						 - GetVisitorPierUnlocked : function: 00007FF6EA009140
+						 - GetCurrentVisitors : function: 00007FF6EA008F60
+						 - EndInterval : function: 00007FF6EA008EB0
+						 - GetMaxVisitors : function: 00007FF6EA008F00
+						 - GetSpecialistSpawnProbability : function: 00007FF6EA009330
+						 - HasVisitorPier : property<bool>
+						 - DenySpecialistNet : function: 00007FF6EA0091F0
+						 - VisitorIncome : property<float>
+						 - VisitorPierUnlocked : property<bool>
+						 - GetVisitorIncome : function: 00007FF6EA008FC0
+						 - CurrentVisitors : property<float>
+						 - SpawnSpecialist : function: 00007FF6EA009280
+						 - SpecialistSpawnProbability : property<float>
+						 - RemainingIntervalTime : property<rdtime>
+						 - NextIntervalVisitorDelta : property<int>
+						 - __index : function: 00007FF6EA008AB0
+						 - __name : CAreaVisitorsTextSource*MT
+						 - AcceptSpecialistNet : function: 00007FF6EA0091A0
+					 - __name : CPropertyVisitorHarborTextSource*MT
+					 - __index : function: 00007FF6EA58CA50
+				 - GetPirate : function: 00007FF6EA6F4FA0
+				 - Nameable : property<CPropertyNameable>
+					 - Name : property<rdsdk::CRDStringW>
+					 - SetName : function: 00007FF6EAB9C910
+					 - GetName : function: 00007FF6EA011E20
+					 - __name : CPropertyNameableTextSource*MT
+					 - __index : function: 00007FF6EAB9C730
+				 - Collectable : property<CPropertyCollectable>
+					 - IsTargetStoragePartiallyFull : property<bool>
+					 - CanBeCollected : property<bool>
+					 - __index : function: 00007FF6EAB504E0
+					 - GetIsTargetStorageFull : function: 00007FF6EAB507B0
+					 - IsTargetStorageFull : property<bool>
+					 - GetIsTargetStoragePartiallyFull : function: 00007FF6EAB50810
+					 - GetCanBeDropped : function: 00007FF6EAB50870
+					 - GetCanBeCollected : function: 00007FF6EAB50750
+					 - __name : CPropertyCollectableTextSource*MT
+					 - CanBeDropped : property<bool>
+				 - Mesh : property<CPropertyMesh>
+					 - SetShortenSails : function: 00007FF6EAB86CF0
+					 - SetVisible : function: 00007FF6EAB86D80
+					 - SetToggleDecalCondition : function: 00007FF6EAB86E10
+					 - SetLocalWind : function: 00007FF6EAB86C60
+					 - __name : CPropertyMeshTextSource*MT
+				 - GetItemContainer : function: 00007FF6EA6F51D0
+				 - GetBombarder : function: 00007FF6EA6F5BE0
+				 - GetInfectable : function: 00007FF6EA6F57F0
+				 - GetVisitorHarbor : function: 00007FF6EA6F5550
+				 - IsKontor : property<bool>
+				 - BusStop : property<CPropertyBusStop>
+					 - GetNeedSaturation : function: 00007FF6EAB4ED70
+					 - GetBusNeedDistanceSatisfaction : function: 00007FF6EAB4EC60
+					 - GetIsBusNeedSatisfactionReduced : function: 00007FF6EAB4ECE0
+					 - __name : CPropertyBusStopTextSource*MT
+				 - GetIncidentResolver : function: 00007FF6EA6F50F0
+				 - Dockland : property<CPropertyDockland>
+					 - GetLoadingSpeedBoost : function: 00007FF6EAB5BFC0
+					 - GetModuleStorageBonus : function: 00007FF6EAB5C020
+					 - LoadingSpeedBoost : property<float>
+					 - ModuleStorageBonus : property<int>
+					 - __name : CPropertyDocklandTextSource*MT
+					 - __index : function: 00007FF6EAB5BD70
+				 - SetChangeSkin : function: 00007FF6EA6F6210
+				 - IsOwnedByCurrentParticipant : property<bool>
+				 - DelayedConstruction : property<CPropertyDelayedConstruction>
+					 - GetRemainingConstructionTime : function: 00007FF6EAB5A3E0
+					 - RemainingConstructionTime : property<rdtime>
+					 - SetCheatReady : function: 00007FF6EAB5A440
+					 - __name : CPropertyDelayedConstructionTextSource*MT
+					 - __index : function: 00007FF6EAB5A200
+				 - IsBlueprunt : property<bool>
+				 - GetGUID : function: 00007FF6EA6F5F50
+				 - AreaManager : property<CAreaManager>
+					 - NeedUnlock : property<CAreaNeedUnlockManager>
+						 - GetAdditionalNeedUnlockPopulation : function: 00007FF6EA000830
+						 - GetNeedLocked : function: 00007FF6EA000660
+						 - GetAdditionalNeedUnlockAmount : function: 00007FF6EA000910
+						 - GetHasAdditionalNeedUnlock : function: 00007FF6EA000750
+						 - GetNeedUnlockPopulation : function: 00007FF6E9FE22E0
+						 - __name : CAreaNeedUnlockManagerTextSource*MT
+						 - __index : function: 00007FF6E9FCAE40
+					 - GetAreaFestival : function: 00007FF6E9FFD4C0
+					 - __index : function: 00007FF6E9FFCF60
+					 - AreaObjects : property<CAreaObjectManager>
+						 - GetObjectLists : function: 00007FF6EA002D30
+						 - SaveBuildingCountSnapshot : function: 00007FF6EA002CE0
+						 - ObjectLists : property<CFilteredObjectLists>
+							 - GetBuildingsWithGameLogicCount : function: 00007FF6EA6E84A0
+							 - __name : CFilteredObjectListsTextSource*MT
+							 - classtable : this
+							 - __index : function: 00007FF6E9FCAE40
+						 - __name : CAreaObjectManagerTextSource*MT
+						 - __index : function: 00007FF6EA002AF0
+					 - GetAttractivity : function: 00007FF6E9FFD680
+					 - GetAreaObjects : function: 00007FF6E9FFD450
+					 - GetEcoSystem : function: 00007FF6E9FFD760
+					 - GetAreaMoney : function: 00007FF6E9FFD5A0
+					 - Attractivity : property<CAreaAttractivityManager>
+						 - Attractivity : property<int>
+						 - CityStatus : property<int>
+						 - GetNextCityStatusAttractivity : function: 00007FF6E9FDDEF0
+						 - GetCityStatus : function: 00007FF6E9FDDFE0
+						 - GetAttractivenessForCityLevel : function: 00007FF6E9FDDF50
+						 - CityStatusMissingAttractivity : property<int>
+						 - GetAttractivityType : function: 00007FF6E9FDDCD0
+						 - __index : function: 00007FF6E9FDD990
+						 - NextCityStatusAttractivity : property<int>
+						 - GetCityStatusMissingAttractivity : function: 00007FF6E9FDDE90
+						 - GetCultureStatusFluff : function: 00007FF6E9FDDE20
+						 - SetCheatChangeAttractivityNet : function: 00007FF6E9FDDD60
+						 - GetAttractivity : function: 00007FF6E9FDDC70
+						 - __name : CAreaAttractivityManagerTextSource*MT
+						 - CultureStatusFluff : property<rdsdk::CRDStringW>
+					 - AreaPopulation : property<CAreaPopulationManager>
+						 - GetHighestPopulationLevel : function: 00007FF6EA003E00
+						 - GetSatisfaction_ExcludeBonusNeeds : function: 00007FF6EA003F40
+						 - GetNeedAreaPopulationFulfilled : function: 00007FF6EA003D20
+						 - __index : function: 00007FF6EA003AE0
+						 - SetFillAllResidencesOnIsland : function: 00007FF6EA003E70
+						 - HighestPopulationLevel : property<CPopulationAsset>
+							 - Guid : property<int>
+							 - Text : property<rdsdk::CRDStringW>
+							 - GetText : function: 00007FF6EA00DD10
+							 - __index : function: 00007FF6EA886D20
+							 - Workforce : property<CAsset>
+							 - GetGuid : function: 00007FF6EA00DC40
+							 - GetWorkforce : function: 00007FF6EA886FE0
+							 - Icon : property<rdsdk::CRDStringW>
+							 - __name : CPopulationAssetTextSource*MT
+							 - GetIcon : function: 00007FF6EA00DCA0
+						 - GetSatisfaction_IncludeBonusNeeds : function: 00007FF6EA003EC0
+						 - GetPopulationCount : function: 00007FF6E9FE1CF0
+						 - GetSatisfaction : function: 00007FF6EA003FC0
+						 - __name : CAreaPopulationManagerTextSource*MT
+						 - PopulationCount : property<int>
+					 - GetNeedUnlock : function: 00007FF6E9FFD6F0
+					 - GetAreaPopulation : function: 00007FF6E9FFD530
+					 - EcoSystem : property<CAreaEcoSystemManager>
+						 - IllnessChance : property<float>
+						 - GetWaterQuality : function: 00007FF6E9FEC790
+						 - SoilQualityDelta : property<float>
+						 - GetQualityDelta : function: 00007FF6E9FECA40
+						 - __index : function: 00007FF6E9FEC370
+						 - IslandHealth : property<float>
+						 - GetAirQuality : function: 00007FF6E9FEC850
+						 - GetQualityMaximum : function: 00007FF6E9FEC9E0
+						 - AirQuality : property<float>
+						 - GetIllnessChance : function: 00007FF6E9FECC40
+						 - WaterQuality : property<float>
+						 - GetSoilQuality : function: 00007FF6E9FEC7F0
+						 - SoilQuality : property<float>
+						 - SetQualityPaused : function: 00007FF6E9FECD30
+						 - SetFeaturePaused : function: 00007FF6E9FECCA0
+						 - QualityMaximum : property<float>
+						 - GetIslandHealth : function: 00007FF6E9FECBE0
+						 - AirQualityDelta : property<float>
+						 - GetAirQualityDelta : function: 00007FF6E9FECB80
+						 - GetQuality : function: 00007FF6E9FEC960
+						 - GetSoilQualityDelta : function: 00007FF6E9FECB20
+						 - WaterQualityDelta : property<float>
+						 - GetWaterQualityDelta : function: 00007FF6E9FECAC0
+						 - __name : CAreaEcoSystemManagerTextSource*MT
+						 - SetQuality : function: 00007FF6E9FEC8B0
+					 - Happiness : property<CAreaHappinessManager>
+						 - CurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : property<int>
+						 - GetGlobalNewspaperHappiness : function: 00007FF6E9FF57E0
+						 - AttractivenessHappiness : property<float>
+						 - PollutionHappiness : property<float>
+						 - __index : function: 00007FF6E9FF5440
+						 - GetWorkingConditionsHappiness : function: 00007FF6E9FF5A00
+						 - GetWarfareHappiness : function: 00007FF6E9FF5A80
+						 - GlobalNewspaperHappiness : property<float>
+						 - AverageHappiness : property<float>
+						 - GetAverageHappiness : function: 00007FF6E9FF5C50
+						 - WarfareHappiness : property<float>
+						 - GetHappinessImpact : function: 00007FF6E9FF5BD0
+						 - GetTotalNewspaperHappiness : function: 00007FF6E9FF58C0
+						 - GetCurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : function: 00007FF6E9FF5D30
+						 - GetAttractivenessHappiness : function: 00007FF6E9FF59A0
+						 - GetStressedWorkforce : function: 00007FF6E9FF5B40
+						 - GetPopulationNewspaperHappiness : function: 00007FF6E9FF5840
+						 - WarfareHappinessThreshold : property<float>
+						 - GetAverageHappinessByPopulation : function: 00007FF6E9FF5CB0
+						 - GetWarfareHappinessThreshold : function: 00007FF6E9FF5AE0
+						 - __name : CAreaHappinessManagerTextSource*MT
+						 - GetPollutionHappiness : function: 00007FF6E9FF5940
+					 - Railway : property<CAreaRailwayManager>
+						 - SetRandomSkin : function: 00007FF6EA006E10
+						 - SetToggleDebugVisualization : function: 00007FF6EA006DC0
+						 - __name : CAreaRailwayManagerTextSource*MT
+					 - AreaMoney : property<CAreaMoneyManager>
+						 - GetTotalMoneyIncome : function: 00007FF6E9FFF7C0
+						 - TotalMoneyIncome : property<int>
+						 - GetVisitorIncome : function: 00007FF6E9FFF760
+						 - VisitorIncome : property<int>
+						 - __name : CAreaMoneyManagerTextSource*MT
+						 - __index : function: 00007FF6E9FFF540
+					 - GetRailway : function: 00007FF6E9FFD3E0
+					 - GetHappiness : function: 00007FF6E9FFD370
+					 - __name : CAreaManagerTextSource*MT
+					 - AreaFestival : property<CAreaFestivalManager>
+						 - GetIsActive : function: 00007FF6E9FF2000
+						 - GetBonusAttractiveness : function: 00007FF6E9FF21D0
+						 - SetIncreasePool : function: 00007FF6E9FF20C0
+						 - GetProtectsFromIncidents : function: 00007FF6E9FF2230
+						 - IsActive : property<bool>
+						 - __index : function: 00007FF6E9FF1D80
+						 - GetRemainingDurationEstimation : function: 00007FF6E9FF2060
+						 - BonusAttractiveness : property<int>
+						 - ProtectsFromIncidents : property<bool>
+						 - SetStopFestival : function: 00007FF6E9FF2180
+						 - SetTriggerFestival : function: 00007FF6E9FF2130
+						 - __name : CAreaFestivalManagerTextSource*MT
+						 - RemainingDurationEstimation : property<rdtime>
+				 - Palace : property<CPropertyPalace>
+					 - GetCurrentParagonLevel : function: 00007FF6EAB9F440
+					 - GetObject : function: 00007FF6EA01ED20
+					 - Object : property<CGameObject>
+						 - TradeRouteVehicle : property<CPropertyTradeRouteVehicle>
+							 - OnCharterRoute : property<bool>
+							 - GetOnCharterRoute : function: 00007FF6EA588DA0
+							 - GetOnMailRoute : function: 00007FF6EA588E60
+							 - GetLoadingSpeedFactor : function: 00007FF6EA588EC0
+							 - __index : function: 00007FF6EA588920
+							 - LoadingSpeedFactor : property<float>
+							 - IsPaused : property<bool>
+							 - RouteName : property<rdsdk::CRDStringW>
+							 - OnOilRoute : property<bool>
+							 - GetOnOilRoute : function: 00007FF6EA588E00
+							 - GetRouteName : function: 00007FF6EA588C70
+							 - GetOnRegularRoute : function: 00007FF6EA588D40
+							 - GetIsPaused : function: 00007FF6EA588CE0
+							 - OnMailRoute : property<bool>
+							 - __name : CPropertyTradeRouteVehicleTextSource*MT
+							 - OnRegularRoute : property<bool>
+						 - GetTradeRouteVehicle : function: 00007FF6EA6F5400
+						 - Repair : property<CPropertyRepairCrane>
+							 - GetNewspaperProductivityIncrease : function: 00007FF6EA585820
+							 - RepairAmountPerSecond : property<float>
+							 - __index : function: 00007FF6EABA85E0
+							 - GetRepairAmount : function: 00007FF6EABA8850
+							 - GetRepairAmountPerSecond : function: 00007FF6EABA88B0
+							 - RepairAmount : property<int>
+							 - __name : CPropertyRepairCraneTextSource*MT
+							 - NewspaperProductivityIncrease : property<float>
+						 - Infectable : property<CPropertyIncidentInfectable>
+							 - GetRiotInfectionChance : function: 00007FF6EAB6D450
+							 - GetArcticIllnessInfectionChance : function: 00007FF6EAB6D5A0
+							 - ArcticIllnessInfectionChance : property<CIncidentChances>
+							 - __index : function: 00007FF6EAB6CF80
+							 - RiotInfectionChance : property<CIncidentChances>
+							 - ExplosionInfectionChance : property<CIncidentChances>
+							 - GetIsInfected : function: 00007FF6EAB6D380
+							 - FireInfectionChance : property<CIncidentChances>
+							 - IsInfected : property<bool>
+							 - GetExplosionInfectionChance : function: 00007FF6EAB6D530
+							 - IsGettingHealed : property<bool>
+							 - GetIllnessInfectionChance : function: 00007FF6EAB6D4C0
+							 - GetFireInfectionChance : function: 00007FF6EAB6D3E0
+							 - ResetProtection : function: 00007FF6EAB6D310
+							 - GetIsGettingHealed : function: 00007FF6EAB6D2B0
+							 - __name : CPropertyIncidentInfectableTextSource*MT
+							 - IllnessInfectionChance : property<CIncidentChances>
+						 - River : property<CPropertyRiver>
+							 - SetMoveRiverLevel : function: 00007FF6EABBC440
+							 - __name : CPropertyRiverTextSource*MT
+						 - Downgradability : property<CUpgradabilityChecker>
+							 - UpgradeCosts : property<CBuildCost>
+							 - __index : function: 00007FF6EA231B60
+							 - UpgradeTargetGUID : property<int>
+							 - IsUpgradable : property<bool>
+							 - GetUpgradeTargetGUID : function: 00007FF6EA231E50
+							 - GetIsUpgradable : function: 00007FF6EA231DF0
+							 - __name : CUpgradabilityCheckerTextSource*MT
+							 - GetUpgradeCosts : function: 00007FF6EA1E12C0
+						 - GetIrrigationSouce : function: 00007FF6EA6F5A90
+						 - GetDistribution : function: 00007FF6EA6F48A0
+						 - GetIsKontor : function: 00007FF6EA6F5DD0
+						 - VisitorHarbor : property<CPropertyVisitorHarbor>
+							 - GetAreaVisitors : function: 00007FF6E9FFD610
+							 - AreaVisitors : property<CAreaVisitors>
+							 - __name : CPropertyVisitorHarborTextSource*MT
+							 - __index : function: 00007FF6EA58CA50
+						 - GetPirate : function: 00007FF6EA6F4FA0
+						 - Nameable : property<CPropertyNameable>
+							 - Name : property<rdsdk::CRDStringW>
+							 - SetName : function: 00007FF6EAB9C910
+							 - GetName : function: 00007FF6EA011E20
+							 - __name : CPropertyNameableTextSource*MT
+							 - __index : function: 00007FF6EAB9C730
+						 - Collectable : property<CPropertyCollectable>
+							 - IsTargetStoragePartiallyFull : property<bool>
+							 - CanBeCollected : property<bool>
+							 - __index : function: 00007FF6EAB504E0
+							 - GetIsTargetStorageFull : function: 00007FF6EAB507B0
+							 - IsTargetStorageFull : property<bool>
+							 - GetIsTargetStoragePartiallyFull : function: 00007FF6EAB50810
+							 - GetCanBeDropped : function: 00007FF6EAB50870
+							 - GetCanBeCollected : function: 00007FF6EAB50750
+							 - __name : CPropertyCollectableTextSource*MT
+							 - CanBeDropped : property<bool>
+						 - Mesh : property<CPropertyMesh>
+							 - SetShortenSails : function: 00007FF6EAB86CF0
+							 - SetVisible : function: 00007FF6EAB86D80
+							 - SetToggleDecalCondition : function: 00007FF6EAB86E10
+							 - SetLocalWind : function: 00007FF6EAB86C60
+							 - __name : CPropertyMeshTextSource*MT
+						 - GetItemContainer : function: 00007FF6EA6F51D0
+						 - GetBombarder : function: 00007FF6EA6F5BE0
+						 - GetInfectable : function: 00007FF6EA6F57F0
+						 - GetVisitorHarbor : function: 00007FF6EA6F5550
+						 - IsKontor : property<bool>
+						 - BusStop : property<CPropertyBusStop>
+							 - GetNeedSaturation : function: 00007FF6EAB4ED70
+							 - GetBusNeedDistanceSatisfaction : function: 00007FF6EAB4EC60
+							 - GetIsBusNeedSatisfactionReduced : function: 00007FF6EAB4ECE0
+							 - __name : CPropertyBusStopTextSource*MT
+						 - GetIncidentResolver : function: 00007FF6EA6F50F0
+						 - Dockland : property<CPropertyDockland>
+							 - GetLoadingSpeedBoost : function: 00007FF6EAB5BFC0
+							 - GetModuleStorageBonus : function: 00007FF6EAB5C020
+							 - LoadingSpeedBoost : property<float>
+							 - ModuleStorageBonus : property<int>
+							 - __name : CPropertyDocklandTextSource*MT
+							 - __index : function: 00007FF6EAB5BD70
+						 - SetChangeSkin : function: 00007FF6EA6F6210
+						 - IsOwnedByCurrentParticipant : property<bool>
+						 - DelayedConstruction : property<CPropertyDelayedConstruction>
+							 - GetRemainingConstructionTime : function: 00007FF6EAB5A3E0
+							 - RemainingConstructionTime : property<rdtime>
+							 - SetCheatReady : function: 00007FF6EAB5A440
+							 - __name : CPropertyDelayedConstructionTextSource*MT
+							 - __index : function: 00007FF6EAB5A200
+						 - IsBlueprunt : property<bool>
+						 - GetGUID : function: 00007FF6EA6F5F50
+						 - AreaManager : property<CAreaManager>
+							 - NeedUnlock : property<CAreaNeedUnlockManager>
+							 - GetAreaFestival : function: 00007FF6E9FFD4C0
+							 - __index : function: 00007FF6E9FFCF60
+							 - AreaObjects : property<CAreaObjectManager>
+							 - GetAttractivity : function: 00007FF6E9FFD680
+							 - GetAreaObjects : function: 00007FF6E9FFD450
+							 - GetEcoSystem : function: 00007FF6E9FFD760
+							 - GetAreaMoney : function: 00007FF6E9FFD5A0
+							 - Attractivity : property<CAreaAttractivityManager>
+							 - AreaPopulation : property<CAreaPopulationManager>
+							 - GetNeedUnlock : function: 00007FF6E9FFD6F0
+							 - GetAreaPopulation : function: 00007FF6E9FFD530
+							 - EcoSystem : property<CAreaEcoSystemManager>
+							 - Happiness : property<CAreaHappinessManager>
+							 - Railway : property<CAreaRailwayManager>
+							 - AreaMoney : property<CAreaMoneyManager>
+							 - GetRailway : function: 00007FF6E9FFD3E0
+							 - GetHappiness : function: 00007FF6E9FFD370
+							 - __name : CAreaManagerTextSource*MT
+							 - AreaFestival : property<CAreaFestivalManager>
+						 - Palace : property<CPropertyPalace>
+							 - GetCurrentParagonLevel : function: 00007FF6EAB9F440
+							 - GetObject : function: 00007FF6EA01ED20
+							 - Object : property<CGameObject>
+							 - __index : function: 00007FF6EAB9F080
+							 - GetParagonProductivityBonus : function: 00007FF6EAB9F830
+							 - GetAttractivenesNeededForNextParagonLevel : function: 00007FF6EAB9F650
+							 - GetAttractivenessNeededToUnlockMinistry : function: 00007FF6EAB9F530
+							 - CurrentParagonLevel : property<int>
+							 - GetParagonModuleInfluenceBonus : function: 00007FF6EAB9F7A0
+							 - GetParagonSpecialistSpawnBonus : function: 00007FF6EAB9FA70
+							 - GetActiveBaseOrParagonEffect : function: 00007FF6EAB9F5C0
+							 - GetParagonAttractivenessBonus : function: 00007FF6EAB9F9E0
+							 - GetParagonServiceRangeBonus : function: 00007FF6EAB9F8C0
+							 - GetParagonIslandStorageBonus : function: 00007FF6EAB9F950
+							 - AttractivenesNeededForCurrentParagonLevel : property<int>
+							 - GetParagonWorforceBonus : function: 00007FF6EAB9F710
+							 - PalaceEffectRange : property<int>
+							 - GetBaseEffect : function: 00007FF6EAB9F4A0
+							 - AttractivenesNeededForNextParagonLevel : property<int>
+							 - GetPalaceEffectRange : function: 00007FF6EAB9F3E0
+							 - GetIsMinistryUnlocked : function: 00007FF6EAB9F350
+							 - __name : CPropertyPalaceTextSource*MT
+							 - GetAttractivenesNeededForCurrentParagonLevel : function: 00007FF6EAB9F6B0
+						 - GetHacienda : function: 00007FF6EA6F5940
+						 - ItemCrafter : property<CPropertyItemCrafter>
+							 - GetCraftingCosts : function: 00007FF6EAB82930
+							 - __name : CPropertyItemCrafterTextSource*MT
+						 - GetAttackable : function: 00007FF6EA6F4520
+						 - ShipMaintenance : property<CPropertyShipMaintenance>
+							 - GetMaintenance : function: 00007FF6EA584520
+							 - Maintenance : property<int>
+							 - __name : CPropertyShipMaintenanceTextSource*MT
+							 - __index : function: 00007FF6EA584330
+						 - GetShipyard : function: 00007FF6EA6F5320
+						 - SetCycleSkins : function: 00007FF6EA6F6120
+						 - GetPalace : function: 00007FF6EA6F5860
+						 - SetMove : function: 00007FF6EA6F6020
+						 - ShipIncident : property<CPropertyShipIncident>
+							 - GetRemainingDuration : function: 00007FF6EABC1470
+							 - RemainingDuration : property<rdtime>
+							 - CheatEndInfection : function: 00007FF6EABC12D0
+							 - CheatEndAnyInfection : function: 00007FF6EABC1340
+							 - __index : function: 00007FF6EABC0F20
+							 - CheatInfect : function: 00007FF6EABC1210
+							 - CheatInfectRandom : function: 00007FF6EABC1280
+							 - GetActiveIncidentType : function: 00007FF6EABC11B0
+							 - ToggleDebugRenderRadius : function: 00007FF6EABC1420
+							 - ActiveIncidentType : property<int>
+							 - __name : CPropertyShipIncidentTextSource*MT
+							 - CheatIgnoreIncidentPriority : function: 00007FF6EABC1390
+						 - Shipyard : property<CPropertyShipyard>
+							 - GetBuildCostForShip : function: 00007FF6EA585780
+							 - GetCurrentConstructionGUID : function: 00007FF6EA585540
+							 - SetCheatSkipRemainingTime : function: 00007FF6EA585880
+							 - RemainingRelativeTime : property<rdtime>
+							 - GetIsCurrentConstructionGUID : function: 00007FF6EA5855A0
+							 - __index : function: 00007FF6EA585290
+							 - GetRemainingRelativeTime : function: 00007FF6EA585720
+							 - CurrentConstructionGUID : property<int>
+							 - GetProgress : function: 00007FF6EA585630
+							 - GetConstructionTime : function: 00007FF6EA585690
+							 - __name : CPropertyShipyardTextSource*MT
+							 - Progress : property<float>
+						 - SessionGuid : property<int>
+						 - GetWatered : function: 00007FF6EA6F5A20
+						 - GetDying : function: 00007FF6EA6F4910
+						 - GetConstructionAI : function: 00007FF6EA6F47C0
+						 - Pausable : property<CPropertyPausable>
+							 - GetIsPausedByQuest : function: 00007FF6EABA4FF0
+							 - IsPausedByQuest : property<bool>
+							 - TogglePause : function: 00007FF6EA727A50
+							 - __name : CPropertyPausableTextSource*MT
+							 - __index : function: 00007FF6EABA4DF0
+						 - GetLifetime : function: 00007FF6EA6F55C0
+						 - Warehouse : property<CPropertyWarehouse>
+							 - GetStorageBonus : function: 00007FF6EA592750
+							 - StorageBonusInclModules : property<int>
+							 - __index : function: 00007FF6EA592500
+							 - StrategicGood : property<int>
+							 - StorageBonus : property<int>
+							 - GetStorageBonusInclModules : function: 00007FF6EA592810
+							 - GetStrategicGood : function: 00007FF6EA5927B0
+							 - __name : CPropertyWarehouseTextSource*MT
+							 - GetStorageDifferenceToIslandStorage : function: 00007FF6EA592870
+						 - GetIsResidence : function: 00007FF6EA6F5CB0
+						 - GetCollectable : function: 00007FF6EA6F46E0
+						 - GetDockland : function: 00007FF6EA6F4980
+						 - GetIsCulturalModule : function: 00007FF6EA6F5E30
+						 - GetStatic : function: 00007FF6EA6F5FB0
+						 - GetDelayedConstruction : function: 00007FF6EA6F4830
+						 - GetModule : function: 00007FF6EA6F4600
+						 - FloorStack : property<CPropertyFloorStackOwner>
+							 - SetChangeFloorSize : function: 00007FF6EAB68BB0
+							 - __name : CPropertyFloorStackOwnerTextSource*MT
+						 - IsWarehouse : property<bool>
+						 - GetWalking : function: 00007FF6EA6F5080
+						 - GetOwner : function: 00007FF6EA6F67F0
+						 - IrrigationSouce : property<CPropertyIrrigationSource>
+							 - GetBaseCapacity : function: 00007FF6EAB7A960
+							 - GetCurentCapacity : function: 00007FF6EAB7A840
+							 - CurrentDynamicCapacity : property<int>
+							 - GetMaxDynamicCapacity : function: 00007FF6EAB7A900
+							 - CurentCapacity : property<int>
+							 - __index : function: 00007FF6EAB7A5B0
+							 - GetCurrentDynamicCapacity : function: 00007FF6EAB7A8A0
+							 - BaseCapacity : property<int>
+							 - __name : CPropertyIrrigationSourceTextSource*MT
+							 - MaxDynamicCapacity : property<int>
+						 - __name : CGameObjectTextSource*MT
+						 - IsCulturalModule : property<bool>
+						 - Sellable : property<CPropertySellable>
+							 - CanBeSoldToTrader : property<bool>
+							 - GetCurrentParticipantBuyPrice : function: 00007FF6EABBE350
+							 - SetOnSale : function: 00007FF6EABBE200
+							 - GetCanBeSoldToTrader : function: 00007FF6EABBE430
+							 - CurrentParticipantBuyPrice : property<CBuildCost>
+							 - GetSellPrice : function: 00007FF6EABBE3C0
+							 - GetOnSale : function: 00007FF6EABBE290
+							 - __index : function: 00007FF6EABBDF40
+							 - BuyNet : function: 00007FF6EABBE4E0
+							 - GetAffordableByCurrentParticipant : function: 00007FF6EABBE2F0
+							 - CheatBuy : function: 00007FF6EABBE490
+							 - OnSale : property<bool>
+							 - SellPrice : property<CBuildCost>
+							 - __name : CPropertySellableTextSource*MT
+							 - AffordableByCurrentParticipant : property<bool>
+						 - Maintenance : property<CPropertyMaintenance>
+							 - GetMaintenanceCost : function: 00007FF6EAB84CB0
+							 - SetToggleConsumerPriorityAlarm : function: 00007FF6EAB84DD0
+							 - __index : function: 00007FF6EAB84A80
+							 - IsAdditionalWorkforceFullySatisfied : property<bool>
+							 - DeltaInputSaturation : property<float>
+							 - GetStaticMaintenanceCost : function: 00007FF6EAB84D40
+							 - GetDeltaInputSaturation : function: 00007FF6EAB84E20
+							 - __name : CPropertyMaintenanceTextSource*MT
+							 - GetIsAdditionalWorkforceFullySatisfied : function: 00007FF6EAB84E80
+						 - GetSellable : function: 00007FF6EA6F5780
+						 - Factory : property<CPropertyFactory7>
+							 - GetHasNeededFertility : function: 00007FF6EA01EA80
+							 - GetProductivity : function: 00007FF6EAB62440
+							 - GetPostboxResidents : function: 00007FF6EAB62980
+							 - GetProductivityFarmFieldBoost : function: 00007FF6EAB62620
+							 - NewspaperProductivityByProductivityEffect : property<float>
+							 - ProductivityUpgrade : property<float>
+							 - GetEconomyModifier : function: 00007FF6EA76B4D0
+							 - TeleportsProducedGoodsDirectlyIntoAreaStorage : property<bool>
+							 - GetCurrentProductivity : function: 00007FF6EAB624A0
+							 - HasNeededFertility : property<bool>
+							 - GetTeleportsProducedGoodsDirectlyIntoAreaStorage : function: 00007FF6EAB62320
+							 - GetNeededFertility : function: 00007FF6EAB62800
+							 - NewspaperProductivityByArmamentEffect : property<float>
+							 - ProductivityFarmFieldBoost : property<float>
+							 - Productivity : property<float>
+							 - GetFillStorage : function: 00007FF6EAB622C0
+							 - GetNewspaperProductivityByArmamentEffect : function: 00007FF6EAB62680
+							 - ProductivityBoostPotential : property<float>
+							 - GetNewspaperProductivityByProductivityEffect : function: 00007FF6EAB626E0
+							 - FillStorage : property<bool>
+							 - GetProductivityUpgrade : function: 00007FF6EAB62500
+							 - __index : function: 00007FF6EAB61BE0
+							 - ToggleCheatFertility : function: 00007FF6EAB628D0
+							 - RelativeCycleTime : property<rdtime>
+							 - GetProductivityBoostPotential : function: 00007FF6EAB625C0
+							 - PostboxProductivity : property<float>
+							 - GetPostboxProductivity : function: 00007FF6EAB62920
+							 - NeedsAFertility : property<bool>
+							 - GetNeedsAFertility : function: 00007FF6EAB62870
+							 - GetCycleTime : function: 00007FF6EAB62380
+							 - NeededFertility : property<CAsset>
+							 - GetProductivityBase : function: 00007FF6EAB62560
+							 - NoWarehouseInRange : property<bool>
+							 - GetNoWarehouseInRange : function: 00007FF6EAB627A0
+							 - GetFullOutputStorage : function: 00007FF6EAB62740
+							 - ProductivityBase : property<float>
+							 - FullOutputStorage : property<bool>
+							 - PostboxResidents : property<int>
+							 - GetRelativeCycleTime : function: 00007FF6EAB623E0
+							 - CurrentProductivity : property<float>
+							 - __name : CPropertyFactory7TextSource*MT
+							 - CycleTime : property<rdtime>
+						 - Walking : property<CPropertyWalking>
+							 - BaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : property<float>
+							 - GetAffectedByWind : function: 00007FF6EA58DFB0
+							 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : function: 00007FF6EA58DEF0
+							 - BaseSpeedWithStaticSpeedFactors : property<float>
+							 - GetIsMoving : function: 00007FF6EA58DCE0
+							 - GetSessionTransferSpeedFactor : function: 00007FF6EA58E010
+							 - BaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : property<float>
+							 - SetUnsetIdleTickCount : function: 00007FF6EA58DC90
+							 - BaseSpeedWithUpgrades : property<float>
+							 - DebugStop : function: 00007FF6EA58DC40
+							 - GetBaseSpeedWithUpgrades_MaxWindSlowdown : function: 00007FF6EA58DDD0
+							 - GetBaseSpeedWithStaticSpeedFactors : function: 00007FF6EA58DE90
+							 - BaseSpeedWithUpgrades_MaxWindSlowdown : property<float>
+							 - SessionTransferSpeedFactor : property<float>
+							 - AffectedByWind : property<bool>
+							 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : function: 00007FF6EA58DF50
+							 - GetBaseSpeedWithUpgrades_MaxWindSpeedup : function: 00007FF6EA58DE30
+							 - BaseSpeedWithUpgrades_MaxWindSpeedup : property<float>
+							 - GetBaseSpeedWithUpgrades : function: 00007FF6EA58DD70
+							 - SetDebugGoto : function: 00007FF6EA58DB90
+							 - __name : CPropertyWalkingTextSource*MT
+							 - __index : function: 00007FF6EA58D7F0
+						 - HasAlternativeGrassColor : property<bool>
+						 - GetRiver : function: 00007FF6EA6F4E50
+						 - GetCommandQueue : function: 00007FF6EA6F4750
+						 - Module : property<CPropertyBuildingModule>
+							 - GetIsCulturalModule : function: 00007FF6EA6F5E30
+							 - IsCulturalModule : property<bool>
+							 - __name : CPropertyBuildingModuleTextSource*MT
+							 - __index : function: 00007FF6EA899FE0
+						 - GetRepair : function: 00007FF6EA6F4D70
+						 - IsMonument : property<bool>
+						 - GetShipIncident : function: 00007FF6EA6F5630
+						 - GetLogistic : function: 00007FF6EA6F59B0
+						 - GetBusStop : function: 00007FF6EA6F4670
+						 - CommandQueue : property<CPropertyCommandQueue>
+							 - GetUI_IsInATradeRoute : function: 00007FF6EAB53550
+							 - UI_IsBombarding : property<bool>
+							 - GetUI_IsBombarding : function: 00007FF6EAB53670
+							 - GetHasTradeRouteAssignment : function: 00007FF6EAB53250
+							 - GetUI_IsNonMoving : function: 00007FF6EAB53310
+							 - GetUI_HasLostTarget : function: 00007FF6EAB53610
+							 - __index : function: 00007FF6EAB52D10
+							 - UI_IsHoldingQuestObject : property<bool>
+							 - UI_IsInCombat : property<bool>
+							 - GetUI_IsLeavingTheSession : function: 00007FF6EAB534F0
+							 - HasTradeRouteAssignment : property<bool>
+							 - UI_IsInATradeRoute : property<bool>
+							 - UI_IsLeavingTheSession : property<bool>
+							 - GetHasExpeditionAssignment : function: 00007FF6EAB531F0
+							 - UI_IsPatrolling : property<bool>
+							 - GetUI_IsPatrolling : function: 00007FF6EAB53490
+							 - UI_IsEscorting : property<bool>
+							 - GetUI_IsHoldingQuestObject : function: 00007FF6EAB53430
+							 - HasPatrolAssignment : property<bool>
+							 - GetUI_IsChosenOrOutOnExpedition : function: 00007FF6EAB533D0
+							 - UI_IsChosenOrOutOnExpedition : property<bool>
+							 - UI_IsMoving : property<bool>
+							 - UI_HasLostTarget : property<bool>
+							 - GetUI_IsMoving : function: 00007FF6EAB532B0
+							 - GetUI_IsInCombat : function: 00007FF6EAB53370
+							 - GetUI_IsEscorting : function: 00007FF6EAB535B0
+							 - UI_IsNonMoving : property<bool>
+							 - HasExpeditionAssignment : property<bool>
+							 - __name : CPropertyCommandQueueTextSource*MT
+							 - GetHasPatrolAssignment : function: 00007FF6EAB53190
+						 - GetUpgradability : function: 00007FF6EA6F6630
+						 - GetRandomMapObject : function: 00007FF6EA6F4F30
+						 - Electric : property<CPropertyElectrifiable>
+							 - BoostFactor : property<float>
+							 - GetBoostFactor : function: 00007FF6EAB5FD90
+							 - GetIsElectrified : function: 00007FF6EAB5FD30
+							 - IsElectrified : property<bool>
+							 - __name : CPropertyElectrifiableTextSource*MT
+							 - __index : function: 00007FF6EAB5FB00
+						 - Trader : property<CPropertyTrader>
+							 - ForceBuild : function: 00007FF6EA58B6A0
+							 - ShipTradeFailed : function: 00007FF6EA58B630
+							 - ClearSellCooldown : function: 00007FF6EA58B5C0
+							 - __name : CPropertyTraderTextSource*MT
+						 - Pier : property<CPropertyLoadingPier>
+							 - TonsPerSec : property<float>
+							 - GetTonsPerSec : function: 00007FF6EAB83F00
+							 - __name : CPropertyLoadingPierTextSource*MT
+							 - __index : function: 00007FF6EAB83D20
+						 - GetEcoProvider : function: 00007FF6EA6F5B70
+						 - ModuleOwner : property<CPropertyModuleOwner>
+							 - ModuleCountIncludingPreviewExcludingNonWorking : property<int>
+							 - ModuleCount : property<int>
+							 - GetModuleLimitForGUID : function: 00007FF6EAB8A130
+							 - GetHasNonIrrigatedModulesBelowLimit : function: 00007FF6EAB8A760
+							 - GetModuleCount : function: 00007FF6EAB8A360
+							 - GetFertilizerModule : function: 00007FF6EAB8A220
+							 - DefaultModuleGUID : property<int>
+							 - GetAmountIrrigatedModules_CapAtLimit : function: 00007FF6EAB8A520
+							 - CosmeticModuleCountIncludingPreview : property<int>
+							 - GetRemainingBuildRights : function: 00007FF6EAB8A8E0
+							 - HasFertilizerModule : property<bool>
+							 - GetCosmeticModuleCountIncludingPreview : function: 00007FF6EAB8A6A0
+							 - GetPalaceModuleLimit : function: 00007FF6EAB8A040
+							 - GetModuleCountIncludeNonWorking_CapAtLimit : function: 00007FF6EAB8A640
+							 - GetModuleCountIncludingPreviewExcludingNonWorking : function: 00007FF6EAB8A820
+							 - HasNonIrrigatedModulesBelowLimit : property<bool>
+							 - GetModuleCountBP : function: 00007FF6EAB8A420
+							 - GetAmountNotIrrigatedModules : function: 00007FF6EAB8A580
+							 - CosmeticModuleLimit : property<int>
+							 - AmountIrrigatedModules_CapAtLimit : property<int>
+							 - MainModuleLimit : property<int>
+							 - __index : function: 00007FF6EAB89980
+							 - ModuleCountIncludingPreview : property<int>
+							 - GetCosmeticModuleLimit : function: 00007FF6EAB8A700
+							 - GetModuleCountIncludeNonWorking : function: 00007FF6EAB8A5E0
+							 - ModuleLimit : property<int>
+							 - GetModuleLimit : function: 00007FF6EAB89F80
+							 - GetAdditionalModule : function: 00007FF6EAB8A2F0
+							 - GetDefaultModuleGUID : function: 00007FF6EAB8A880
+							 - GetModuleCountIncludingPreview : function: 00007FF6EAB8A7C0
+							 - AdditionalModule : property<CGameObject>
+							 - AmountNotIrrigatedModules : property<int>
+							 - AmountIrrigatedModules : property<int>
+							 - FertilizerModule : property<CGameObject>
+							 - GetModuleCountForGUID : function: 00007FF6EAB8A0A0
+							 - GetMainModuleLimit : function: 00007FF6EAB89FE0
+							 - HasAdditionalModule : property<bool>
+							 - GetAmountIrrigatedModules : function: 00007FF6EAB8A4C0
+							 - ModuleCountIncludeNonWorking_CapAtLimit : property<int>
+							 - PalaceModuleCount : property<int>
+							 - GetHasFertilizerModule : function: 00007FF6EAB8A1C0
+							 - GetPalaceModuleCount : function: 00007FF6EAB8A3C0
+							 - GetHasAdditionalModule : function: 00007FF6EAB8A290
+							 - __name : CPropertyModuleOwnerTextSource*MT
+							 - PalaceModuleLimit : property<int>
+							 - ModuleCountIncludeNonWorking : property<int>
+						 - EcoProvider : property<CPropertyEcoSystemProvider>
+							 - MaxMonoCulture : property<int>
+							 - GetNegativeMonoCulture : function: 00007FF6EAB5E0D0
+							 - GetCurrentDelta : function: 00007FF6EAB5E010
+							 - __index : function: 00007FF6EAB5DD50
+							 - CurrentDelta : property<float>
+							 - GetPositiveMonoCulture : function: 00007FF6EAB5E070
+							 - GetMaxMonoCulture : function: 00007FF6EAB5E130
+							 - NegativeMonoCulture : property<float>
+							 - __name : CPropertyEcoSystemProviderTextSource*MT
+							 - PositiveMonoCulture : property<float>
+						 - GetDowngradability : function: 00007FF6EA6F66A0
+						 - ConstructionAI : property<CPropertyConstructionAI>
+							 - GrantSettlePermissionNet : function: 00007FF6EAB57D50
+							 - __name : CPropertyConstructionAITextSource*MT
+						 - Upgradability : property<CUpgradabilityChecker>
+						 - GetIsCultureMainBuilding : function: 00007FF6EA6F6A60
+						 - GetMaintenance : function: 00007FF6EA6F5710
+						 - GetTrader : function: 00007FF6EA6F5470
+						 - Expedition : property<CExpedition>
+							 - TravelTimeLeft : property<rdtime>
+							 - EventCountdown : property<rdtime>
+							 - SetEndExpedition : function: 00007FF6EA6DDE90
+							 - SetCheatSetCurrentDecision : function: 00007FF6EA6DDCB0
+							 - GetDays : function: 00007FF6EA6DE200
+							 - GetOptionAttributeLevel : function: 00007FF6EA6DE340
+							 - ExpeditionShipStarting : property<bool>
+							 - SetCheatEndExpedition : function: 00007FF6EA6DDD20
+							 - ExpeditionShip : property<CGameObject>
+							 - SetDiscardExpedition : function: 00007FF6EA6DE010
+							 - GetOptionAttributeLevelDescription : function: 00007FF6EA6DE3D0
+							 - ExpeditionShipReturning : property<bool>
+							 - SetCheatCurrentEvent : function: 00007FF6EA6DDC40
+							 - __index : function: 00007FF6EA6DD620
+							 - SetResolveDecision : function: 00007FF6EA6DDDD0
+							 - SetCheatEventCountdown : function: 00007FF6EA6DDBF0
+							 - Days : property<int>
+							 - SetOpenEventUI : function: 00007FF6EA6DE260
+							 - Morale : property<int>
+							 - GetRequirementConsumeAmount : function: 00007FF6EA6DE170
+							 - GetExpeditionShipReturning : function: 00007FF6EA6DDB30
+							 - GetMorale : function: 00007FF6EA6DDFB0
+							 - GetEventCountdown : function: 00007FF6EA6DDB90
+							 - GetThreatDescription : function: 00007FF6EA6DDA40
+							 - GetOptionAttributeSum : function: 00007FF6EA6DE2B0
+							 - GetMaxStartMoralePoints : function: 00007FF6EA6DDEE0
+							 - GetTravelTimeLeft : function: 00007FF6EA6DE460
+							 - SetMorale : function: 00007FF6EA6DDF40
+							 - GetRequirement : function: 00007FF6EA6DE0D0
+							 - GetExpeditionShip : function: 00007FF6EA6DE060
+							 - MaxStartMoralePoints : property<int>
+							 - GetCurrentEvent : function: 00007FF6EA6DDD70
+							 - __name : CExpeditionTextSource*MT
+							 - GetExpeditionShipStarting : function: 00007FF6EA6DDAD0
+							 - CurrentEvent : property<int>
+						 - GetExpedition : function: 00007FF6EA6F69F0
+						 - GetAreaManager : function: 00007FF6EA6F6980
+						 - Attackable : property<CPropertyAttackable>
+							 - MaxHitPoints : property<short>
+							 - GetMaxHitPoints : function: 00007FF6EA890250
+							 - SetAddDamagePercent : function: 00007FF6EA890310
+							 - GetIsUnderAttack : function: 00007FF6EA890520
+							 - __index : function: 00007FF6EA88FFB0
+							 - CheatRemainingEffectTime : function: 00007FF6EA890580
+							 - GetIsWhiteFlagActive : function: 00007FF6EA8904C0
+							 - IsWhiteFlagActive : property<bool>
+							 - GetStatusEffectChainStageCount : function: 00007FF6EA8907A0
+							 - GetIsPartOfActiveStatusEffectChain : function: 00007FF6EA8905F0
+							 - GetCurHitPoints : function: 00007FF6EA8902B0
+							 - GetStatusEffectChainStage : function: 00007FF6EA890710
+							 - IsUnderAttack : property<bool>
+							 - SetDebugInvincible : function: 00007FF6EA890430
+							 - CurHitPoints : property<short>
+							 - __name : CPropertyAttackableTextSource*MT
+							 - GetRemainingStatusEffectDuration : function: 00007FF6EA890680
+						 - GetArea : function: 00007FF6EA6F6910
+						 - GetSessionGuid : function: 00007FF6EA6F68B0
+						 - Hacienda : property<CPropertyHacienda>
+							 - NextRadiusRequirement : property<int>
+							 - GetIsPolicyUnlocked : function: 00007FF6EAB6B390
+							 - GetRequiredAttractivenessForPolicy : function: 00007FF6EAB6B420
+							 - GetNextRadiusRequirement : function: 00007FF6EAB6B4B0
+							 - __name : CPropertyHaciendaTextSource*MT
+							 - __index : function: 00007FF6EAB6B1B0
+						 - GetShipMaintenance : function: 00007FF6EA6F56A0
+						 - Lifetime : property<CPropertyLifetime>
+							 - GetRemainingTime : function: 00007FF6EAB83370
+							 - RemainingTime : property<rdtime>
+							 - __name : CPropertyLifetimeTextSource*MT
+							 - __index : function: 00007FF6EAB83190
+						 - GetIsOwnedByCurrentParticipant : function: 00007FF6EA6F6850
+						 - Owner : property<int>
+						 - Watered : property<CPropertyWatered>
+							 - RequiresWater : property<bool>
+							 - GetRequiresWater : function: 00007FF6EA5945A0
+							 - IsWatered : property<bool>
+							 - GetIsWatered : function: 00007FF6EA594540
+							 - __name : CPropertyWateredTextSource*MT
+							 - __index : function: 00007FF6EA594330
+						 - GetPausable : function: 00007FF6EA6F4D00
+						 - Renovatability : property<CRenovatabilityChecker>
+							 - Costs : property<CBuildCost>
+							 - GetCosts : function: 00007FF6EA01A4E0
+							 - GetIsRenovatable : function: 00007FF6EA5A6F30
+							 - IsRenovatable : property<bool>
+							 - __name : CRenovatabilityCheckerTextSource*MT
+							 - __index : function: 00007FF6EA5A6D00
+						 - GetRenovatability : function: 00007FF6EA6F6780
+						 - FloorAddability : property<CUpgradabilityChecker>
+						 - GetFloorAddability : function: 00007FF6EA6F6710
+						 - IsCultureMainBuilding : property<bool>
+						 - IncidentResolver : property<CPropertyIncidentResolver>
+							 - GetIsActionOnCooldown : function: 00007FF6EAB715C0
+							 - IsActionOnCooldown : property<bool>
+							 - ActionUpgradeHappinessBonus : property<float>
+							 - GetIsRiotInstitution : function: 00007FF6EAB71440
+							 - GetInfectionChanceIllness : function: 00007FF6EAB71090
+							 - GetActionAdditionalUnitAmount : function: 00007FF6EAB71150
+							 - IsSpecialActionActive : property<bool>
+							 - StandardUnitAsset : property<CAsset>
+							 - ActionNewspaperHappinessBonus : property<float>
+							 - GetIsIncidentNearby : function: 00007FF6EAB71560
+							 - InfectionChanceFire : property<float>
+							 - InfectionChanceIllness : property<float>
+							 - GetInfectionChance : function: 00007FF6EAB70F70
+							 - GetIsArcticIllnessInstitution : function: 00007FF6EAB71500
+							 - SpecialUnitAsset : property<CAsset>
+							 - InfectionChanceRiot : property<float>
+							 - GetResolverPopulationThreshold : function: 00007FF6EAB71210
+							 - RemainingActionCooldown : property<rdtime>
+							 - GetInfectionChanceRiot : function: 00007FF6EAB71030
+							 - GetIsPotentialAvailableSpecialUnitIndex : function: 00007FF6EAB71680
+							 - IsIncidentNearby : property<bool>
+							 - DoesAnybodyNearbyNeedHelp : property<bool>
+							 - ActionMaxAdditionalUnitAmount : property<int>
+							 - IsArcticIllnessInstitution : property<bool>
+							 - IsIllnessInstitution : property<bool>
+							 - __index : function: 00007FF6EAB705C0
+							 - ClearSpecialActionCooldown : function: 00007FF6EAB70E40
+							 - GetInfectionChanceFire : function: 00007FF6EAB70FD0
+							 - CanSendSpecialForces : property<bool>
+							 - ActionCooldown : property<rdtime>
+							 - IsRiotInstitution : property<bool>
+							 - GetStandardUnitAsset : function: 00007FF6EAB70F00
+							 - GetRemainingActionCooldown : function: 00007FF6EAB70D80
+							 - IsFireInstitution : property<bool>
+							 - GetCanSendSpecialForces : function: 00007FF6EAB70D20
+							 - GetIsFireInstitution : function: 00007FF6EAB713E0
+							 - GetActionUpgradeHappinessBonus : function: 00007FF6EAB71380
+							 - GetActionCooldown : function: 00007FF6EAB70DE0
+							 - GetActionNewspaperHappinessBonus : function: 00007FF6EAB71320
+							 - GetSpecialUnitAsset : function: 00007FF6EAB70E90
+							 - GetResolverHappinessThreshold : function: 00007FF6EAB712A0
+							 - GetDoesAnybodyNearbyNeedHelp : function: 00007FF6EAB71620
+							 - GetActionMaxAdditionalUnitAmount : function: 00007FF6EAB711B0
+							 - ActionAdditionalUnitAmount : property<int>
+							 - InfectionChance : property<float>
+							 - InfectionChanceArcticIllness : property<float>
+							 - GetInfectionChanceArcticIllness : function: 00007FF6EAB710F0
+							 - __name : CPropertyIncidentResolverTextSource*MT
+							 - GetIsIllnessInstitution : function: 00007FF6EAB714A0
+							 - GetIsSpecialActionActive : function: 00007FF6EAB70CC0
+						 - RandomMapObject : property<CPropertyRandomMapObject>
+							 - SetFiniteResourceAmount : function: 00007FF6EABA6700
+							 - ResourceCapacity : property<int>
+							 - GetResourceAmount : function: 00007FF6EABA66A0
+							 - ResourceAmount : property<int>
+							 - GetResourceCapacity : function: 00007FF6EABA6640
+							 - __name : CPropertyRandomMapObjectTextSource*MT
+							 - __index : function: 00007FF6EABA6420
+						 - FreeArea : property<CPropertyFreeAreaProductivity>
+							 - SetToggleGridDebugDraw : function: 00007FF6EAB69C60
+							 - TreeCount : property<int>
+							 - __index : function: 00007FF6EAB69940
+							 - GetNeededTreeCount : function: 00007FF6EAB69C00
+							 - GetTreeCount : function: 00007FF6EAB69BA0
+							 - __name : CPropertyFreeAreaProductivityTextSource*MT
+							 - NeededTreeCount : property<int>
+						 - __index : function: 00007FF6EA6F3230
+						 - SetDowngrade : function: 00007FF6EA6F6540
+						 - GetModuleOwner : function: 00007FF6EA6F5240
+						 - Monument : property<CPropertyMonument>
+							 - GetEventWorkforceByGUID : function: 00007FF6EAB94750
+							 - RemainingEventTime : property<rdtime>
+							 - GetNeededProduct : function: 00007FF6EAB93FF0
+							 - CurrentPhase : property<int>
+							 - RemainingTime : property<rdsdk::CRDStringW>
+							 - IsEventFinished : property<bool>
+							 - EventWorkforceUsed : property<int>
+							 - GetIsInConstructionState : function: 00007FF6EAB941D0
+							 - SetCheatSkipEventTime : function: 00007FF6EAB94540
+							 - __index : function: 00007FF6EAB935E0
+							 - GetEventWorkforceUsedByGUID : function: 00007FF6EAB94880
+							 - GetCurrentPhase : function: 00007FF6EAB94300
+							 - IsEventPreparing : property<bool>
+							 - GetIsEventPreparing : function: 00007FF6EAB943C0
+							 - GetAvailableProduct : function: 00007FF6EAB94080
+							 - GetUpgradeTarget : function: 00007FF6EAB93F80
+							 - UpgradeTarget : property<rdsdk::CRDStringW>
+							 - SetOpenExhibitionUI : function: 00007FF6EAB949A0
+							 - GetEventGoodsReductionPercent : function: 00007FF6EAB94910
+							 - GetEventMaxUsableWorkforceAmount : function: 00007FF6EAB947F0
+							 - GetEventGoodsRange : function: 00007FF6EAB94660
+							 - SetPauseUpgrade : function: 00007FF6EAB94180
+							 - EventWorkforce : property<CAsset>
+							 - GetRemainingEventTime : function: 00007FF6EAB944E0
+							 - IsEventRunning : property<bool>
+							 - GetIsEventRunning : function: 00007FF6EAB94420
+							 - MaxPhase : property<int>
+							 - GetMaxPhase : function: 00007FF6EAB94360
+							 - GetRemainingTime : function: 00007FF6EAB94110
+							 - SetCheatMicroPhase : function: 00007FF6EAB942B0
+							 - SetCheatUpgradeMicro : function: 00007FF6EAB94260
+							 - GetEventWorkforce : function: 00007FF6EAB94590
+							 - __name : CPropertyMonumentTextSource*MT
+							 - GetIsEventFinished : function: 00007FF6EAB94480
+							 - GetEventWorkforceUsed : function: 00007FF6EAB94600
+						 - Static : property<CAsset>
+							 - __index : function: 00007FF6EA00D9E0
+							 - __name : CAssetTextSource*MT
+						 - Culture : property<CPropertyCulture>
+							 - GetAttractivenessIncludingModules : function: 00007FF6EAB58E50
+							 - __index : function: 00007FF6EAB58B40
+							 - GetAttractiveness : function: 00007FF6EAB58D90
+							 - GetAttractivenessModules : function: 00007FF6EAB58DF0
+							 - AttractivenessIncludingModules : property<int>
+							 - Attractiveness : property<int>
+							 - __name : CPropertyCultureTextSource*MT
+							 - AttractivenessModules : property<int>
+						 - GUID : property<int>
+						 - GetNameable : function: 00007FF6EA6F4C20
+						 - GetMotor : function: 00007FF6EA6F4B40
+						 - IsProduction : property<bool>
+						 - Distribution : property<CPropertyDistribution>
+							 - GetDistributionAmount : function: 00007FF6EAB5B1A0
+							 - __name : CPropertyDistributionTextSource*MT
+						 - GetMonument : function: 00007FF6EA6F4EC0
+						 - IsResidence : property<bool>
+						 - GetHasVariations : function: 00007FF6EA6F5EF0
+						 - GetInfluenceSource : function: 00007FF6EA6F5160
+						 - GetHasAlternativeGrassColor : function: 00007FF6EA6F5E90
+						 - InfluenceSource : property<CPropertyInfluenceSource>
+							 - GetProvidedInfluence : function: 00007FF6EAB79960
+							 - ProvidedInfluence : property<int>
+							 - __name : CPropertyInfluenceSourceTextSource*MT
+							 - __index : function: 00007FF6EAB79770
+						 - GetRecipeBuilding : function: 00007FF6EA6F5B00
+						 - Dying : property<CPropertyDying>
+							 - PropertyID : property<int>
+							 - GetPropertyID : function: 00007FF6EAB5D0E0
+							 - __name : CPropertyDyingTextSource*MT
+							 - __index : function: 00007FF6EAB5CF00
+						 - GetFloorStack : function: 00007FF6EA6F4AD0
+						 - GetIsBlueprunt : function: 00007FF6EA6F65D0
+						 - PalaceMinistry : property<CPropertyPalaceMinistry>
+							 - SetDecreeTier : function: 00007FF6EAB9D760
+							 - SetMinistryType : function: 00007FF6EAB9D6F0
+							 - GetEffectRange : function: 00007FF6EAB9D7D0
+							 - EffectRange : property<int>
+							 - __name : CPropertyPalaceMinistryTextSource*MT
+							 - __index : function: 00007FF6EAB9D500
+						 - SetUpgrade : function: 00007FF6EA6F63D0
+						 - Area : property<CConstructionArea>
+							 - ID : property<AreaID>
+							 - GetPassiveTrade : function: 00007FF6EA79F860
+							 - IsBuyShareBlocked : property<bool>
+							 - GetIncomePerShare : function: 00007FF6EA79F0F0
+							 - BuyShareCooldownTime : property<int>
+							 - GetIsOwnedByCurrentParticipant : function: 00007FF6EA6F6850
+							 - KontorID : property<GameObjectID>
+							 - WarTimer : property<rdtime>
+							 - GetBuyShareCooldownTime : function: 00007FF6EA79ECD0
+							 - OwnerName : property<rdsdk::CRDStringW>
+							 - GetReservationCost : function: 00007FF6EA79F410
+							 - MilitaryTakeoverChanceStart : property<int>
+							 - IsExplosionUnlocked : property<bool>
+							 - GetBuyShareCooldownRemaining : function: 00007FF6EA79EC70
+							 - GetTotalShareIncome : function: 00007FF6EA79EB50
+							 - HasTradeRights : property<bool>
+							 - GetIsTakeoverBlocked : function: 00007FF6EA79F210
+							 - GetOwnerName : function: 00007FF6EA79F080
+							 - GetIsBuyShareBlocked : function: 00007FF6EA79EDA0
+							 - __index : function: 00007FF6EA79DFE0
+							 - SetSellShare : function: 00007FF6EA79EEC0
+							 - Economy : property<CAreaEconomy>
+							 - GetIsExplosionUnlocked : function: 00007FF6EA79F650
+							 - GetCityName : function: 00007FF6EA79F710
+							 - TotalShareIncome : property<float>
+							 - IsFireUnlocked : property<bool>
+							 - GetTakeoverChance : function: 00007FF6EA79EBB0
+							 - GetAmountOfShares : function: 00007FF6EA79EF90
+							 - GetWarTimer : function: 00007FF6EA79F990
+							 - SetHostileTakeover : function: 00007FF6EA79F270
+							 - GetIsRiotUnlocked : function: 00007FF6EA79F590
+							 - MilitaryTakeoverCurrentSurrenderChance : property<int>
+							 - GetID : function: 00007FF6EA79EAF0
+							 - SetBuyShare : function: 00007FF6EA79EE00
+							 - IsTakeoverBlocked : property<bool>
+							 - PassiveTrade : property<CPassiveTradeController>
+							 - PercentOwnedShares : property<int>
+							 - GetKontorID : function: 00007FF6EA79F4D0
+							 - GetIsDuplicate : function: 00007FF6EA79FCC0
+							 - IncomePerShare : property<int>
+							 - SetOpenMilitaryResultScreen : function: 00007FF6EA79FB10
+							 - TakeoverChance : property<int>
+							 - Owner : property<int>
+							 - ReserveIslandInt : function: 00007FF6EA79F2E0
+							 - GetEconomy : function: 00007FF6EA79F780
+							 - TotalIncome : property<int>
+							 - IsOwnedByAnyone : property<bool>
+							 - IsIllnessUnlocked : property<bool>
+							 - MilitaryTakeoverCurrentMorale : property<int>
+							 - IsNextWarBlocked : property<rdtime>
+							 - GetIsOwnedByAnyone : function: 00007FF6EA79F470
+							 - GetReservationOwnerName : function: 00007FF6EA79F3A0
+							 - GetMilitaryTakeoverChanceStart : function: 00007FF6EA79FAB0
+							 - GetIsIllnessUnlocked : function: 00007FF6EA79F5F0
+							 - GetOwnerProfile : function: 00007FF6EA79EFF0
+							 - AmountOfShares : property<int>
+							 - GetMilitaryTakeoverCurrentSurrenderChance : function: 00007FF6EA79FA50
+							 - GetMilitaryTakeoverInfluenceCost : function: 00007FF6EA79FBC0
+							 - GetMilitaryTakeoverCurrentMorale : function: 00007FF6EA79F9F0
+							 - IslandWarActive : property<bool>
+							 - CityName : property<rdsdk::CRDStringW>
+							 - GetIslandWarActive : function: 00007FF6EA79F930
+							 - SetResetCooldown : function: 00007FF6EA79ED30
+							 - GetHasTradeRights : function: 00007FF6EA79F8D0
+							 - GetVisitors : function: 00007FF6EA79F7F0
+							 - Visitors : property<CAreaVisitors>
+							 - GetPercentOwnedShares : function: 00007FF6EA79EF30
+							 - GetTakeoverMinimum : function: 00007FF6EA79EC10
+							 - MilitaryTakeoverSpareInfluenceCost : property<int>
+							 - TotalDebt : property<int>
+							 - BuyShareCooldownRemaining : property<int>
+							 - GetTotalIncome : function: 00007FF6EA79F150
+							 - IsRiotUnlocked : property<bool>
+							 - GetIsArcticIllnesUnlocked : function: 00007FF6EA79F6B0
+							 - IsArcticIllnesUnlocked : property<bool>
+							 - TakeoverMinimum : property<int>
+							 - IsOwnedByCurrentParticipant : property<bool>
+							 - ReservationCost : property<int>
+							 - GetMilitaryTakeoverSpareInfluenceCost : function: 00007FF6EA79FC60
+							 - GetIsFireUnlocked : function: 00007FF6EA79F530
+							 - GetTotalDebt : function: 00007FF6EA79F1B0
+							 - GetOwner : function: 00007FF6EA6F67F0
+							 - GetIsNextWarBlocked : function: 00007FF6EA79FB60
+							 - __name : CConstructionAreaTextSource*MT
+							 - ReservationOwnerName : property<rdsdk::CRDStringW>
+							 - ClearReservation : function: 00007FF6EA79F350
+						 - GetIsWarehouse : function: 00007FF6EA6F5D70
+						 - GetItemCrafter : function: 00007FF6EA6F54E0
+						 - GetIsMonument : function: 00007FF6EA6F5C50
+						 - GetResidence : function: 00007FF6EA6F4DE0
+						 - Pirate : property<CPropertyPirate>
+							 - DebugIncreaseAreaOfActivityRange : function: 00007FF6EABA5920
+							 - __name : CPropertyPirateTextSource*MT
+						 - Residence : property<CPropertyResidence7>
+							 - GetResidentCount : function: 00007FF6EABABA50
+							 - GetPopulationMovesIn : function: 00007FF6EABAC160
+							 - GetInfluence : function: 00007FF6EABACBA0
+							 - ResearchOutput : property<int>
+							 - GetTotalHappinessDebuffForNeed : function: 00007FF6EABABF00
+							 - GetResidentMaxFromBonusNeeds : function: 00007FF6EABAB990
+							 - GetGoodViewValue : function: 00007FF6EABAB860
+							 - GetDebuffAmountForCategory : function: 00007FF6EABAC070
+							 - GetPopulationMovesOut : function: 00007FF6EABAC100
+							 - GetOccupancy : function: 00007FF6EABABB00
+							 - GetMaxInfluence : function: 00007FF6EABACB40
+							 - Occupancy : property<float>
+							 - NegativeGoodViewInfluence : property<int>
+							 - GetMaxMallNeedsSupply : function: 00007FF6EABABDC0
+							 - GetMaxMoneyForGood : function: 00007FF6EABAC9A0
+							 - PopulationMovesOut : property<bool>
+							 - GetMaxSupplyForGood : function: 00007FF6EABAC820
+							 - CurrentMallNeedsSupply : property<int>
+							 - GetPopulationLevel : function: 00007FF6EABAB8C0
+							 - PopulationMovesIn : property<bool>
+							 - GoodViewStartValue : property<int>
+							 - __index : function: 00007FF6EABAAE50
+							 - GetMallNeedsCategoryCount : function: 00007FF6EABABD60
+							 - GetNegativeGoodViewInfluence : function: 00007FF6EABAB7A0
+							 - GetWorkforceOutput : function: 00007FF6EABAC460
+							 - HappinessWorkingCondition : property<float>
+							 - GetResearchOutput : function: 00007FF6EABAC4C0
+							 - GetMallNeedsSatisfaction : function: 00007FF6EABABC40
+							 - HappinessByBuffs : property<float>
+							 - HappinessByHotspots : property<float>
+							 - PositiveGoodViewInfluence : property<int>
+							 - ResidentLimitBySupply : property<int>
+							 - SetEconomyModifier : function: 00007FF6EA76B420
+							 - GetPositiveGoodViewInfluence : function: 00007FF6EABAB6E0
+							 - GetSatisfaction : function: 00007FF6EABABBC0
+							 - GetCurrentHeatForGood : function: 00007FF6EABAC620
+							 - GetHappinessByAttractivity : function: 00007FF6EABAC340
+							 - HappinessByNeeds : property<float>
+							 - SameHeightGoodViewInfluence : property<int>
+							 - GetGoodViewStartValue : function: 00007FF6EABAB800
+							 - ResidentMaxFromBonusNeeds : property<int>
+							 - SetCheatFill : function: 00007FF6EABABAB0
+							 - GetHappinessWorkingCondition : function: 00007FF6EABAC280
+							 - GetHappinessByHotspots : function: 00007FF6EABAC2E0
+							 - MallNeedsCategoryCount : property<int>
+							 - GetHappinessDebuffForNeedByCategory : function: 00007FF6EABABF90
+							 - Influence : property<int>
+							 - GetHappiness : function: 00007FF6EABAC1C0
+							 - ResidentMax : property<int>
+							 - GetHeatByUpgrades : function: 00007FF6EABACAE0
+							 - GetCurrentHappinessForGood : function: 00007FF6EABAC520
+							 - GetCurrentBaseHeat : function: 00007FF6EABACA80
+							 - CurrentHeatSatisfaction : property<float>
+							 - GetCurrentHeatSatisfaction : function: 00007FF6EABACA20
+							 - GetMallNeedsCategory : function: 00007FF6EABABCC0
+							 - GetMoneyOutput : function: 00007FF6EABAC400
+							 - GetSatisfactionTrend : function: 00007FF6EABABE80
+							 - GetMaxHappinessForGood : function: 00007FF6EABAC7A0
+							 - TargetResidentsFromBaseNeeds : property<int>
+							 - GetCurrentResearchForGood : function: 00007FF6EABAC720
+							 - GetCurrentMoneyForGood : function: 00007FF6EABAC6A0
+							 - GetCurrentSupplyForGood : function: 00007FF6EABAC5A0
+							 - HappinessByAttractivity : property<float>
+							 - CurrentBaseHeat : property<float>
+							 - GetHappinessByBuffs : function: 00007FF6EABAC3A0
+							 - GetSameHeightGoodViewInfluence : function: 00007FF6EABAB740
+							 - MoneyOutput : property<int>
+							 - MaxMallNeedsSupply : property<int>
+							 - GetMaxResearchForGood : function: 00007FF6EABAC920
+							 - GetCurrentMallNeedsSupply : function: 00007FF6EABABE20
+							 - PopulationLevel : property<CAsset>
+							 - ResidentCount : property<int>
+							 - GetResidentLimitBySupply : function: 00007FF6EABAB9F0
+							 - WorkforceOutput : property<float>
+							 - HeatByUpgrades : property<float>
+							 - GetHappinessByNeeds : function: 00007FF6EABAC220
+							 - Happiness : property<float>
+							 - MaxInfluence : property<int>
+							 - GetMaxHeatForGood : function: 00007FF6EABAC8A0
+							 - GetTargetResidentsFromBaseNeeds : function: 00007FF6EABABB60
+							 - GetResidentMax : function: 00007FF6EABAB930
+							 - GoodViewValue : property<int>
+							 - __name : CPropertyResidence7TextSource*MT
+						 - GetFactory : function: 00007FF6EA6F4A60
+						 - GetIsProduction : function: 00007FF6EA6F5D10
+						 - Attacker : property<CPropertyAttacker>
+							 - Damage : property<int>
+							 - ReloadTime : property<float>
+							 - GetDPS : function: 00007FF6EA895100
+							 - DPS : property<float>
+							 - __index : function: 00007FF6EA894CB0
+							 - NewspaperFireRateIncrease : property<float>
+							 - GetBaseDamage : function: 00007FF6EA894F80
+							 - GetReloadTime : function: 00007FF6EA895040
+							 - GetDamage : function: 00007FF6EA894FE0
+							 - BaseDamage : property<int>
+							 - __name : CPropertyAttackerTextSource*MT
+							 - GetNewspaperFireRateIncrease : function: 00007FF6EA8950A0
+						 - GetFreeArea : function: 00007FF6EA6F4C90
+						 - Bombarder : property<CPropertyBombarder>
+							 - SetArmed : function: 00007FF6EA8972C0
+							 - StartTargetMode : function: 00007FF6EA8973F0
+							 - CancelBombardement : function: 00007FF6EA897440
+							 - StartArming : function: 00007FF6EA897220
+							 - __index : function: 00007FF6EA897040
+							 - CancelArming : function: 00007FF6EA897270
+							 - ToggleConsumption : function: 00007FF6EA897490
+							 - GetShaftCount : function: 00007FF6EA8974E0
+							 - ShaftCount : property<int>
+							 - __name : CPropertyBombarderTextSource*MT
+							 - SetBarrageSize : function: 00007FF6EA897330
+						 - HasVariations : property<bool>
+						 - RecipeBuilding : property<CPropertyRecipeBuilding>
+							 - ChangeRecipe : function: 00007FF6EABA7A20
+							 - __name : CPropertyRecipeBuildingTextSource*MT
+						 - GetMesh : function: 00007FF6EA6F4BB0
+						 - GetWarehouse : function: 00007FF6EA6F5010
+						 - GetAttacker : function: 00007FF6EA6F4590
+						 - Logistic : property<CLogisticNode>
+							 - GetFreeSpace : function: 00007FF6EA767C50
+							 - GetAvailableAmount : function: 00007FF6EA767AA0
+							 - GetStorageCapacity : function: 00007FF6EA767B30
+							 - GetStorageAmount : function: 00007FF6EA767A10
+							 - GetMaxTransporterCount : function: 00007FF6EA767D70
+							 - GetReservedStorageAmount : function: 00007FF6EA767BC0
+							 - GetCurrentTransporterCount : function: 00007FF6EA767CE0
+							 - __name : CLogisticNodeTextSource*MT
+							 - GetAvailableTransporterCount : function: 00007FF6EA767E00
+						 - GetCulture : function: 00007FF6EA6F52B0
+						 - ItemContainer : property<CPropertyItemContainer>
+							 - GetCanEquipItems : function: 00007FF6EAB7D250
+							 - SetAcceptGeneratedItem : function: 00007FF6EAB7CF10
+							 - GetStackLimit : function: 00007FF6EAB7CFB0
+							 - __index : function: 00007FF6EAB7C740
+							 - GetItemAlreadyExclusive : function: 00007FF6EAB7D160
+							 - SetEquipSlot : function: 00007FF6EAB7CB50
+							 - GetItemAlreadyEquipped : function: 00007FF6EAB7D0D0
+							 - GetDraggedItemAlreadyExclusive : function: 00007FF6EAB7D070
+							 - SetCheatItemInSocket : function: 00007FF6EAB7CDE0
+							 - SetResetSocketState : function: 00007FF6EAB7CEA0
+							 - StackLimit : property<int>
+							 - DraggedItemAlreadyExclusive : property<bool>
+							 - SetClearSlot : function: 00007FF6EAB7CAE0
+							 - GetDraggedItemAlreadyEquipped : function: 00007FF6EAB7D010
+							 - InteractingAreaID : property<AreaID>
+							 - SetDenyGeneratedItem : function: 00007FF6EAB7CF60
+							 - CanEquipItems : property<bool>
+							 - GetInteractingAreaID : function: 00007FF6EAB7D1F0
+							 - SetUnequipSocket : function: 00007FF6EAB7CC10
+							 - DraggedItemAlreadyEquipped : property<bool>
+							 - SetCheatItemInSlot : function: 00007FF6EAB7CA20
+							 - __name : CPropertyItemContainerTextSource*MT
+						 - GetElectric : function: 00007FF6EA6F49F0
+						 - GetPalaceMinistry : function: 00007FF6EA6F58D0
+						 - GetPier : function: 00007FF6EA6F5390
+						 - Motor : property<CPropertyMotorizable>
+							 - IsMotorized : property<bool>
+							 - GetIsMotorized : function: 00007FF6EAB9BD60
+							 - __name : CPropertyMotorizableTextSource*MT
+							 - __index : function: 00007FF6EAB9BB80
+					 - __index : function: 00007FF6EAB9F080
+					 - GetParagonProductivityBonus : function: 00007FF6EAB9F830
+					 - GetAttractivenesNeededForNextParagonLevel : function: 00007FF6EAB9F650
+					 - GetAttractivenessNeededToUnlockMinistry : function: 00007FF6EAB9F530
+					 - CurrentParagonLevel : property<int>
+					 - GetParagonModuleInfluenceBonus : function: 00007FF6EAB9F7A0
+					 - GetParagonSpecialistSpawnBonus : function: 00007FF6EAB9FA70
+					 - GetActiveBaseOrParagonEffect : function: 00007FF6EAB9F5C0
+					 - GetParagonAttractivenessBonus : function: 00007FF6EAB9F9E0
+					 - GetParagonServiceRangeBonus : function: 00007FF6EAB9F8C0
+					 - GetParagonIslandStorageBonus : function: 00007FF6EAB9F950
+					 - AttractivenesNeededForCurrentParagonLevel : property<int>
+					 - GetParagonWorforceBonus : function: 00007FF6EAB9F710
+					 - PalaceEffectRange : property<int>
+					 - GetBaseEffect : function: 00007FF6EAB9F4A0
+					 - AttractivenesNeededForNextParagonLevel : property<int>
+					 - GetPalaceEffectRange : function: 00007FF6EAB9F3E0
+					 - GetIsMinistryUnlocked : function: 00007FF6EAB9F350
+					 - __name : CPropertyPalaceTextSource*MT
+					 - GetAttractivenesNeededForCurrentParagonLevel : function: 00007FF6EAB9F6B0
+				 - GetHacienda : function: 00007FF6EA6F5940
+				 - ItemCrafter : property<CPropertyItemCrafter>
+					 - GetCraftingCosts : function: 00007FF6EAB82930
+					 - __name : CPropertyItemCrafterTextSource*MT
+				 - GetAttackable : function: 00007FF6EA6F4520
+				 - ShipMaintenance : property<CPropertyShipMaintenance>
+					 - GetMaintenance : function: 00007FF6EA584520
+					 - Maintenance : property<int>
+					 - __name : CPropertyShipMaintenanceTextSource*MT
+					 - __index : function: 00007FF6EA584330
+				 - GetShipyard : function: 00007FF6EA6F5320
+				 - SetCycleSkins : function: 00007FF6EA6F6120
+				 - GetPalace : function: 00007FF6EA6F5860
+				 - SetMove : function: 00007FF6EA6F6020
+				 - ShipIncident : property<CPropertyShipIncident>
+					 - GetRemainingDuration : function: 00007FF6EABC1470
+					 - RemainingDuration : property<rdtime>
+					 - CheatEndInfection : function: 00007FF6EABC12D0
+					 - CheatEndAnyInfection : function: 00007FF6EABC1340
+					 - __index : function: 00007FF6EABC0F20
+					 - CheatInfect : function: 00007FF6EABC1210
+					 - CheatInfectRandom : function: 00007FF6EABC1280
+					 - GetActiveIncidentType : function: 00007FF6EABC11B0
+					 - ToggleDebugRenderRadius : function: 00007FF6EABC1420
+					 - ActiveIncidentType : property<int>
+					 - __name : CPropertyShipIncidentTextSource*MT
+					 - CheatIgnoreIncidentPriority : function: 00007FF6EABC1390
+				 - Shipyard : property<CPropertyShipyard>
+					 - GetBuildCostForShip : function: 00007FF6EA585780
+					 - GetCurrentConstructionGUID : function: 00007FF6EA585540
+					 - SetCheatSkipRemainingTime : function: 00007FF6EA585880
+					 - RemainingRelativeTime : property<rdtime>
+					 - GetIsCurrentConstructionGUID : function: 00007FF6EA5855A0
+					 - __index : function: 00007FF6EA585290
+					 - GetRemainingRelativeTime : function: 00007FF6EA585720
+					 - CurrentConstructionGUID : property<int>
+					 - GetProgress : function: 00007FF6EA585630
+					 - GetConstructionTime : function: 00007FF6EA585690
+					 - __name : CPropertyShipyardTextSource*MT
+					 - Progress : property<float>
+				 - SessionGuid : property<int>
+				 - GetWatered : function: 00007FF6EA6F5A20
+				 - GetDying : function: 00007FF6EA6F4910
+				 - GetConstructionAI : function: 00007FF6EA6F47C0
+				 - Pausable : property<CPropertyPausable>
+					 - GetIsPausedByQuest : function: 00007FF6EABA4FF0
+					 - IsPausedByQuest : property<bool>
+					 - TogglePause : function: 00007FF6EA727A50
+					 - __name : CPropertyPausableTextSource*MT
+					 - __index : function: 00007FF6EABA4DF0
+				 - GetLifetime : function: 00007FF6EA6F55C0
+				 - Warehouse : property<CPropertyWarehouse>
+					 - GetStorageBonus : function: 00007FF6EA592750
+					 - StorageBonusInclModules : property<int>
+					 - __index : function: 00007FF6EA592500
+					 - StrategicGood : property<int>
+					 - StorageBonus : property<int>
+					 - GetStorageBonusInclModules : function: 00007FF6EA592810
+					 - GetStrategicGood : function: 00007FF6EA5927B0
+					 - __name : CPropertyWarehouseTextSource*MT
+					 - GetStorageDifferenceToIslandStorage : function: 00007FF6EA592870
+				 - GetIsResidence : function: 00007FF6EA6F5CB0
+				 - GetCollectable : function: 00007FF6EA6F46E0
+				 - GetDockland : function: 00007FF6EA6F4980
+				 - GetIsCulturalModule : function: 00007FF6EA6F5E30
+				 - GetStatic : function: 00007FF6EA6F5FB0
+				 - GetDelayedConstruction : function: 00007FF6EA6F4830
+				 - GetModule : function: 00007FF6EA6F4600
+				 - FloorStack : property<CPropertyFloorStackOwner>
+					 - SetChangeFloorSize : function: 00007FF6EAB68BB0
+					 - __name : CPropertyFloorStackOwnerTextSource*MT
+				 - IsWarehouse : property<bool>
+				 - GetWalking : function: 00007FF6EA6F5080
+				 - GetOwner : function: 00007FF6EA6F67F0
+				 - IrrigationSouce : property<CPropertyIrrigationSource>
+					 - GetBaseCapacity : function: 00007FF6EAB7A960
+					 - GetCurentCapacity : function: 00007FF6EAB7A840
+					 - CurrentDynamicCapacity : property<int>
+					 - GetMaxDynamicCapacity : function: 00007FF6EAB7A900
+					 - CurentCapacity : property<int>
+					 - __index : function: 00007FF6EAB7A5B0
+					 - GetCurrentDynamicCapacity : function: 00007FF6EAB7A8A0
+					 - BaseCapacity : property<int>
+					 - __name : CPropertyIrrigationSourceTextSource*MT
+					 - MaxDynamicCapacity : property<int>
+				 - __name : CGameObjectTextSource*MT
+				 - IsCulturalModule : property<bool>
+				 - Sellable : property<CPropertySellable>
+					 - CanBeSoldToTrader : property<bool>
+					 - GetCurrentParticipantBuyPrice : function: 00007FF6EABBE350
+					 - SetOnSale : function: 00007FF6EABBE200
+					 - GetCanBeSoldToTrader : function: 00007FF6EABBE430
+					 - CurrentParticipantBuyPrice : property<CBuildCost>
+					 - GetSellPrice : function: 00007FF6EABBE3C0
+					 - GetOnSale : function: 00007FF6EABBE290
+					 - __index : function: 00007FF6EABBDF40
+					 - BuyNet : function: 00007FF6EABBE4E0
+					 - GetAffordableByCurrentParticipant : function: 00007FF6EABBE2F0
+					 - CheatBuy : function: 00007FF6EABBE490
+					 - OnSale : property<bool>
+					 - SellPrice : property<CBuildCost>
+					 - __name : CPropertySellableTextSource*MT
+					 - AffordableByCurrentParticipant : property<bool>
+				 - Maintenance : property<CPropertyMaintenance>
+					 - GetMaintenanceCost : function: 00007FF6EAB84CB0
+					 - SetToggleConsumerPriorityAlarm : function: 00007FF6EAB84DD0
+					 - __index : function: 00007FF6EAB84A80
+					 - IsAdditionalWorkforceFullySatisfied : property<bool>
+					 - DeltaInputSaturation : property<float>
+					 - GetStaticMaintenanceCost : function: 00007FF6EAB84D40
+					 - GetDeltaInputSaturation : function: 00007FF6EAB84E20
+					 - __name : CPropertyMaintenanceTextSource*MT
+					 - GetIsAdditionalWorkforceFullySatisfied : function: 00007FF6EAB84E80
+				 - GetSellable : function: 00007FF6EA6F5780
+				 - Factory : property<CPropertyFactory7>
+					 - GetHasNeededFertility : function: 00007FF6EA01EA80
+					 - GetProductivity : function: 00007FF6EAB62440
+					 - GetPostboxResidents : function: 00007FF6EAB62980
+					 - GetProductivityFarmFieldBoost : function: 00007FF6EAB62620
+					 - NewspaperProductivityByProductivityEffect : property<float>
+					 - ProductivityUpgrade : property<float>
+					 - GetEconomyModifier : function: 00007FF6EA76B4D0
+					 - TeleportsProducedGoodsDirectlyIntoAreaStorage : property<bool>
+					 - GetCurrentProductivity : function: 00007FF6EAB624A0
+					 - HasNeededFertility : property<bool>
+					 - GetTeleportsProducedGoodsDirectlyIntoAreaStorage : function: 00007FF6EAB62320
+					 - GetNeededFertility : function: 00007FF6EAB62800
+					 - NewspaperProductivityByArmamentEffect : property<float>
+					 - ProductivityFarmFieldBoost : property<float>
+					 - Productivity : property<float>
+					 - GetFillStorage : function: 00007FF6EAB622C0
+					 - GetNewspaperProductivityByArmamentEffect : function: 00007FF6EAB62680
+					 - ProductivityBoostPotential : property<float>
+					 - GetNewspaperProductivityByProductivityEffect : function: 00007FF6EAB626E0
+					 - FillStorage : property<bool>
+					 - GetProductivityUpgrade : function: 00007FF6EAB62500
+					 - __index : function: 00007FF6EAB61BE0
+					 - ToggleCheatFertility : function: 00007FF6EAB628D0
+					 - RelativeCycleTime : property<rdtime>
+					 - GetProductivityBoostPotential : function: 00007FF6EAB625C0
+					 - PostboxProductivity : property<float>
+					 - GetPostboxProductivity : function: 00007FF6EAB62920
+					 - NeedsAFertility : property<bool>
+					 - GetNeedsAFertility : function: 00007FF6EAB62870
+					 - GetCycleTime : function: 00007FF6EAB62380
+					 - NeededFertility : property<CAsset>
+					 - GetProductivityBase : function: 00007FF6EAB62560
+					 - NoWarehouseInRange : property<bool>
+					 - GetNoWarehouseInRange : function: 00007FF6EAB627A0
+					 - GetFullOutputStorage : function: 00007FF6EAB62740
+					 - ProductivityBase : property<float>
+					 - FullOutputStorage : property<bool>
+					 - PostboxResidents : property<int>
+					 - GetRelativeCycleTime : function: 00007FF6EAB623E0
+					 - CurrentProductivity : property<float>
+					 - __name : CPropertyFactory7TextSource*MT
+					 - CycleTime : property<rdtime>
+				 - Walking : property<CPropertyWalking>
+					 - BaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : property<float>
+					 - GetAffectedByWind : function: 00007FF6EA58DFB0
+					 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : function: 00007FF6EA58DEF0
+					 - BaseSpeedWithStaticSpeedFactors : property<float>
+					 - GetIsMoving : function: 00007FF6EA58DCE0
+					 - GetSessionTransferSpeedFactor : function: 00007FF6EA58E010
+					 - BaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : property<float>
+					 - SetUnsetIdleTickCount : function: 00007FF6EA58DC90
+					 - BaseSpeedWithUpgrades : property<float>
+					 - DebugStop : function: 00007FF6EA58DC40
+					 - GetBaseSpeedWithUpgrades_MaxWindSlowdown : function: 00007FF6EA58DDD0
+					 - GetBaseSpeedWithStaticSpeedFactors : function: 00007FF6EA58DE90
+					 - BaseSpeedWithUpgrades_MaxWindSlowdown : property<float>
+					 - SessionTransferSpeedFactor : property<float>
+					 - AffectedByWind : property<bool>
+					 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : function: 00007FF6EA58DF50
+					 - GetBaseSpeedWithUpgrades_MaxWindSpeedup : function: 00007FF6EA58DE30
+					 - BaseSpeedWithUpgrades_MaxWindSpeedup : property<float>
+					 - GetBaseSpeedWithUpgrades : function: 00007FF6EA58DD70
+					 - SetDebugGoto : function: 00007FF6EA58DB90
+					 - __name : CPropertyWalkingTextSource*MT
+					 - __index : function: 00007FF6EA58D7F0
+				 - HasAlternativeGrassColor : property<bool>
+				 - GetRiver : function: 00007FF6EA6F4E50
+				 - GetCommandQueue : function: 00007FF6EA6F4750
+				 - Module : property<CPropertyBuildingModule>
+					 - GetIsCulturalModule : function: 00007FF6EA6F5E30
+					 - IsCulturalModule : property<bool>
+					 - __name : CPropertyBuildingModuleTextSource*MT
+					 - __index : function: 00007FF6EA899FE0
+				 - GetRepair : function: 00007FF6EA6F4D70
+				 - IsMonument : property<bool>
+				 - GetShipIncident : function: 00007FF6EA6F5630
+				 - GetLogistic : function: 00007FF6EA6F59B0
+				 - GetBusStop : function: 00007FF6EA6F4670
+				 - CommandQueue : property<CPropertyCommandQueue>
+					 - GetUI_IsInATradeRoute : function: 00007FF6EAB53550
+					 - UI_IsBombarding : property<bool>
+					 - GetUI_IsBombarding : function: 00007FF6EAB53670
+					 - GetHasTradeRouteAssignment : function: 00007FF6EAB53250
+					 - GetUI_IsNonMoving : function: 00007FF6EAB53310
+					 - GetUI_HasLostTarget : function: 00007FF6EAB53610
+					 - __index : function: 00007FF6EAB52D10
+					 - UI_IsHoldingQuestObject : property<bool>
+					 - UI_IsInCombat : property<bool>
+					 - GetUI_IsLeavingTheSession : function: 00007FF6EAB534F0
+					 - HasTradeRouteAssignment : property<bool>
+					 - UI_IsInATradeRoute : property<bool>
+					 - UI_IsLeavingTheSession : property<bool>
+					 - GetHasExpeditionAssignment : function: 00007FF6EAB531F0
+					 - UI_IsPatrolling : property<bool>
+					 - GetUI_IsPatrolling : function: 00007FF6EAB53490
+					 - UI_IsEscorting : property<bool>
+					 - GetUI_IsHoldingQuestObject : function: 00007FF6EAB53430
+					 - HasPatrolAssignment : property<bool>
+					 - GetUI_IsChosenOrOutOnExpedition : function: 00007FF6EAB533D0
+					 - UI_IsChosenOrOutOnExpedition : property<bool>
+					 - UI_IsMoving : property<bool>
+					 - UI_HasLostTarget : property<bool>
+					 - GetUI_IsMoving : function: 00007FF6EAB532B0
+					 - GetUI_IsInCombat : function: 00007FF6EAB53370
+					 - GetUI_IsEscorting : function: 00007FF6EAB535B0
+					 - UI_IsNonMoving : property<bool>
+					 - HasExpeditionAssignment : property<bool>
+					 - __name : CPropertyCommandQueueTextSource*MT
+					 - GetHasPatrolAssignment : function: 00007FF6EAB53190
+				 - GetUpgradability : function: 00007FF6EA6F6630
+				 - GetRandomMapObject : function: 00007FF6EA6F4F30
+				 - Electric : property<CPropertyElectrifiable>
+					 - BoostFactor : property<float>
+					 - GetBoostFactor : function: 00007FF6EAB5FD90
+					 - GetIsElectrified : function: 00007FF6EAB5FD30
+					 - IsElectrified : property<bool>
+					 - __name : CPropertyElectrifiableTextSource*MT
+					 - __index : function: 00007FF6EAB5FB00
+				 - Trader : property<CPropertyTrader>
+					 - ForceBuild : function: 00007FF6EA58B6A0
+					 - ShipTradeFailed : function: 00007FF6EA58B630
+					 - ClearSellCooldown : function: 00007FF6EA58B5C0
+					 - __name : CPropertyTraderTextSource*MT
+				 - Pier : property<CPropertyLoadingPier>
+					 - TonsPerSec : property<float>
+					 - GetTonsPerSec : function: 00007FF6EAB83F00
+					 - __name : CPropertyLoadingPierTextSource*MT
+					 - __index : function: 00007FF6EAB83D20
+				 - GetEcoProvider : function: 00007FF6EA6F5B70
+				 - ModuleOwner : property<CPropertyModuleOwner>
+					 - ModuleCountIncludingPreviewExcludingNonWorking : property<int>
+					 - ModuleCount : property<int>
+					 - GetModuleLimitForGUID : function: 00007FF6EAB8A130
+					 - GetHasNonIrrigatedModulesBelowLimit : function: 00007FF6EAB8A760
+					 - GetModuleCount : function: 00007FF6EAB8A360
+					 - GetFertilizerModule : function: 00007FF6EAB8A220
+					 - DefaultModuleGUID : property<int>
+					 - GetAmountIrrigatedModules_CapAtLimit : function: 00007FF6EAB8A520
+					 - CosmeticModuleCountIncludingPreview : property<int>
+					 - GetRemainingBuildRights : function: 00007FF6EAB8A8E0
+					 - HasFertilizerModule : property<bool>
+					 - GetCosmeticModuleCountIncludingPreview : function: 00007FF6EAB8A6A0
+					 - GetPalaceModuleLimit : function: 00007FF6EAB8A040
+					 - GetModuleCountIncludeNonWorking_CapAtLimit : function: 00007FF6EAB8A640
+					 - GetModuleCountIncludingPreviewExcludingNonWorking : function: 00007FF6EAB8A820
+					 - HasNonIrrigatedModulesBelowLimit : property<bool>
+					 - GetModuleCountBP : function: 00007FF6EAB8A420
+					 - GetAmountNotIrrigatedModules : function: 00007FF6EAB8A580
+					 - CosmeticModuleLimit : property<int>
+					 - AmountIrrigatedModules_CapAtLimit : property<int>
+					 - MainModuleLimit : property<int>
+					 - __index : function: 00007FF6EAB89980
+					 - ModuleCountIncludingPreview : property<int>
+					 - GetCosmeticModuleLimit : function: 00007FF6EAB8A700
+					 - GetModuleCountIncludeNonWorking : function: 00007FF6EAB8A5E0
+					 - ModuleLimit : property<int>
+					 - GetModuleLimit : function: 00007FF6EAB89F80
+					 - GetAdditionalModule : function: 00007FF6EAB8A2F0
+					 - GetDefaultModuleGUID : function: 00007FF6EAB8A880
+					 - GetModuleCountIncludingPreview : function: 00007FF6EAB8A7C0
+					 - AdditionalModule : property<CGameObject>
+					 - AmountNotIrrigatedModules : property<int>
+					 - AmountIrrigatedModules : property<int>
+					 - FertilizerModule : property<CGameObject>
+					 - GetModuleCountForGUID : function: 00007FF6EAB8A0A0
+					 - GetMainModuleLimit : function: 00007FF6EAB89FE0
+					 - HasAdditionalModule : property<bool>
+					 - GetAmountIrrigatedModules : function: 00007FF6EAB8A4C0
+					 - ModuleCountIncludeNonWorking_CapAtLimit : property<int>
+					 - PalaceModuleCount : property<int>
+					 - GetHasFertilizerModule : function: 00007FF6EAB8A1C0
+					 - GetPalaceModuleCount : function: 00007FF6EAB8A3C0
+					 - GetHasAdditionalModule : function: 00007FF6EAB8A290
+					 - __name : CPropertyModuleOwnerTextSource*MT
+					 - PalaceModuleLimit : property<int>
+					 - ModuleCountIncludeNonWorking : property<int>
+				 - EcoProvider : property<CPropertyEcoSystemProvider>
+					 - MaxMonoCulture : property<int>
+					 - GetNegativeMonoCulture : function: 00007FF6EAB5E0D0
+					 - GetCurrentDelta : function: 00007FF6EAB5E010
+					 - __index : function: 00007FF6EAB5DD50
+					 - CurrentDelta : property<float>
+					 - GetPositiveMonoCulture : function: 00007FF6EAB5E070
+					 - GetMaxMonoCulture : function: 00007FF6EAB5E130
+					 - NegativeMonoCulture : property<float>
+					 - __name : CPropertyEcoSystemProviderTextSource*MT
+					 - PositiveMonoCulture : property<float>
+				 - GetDowngradability : function: 00007FF6EA6F66A0
+				 - ConstructionAI : property<CPropertyConstructionAI>
+					 - GrantSettlePermissionNet : function: 00007FF6EAB57D50
+					 - __name : CPropertyConstructionAITextSource*MT
+				 - Upgradability : property<CUpgradabilityChecker>
+				 - GetIsCultureMainBuilding : function: 00007FF6EA6F6A60
+				 - GetMaintenance : function: 00007FF6EA6F5710
+				 - GetTrader : function: 00007FF6EA6F5470
+				 - Expedition : property<CExpedition>
+					 - TravelTimeLeft : property<rdtime>
+					 - EventCountdown : property<rdtime>
+					 - SetEndExpedition : function: 00007FF6EA6DDE90
+					 - SetCheatSetCurrentDecision : function: 00007FF6EA6DDCB0
+					 - GetDays : function: 00007FF6EA6DE200
+					 - GetOptionAttributeLevel : function: 00007FF6EA6DE340
+					 - ExpeditionShipStarting : property<bool>
+					 - SetCheatEndExpedition : function: 00007FF6EA6DDD20
+					 - ExpeditionShip : property<CGameObject>
+					 - SetDiscardExpedition : function: 00007FF6EA6DE010
+					 - GetOptionAttributeLevelDescription : function: 00007FF6EA6DE3D0
+					 - ExpeditionShipReturning : property<bool>
+					 - SetCheatCurrentEvent : function: 00007FF6EA6DDC40
+					 - __index : function: 00007FF6EA6DD620
+					 - SetResolveDecision : function: 00007FF6EA6DDDD0
+					 - SetCheatEventCountdown : function: 00007FF6EA6DDBF0
+					 - Days : property<int>
+					 - SetOpenEventUI : function: 00007FF6EA6DE260
+					 - Morale : property<int>
+					 - GetRequirementConsumeAmount : function: 00007FF6EA6DE170
+					 - GetExpeditionShipReturning : function: 00007FF6EA6DDB30
+					 - GetMorale : function: 00007FF6EA6DDFB0
+					 - GetEventCountdown : function: 00007FF6EA6DDB90
+					 - GetThreatDescription : function: 00007FF6EA6DDA40
+					 - GetOptionAttributeSum : function: 00007FF6EA6DE2B0
+					 - GetMaxStartMoralePoints : function: 00007FF6EA6DDEE0
+					 - GetTravelTimeLeft : function: 00007FF6EA6DE460
+					 - SetMorale : function: 00007FF6EA6DDF40
+					 - GetRequirement : function: 00007FF6EA6DE0D0
+					 - GetExpeditionShip : function: 00007FF6EA6DE060
+					 - MaxStartMoralePoints : property<int>
+					 - GetCurrentEvent : function: 00007FF6EA6DDD70
+					 - __name : CExpeditionTextSource*MT
+					 - GetExpeditionShipStarting : function: 00007FF6EA6DDAD0
+					 - CurrentEvent : property<int>
+				 - GetExpedition : function: 00007FF6EA6F69F0
+				 - GetAreaManager : function: 00007FF6EA6F6980
+				 - Attackable : property<CPropertyAttackable>
+					 - MaxHitPoints : property<short>
+					 - GetMaxHitPoints : function: 00007FF6EA890250
+					 - SetAddDamagePercent : function: 00007FF6EA890310
+					 - GetIsUnderAttack : function: 00007FF6EA890520
+					 - __index : function: 00007FF6EA88FFB0
+					 - CheatRemainingEffectTime : function: 00007FF6EA890580
+					 - GetIsWhiteFlagActive : function: 00007FF6EA8904C0
+					 - IsWhiteFlagActive : property<bool>
+					 - GetStatusEffectChainStageCount : function: 00007FF6EA8907A0
+					 - GetIsPartOfActiveStatusEffectChain : function: 00007FF6EA8905F0
+					 - GetCurHitPoints : function: 00007FF6EA8902B0
+					 - GetStatusEffectChainStage : function: 00007FF6EA890710
+					 - IsUnderAttack : property<bool>
+					 - SetDebugInvincible : function: 00007FF6EA890430
+					 - CurHitPoints : property<short>
+					 - __name : CPropertyAttackableTextSource*MT
+					 - GetRemainingStatusEffectDuration : function: 00007FF6EA890680
+				 - GetArea : function: 00007FF6EA6F6910
+				 - GetSessionGuid : function: 00007FF6EA6F68B0
+				 - Hacienda : property<CPropertyHacienda>
+					 - NextRadiusRequirement : property<int>
+					 - GetIsPolicyUnlocked : function: 00007FF6EAB6B390
+					 - GetRequiredAttractivenessForPolicy : function: 00007FF6EAB6B420
+					 - GetNextRadiusRequirement : function: 00007FF6EAB6B4B0
+					 - __name : CPropertyHaciendaTextSource*MT
+					 - __index : function: 00007FF6EAB6B1B0
+				 - GetShipMaintenance : function: 00007FF6EA6F56A0
+				 - Lifetime : property<CPropertyLifetime>
+					 - GetRemainingTime : function: 00007FF6EAB83370
+					 - RemainingTime : property<rdtime>
+					 - __name : CPropertyLifetimeTextSource*MT
+					 - __index : function: 00007FF6EAB83190
+				 - GetIsOwnedByCurrentParticipant : function: 00007FF6EA6F6850
+				 - Owner : property<int>
+				 - Watered : property<CPropertyWatered>
+					 - RequiresWater : property<bool>
+					 - GetRequiresWater : function: 00007FF6EA5945A0
+					 - IsWatered : property<bool>
+					 - GetIsWatered : function: 00007FF6EA594540
+					 - __name : CPropertyWateredTextSource*MT
+					 - __index : function: 00007FF6EA594330
+				 - GetPausable : function: 00007FF6EA6F4D00
+				 - Renovatability : property<CRenovatabilityChecker>
+					 - Costs : property<CBuildCost>
+					 - GetCosts : function: 00007FF6EA01A4E0
+					 - GetIsRenovatable : function: 00007FF6EA5A6F30
+					 - IsRenovatable : property<bool>
+					 - __name : CRenovatabilityCheckerTextSource*MT
+					 - __index : function: 00007FF6EA5A6D00
+				 - GetRenovatability : function: 00007FF6EA6F6780
+				 - FloorAddability : property<CUpgradabilityChecker>
+				 - GetFloorAddability : function: 00007FF6EA6F6710
+				 - IsCultureMainBuilding : property<bool>
+				 - IncidentResolver : property<CPropertyIncidentResolver>
+					 - GetIsActionOnCooldown : function: 00007FF6EAB715C0
+					 - IsActionOnCooldown : property<bool>
+					 - ActionUpgradeHappinessBonus : property<float>
+					 - GetIsRiotInstitution : function: 00007FF6EAB71440
+					 - GetInfectionChanceIllness : function: 00007FF6EAB71090
+					 - GetActionAdditionalUnitAmount : function: 00007FF6EAB71150
+					 - IsSpecialActionActive : property<bool>
+					 - StandardUnitAsset : property<CAsset>
+					 - ActionNewspaperHappinessBonus : property<float>
+					 - GetIsIncidentNearby : function: 00007FF6EAB71560
+					 - InfectionChanceFire : property<float>
+					 - InfectionChanceIllness : property<float>
+					 - GetInfectionChance : function: 00007FF6EAB70F70
+					 - GetIsArcticIllnessInstitution : function: 00007FF6EAB71500
+					 - SpecialUnitAsset : property<CAsset>
+					 - InfectionChanceRiot : property<float>
+					 - GetResolverPopulationThreshold : function: 00007FF6EAB71210
+					 - RemainingActionCooldown : property<rdtime>
+					 - GetInfectionChanceRiot : function: 00007FF6EAB71030
+					 - GetIsPotentialAvailableSpecialUnitIndex : function: 00007FF6EAB71680
+					 - IsIncidentNearby : property<bool>
+					 - DoesAnybodyNearbyNeedHelp : property<bool>
+					 - ActionMaxAdditionalUnitAmount : property<int>
+					 - IsArcticIllnessInstitution : property<bool>
+					 - IsIllnessInstitution : property<bool>
+					 - __index : function: 00007FF6EAB705C0
+					 - ClearSpecialActionCooldown : function: 00007FF6EAB70E40
+					 - GetInfectionChanceFire : function: 00007FF6EAB70FD0
+					 - CanSendSpecialForces : property<bool>
+					 - ActionCooldown : property<rdtime>
+					 - IsRiotInstitution : property<bool>
+					 - GetStandardUnitAsset : function: 00007FF6EAB70F00
+					 - GetRemainingActionCooldown : function: 00007FF6EAB70D80
+					 - IsFireInstitution : property<bool>
+					 - GetCanSendSpecialForces : function: 00007FF6EAB70D20
+					 - GetIsFireInstitution : function: 00007FF6EAB713E0
+					 - GetActionUpgradeHappinessBonus : function: 00007FF6EAB71380
+					 - GetActionCooldown : function: 00007FF6EAB70DE0
+					 - GetActionNewspaperHappinessBonus : function: 00007FF6EAB71320
+					 - GetSpecialUnitAsset : function: 00007FF6EAB70E90
+					 - GetResolverHappinessThreshold : function: 00007FF6EAB712A0
+					 - GetDoesAnybodyNearbyNeedHelp : function: 00007FF6EAB71620
+					 - GetActionMaxAdditionalUnitAmount : function: 00007FF6EAB711B0
+					 - ActionAdditionalUnitAmount : property<int>
+					 - InfectionChance : property<float>
+					 - InfectionChanceArcticIllness : property<float>
+					 - GetInfectionChanceArcticIllness : function: 00007FF6EAB710F0
+					 - __name : CPropertyIncidentResolverTextSource*MT
+					 - GetIsIllnessInstitution : function: 00007FF6EAB714A0
+					 - GetIsSpecialActionActive : function: 00007FF6EAB70CC0
+				 - RandomMapObject : property<CPropertyRandomMapObject>
+					 - SetFiniteResourceAmount : function: 00007FF6EABA6700
+					 - ResourceCapacity : property<int>
+					 - GetResourceAmount : function: 00007FF6EABA66A0
+					 - ResourceAmount : property<int>
+					 - GetResourceCapacity : function: 00007FF6EABA6640
+					 - __name : CPropertyRandomMapObjectTextSource*MT
+					 - __index : function: 00007FF6EABA6420
+				 - FreeArea : property<CPropertyFreeAreaProductivity>
+					 - SetToggleGridDebugDraw : function: 00007FF6EAB69C60
+					 - TreeCount : property<int>
+					 - __index : function: 00007FF6EAB69940
+					 - GetNeededTreeCount : function: 00007FF6EAB69C00
+					 - GetTreeCount : function: 00007FF6EAB69BA0
+					 - __name : CPropertyFreeAreaProductivityTextSource*MT
+					 - NeededTreeCount : property<int>
+				 - __index : function: 00007FF6EA6F3230
+				 - SetDowngrade : function: 00007FF6EA6F6540
+				 - GetModuleOwner : function: 00007FF6EA6F5240
+				 - Monument : property<CPropertyMonument>
+					 - GetEventWorkforceByGUID : function: 00007FF6EAB94750
+					 - RemainingEventTime : property<rdtime>
+					 - GetNeededProduct : function: 00007FF6EAB93FF0
+					 - CurrentPhase : property<int>
+					 - RemainingTime : property<rdsdk::CRDStringW>
+					 - IsEventFinished : property<bool>
+					 - EventWorkforceUsed : property<int>
+					 - GetIsInConstructionState : function: 00007FF6EAB941D0
+					 - SetCheatSkipEventTime : function: 00007FF6EAB94540
+					 - __index : function: 00007FF6EAB935E0
+					 - GetEventWorkforceUsedByGUID : function: 00007FF6EAB94880
+					 - GetCurrentPhase : function: 00007FF6EAB94300
+					 - IsEventPreparing : property<bool>
+					 - GetIsEventPreparing : function: 00007FF6EAB943C0
+					 - GetAvailableProduct : function: 00007FF6EAB94080
+					 - GetUpgradeTarget : function: 00007FF6EAB93F80
+					 - UpgradeTarget : property<rdsdk::CRDStringW>
+					 - SetOpenExhibitionUI : function: 00007FF6EAB949A0
+					 - GetEventGoodsReductionPercent : function: 00007FF6EAB94910
+					 - GetEventMaxUsableWorkforceAmount : function: 00007FF6EAB947F0
+					 - GetEventGoodsRange : function: 00007FF6EAB94660
+					 - SetPauseUpgrade : function: 00007FF6EAB94180
+					 - EventWorkforce : property<CAsset>
+					 - GetRemainingEventTime : function: 00007FF6EAB944E0
+					 - IsEventRunning : property<bool>
+					 - GetIsEventRunning : function: 00007FF6EAB94420
+					 - MaxPhase : property<int>
+					 - GetMaxPhase : function: 00007FF6EAB94360
+					 - GetRemainingTime : function: 00007FF6EAB94110
+					 - SetCheatMicroPhase : function: 00007FF6EAB942B0
+					 - SetCheatUpgradeMicro : function: 00007FF6EAB94260
+					 - GetEventWorkforce : function: 00007FF6EAB94590
+					 - __name : CPropertyMonumentTextSource*MT
+					 - GetIsEventFinished : function: 00007FF6EAB94480
+					 - GetEventWorkforceUsed : function: 00007FF6EAB94600
+				 - Static : property<CAsset>
+					 - __index : function: 00007FF6EA00D9E0
+					 - __name : CAssetTextSource*MT
+				 - Culture : property<CPropertyCulture>
+					 - GetAttractivenessIncludingModules : function: 00007FF6EAB58E50
+					 - __index : function: 00007FF6EAB58B40
+					 - GetAttractiveness : function: 00007FF6EAB58D90
+					 - GetAttractivenessModules : function: 00007FF6EAB58DF0
+					 - AttractivenessIncludingModules : property<int>
+					 - Attractiveness : property<int>
+					 - __name : CPropertyCultureTextSource*MT
+					 - AttractivenessModules : property<int>
+				 - GUID : property<int>
+				 - GetNameable : function: 00007FF6EA6F4C20
+				 - GetMotor : function: 00007FF6EA6F4B40
+				 - IsProduction : property<bool>
+				 - Distribution : property<CPropertyDistribution>
+					 - GetDistributionAmount : function: 00007FF6EAB5B1A0
+					 - __name : CPropertyDistributionTextSource*MT
+				 - GetMonument : function: 00007FF6EA6F4EC0
+				 - IsResidence : property<bool>
+				 - GetHasVariations : function: 00007FF6EA6F5EF0
+				 - GetInfluenceSource : function: 00007FF6EA6F5160
+				 - GetHasAlternativeGrassColor : function: 00007FF6EA6F5E90
+				 - InfluenceSource : property<CPropertyInfluenceSource>
+					 - GetProvidedInfluence : function: 00007FF6EAB79960
+					 - ProvidedInfluence : property<int>
+					 - __name : CPropertyInfluenceSourceTextSource*MT
+					 - __index : function: 00007FF6EAB79770
+				 - GetRecipeBuilding : function: 00007FF6EA6F5B00
+				 - Dying : property<CPropertyDying>
+					 - PropertyID : property<int>
+					 - GetPropertyID : function: 00007FF6EAB5D0E0
+					 - __name : CPropertyDyingTextSource*MT
+					 - __index : function: 00007FF6EAB5CF00
+				 - GetFloorStack : function: 00007FF6EA6F4AD0
+				 - GetIsBlueprunt : function: 00007FF6EA6F65D0
+				 - PalaceMinistry : property<CPropertyPalaceMinistry>
+					 - SetDecreeTier : function: 00007FF6EAB9D760
+					 - SetMinistryType : function: 00007FF6EAB9D6F0
+					 - GetEffectRange : function: 00007FF6EAB9D7D0
+					 - EffectRange : property<int>
+					 - __name : CPropertyPalaceMinistryTextSource*MT
+					 - __index : function: 00007FF6EAB9D500
+				 - SetUpgrade : function: 00007FF6EA6F63D0
+				 - Area : property<CConstructionArea>
+					 - ID : property<AreaID>
+						 - AreaIndex : 6
+						 - SessionID : 32
+						 - IslandID : 95
+					 - GetPassiveTrade : function: 00007FF6EA79F860
+					 - IsBuyShareBlocked : property<bool>
+					 - GetIncomePerShare : function: 00007FF6EA79F0F0
+					 - BuyShareCooldownTime : property<int>
+					 - GetIsOwnedByCurrentParticipant : function: 00007FF6EA6F6850
+					 - KontorID : property<GameObjectID>
+						 - AsyncObjectFlag : 0
+						 - AreaID : table: 000001EBD6F2CA98
+							 - AreaIndex : 0
+							 - SessionID : 39
+							 - IslandID : 0
+						 - ObjectID : 2214320096
+						 - EditorChunkID : 0
+						 - EditorFlag : 0
+					 - WarTimer : property<rdtime>
+					 - GetBuyShareCooldownTime : function: 00007FF6EA79ECD0
+					 - OwnerName : property<rdsdk::CRDStringW>
+					 - GetReservationCost : function: 00007FF6EA79F410
+					 - MilitaryTakeoverChanceStart : property<int>
+					 - IsExplosionUnlocked : property<bool>
+					 - GetBuyShareCooldownRemaining : function: 00007FF6EA79EC70
+					 - GetTotalShareIncome : function: 00007FF6EA79EB50
+					 - HasTradeRights : property<bool>
+					 - GetIsTakeoverBlocked : function: 00007FF6EA79F210
+					 - GetOwnerName : function: 00007FF6EA79F080
+					 - GetIsBuyShareBlocked : function: 00007FF6EA79EDA0
+					 - __index : function: 00007FF6EA79DFE0
+					 - SetSellShare : function: 00007FF6EA79EEC0
+					 - Economy : property<CAreaEconomy>
+						 - GetNeedLocked : function: 00007FF6E9FE2200
+						 - GetDelta : function: 00007FF6E9FE2670
+						 - GetMaxTransporterCount : function: 00007FF6EA767D70
+						 - GetRegisteredDeltaProduction : function: 00007FF6E9FE26F0
+						 - GetEconomyModifier : function: 00007FF6E9FE2120
+						 - SetSelectStorageGoodDebug : function: 00007FF6E9FE2550
+						 - GetStorageCapacity : function: 00007FF6EA767B30
+						 - GetIsDistributionPaused : function: 00007FF6E9FE1D80
+						 - ClearIslandStorage : function: 00007FF6E9FE1CA0
+						 - Research : property<int>
+						 - GetDeltaSaturationUncapped : function: 00007FF6E9FE29F0
+						 - AddAmount : function: 00007FF6E9FE1B80
+						 - __index : function: 00007FF6E9FE1850
+						 - GetDeltaSaturation : function: 00007FF6E9FE2970
+						 - GetRegisteredDeltaConsumption : function: 00007FF6E9FE2830
+						 - SetCheatAddDelta : function: 00007FF6E9FE25C0
+						 - SetCheatChangeWorkforceNet : function: 00007FF6E9FE24C0
+						 - GetStorageTrend : function: 00007FF6E9FE2430
+						 - SetCheatItem : function: 00007FF6E9FE23C0
+						 - GetStorageAmount : function: 00007FF6EA767A10
+						 - GetFreeSpace : function: 00007FF6EA767C50
+						 - GetAvailableAmount : function: 00007FF6EA767AA0
+						 - GetReservedStorageAmount : function: 00007FF6EA767BC0
+						 - SetEconomyModifier : function: 00007FF6E9FE2000
+						 - GetSatisfaction : function: 00007FF6E9FE1E60
+						 - GetCurrentTransporterCount : function: 00007FF6EA767CE0
+						 - __name : CAreaEconomyTextSource*MT
+						 - GetResearch : function: 00007FF6E9FE1FA0
+						 - GetAvailableTransporterCount : function: 00007FF6EA767E00
+					 - GetIsExplosionUnlocked : function: 00007FF6EA79F650
+					 - GetCityName : function: 00007FF6EA79F710
+					 - TotalShareIncome : property<float>
+					 - IsFireUnlocked : property<bool>
+					 - GetTakeoverChance : function: 00007FF6EA79EBB0
+					 - GetAmountOfShares : function: 00007FF6EA79EF90
+					 - GetWarTimer : function: 00007FF6EA79F990
+					 - SetHostileTakeover : function: 00007FF6EA79F270
+					 - GetIsRiotUnlocked : function: 00007FF6EA79F590
+					 - MilitaryTakeoverCurrentSurrenderChance : property<int>
+					 - GetID : function: 00007FF6EA79EAF0
+					 - SetBuyShare : function: 00007FF6EA79EE00
+					 - IsTakeoverBlocked : property<bool>
+					 - PassiveTrade : property<CPassiveTradeController>
+						 - GetDetailBuyPrice : function: 00007FF6EA87D4B0
+						 - GetSellPrice : function: 00007FF6EA87D540
+						 - GetHasOffer : function: 00007FF6EA87D8C0
+						 - GetMinimumStock : function: 00007FF6EA87D950
+						 - GetOffer : function: 00007FF6EA87D820
+						 - GetBuyPrice : function: 00007FF6EA87D420
+						 - __name : CPassiveTradeControllerTextSource*MT
+						 - GetDetailSellPrice : function: 00007FF6EA87D6B0
+					 - PercentOwnedShares : property<int>
+					 - GetKontorID : function: 00007FF6EA79F4D0
+					 - GetIsDuplicate : function: 00007FF6EA79FCC0
+					 - IncomePerShare : property<int>
+					 - SetOpenMilitaryResultScreen : function: 00007FF6EA79FB10
+					 - TakeoverChance : property<int>
+					 - Owner : property<int>
+					 - ReserveIslandInt : function: 00007FF6EA79F2E0
+					 - GetEconomy : function: 00007FF6EA79F780
+					 - TotalIncome : property<int>
+					 - IsOwnedByAnyone : property<bool>
+					 - IsIllnessUnlocked : property<bool>
+					 - MilitaryTakeoverCurrentMorale : property<int>
+					 - IsNextWarBlocked : property<rdtime>
+					 - GetIsOwnedByAnyone : function: 00007FF6EA79F470
+					 - GetReservationOwnerName : function: 00007FF6EA79F3A0
+					 - GetMilitaryTakeoverChanceStart : function: 00007FF6EA79FAB0
+					 - GetIsIllnessUnlocked : function: 00007FF6EA79F5F0
+					 - GetOwnerProfile : function: 00007FF6EA79EFF0
+					 - AmountOfShares : property<int>
+					 - GetMilitaryTakeoverCurrentSurrenderChance : function: 00007FF6EA79FA50
+					 - GetMilitaryTakeoverInfluenceCost : function: 00007FF6EA79FBC0
+					 - GetMilitaryTakeoverCurrentMorale : function: 00007FF6EA79F9F0
+					 - IslandWarActive : property<bool>
+					 - CityName : property<rdsdk::CRDStringW>
+					 - GetIslandWarActive : function: 00007FF6EA79F930
+					 - SetResetCooldown : function: 00007FF6EA79ED30
+					 - GetHasTradeRights : function: 00007FF6EA79F8D0
+					 - GetVisitors : function: 00007FF6EA79F7F0
+					 - Visitors : property<CAreaVisitors>
+					 - GetPercentOwnedShares : function: 00007FF6EA79EF30
+					 - GetTakeoverMinimum : function: 00007FF6EA79EC10
+					 - MilitaryTakeoverSpareInfluenceCost : property<int>
+					 - TotalDebt : property<int>
+					 - BuyShareCooldownRemaining : property<int>
+					 - GetTotalIncome : function: 00007FF6EA79F150
+					 - IsRiotUnlocked : property<bool>
+					 - GetIsArcticIllnesUnlocked : function: 00007FF6EA79F6B0
+					 - IsArcticIllnesUnlocked : property<bool>
+					 - TakeoverMinimum : property<int>
+					 - IsOwnedByCurrentParticipant : property<bool>
+					 - ReservationCost : property<int>
+					 - GetMilitaryTakeoverSpareInfluenceCost : function: 00007FF6EA79FC60
+					 - GetIsFireUnlocked : function: 00007FF6EA79F530
+					 - GetTotalDebt : function: 00007FF6EA79F1B0
+					 - GetOwner : function: 00007FF6EA6F67F0
+					 - GetIsNextWarBlocked : function: 00007FF6EA79FB60
+					 - __name : CConstructionAreaTextSource*MT
+					 - ReservationOwnerName : property<rdsdk::CRDStringW>
+					 - ClearReservation : function: 00007FF6EA79F350
+				 - GetIsWarehouse : function: 00007FF6EA6F5D70
+				 - GetItemCrafter : function: 00007FF6EA6F54E0
+				 - GetIsMonument : function: 00007FF6EA6F5C50
+				 - GetResidence : function: 00007FF6EA6F4DE0
+				 - Pirate : property<CPropertyPirate>
+					 - DebugIncreaseAreaOfActivityRange : function: 00007FF6EABA5920
+					 - __name : CPropertyPirateTextSource*MT
+				 - Residence : property<CPropertyResidence7>
+					 - GetResidentCount : function: 00007FF6EABABA50
+					 - GetPopulationMovesIn : function: 00007FF6EABAC160
+					 - GetInfluence : function: 00007FF6EABACBA0
+					 - ResearchOutput : property<int>
+					 - GetTotalHappinessDebuffForNeed : function: 00007FF6EABABF00
+					 - GetResidentMaxFromBonusNeeds : function: 00007FF6EABAB990
+					 - GetGoodViewValue : function: 00007FF6EABAB860
+					 - GetDebuffAmountForCategory : function: 00007FF6EABAC070
+					 - GetPopulationMovesOut : function: 00007FF6EABAC100
+					 - GetOccupancy : function: 00007FF6EABABB00
+					 - GetMaxInfluence : function: 00007FF6EABACB40
+					 - Occupancy : property<float>
+					 - NegativeGoodViewInfluence : property<int>
+					 - GetMaxMallNeedsSupply : function: 00007FF6EABABDC0
+					 - GetMaxMoneyForGood : function: 00007FF6EABAC9A0
+					 - PopulationMovesOut : property<bool>
+					 - GetMaxSupplyForGood : function: 00007FF6EABAC820
+					 - CurrentMallNeedsSupply : property<int>
+					 - GetPopulationLevel : function: 00007FF6EABAB8C0
+					 - PopulationMovesIn : property<bool>
+					 - GoodViewStartValue : property<int>
+					 - __index : function: 00007FF6EABAAE50
+					 - GetMallNeedsCategoryCount : function: 00007FF6EABABD60
+					 - GetNegativeGoodViewInfluence : function: 00007FF6EABAB7A0
+					 - GetWorkforceOutput : function: 00007FF6EABAC460
+					 - HappinessWorkingCondition : property<float>
+					 - GetResearchOutput : function: 00007FF6EABAC4C0
+					 - GetMallNeedsSatisfaction : function: 00007FF6EABABC40
+					 - HappinessByBuffs : property<float>
+					 - HappinessByHotspots : property<float>
+					 - PositiveGoodViewInfluence : property<int>
+					 - ResidentLimitBySupply : property<int>
+					 - SetEconomyModifier : function: 00007FF6EA76B420
+					 - GetPositiveGoodViewInfluence : function: 00007FF6EABAB6E0
+					 - GetSatisfaction : function: 00007FF6EABABBC0
+					 - GetCurrentHeatForGood : function: 00007FF6EABAC620
+					 - GetHappinessByAttractivity : function: 00007FF6EABAC340
+					 - HappinessByNeeds : property<float>
+					 - SameHeightGoodViewInfluence : property<int>
+					 - GetGoodViewStartValue : function: 00007FF6EABAB800
+					 - ResidentMaxFromBonusNeeds : property<int>
+					 - SetCheatFill : function: 00007FF6EABABAB0
+					 - GetHappinessWorkingCondition : function: 00007FF6EABAC280
+					 - GetHappinessByHotspots : function: 00007FF6EABAC2E0
+					 - MallNeedsCategoryCount : property<int>
+					 - GetHappinessDebuffForNeedByCategory : function: 00007FF6EABABF90
+					 - Influence : property<int>
+					 - GetHappiness : function: 00007FF6EABAC1C0
+					 - ResidentMax : property<int>
+					 - GetHeatByUpgrades : function: 00007FF6EABACAE0
+					 - GetCurrentHappinessForGood : function: 00007FF6EABAC520
+					 - GetCurrentBaseHeat : function: 00007FF6EABACA80
+					 - CurrentHeatSatisfaction : property<float>
+					 - GetCurrentHeatSatisfaction : function: 00007FF6EABACA20
+					 - GetMallNeedsCategory : function: 00007FF6EABABCC0
+					 - GetMoneyOutput : function: 00007FF6EABAC400
+					 - GetSatisfactionTrend : function: 00007FF6EABABE80
+					 - GetMaxHappinessForGood : function: 00007FF6EABAC7A0
+					 - TargetResidentsFromBaseNeeds : property<int>
+					 - GetCurrentResearchForGood : function: 00007FF6EABAC720
+					 - GetCurrentMoneyForGood : function: 00007FF6EABAC6A0
+					 - GetCurrentSupplyForGood : function: 00007FF6EABAC5A0
+					 - HappinessByAttractivity : property<float>
+					 - CurrentBaseHeat : property<float>
+					 - GetHappinessByBuffs : function: 00007FF6EABAC3A0
+					 - GetSameHeightGoodViewInfluence : function: 00007FF6EABAB740
+					 - MoneyOutput : property<int>
+					 - MaxMallNeedsSupply : property<int>
+					 - GetMaxResearchForGood : function: 00007FF6EABAC920
+					 - GetCurrentMallNeedsSupply : function: 00007FF6EABABE20
+					 - PopulationLevel : property<CAsset>
+					 - ResidentCount : property<int>
+					 - GetResidentLimitBySupply : function: 00007FF6EABAB9F0
+					 - WorkforceOutput : property<float>
+					 - HeatByUpgrades : property<float>
+					 - GetHappinessByNeeds : function: 00007FF6EABAC220
+					 - Happiness : property<float>
+					 - MaxInfluence : property<int>
+					 - GetMaxHeatForGood : function: 00007FF6EABAC8A0
+					 - GetTargetResidentsFromBaseNeeds : function: 00007FF6EABABB60
+					 - GetResidentMax : function: 00007FF6EABAB930
+					 - GoodViewValue : property<int>
+					 - __name : CPropertyResidence7TextSource*MT
+				 - GetFactory : function: 00007FF6EA6F4A60
+				 - GetIsProduction : function: 00007FF6EA6F5D10
+				 - Attacker : property<CPropertyAttacker>
+					 - Damage : property<int>
+					 - ReloadTime : property<float>
+					 - GetDPS : function: 00007FF6EA895100
+					 - DPS : property<float>
+					 - __index : function: 00007FF6EA894CB0
+					 - NewspaperFireRateIncrease : property<float>
+					 - GetBaseDamage : function: 00007FF6EA894F80
+					 - GetReloadTime : function: 00007FF6EA895040
+					 - GetDamage : function: 00007FF6EA894FE0
+					 - BaseDamage : property<int>
+					 - __name : CPropertyAttackerTextSource*MT
+					 - GetNewspaperFireRateIncrease : function: 00007FF6EA8950A0
+				 - GetFreeArea : function: 00007FF6EA6F4C90
+				 - Bombarder : property<CPropertyBombarder>
+					 - SetArmed : function: 00007FF6EA8972C0
+					 - StartTargetMode : function: 00007FF6EA8973F0
+					 - CancelBombardement : function: 00007FF6EA897440
+					 - StartArming : function: 00007FF6EA897220
+					 - __index : function: 00007FF6EA897040
+					 - CancelArming : function: 00007FF6EA897270
+					 - ToggleConsumption : function: 00007FF6EA897490
+					 - GetShaftCount : function: 00007FF6EA8974E0
+					 - ShaftCount : property<int>
+					 - __name : CPropertyBombarderTextSource*MT
+					 - SetBarrageSize : function: 00007FF6EA897330
+				 - HasVariations : property<bool>
+				 - RecipeBuilding : property<CPropertyRecipeBuilding>
+					 - ChangeRecipe : function: 00007FF6EABA7A20
+					 - __name : CPropertyRecipeBuildingTextSource*MT
+				 - GetMesh : function: 00007FF6EA6F4BB0
+				 - GetWarehouse : function: 00007FF6EA6F5010
+				 - GetAttacker : function: 00007FF6EA6F4590
+				 - Logistic : property<CLogisticNode>
+					 - GetFreeSpace : function: 00007FF6EA767C50
+					 - GetAvailableAmount : function: 00007FF6EA767AA0
+					 - GetStorageCapacity : function: 00007FF6EA767B30
+					 - GetStorageAmount : function: 00007FF6EA767A10
+					 - GetMaxTransporterCount : function: 00007FF6EA767D70
+					 - GetReservedStorageAmount : function: 00007FF6EA767BC0
+					 - GetCurrentTransporterCount : function: 00007FF6EA767CE0
+					 - __name : CLogisticNodeTextSource*MT
+					 - GetAvailableTransporterCount : function: 00007FF6EA767E00
+				 - GetCulture : function: 00007FF6EA6F52B0
+				 - ItemContainer : property<CPropertyItemContainer>
+					 - GetCanEquipItems : function: 00007FF6EAB7D250
+					 - SetAcceptGeneratedItem : function: 00007FF6EAB7CF10
+					 - GetStackLimit : function: 00007FF6EAB7CFB0
+					 - __index : function: 00007FF6EAB7C740
+					 - GetItemAlreadyExclusive : function: 00007FF6EAB7D160
+					 - SetEquipSlot : function: 00007FF6EAB7CB50
+					 - GetItemAlreadyEquipped : function: 00007FF6EAB7D0D0
+					 - GetDraggedItemAlreadyExclusive : function: 00007FF6EAB7D070
+					 - SetCheatItemInSocket : function: 00007FF6EAB7CDE0
+					 - SetResetSocketState : function: 00007FF6EAB7CEA0
+					 - StackLimit : property<int>
+					 - DraggedItemAlreadyExclusive : property<bool>
+					 - SetClearSlot : function: 00007FF6EAB7CAE0
+					 - GetDraggedItemAlreadyEquipped : function: 00007FF6EAB7D010
+					 - InteractingAreaID : property<AreaID>
+						 - SessionID : 0
+						 - IslandID : 96
+					 - SetDenyGeneratedItem : function: 00007FF6EAB7CF60
+					 - CanEquipItems : property<bool>
+					 - GetInteractingAreaID : function: 00007FF6EAB7D1F0
+					 - SetUnequipSocket : function: 00007FF6EAB7CC10
+					 - DraggedItemAlreadyEquipped : property<bool>
+					 - SetCheatItemInSlot : function: 00007FF6EAB7CA20
+					 - __name : CPropertyItemContainerTextSource*MT
+				 - GetElectric : function: 00007FF6EA6F49F0
+				 - GetPalaceMinistry : function: 00007FF6EA6F58D0
+				 - GetPier : function: 00007FF6EA6F5390
+				 - Motor : property<CPropertyMotorizable>
+					 - IsMotorized : property<bool>
+					 - GetIsMotorized : function: 00007FF6EAB9BD60
+					 - __name : CPropertyMotorizableTextSource*MT
+					 - __index : function: 00007FF6EAB9BB80
+			 - __index : function: 00007FF6EAB9F080
+			 - GetParagonProductivityBonus : function: 00007FF6EAB9F830
+			 - GetAttractivenesNeededForNextParagonLevel : function: 00007FF6EAB9F650
+			 - GetAttractivenessNeededToUnlockMinistry : function: 00007FF6EAB9F530
+			 - CurrentParagonLevel : property<int>
+			 - GetParagonModuleInfluenceBonus : function: 00007FF6EAB9F7A0
+			 - GetParagonSpecialistSpawnBonus : function: 00007FF6EAB9FA70
+			 - GetActiveBaseOrParagonEffect : function: 00007FF6EAB9F5C0
+			 - GetParagonAttractivenessBonus : function: 00007FF6EAB9F9E0
+			 - GetParagonServiceRangeBonus : function: 00007FF6EAB9F8C0
+			 - GetParagonIslandStorageBonus : function: 00007FF6EAB9F950
+			 - AttractivenesNeededForCurrentParagonLevel : property<int>
+			 - GetParagonWorforceBonus : function: 00007FF6EAB9F710
+			 - PalaceEffectRange : property<int>
+			 - GetBaseEffect : function: 00007FF6EAB9F4A0
+			 - AttractivenesNeededForNextParagonLevel : property<int>
+			 - GetPalaceEffectRange : function: 00007FF6EAB9F3E0
+			 - GetIsMinistryUnlocked : function: 00007FF6EAB9F350
+			 - __name : CPropertyPalaceTextSource*MT
+			 - GetAttractivenesNeededForCurrentParagonLevel : function: 00007FF6EAB9F6B0
+		 - GetHacienda : function: 00007FF6EA6F5940
+		 - ItemCrafter : property<CPropertyItemCrafter>
+			 - GetCraftingCosts : function: 00007FF6EAB82930
+			 - __name : CPropertyItemCrafterTextSource*MT
+		 - GetAttackable : function: 00007FF6EA6F4520
+		 - ShipMaintenance : property<CPropertyShipMaintenance>
+			 - GetMaintenance : function: 00007FF6EA584520
+			 - Maintenance : property<int>
+			 - __name : CPropertyShipMaintenanceTextSource*MT
+			 - __index : function: 00007FF6EA584330
+		 - GetShipyard : function: 00007FF6EA6F5320
+		 - SetCycleSkins : function: 00007FF6EA6F6120
+		 - GetPalace : function: 00007FF6EA6F5860
+		 - SetMove : function: 00007FF6EA6F6020
+		 - ShipIncident : property<CPropertyShipIncident>
+			 - GetRemainingDuration : function: 00007FF6EABC1470
+			 - RemainingDuration : property<rdtime>
+			 - CheatEndInfection : function: 00007FF6EABC12D0
+			 - CheatEndAnyInfection : function: 00007FF6EABC1340
+			 - __index : function: 00007FF6EABC0F20
+			 - CheatInfect : function: 00007FF6EABC1210
+			 - CheatInfectRandom : function: 00007FF6EABC1280
+			 - GetActiveIncidentType : function: 00007FF6EABC11B0
+			 - ToggleDebugRenderRadius : function: 00007FF6EABC1420
+			 - ActiveIncidentType : property<int>
+			 - __name : CPropertyShipIncidentTextSource*MT
+			 - CheatIgnoreIncidentPriority : function: 00007FF6EABC1390
+		 - Shipyard : property<CPropertyShipyard>
+			 - GetBuildCostForShip : function: 00007FF6EA585780
+			 - GetCurrentConstructionGUID : function: 00007FF6EA585540
+			 - SetCheatSkipRemainingTime : function: 00007FF6EA585880
+			 - RemainingRelativeTime : property<rdtime>
+			 - GetIsCurrentConstructionGUID : function: 00007FF6EA5855A0
+			 - __index : function: 00007FF6EA585290
+			 - GetRemainingRelativeTime : function: 00007FF6EA585720
+			 - CurrentConstructionGUID : property<int>
+			 - GetProgress : function: 00007FF6EA585630
+			 - GetConstructionTime : function: 00007FF6EA585690
+			 - __name : CPropertyShipyardTextSource*MT
+			 - Progress : property<float>
+		 - SessionGuid : property<int>
+		 - GetWatered : function: 00007FF6EA6F5A20
+		 - GetDying : function: 00007FF6EA6F4910
+		 - GetConstructionAI : function: 00007FF6EA6F47C0
+		 - Pausable : property<CPropertyPausable>
+			 - GetIsPausedByQuest : function: 00007FF6EABA4FF0
+			 - IsPausedByQuest : property<bool>
+			 - TogglePause : function: 00007FF6EA727A50
+			 - __name : CPropertyPausableTextSource*MT
+			 - __index : function: 00007FF6EABA4DF0
+		 - GetLifetime : function: 00007FF6EA6F55C0
+		 - Warehouse : property<CPropertyWarehouse>
+			 - GetStorageBonus : function: 00007FF6EA592750
+			 - StorageBonusInclModules : property<int>
+			 - __index : function: 00007FF6EA592500
+			 - StrategicGood : property<int>
+			 - StorageBonus : property<int>
+			 - GetStorageBonusInclModules : function: 00007FF6EA592810
+			 - GetStrategicGood : function: 00007FF6EA5927B0
+			 - __name : CPropertyWarehouseTextSource*MT
+			 - GetStorageDifferenceToIslandStorage : function: 00007FF6EA592870
+		 - GetIsResidence : function: 00007FF6EA6F5CB0
+		 - GetCollectable : function: 00007FF6EA6F46E0
+		 - GetDockland : function: 00007FF6EA6F4980
+		 - GetIsCulturalModule : function: 00007FF6EA6F5E30
+		 - GetStatic : function: 00007FF6EA6F5FB0
+		 - GetDelayedConstruction : function: 00007FF6EA6F4830
+		 - GetModule : function: 00007FF6EA6F4600
+		 - FloorStack : property<CPropertyFloorStackOwner>
+			 - SetChangeFloorSize : function: 00007FF6EAB68BB0
+			 - __name : CPropertyFloorStackOwnerTextSource*MT
+		 - IsWarehouse : property<bool>
+		 - GetWalking : function: 00007FF6EA6F5080
+		 - GetOwner : function: 00007FF6EA6F67F0
+		 - IrrigationSouce : property<CPropertyIrrigationSource>
+			 - GetBaseCapacity : function: 00007FF6EAB7A960
+			 - GetCurentCapacity : function: 00007FF6EAB7A840
+			 - CurrentDynamicCapacity : property<int>
+			 - GetMaxDynamicCapacity : function: 00007FF6EAB7A900
+			 - CurentCapacity : property<int>
+			 - __index : function: 00007FF6EAB7A5B0
+			 - GetCurrentDynamicCapacity : function: 00007FF6EAB7A8A0
+			 - BaseCapacity : property<int>
+			 - __name : CPropertyIrrigationSourceTextSource*MT
+			 - MaxDynamicCapacity : property<int>
+		 - __name : CGameObjectTextSource*MT
+		 - IsCulturalModule : property<bool>
+		 - Sellable : property<CPropertySellable>
+			 - CanBeSoldToTrader : property<bool>
+			 - GetCurrentParticipantBuyPrice : function: 00007FF6EABBE350
+			 - SetOnSale : function: 00007FF6EABBE200
+			 - GetCanBeSoldToTrader : function: 00007FF6EABBE430
+			 - CurrentParticipantBuyPrice : property<CBuildCost>
+			 - GetSellPrice : function: 00007FF6EABBE3C0
+			 - GetOnSale : function: 00007FF6EABBE290
+			 - __index : function: 00007FF6EABBDF40
+			 - BuyNet : function: 00007FF6EABBE4E0
+			 - GetAffordableByCurrentParticipant : function: 00007FF6EABBE2F0
+			 - CheatBuy : function: 00007FF6EABBE490
+			 - OnSale : property<bool>
+			 - SellPrice : property<CBuildCost>
+			 - __name : CPropertySellableTextSource*MT
+			 - AffordableByCurrentParticipant : property<bool>
+		 - Maintenance : property<CPropertyMaintenance>
+			 - GetMaintenanceCost : function: 00007FF6EAB84CB0
+			 - SetToggleConsumerPriorityAlarm : function: 00007FF6EAB84DD0
+			 - __index : function: 00007FF6EAB84A80
+			 - IsAdditionalWorkforceFullySatisfied : property<bool>
+			 - DeltaInputSaturation : property<float>
+			 - GetStaticMaintenanceCost : function: 00007FF6EAB84D40
+			 - GetDeltaInputSaturation : function: 00007FF6EAB84E20
+			 - __name : CPropertyMaintenanceTextSource*MT
+			 - GetIsAdditionalWorkforceFullySatisfied : function: 00007FF6EAB84E80
+		 - GetSellable : function: 00007FF6EA6F5780
+		 - Factory : property<CPropertyFactory7>
+			 - GetHasNeededFertility : function: 00007FF6EA01EA80
+			 - GetProductivity : function: 00007FF6EAB62440
+			 - GetPostboxResidents : function: 00007FF6EAB62980
+			 - GetProductivityFarmFieldBoost : function: 00007FF6EAB62620
+			 - NewspaperProductivityByProductivityEffect : property<float>
+			 - ProductivityUpgrade : property<float>
+			 - GetEconomyModifier : function: 00007FF6EA76B4D0
+			 - TeleportsProducedGoodsDirectlyIntoAreaStorage : property<bool>
+			 - GetCurrentProductivity : function: 00007FF6EAB624A0
+			 - HasNeededFertility : property<bool>
+			 - GetTeleportsProducedGoodsDirectlyIntoAreaStorage : function: 00007FF6EAB62320
+			 - GetNeededFertility : function: 00007FF6EAB62800
+			 - NewspaperProductivityByArmamentEffect : property<float>
+			 - ProductivityFarmFieldBoost : property<float>
+			 - Productivity : property<float>
+			 - GetFillStorage : function: 00007FF6EAB622C0
+			 - GetNewspaperProductivityByArmamentEffect : function: 00007FF6EAB62680
+			 - ProductivityBoostPotential : property<float>
+			 - GetNewspaperProductivityByProductivityEffect : function: 00007FF6EAB626E0
+			 - FillStorage : property<bool>
+			 - GetProductivityUpgrade : function: 00007FF6EAB62500
+			 - __index : function: 00007FF6EAB61BE0
+			 - ToggleCheatFertility : function: 00007FF6EAB628D0
+			 - RelativeCycleTime : property<rdtime>
+			 - GetProductivityBoostPotential : function: 00007FF6EAB625C0
+			 - PostboxProductivity : property<float>
+			 - GetPostboxProductivity : function: 00007FF6EAB62920
+			 - NeedsAFertility : property<bool>
+			 - GetNeedsAFertility : function: 00007FF6EAB62870
+			 - GetCycleTime : function: 00007FF6EAB62380
+			 - NeededFertility : property<CAsset>
+				 - Guid : property<int>
+				 - Text : property<rdsdk::CRDStringW>
+				 - GetText : function: 00007FF6EA00DD10
+				 - __index : function: 00007FF6EA00D9E0
+				 - GetGuid : function: 00007FF6EA00DC40
+				 - Icon : property<rdsdk::CRDStringW>
+				 - __name : CAssetTextSource*MT
+				 - GetIcon : function: 00007FF6EA00DCA0
+			 - GetProductivityBase : function: 00007FF6EAB62560
+			 - NoWarehouseInRange : property<bool>
+			 - GetNoWarehouseInRange : function: 00007FF6EAB627A0
+			 - GetFullOutputStorage : function: 00007FF6EAB62740
+			 - ProductivityBase : property<float>
+			 - FullOutputStorage : property<bool>
+			 - PostboxResidents : property<int>
+			 - GetRelativeCycleTime : function: 00007FF6EAB623E0
+			 - CurrentProductivity : property<float>
+			 - __name : CPropertyFactory7TextSource*MT
+			 - CycleTime : property<rdtime>
+		 - Walking : property<CPropertyWalking>
+			 - BaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : property<float>
+			 - GetAffectedByWind : function: 00007FF6EA58DFB0
+			 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : function: 00007FF6EA58DEF0
+			 - BaseSpeedWithStaticSpeedFactors : property<float>
+			 - GetIsMoving : function: 00007FF6EA58DCE0
+			 - GetSessionTransferSpeedFactor : function: 00007FF6EA58E010
+			 - BaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : property<float>
+			 - SetUnsetIdleTickCount : function: 00007FF6EA58DC90
+			 - BaseSpeedWithUpgrades : property<float>
+			 - DebugStop : function: 00007FF6EA58DC40
+			 - GetBaseSpeedWithUpgrades_MaxWindSlowdown : function: 00007FF6EA58DDD0
+			 - GetBaseSpeedWithStaticSpeedFactors : function: 00007FF6EA58DE90
+			 - BaseSpeedWithUpgrades_MaxWindSlowdown : property<float>
+			 - SessionTransferSpeedFactor : property<float>
+			 - AffectedByWind : property<bool>
+			 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : function: 00007FF6EA58DF50
+			 - GetBaseSpeedWithUpgrades_MaxWindSpeedup : function: 00007FF6EA58DE30
+			 - BaseSpeedWithUpgrades_MaxWindSpeedup : property<float>
+			 - GetBaseSpeedWithUpgrades : function: 00007FF6EA58DD70
+			 - SetDebugGoto : function: 00007FF6EA58DB90
+			 - __name : CPropertyWalkingTextSource*MT
+			 - __index : function: 00007FF6EA58D7F0
+		 - HasAlternativeGrassColor : property<bool>
+		 - GetRiver : function: 00007FF6EA6F4E50
+		 - GetCommandQueue : function: 00007FF6EA6F4750
+		 - Module : property<CPropertyBuildingModule>
+			 - GetIsCulturalModule : function: 00007FF6EA6F5E30
+			 - IsCulturalModule : property<bool>
+			 - __name : CPropertyBuildingModuleTextSource*MT
+			 - __index : function: 00007FF6EA899FE0
+		 - GetRepair : function: 00007FF6EA6F4D70
+		 - IsMonument : property<bool>
+		 - GetShipIncident : function: 00007FF6EA6F5630
+		 - GetLogistic : function: 00007FF6EA6F59B0
+		 - GetBusStop : function: 00007FF6EA6F4670
+		 - CommandQueue : property<CPropertyCommandQueue>
+			 - GetUI_IsInATradeRoute : function: 00007FF6EAB53550
+			 - UI_IsBombarding : property<bool>
+			 - GetUI_IsBombarding : function: 00007FF6EAB53670
+			 - GetHasTradeRouteAssignment : function: 00007FF6EAB53250
+			 - GetUI_IsNonMoving : function: 00007FF6EAB53310
+			 - GetUI_HasLostTarget : function: 00007FF6EAB53610
+			 - __index : function: 00007FF6EAB52D10
+			 - UI_IsHoldingQuestObject : property<bool>
+			 - UI_IsInCombat : property<bool>
+			 - GetUI_IsLeavingTheSession : function: 00007FF6EAB534F0
+			 - HasTradeRouteAssignment : property<bool>
+			 - UI_IsInATradeRoute : property<bool>
+			 - UI_IsLeavingTheSession : property<bool>
+			 - GetHasExpeditionAssignment : function: 00007FF6EAB531F0
+			 - UI_IsPatrolling : property<bool>
+			 - GetUI_IsPatrolling : function: 00007FF6EAB53490
+			 - UI_IsEscorting : property<bool>
+			 - GetUI_IsHoldingQuestObject : function: 00007FF6EAB53430
+			 - HasPatrolAssignment : property<bool>
+			 - GetUI_IsChosenOrOutOnExpedition : function: 00007FF6EAB533D0
+			 - UI_IsChosenOrOutOnExpedition : property<bool>
+			 - UI_IsMoving : property<bool>
+			 - UI_HasLostTarget : property<bool>
+			 - GetUI_IsMoving : function: 00007FF6EAB532B0
+			 - GetUI_IsInCombat : function: 00007FF6EAB53370
+			 - GetUI_IsEscorting : function: 00007FF6EAB535B0
+			 - UI_IsNonMoving : property<bool>
+			 - HasExpeditionAssignment : property<bool>
+			 - __name : CPropertyCommandQueueTextSource*MT
+			 - GetHasPatrolAssignment : function: 00007FF6EAB53190
+		 - GetUpgradability : function: 00007FF6EA6F6630
+		 - GetRandomMapObject : function: 00007FF6EA6F4F30
+		 - Electric : property<CPropertyElectrifiable>
+			 - BoostFactor : property<float>
+			 - GetBoostFactor : function: 00007FF6EAB5FD90
+			 - GetIsElectrified : function: 00007FF6EAB5FD30
+			 - IsElectrified : property<bool>
+			 - __name : CPropertyElectrifiableTextSource*MT
+			 - __index : function: 00007FF6EAB5FB00
+		 - Trader : property<CPropertyTrader>
+		 - Pier : property<CPropertyLoadingPier>
+			 - TonsPerSec : property<float>
+			 - GetTonsPerSec : function: 00007FF6EAB83F00
+			 - __name : CPropertyLoadingPierTextSource*MT
+			 - __index : function: 00007FF6EAB83D20
+		 - GetEcoProvider : function: 00007FF6EA6F5B70
+		 - ModuleOwner : property<CPropertyModuleOwner>
+			 - ModuleCountIncludingPreviewExcludingNonWorking : property<int>
+			 - ModuleCount : property<int>
+			 - GetModuleLimitForGUID : function: 00007FF6EAB8A130
+			 - GetHasNonIrrigatedModulesBelowLimit : function: 00007FF6EAB8A760
+			 - GetModuleCount : function: 00007FF6EAB8A360
+			 - GetFertilizerModule : function: 00007FF6EAB8A220
+			 - DefaultModuleGUID : property<int>
+			 - GetAmountIrrigatedModules_CapAtLimit : function: 00007FF6EAB8A520
+			 - CosmeticModuleCountIncludingPreview : property<int>
+			 - GetRemainingBuildRights : function: 00007FF6EAB8A8E0
+			 - HasFertilizerModule : property<bool>
+			 - GetCosmeticModuleCountIncludingPreview : function: 00007FF6EAB8A6A0
+			 - GetPalaceModuleLimit : function: 00007FF6EAB8A040
+			 - GetModuleCountIncludeNonWorking_CapAtLimit : function: 00007FF6EAB8A640
+			 - GetModuleCountIncludingPreviewExcludingNonWorking : function: 00007FF6EAB8A820
+			 - HasNonIrrigatedModulesBelowLimit : property<bool>
+			 - GetModuleCountBP : function: 00007FF6EAB8A420
+			 - GetAmountNotIrrigatedModules : function: 00007FF6EAB8A580
+			 - CosmeticModuleLimit : property<int>
+			 - AmountIrrigatedModules_CapAtLimit : property<int>
+			 - MainModuleLimit : property<int>
+			 - __index : function: 00007FF6EAB89980
+			 - ModuleCountIncludingPreview : property<int>
+			 - GetCosmeticModuleLimit : function: 00007FF6EAB8A700
+			 - GetModuleCountIncludeNonWorking : function: 00007FF6EAB8A5E0
+			 - ModuleLimit : property<int>
+			 - GetModuleLimit : function: 00007FF6EAB89F80
+			 - GetAdditionalModule : function: 00007FF6EAB8A2F0
+			 - GetDefaultModuleGUID : function: 00007FF6EAB8A880
+			 - GetModuleCountIncludingPreview : function: 00007FF6EAB8A7C0
+			 - AdditionalModule : property<CGameObject>
+						 - AreaID : table: 000001EBD78FE438
+			 - AmountNotIrrigatedModules : property<int>
+			 - AmountIrrigatedModules : property<int>
+			 - FertilizerModule : property<CGameObject>
+						 - AreaID : table: 000001EBDA097408
+			 - GetModuleCountForGUID : function: 00007FF6EAB8A0A0
+			 - GetMainModuleLimit : function: 00007FF6EAB89FE0
+			 - HasAdditionalModule : property<bool>
+			 - GetAmountIrrigatedModules : function: 00007FF6EAB8A4C0
+			 - ModuleCountIncludeNonWorking_CapAtLimit : property<int>
+			 - PalaceModuleCount : property<int>
+			 - GetHasFertilizerModule : function: 00007FF6EAB8A1C0
+			 - GetPalaceModuleCount : function: 00007FF6EAB8A3C0
+			 - GetHasAdditionalModule : function: 00007FF6EAB8A290
+			 - __name : CPropertyModuleOwnerTextSource*MT
+			 - PalaceModuleLimit : property<int>
+			 - ModuleCountIncludeNonWorking : property<int>
+		 - EcoProvider : property<CPropertyEcoSystemProvider>
+			 - MaxMonoCulture : property<int>
+			 - GetNegativeMonoCulture : function: 00007FF6EAB5E0D0
+			 - GetCurrentDelta : function: 00007FF6EAB5E010
+			 - __index : function: 00007FF6EAB5DD50
+			 - CurrentDelta : property<float>
+			 - GetPositiveMonoCulture : function: 00007FF6EAB5E070
+			 - GetMaxMonoCulture : function: 00007FF6EAB5E130
+			 - NegativeMonoCulture : property<float>
+			 - __name : CPropertyEcoSystemProviderTextSource*MT
+			 - PositiveMonoCulture : property<float>
+		 - GetDowngradability : function: 00007FF6EA6F66A0
+		 - ConstructionAI : property<CPropertyConstructionAI>
+			 - GrantSettlePermissionNet : function: 00007FF6EAB57D50
+			 - __name : CPropertyConstructionAITextSource*MT
+		 - Upgradability : property<CUpgradabilityChecker>
+		 - GetIsCultureMainBuilding : function: 00007FF6EA6F6A60
+		 - GetMaintenance : function: 00007FF6EA6F5710
+		 - GetTrader : function: 00007FF6EA6F5470
+		 - Expedition : property<CExpedition>
+			 - TravelTimeLeft : property<rdtime>
+			 - EventCountdown : property<rdtime>
+			 - SetEndExpedition : function: 00007FF6EA6DDE90
+			 - SetCheatSetCurrentDecision : function: 00007FF6EA6DDCB0
+			 - GetDays : function: 00007FF6EA6DE200
+			 - GetOptionAttributeLevel : function: 00007FF6EA6DE340
+			 - ExpeditionShipStarting : property<bool>
+			 - SetCheatEndExpedition : function: 00007FF6EA6DDD20
+			 - ExpeditionShip : property<CGameObject>
+						 - AreaID : table: 000001EBDB6545A8
+			 - SetDiscardExpedition : function: 00007FF6EA6DE010
+			 - GetOptionAttributeLevelDescription : function: 00007FF6EA6DE3D0
+			 - ExpeditionShipReturning : property<bool>
+			 - SetCheatCurrentEvent : function: 00007FF6EA6DDC40
+			 - __index : function: 00007FF6EA6DD620
+			 - SetResolveDecision : function: 00007FF6EA6DDDD0
+			 - SetCheatEventCountdown : function: 00007FF6EA6DDBF0
+			 - Days : property<int>
+			 - SetOpenEventUI : function: 00007FF6EA6DE260
+			 - Morale : property<int>
+			 - GetRequirementConsumeAmount : function: 00007FF6EA6DE170
+			 - GetExpeditionShipReturning : function: 00007FF6EA6DDB30
+			 - GetMorale : function: 00007FF6EA6DDFB0
+			 - GetEventCountdown : function: 00007FF6EA6DDB90
+			 - GetThreatDescription : function: 00007FF6EA6DDA40
+			 - GetOptionAttributeSum : function: 00007FF6EA6DE2B0
+			 - GetMaxStartMoralePoints : function: 00007FF6EA6DDEE0
+			 - GetTravelTimeLeft : function: 00007FF6EA6DE460
+			 - SetMorale : function: 00007FF6EA6DDF40
+			 - GetRequirement : function: 00007FF6EA6DE0D0
+			 - GetExpeditionShip : function: 00007FF6EA6DE060
+			 - MaxStartMoralePoints : property<int>
+			 - GetCurrentEvent : function: 00007FF6EA6DDD70
+			 - __name : CExpeditionTextSource*MT
+			 - GetExpeditionShipStarting : function: 00007FF6EA6DDAD0
+			 - CurrentEvent : property<int>
+		 - GetExpedition : function: 00007FF6EA6F69F0
+		 - GetAreaManager : function: 00007FF6EA6F6980
+		 - Attackable : property<CPropertyAttackable>
+			 - MaxHitPoints : property<short>
+			 - GetMaxHitPoints : function: 00007FF6EA890250
+			 - SetAddDamagePercent : function: 00007FF6EA890310
+			 - GetIsUnderAttack : function: 00007FF6EA890520
+			 - __index : function: 00007FF6EA88FFB0
+			 - CheatRemainingEffectTime : function: 00007FF6EA890580
+			 - GetIsWhiteFlagActive : function: 00007FF6EA8904C0
+			 - IsWhiteFlagActive : property<bool>
+			 - GetStatusEffectChainStageCount : function: 00007FF6EA8907A0
+			 - GetIsPartOfActiveStatusEffectChain : function: 00007FF6EA8905F0
+			 - GetCurHitPoints : function: 00007FF6EA8902B0
+			 - GetStatusEffectChainStage : function: 00007FF6EA890710
+			 - IsUnderAttack : property<bool>
+			 - SetDebugInvincible : function: 00007FF6EA890430
+			 - CurHitPoints : property<short>
+			 - __name : CPropertyAttackableTextSource*MT
+			 - GetRemainingStatusEffectDuration : function: 00007FF6EA890680
+		 - GetArea : function: 00007FF6EA6F6910
+		 - GetSessionGuid : function: 00007FF6EA6F68B0
+		 - Hacienda : property<CPropertyHacienda>
+			 - NextRadiusRequirement : property<int>
+			 - GetIsPolicyUnlocked : function: 00007FF6EAB6B390
+			 - GetRequiredAttractivenessForPolicy : function: 00007FF6EAB6B420
+			 - GetNextRadiusRequirement : function: 00007FF6EAB6B4B0
+			 - __name : CPropertyHaciendaTextSource*MT
+			 - __index : function: 00007FF6EAB6B1B0
+		 - GetShipMaintenance : function: 00007FF6EA6F56A0
+		 - Lifetime : property<CPropertyLifetime>
+			 - GetRemainingTime : function: 00007FF6EAB83370
+			 - RemainingTime : property<rdtime>
+			 - __name : CPropertyLifetimeTextSource*MT
+			 - __index : function: 00007FF6EAB83190
+		 - GetIsOwnedByCurrentParticipant : function: 00007FF6EA6F6850
+		 - Owner : property<int>
+		 - Watered : property<CPropertyWatered>
+			 - RequiresWater : property<bool>
+			 - GetRequiresWater : function: 00007FF6EA5945A0
+			 - IsWatered : property<bool>
+			 - GetIsWatered : function: 00007FF6EA594540
+			 - __name : CPropertyWateredTextSource*MT
+			 - __index : function: 00007FF6EA594330
+		 - GetPausable : function: 00007FF6EA6F4D00
+		 - Renovatability : property<CRenovatabilityChecker>
+			 - Costs : property<CBuildCost>
+			 - GetCosts : function: 00007FF6EA01A4E0
+			 - GetIsRenovatable : function: 00007FF6EA5A6F30
+			 - IsRenovatable : property<bool>
+			 - __name : CRenovatabilityCheckerTextSource*MT
+			 - __index : function: 00007FF6EA5A6D00
+		 - GetRenovatability : function: 00007FF6EA6F6780
+		 - FloorAddability : property<CUpgradabilityChecker>
+		 - GetFloorAddability : function: 00007FF6EA6F6710
+		 - IsCultureMainBuilding : property<bool>
+		 - IncidentResolver : property<CPropertyIncidentResolver>
+			 - GetIsActionOnCooldown : function: 00007FF6EAB715C0
+			 - IsActionOnCooldown : property<bool>
+			 - ActionUpgradeHappinessBonus : property<float>
+			 - GetIsRiotInstitution : function: 00007FF6EAB71440
+			 - GetInfectionChanceIllness : function: 00007FF6EAB71090
+			 - GetActionAdditionalUnitAmount : function: 00007FF6EAB71150
+			 - IsSpecialActionActive : property<bool>
+			 - StandardUnitAsset : property<CAsset>
+			 - ActionNewspaperHappinessBonus : property<float>
+			 - GetIsIncidentNearby : function: 00007FF6EAB71560
+			 - InfectionChanceFire : property<float>
+			 - InfectionChanceIllness : property<float>
+			 - GetInfectionChance : function: 00007FF6EAB70F70
+			 - GetIsArcticIllnessInstitution : function: 00007FF6EAB71500
+			 - SpecialUnitAsset : property<CAsset>
+			 - InfectionChanceRiot : property<float>
+			 - GetResolverPopulationThreshold : function: 00007FF6EAB71210
+			 - RemainingActionCooldown : property<rdtime>
+			 - GetInfectionChanceRiot : function: 00007FF6EAB71030
+			 - GetIsPotentialAvailableSpecialUnitIndex : function: 00007FF6EAB71680
+			 - IsIncidentNearby : property<bool>
+			 - DoesAnybodyNearbyNeedHelp : property<bool>
+			 - ActionMaxAdditionalUnitAmount : property<int>
+			 - IsArcticIllnessInstitution : property<bool>
+			 - IsIllnessInstitution : property<bool>
+			 - __index : function: 00007FF6EAB705C0
+			 - ClearSpecialActionCooldown : function: 00007FF6EAB70E40
+			 - GetInfectionChanceFire : function: 00007FF6EAB70FD0
+			 - CanSendSpecialForces : property<bool>
+			 - ActionCooldown : property<rdtime>
+			 - IsRiotInstitution : property<bool>
+			 - GetStandardUnitAsset : function: 00007FF6EAB70F00
+			 - GetRemainingActionCooldown : function: 00007FF6EAB70D80
+			 - IsFireInstitution : property<bool>
+			 - GetCanSendSpecialForces : function: 00007FF6EAB70D20
+			 - GetIsFireInstitution : function: 00007FF6EAB713E0
+			 - GetActionUpgradeHappinessBonus : function: 00007FF6EAB71380
+			 - GetActionCooldown : function: 00007FF6EAB70DE0
+			 - GetActionNewspaperHappinessBonus : function: 00007FF6EAB71320
+			 - GetSpecialUnitAsset : function: 00007FF6EAB70E90
+			 - GetResolverHappinessThreshold : function: 00007FF6EAB712A0
+			 - GetDoesAnybodyNearbyNeedHelp : function: 00007FF6EAB71620
+			 - GetActionMaxAdditionalUnitAmount : function: 00007FF6EAB711B0
+			 - ActionAdditionalUnitAmount : property<int>
+			 - InfectionChance : property<float>
+			 - InfectionChanceArcticIllness : property<float>
+			 - GetInfectionChanceArcticIllness : function: 00007FF6EAB710F0
+			 - __name : CPropertyIncidentResolverTextSource*MT
+			 - GetIsIllnessInstitution : function: 00007FF6EAB714A0
+			 - GetIsSpecialActionActive : function: 00007FF6EAB70CC0
+		 - RandomMapObject : property<CPropertyRandomMapObject>
+			 - SetFiniteResourceAmount : function: 00007FF6EABA6700
+			 - ResourceCapacity : property<int>
+			 - GetResourceAmount : function: 00007FF6EABA66A0
+			 - ResourceAmount : property<int>
+			 - GetResourceCapacity : function: 00007FF6EABA6640
+			 - __name : CPropertyRandomMapObjectTextSource*MT
+			 - __index : function: 00007FF6EABA6420
+		 - FreeArea : property<CPropertyFreeAreaProductivity>
+			 - SetToggleGridDebugDraw : function: 00007FF6EAB69C60
+			 - TreeCount : property<int>
+			 - __index : function: 00007FF6EAB69940
+			 - GetNeededTreeCount : function: 00007FF6EAB69C00
+			 - GetTreeCount : function: 00007FF6EAB69BA0
+			 - __name : CPropertyFreeAreaProductivityTextSource*MT
+			 - NeededTreeCount : property<int>
+		 - __index : function: 00007FF6EA6F3230
+		 - SetDowngrade : function: 00007FF6EA6F6540
+		 - GetModuleOwner : function: 00007FF6EA6F5240
+		 - Monument : property<CPropertyMonument>
+			 - GetEventWorkforceByGUID : function: 00007FF6EAB94750
+			 - RemainingEventTime : property<rdtime>
+			 - GetNeededProduct : function: 00007FF6EAB93FF0
+			 - CurrentPhase : property<int>
+			 - RemainingTime : property<rdsdk::CRDStringW>
+			 - IsEventFinished : property<bool>
+			 - EventWorkforceUsed : property<int>
+			 - GetIsInConstructionState : function: 00007FF6EAB941D0
+			 - SetCheatSkipEventTime : function: 00007FF6EAB94540
+			 - __index : function: 00007FF6EAB935E0
+			 - GetEventWorkforceUsedByGUID : function: 00007FF6EAB94880
+			 - GetCurrentPhase : function: 00007FF6EAB94300
+			 - IsEventPreparing : property<bool>
+			 - GetIsEventPreparing : function: 00007FF6EAB943C0
+			 - GetAvailableProduct : function: 00007FF6EAB94080
+			 - GetUpgradeTarget : function: 00007FF6EAB93F80
+			 - UpgradeTarget : property<rdsdk::CRDStringW>
+			 - SetOpenExhibitionUI : function: 00007FF6EAB949A0
+			 - GetEventGoodsReductionPercent : function: 00007FF6EAB94910
+			 - GetEventMaxUsableWorkforceAmount : function: 00007FF6EAB947F0
+			 - GetEventGoodsRange : function: 00007FF6EAB94660
+			 - SetPauseUpgrade : function: 00007FF6EAB94180
+			 - EventWorkforce : property<CAsset>
+			 - GetRemainingEventTime : function: 00007FF6EAB944E0
+			 - IsEventRunning : property<bool>
+			 - GetIsEventRunning : function: 00007FF6EAB94420
+			 - MaxPhase : property<int>
+			 - GetMaxPhase : function: 00007FF6EAB94360
+			 - GetRemainingTime : function: 00007FF6EAB94110
+			 - SetCheatMicroPhase : function: 00007FF6EAB942B0
+			 - SetCheatUpgradeMicro : function: 00007FF6EAB94260
+			 - GetEventWorkforce : function: 00007FF6EAB94590
+			 - __name : CPropertyMonumentTextSource*MT
+			 - GetIsEventFinished : function: 00007FF6EAB94480
+			 - GetEventWorkforceUsed : function: 00007FF6EAB94600
+		 - Static : property<CAsset>
+		 - Culture : property<CPropertyCulture>
+			 - GetAttractivenessIncludingModules : function: 00007FF6EAB58E50
+			 - __index : function: 00007FF6EAB58B40
+			 - GetAttractiveness : function: 00007FF6EAB58D90
+			 - GetAttractivenessModules : function: 00007FF6EAB58DF0
+			 - AttractivenessIncludingModules : property<int>
+			 - Attractiveness : property<int>
+			 - __name : CPropertyCultureTextSource*MT
+			 - AttractivenessModules : property<int>
+		 - GUID : property<int>
+		 - GetNameable : function: 00007FF6EA6F4C20
+		 - GetMotor : function: 00007FF6EA6F4B40
+		 - IsProduction : property<bool>
+		 - Distribution : property<CPropertyDistribution>
+			 - GetDistributionAmount : function: 00007FF6EAB5B1A0
+			 - __name : CPropertyDistributionTextSource*MT
+		 - GetMonument : function: 00007FF6EA6F4EC0
+		 - IsResidence : property<bool>
+		 - GetHasVariations : function: 00007FF6EA6F5EF0
+		 - GetInfluenceSource : function: 00007FF6EA6F5160
+		 - GetHasAlternativeGrassColor : function: 00007FF6EA6F5E90
+		 - InfluenceSource : property<CPropertyInfluenceSource>
+			 - GetProvidedInfluence : function: 00007FF6EAB79960
+			 - ProvidedInfluence : property<int>
+			 - __name : CPropertyInfluenceSourceTextSource*MT
+			 - __index : function: 00007FF6EAB79770
+		 - GetRecipeBuilding : function: 00007FF6EA6F5B00
+		 - Dying : property<CPropertyDying>
+			 - PropertyID : property<int>
+			 - GetPropertyID : function: 00007FF6EAB5D0E0
+			 - __name : CPropertyDyingTextSource*MT
+			 - __index : function: 00007FF6EAB5CF00
+		 - GetFloorStack : function: 00007FF6EA6F4AD0
+		 - GetIsBlueprunt : function: 00007FF6EA6F65D0
+		 - PalaceMinistry : property<CPropertyPalaceMinistry>
+			 - SetDecreeTier : function: 00007FF6EAB9D760
+			 - SetMinistryType : function: 00007FF6EAB9D6F0
+			 - GetEffectRange : function: 00007FF6EAB9D7D0
+			 - EffectRange : property<int>
+			 - __name : CPropertyPalaceMinistryTextSource*MT
+			 - __index : function: 00007FF6EAB9D500
+		 - SetUpgrade : function: 00007FF6EA6F63D0
+		 - Area : property<CConstructionArea>
+			 - ID : property<AreaID>
+				 - AreaIndex : 6
+				 - SessionID : 32
+				 - IslandID : 95
+			 - GetPassiveTrade : function: 00007FF6EA79F860
+			 - IsBuyShareBlocked : property<bool>
+			 - GetIncomePerShare : function: 00007FF6EA79F0F0
+			 - BuyShareCooldownTime : property<int>
+			 - GetIsOwnedByCurrentParticipant : function: 00007FF6EA6F6850
+			 - KontorID : property<GameObjectID>
+				 - AsyncObjectFlag : 0
+				 - AreaID : table: 000001EBDB35EBA8
+					 - AreaIndex : 0
+					 - SessionID : 39
+					 - IslandID : 0
+				 - ObjectID : 2214320096
+				 - EditorChunkID : 0
+				 - EditorFlag : 0
+			 - WarTimer : property<rdtime>
+			 - GetBuyShareCooldownTime : function: 00007FF6EA79ECD0
+			 - OwnerName : property<rdsdk::CRDStringW>
+			 - GetReservationCost : function: 00007FF6EA79F410
+			 - MilitaryTakeoverChanceStart : property<int>
+			 - IsExplosionUnlocked : property<bool>
+			 - GetBuyShareCooldownRemaining : function: 00007FF6EA79EC70
+			 - GetTotalShareIncome : function: 00007FF6EA79EB50
+			 - HasTradeRights : property<bool>
+			 - GetIsTakeoverBlocked : function: 00007FF6EA79F210
+			 - GetOwnerName : function: 00007FF6EA79F080
+			 - GetIsBuyShareBlocked : function: 00007FF6EA79EDA0
+			 - __index : function: 00007FF6EA79DFE0
+			 - SetSellShare : function: 00007FF6EA79EEC0
+			 - Economy : property<CAreaEconomy>
+				 - GetNeedLocked : function: 00007FF6E9FE2200
+				 - GetDelta : function: 00007FF6E9FE2670
+				 - GetMaxTransporterCount : function: 00007FF6EA767D70
+				 - GetRegisteredDeltaProduction : function: 00007FF6E9FE26F0
+				 - GetEconomyModifier : function: 00007FF6E9FE2120
+				 - SetSelectStorageGoodDebug : function: 00007FF6E9FE2550
+				 - GetStorageCapacity : function: 00007FF6EA767B30
+				 - GetIsDistributionPaused : function: 00007FF6E9FE1D80
+				 - ClearIslandStorage : function: 00007FF6E9FE1CA0
+				 - Research : property<int>
+				 - GetDeltaSaturationUncapped : function: 00007FF6E9FE29F0
+				 - AddAmount : function: 00007FF6E9FE1B80
+				 - __index : function: 00007FF6E9FE1850
+				 - GetDeltaSaturation : function: 00007FF6E9FE2970
+				 - GetRegisteredDeltaConsumption : function: 00007FF6E9FE2830
+				 - SetCheatAddDelta : function: 00007FF6E9FE25C0
+				 - SetCheatChangeWorkforceNet : function: 00007FF6E9FE24C0
+				 - GetStorageTrend : function: 00007FF6E9FE2430
+				 - SetCheatItem : function: 00007FF6E9FE23C0
+				 - GetStorageAmount : function: 00007FF6EA767A10
+				 - GetFreeSpace : function: 00007FF6EA767C50
+				 - GetAvailableAmount : function: 00007FF6EA767AA0
+				 - GetReservedStorageAmount : function: 00007FF6EA767BC0
+				 - SetEconomyModifier : function: 00007FF6E9FE2000
+				 - GetSatisfaction : function: 00007FF6E9FE1E60
+				 - GetCurrentTransporterCount : function: 00007FF6EA767CE0
+				 - __name : CAreaEconomyTextSource*MT
+				 - GetResearch : function: 00007FF6E9FE1FA0
+				 - GetAvailableTransporterCount : function: 00007FF6EA767E00
+			 - GetIsExplosionUnlocked : function: 00007FF6EA79F650
+			 - GetCityName : function: 00007FF6EA79F710
+			 - TotalShareIncome : property<float>
+			 - IsFireUnlocked : property<bool>
+			 - GetTakeoverChance : function: 00007FF6EA79EBB0
+			 - GetAmountOfShares : function: 00007FF6EA79EF90
+			 - GetWarTimer : function: 00007FF6EA79F990
+			 - SetHostileTakeover : function: 00007FF6EA79F270
+			 - GetIsRiotUnlocked : function: 00007FF6EA79F590
+			 - MilitaryTakeoverCurrentSurrenderChance : property<int>
+			 - GetID : function: 00007FF6EA79EAF0
+			 - SetBuyShare : function: 00007FF6EA79EE00
+			 - IsTakeoverBlocked : property<bool>
+			 - PassiveTrade : property<CPassiveTradeController>
+				 - GetDetailBuyPrice : function: 00007FF6EA87D4B0
+				 - GetSellPrice : function: 00007FF6EA87D540
+				 - GetHasOffer : function: 00007FF6EA87D8C0
+				 - GetMinimumStock : function: 00007FF6EA87D950
+				 - GetOffer : function: 00007FF6EA87D820
+				 - GetBuyPrice : function: 00007FF6EA87D420
+				 - __name : CPassiveTradeControllerTextSource*MT
+				 - GetDetailSellPrice : function: 00007FF6EA87D6B0
+			 - PercentOwnedShares : property<int>
+			 - GetKontorID : function: 00007FF6EA79F4D0
+			 - GetIsDuplicate : function: 00007FF6EA79FCC0
+			 - IncomePerShare : property<int>
+			 - SetOpenMilitaryResultScreen : function: 00007FF6EA79FB10
+			 - TakeoverChance : property<int>
+			 - Owner : property<int>
+			 - ReserveIslandInt : function: 00007FF6EA79F2E0
+			 - GetEconomy : function: 00007FF6EA79F780
+			 - TotalIncome : property<int>
+			 - IsOwnedByAnyone : property<bool>
+			 - IsIllnessUnlocked : property<bool>
+			 - MilitaryTakeoverCurrentMorale : property<int>
+			 - IsNextWarBlocked : property<rdtime>
+			 - GetIsOwnedByAnyone : function: 00007FF6EA79F470
+			 - GetReservationOwnerName : function: 00007FF6EA79F3A0
+			 - GetMilitaryTakeoverChanceStart : function: 00007FF6EA79FAB0
+			 - GetIsIllnessUnlocked : function: 00007FF6EA79F5F0
+			 - GetOwnerProfile : function: 00007FF6EA79EFF0
+			 - AmountOfShares : property<int>
+			 - GetMilitaryTakeoverCurrentSurrenderChance : function: 00007FF6EA79FA50
+			 - GetMilitaryTakeoverInfluenceCost : function: 00007FF6EA79FBC0
+			 - GetMilitaryTakeoverCurrentMorale : function: 00007FF6EA79F9F0
+			 - IslandWarActive : property<bool>
+			 - CityName : property<rdsdk::CRDStringW>
+			 - GetIslandWarActive : function: 00007FF6EA79F930
+			 - SetResetCooldown : function: 00007FF6EA79ED30
+			 - GetHasTradeRights : function: 00007FF6EA79F8D0
+			 - GetVisitors : function: 00007FF6EA79F7F0
+			 - Visitors : property<CAreaVisitors>
+			 - GetPercentOwnedShares : function: 00007FF6EA79EF30
+			 - GetTakeoverMinimum : function: 00007FF6EA79EC10
+			 - MilitaryTakeoverSpareInfluenceCost : property<int>
+			 - TotalDebt : property<int>
+			 - BuyShareCooldownRemaining : property<int>
+			 - GetTotalIncome : function: 00007FF6EA79F150
+			 - IsRiotUnlocked : property<bool>
+			 - GetIsArcticIllnesUnlocked : function: 00007FF6EA79F6B0
+			 - IsArcticIllnesUnlocked : property<bool>
+			 - TakeoverMinimum : property<int>
+			 - IsOwnedByCurrentParticipant : property<bool>
+			 - ReservationCost : property<int>
+			 - GetMilitaryTakeoverSpareInfluenceCost : function: 00007FF6EA79FC60
+			 - GetIsFireUnlocked : function: 00007FF6EA79F530
+			 - GetTotalDebt : function: 00007FF6EA79F1B0
+			 - GetOwner : function: 00007FF6EA6F67F0
+			 - GetIsNextWarBlocked : function: 00007FF6EA79FB60
+			 - __name : CConstructionAreaTextSource*MT
+			 - ReservationOwnerName : property<rdsdk::CRDStringW>
+			 - ClearReservation : function: 00007FF6EA79F350
+		 - GetIsWarehouse : function: 00007FF6EA6F5D70
+		 - GetItemCrafter : function: 00007FF6EA6F54E0
+		 - GetIsMonument : function: 00007FF6EA6F5C50
+		 - GetResidence : function: 00007FF6EA6F4DE0
+		 - Pirate : property<CPropertyPirate>
+			 - DebugIncreaseAreaOfActivityRange : function: 00007FF6EABA5920
+			 - __name : CPropertyPirateTextSource*MT
+		 - Residence : property<CPropertyResidence7>
+			 - GetResidentCount : function: 00007FF6EABABA50
+			 - GetPopulationMovesIn : function: 00007FF6EABAC160
+			 - GetInfluence : function: 00007FF6EABACBA0
+			 - ResearchOutput : property<int>
+			 - GetTotalHappinessDebuffForNeed : function: 00007FF6EABABF00
+			 - GetResidentMaxFromBonusNeeds : function: 00007FF6EABAB990
+			 - GetGoodViewValue : function: 00007FF6EABAB860
+			 - GetDebuffAmountForCategory : function: 00007FF6EABAC070
+			 - GetPopulationMovesOut : function: 00007FF6EABAC100
+			 - GetOccupancy : function: 00007FF6EABABB00
+			 - GetMaxInfluence : function: 00007FF6EABACB40
+			 - Occupancy : property<float>
+			 - NegativeGoodViewInfluence : property<int>
+			 - GetMaxMallNeedsSupply : function: 00007FF6EABABDC0
+			 - GetMaxMoneyForGood : function: 00007FF6EABAC9A0
+			 - PopulationMovesOut : property<bool>
+			 - GetMaxSupplyForGood : function: 00007FF6EABAC820
+			 - CurrentMallNeedsSupply : property<int>
+			 - GetPopulationLevel : function: 00007FF6EABAB8C0
+			 - PopulationMovesIn : property<bool>
+			 - GoodViewStartValue : property<int>
+			 - __index : function: 00007FF6EABAAE50
+			 - GetMallNeedsCategoryCount : function: 00007FF6EABABD60
+			 - GetNegativeGoodViewInfluence : function: 00007FF6EABAB7A0
+			 - GetWorkforceOutput : function: 00007FF6EABAC460
+			 - HappinessWorkingCondition : property<float>
+			 - GetResearchOutput : function: 00007FF6EABAC4C0
+			 - GetMallNeedsSatisfaction : function: 00007FF6EABABC40
+			 - HappinessByBuffs : property<float>
+			 - HappinessByHotspots : property<float>
+			 - PositiveGoodViewInfluence : property<int>
+			 - ResidentLimitBySupply : property<int>
+			 - SetEconomyModifier : function: 00007FF6EA76B420
+			 - GetPositiveGoodViewInfluence : function: 00007FF6EABAB6E0
+			 - GetSatisfaction : function: 00007FF6EABABBC0
+			 - GetCurrentHeatForGood : function: 00007FF6EABAC620
+			 - GetHappinessByAttractivity : function: 00007FF6EABAC340
+			 - HappinessByNeeds : property<float>
+			 - SameHeightGoodViewInfluence : property<int>
+			 - GetGoodViewStartValue : function: 00007FF6EABAB800
+			 - ResidentMaxFromBonusNeeds : property<int>
+			 - SetCheatFill : function: 00007FF6EABABAB0
+			 - GetHappinessWorkingCondition : function: 00007FF6EABAC280
+			 - GetHappinessByHotspots : function: 00007FF6EABAC2E0
+			 - MallNeedsCategoryCount : property<int>
+			 - GetHappinessDebuffForNeedByCategory : function: 00007FF6EABABF90
+			 - Influence : property<int>
+			 - GetHappiness : function: 00007FF6EABAC1C0
+			 - ResidentMax : property<int>
+			 - GetHeatByUpgrades : function: 00007FF6EABACAE0
+			 - GetCurrentHappinessForGood : function: 00007FF6EABAC520
+			 - GetCurrentBaseHeat : function: 00007FF6EABACA80
+			 - CurrentHeatSatisfaction : property<float>
+			 - GetCurrentHeatSatisfaction : function: 00007FF6EABACA20
+			 - GetMallNeedsCategory : function: 00007FF6EABABCC0
+			 - GetMoneyOutput : function: 00007FF6EABAC400
+			 - GetSatisfactionTrend : function: 00007FF6EABABE80
+			 - GetMaxHappinessForGood : function: 00007FF6EABAC7A0
+			 - TargetResidentsFromBaseNeeds : property<int>
+			 - GetCurrentResearchForGood : function: 00007FF6EABAC720
+			 - GetCurrentMoneyForGood : function: 00007FF6EABAC6A0
+			 - GetCurrentSupplyForGood : function: 00007FF6EABAC5A0
+			 - HappinessByAttractivity : property<float>
+			 - CurrentBaseHeat : property<float>
+			 - GetHappinessByBuffs : function: 00007FF6EABAC3A0
+			 - GetSameHeightGoodViewInfluence : function: 00007FF6EABAB740
+			 - MoneyOutput : property<int>
+			 - MaxMallNeedsSupply : property<int>
+			 - GetMaxResearchForGood : function: 00007FF6EABAC920
+			 - GetCurrentMallNeedsSupply : function: 00007FF6EABABE20
+			 - PopulationLevel : property<CAsset>
+			 - ResidentCount : property<int>
+			 - GetResidentLimitBySupply : function: 00007FF6EABAB9F0
+			 - WorkforceOutput : property<float>
+			 - HeatByUpgrades : property<float>
+			 - GetHappinessByNeeds : function: 00007FF6EABAC220
+			 - Happiness : property<float>
+			 - MaxInfluence : property<int>
+			 - GetMaxHeatForGood : function: 00007FF6EABAC8A0
+			 - GetTargetResidentsFromBaseNeeds : function: 00007FF6EABABB60
+			 - GetResidentMax : function: 00007FF6EABAB930
+			 - GoodViewValue : property<int>
+			 - __name : CPropertyResidence7TextSource*MT
+		 - GetFactory : function: 00007FF6EA6F4A60
+		 - GetIsProduction : function: 00007FF6EA6F5D10
+		 - Attacker : property<CPropertyAttacker>
+			 - Damage : property<int>
+			 - ReloadTime : property<float>
+			 - GetDPS : function: 00007FF6EA895100
+			 - DPS : property<float>
+			 - __index : function: 00007FF6EA894CB0
+			 - NewspaperFireRateIncrease : property<float>
+			 - GetBaseDamage : function: 00007FF6EA894F80
+			 - GetReloadTime : function: 00007FF6EA895040
+			 - GetDamage : function: 00007FF6EA894FE0
+			 - BaseDamage : property<int>
+			 - __name : CPropertyAttackerTextSource*MT
+			 - GetNewspaperFireRateIncrease : function: 00007FF6EA8950A0
+		 - GetFreeArea : function: 00007FF6EA6F4C90
+		 - Bombarder : property<CPropertyBombarder>
+			 - SetArmed : function: 00007FF6EA8972C0
+			 - StartTargetMode : function: 00007FF6EA8973F0
+			 - CancelBombardement : function: 00007FF6EA897440
+			 - StartArming : function: 00007FF6EA897220
+			 - __index : function: 00007FF6EA897040
+			 - CancelArming : function: 00007FF6EA897270
+			 - ToggleConsumption : function: 00007FF6EA897490
+			 - GetShaftCount : function: 00007FF6EA8974E0
+			 - ShaftCount : property<int>
+			 - __name : CPropertyBombarderTextSource*MT
+			 - SetBarrageSize : function: 00007FF6EA897330
+		 - HasVariations : property<bool>
+		 - RecipeBuilding : property<CPropertyRecipeBuilding>
+			 - ChangeRecipe : function: 00007FF6EABA7A20
+			 - __name : CPropertyRecipeBuildingTextSource*MT
+		 - GetMesh : function: 00007FF6EA6F4BB0
+		 - GetWarehouse : function: 00007FF6EA6F5010
+		 - GetAttacker : function: 00007FF6EA6F4590
+		 - Logistic : property<CLogisticNode>
+			 - GetFreeSpace : function: 00007FF6EA767C50
+			 - GetAvailableAmount : function: 00007FF6EA767AA0
+			 - GetStorageCapacity : function: 00007FF6EA767B30
+			 - GetStorageAmount : function: 00007FF6EA767A10
+			 - GetMaxTransporterCount : function: 00007FF6EA767D70
+			 - GetReservedStorageAmount : function: 00007FF6EA767BC0
+			 - GetCurrentTransporterCount : function: 00007FF6EA767CE0
+			 - __name : CLogisticNodeTextSource*MT
+			 - GetAvailableTransporterCount : function: 00007FF6EA767E00
+		 - GetCulture : function: 00007FF6EA6F52B0
+		 - ItemContainer : property<CPropertyItemContainer>
+			 - GetCanEquipItems : function: 00007FF6EAB7D250
+			 - SetAcceptGeneratedItem : function: 00007FF6EAB7CF10
+			 - GetStackLimit : function: 00007FF6EAB7CFB0
+			 - __index : function: 00007FF6EAB7C740
+			 - GetItemAlreadyExclusive : function: 00007FF6EAB7D160
+			 - SetEquipSlot : function: 00007FF6EAB7CB50
+			 - GetItemAlreadyEquipped : function: 00007FF6EAB7D0D0
+			 - GetDraggedItemAlreadyExclusive : function: 00007FF6EAB7D070
+			 - SetCheatItemInSocket : function: 00007FF6EAB7CDE0
+			 - SetResetSocketState : function: 00007FF6EAB7CEA0
+			 - StackLimit : property<int>
+			 - DraggedItemAlreadyExclusive : property<bool>
+			 - SetClearSlot : function: 00007FF6EAB7CAE0
+			 - GetDraggedItemAlreadyEquipped : function: 00007FF6EAB7D010
+			 - InteractingAreaID : property<AreaID>
+				 - SessionID : 0
+				 - IslandID : 96
+			 - SetDenyGeneratedItem : function: 00007FF6EAB7CF60
+			 - CanEquipItems : property<bool>
+			 - GetInteractingAreaID : function: 00007FF6EAB7D1F0
+			 - SetUnequipSocket : function: 00007FF6EAB7CC10
+			 - DraggedItemAlreadyEquipped : property<bool>
+			 - SetCheatItemInSlot : function: 00007FF6EAB7CA20
+			 - __name : CPropertyItemContainerTextSource*MT
+		 - GetElectric : function: 00007FF6EA6F49F0
+		 - GetPalaceMinistry : function: 00007FF6EA6F58D0
+		 - GetPier : function: 00007FF6EA6F5390
+		 - Motor : property<CPropertyMotorizable>
+			 - IsMotorized : property<bool>
+			 - GetIsMotorized : function: 00007FF6EAB9BD60
+			 - __name : CPropertyMotorizableTextSource*MT
+			 - __index : function: 00007FF6EAB9BB80
+	 - __index : function: 00007FF6EA5CDC40
+	 - SetEnableDebugDrawPicking : function: 00007FF6EA5CDFC0
+	 - GetSelectionGroup : function: 00007FF6EA5CE0F0
+	 - ChangeParticipantOfSelected : function: 00007FF6EA5CE320
+	 - UpgradeSelected : function: 00007FF6EA5CE160
+	 - Picked : property<CGameObject>
+						 - AreaID : table: 000001EBDB7DF0D8
+						 - AreaID : table: 000001EBDB350E68
+						 - AreaID : table: 000001EBDB383278
+						 - AreaID : table: 000001EBD78F34E8
+				 - AreaID : table: 000001EBD7B51D38
+	 - SelectionGroup : property<CSelectionGroupController>
+		 - AddToLast : function: 00007FF6EA5CB210
+		 - GetIsEmpty : function: 00007FF6EA5CB280
+		 - SetRestore : function: 00007FF6EA5CB1A0
+		 - GetGroupID : function: 00007FF6EA5CB3A0
+		 - GetGroupSize : function: 00007FF6EA5CB310
+		 - __name : CSelectionGroupControllerTextSource*MT
+		 - SetStore : function: 00007FF6EA5CB130
+	 - SelectIslandKontor : function: 00007FF6EA5CE0A0
+	 - SetChangeAlternativeGrassColor : function: 00007FF6EA5CE370
+	 - TogglePauseForBuildingsOfSelectedType : function: 00007FF6EA5CE2D0
+	 - ContainsWarship : property<bool>
+	 - UpgradeSelectedFloor : function: 00007FF6EA5CE1F0
+	 - DestructSelected : function: 00007FF6EA5CE280
+	 - GetPicked : function: 00007FF6EA5CDEF0
+	 - __name : CSelectionManagerTextSource*MT
+ - WorldMap : property<CWorldMapSessionManager>
+	 - GetFleet : function: 00007FF6EA23DDC0
+	 - __name : CWorldMapSessionManagerTextSource*MT
+ - Irrigation : property<CIrrigationManager>
+	 - DebugReInitGrids : function: 00007FF6EA73EDC0
+	 - __name : CIrrigationManagerTextSource*MT
+ - GetInfoTip : function: 00007FF6EA2AD7D0
+ - GetIrrigation : function: 00007FF6EA2ADA30
+ - SetEnableObjectGroup : function: 00007FF6EA2AC680
+ - GetFreeAreaProductivity : function: 00007FF6EA2AF4E0
+ - EconomyStatistic : property<CEconomyStatisticManager>
+	 - SetDebugEnabled : function: 00007FF6EA6D7550
+	 - NumOfSelectedAreas : property<int>
+	 - SetDebugAreaGuid : function: 00007FF6EA6D7650
+	 - ProductionStatistic : property<CProductionStatistics>
+		 - GetPerfectProductGeneration : function: 00007FF6EA88DCD0
+		 - GetProductDelta : function: 00007FF6EA88DC40
+		 - GetProductConsumption : function: 00007FF6EA88DBB0
+		 - GetProductGeneration : function: 00007FF6EA88DB20
+		 - GetPerfectProductConsumption : function: 00007FF6EA88DD60
+		 - __name : CProductionStatisticsTextSource*MT
+	 - PopulationStatistic : property<CPopulationStatistics>
+		 - GetHappiness : function: 00007FF6EA8876D0
+		 - __name : CPopulationStatisticsTextSource*MT
+	 - GetHistory : function: 00007FF6EA6D7800
+	 - SetSelectedItem : function: 00007FF6EA6D7870
+	 - __index : function: 00007FF6EA6D7250
+	 - History : property<CStatisticsHistoryData>
+		 - GetPopulationAmount : function: 00007FF6EA1DD4B0
+		 - GetTimeSinceSnapshot : function: 00007FF6EA1DD420
+		 - GetProductConsumption : function: 00007FF6EA1DD750
+		 - GetProductGeneration : function: 00007FF6EA1DD670
+		 - GetProductAmount : function: 00007FF6EA1DD590
+		 - __name : CStatisticsHistoryDataTextSource*MT
+	 - GetPopulationStatistic : function: 00007FF6EA6D7790
+	 - GetProductionStatistic : function: 00007FF6EA6D7720
+	 - SetDebugSessionGuid : function: 00007FF6EA6D75E0
+	 - GetItemOwned : function: 00007FF6EA6D78E0
+	 - __name : CEconomyStatisticManagerTextSource*MT
+	 - GetNumOfSelectedAreas : function: 00007FF6EA6D76C0
+ - HappyDayEventManager : property<CHappyDayEventManager>
+	 - SetTriggerHappyDay : function: 00007FF6EA728610
+	 - TimeNotification : property<float>
+	 - GetTimeNotification : function: 00007FF6EA7288E0
+	 - SetTimeNotification : function: 00007FF6EA728860
+	 - SetUnixTriggerHappyDay : function: 00007FF6EA728760
+	 - __name : CHappyDayEventManagerTextSource*MT
+	 - __index : function: 00007FF6EA728430
+ - GetRewards : function: 00007FF6EA2AF010
+ - GetFullscreenMovieQueueManager : function: 00007FF6EA2AD260
+ - ToolOneManager : property<CToolOneManager>
+	 - __name : CToolOneManagerTextSource*MT
+ - Item : property<CItemSessionManager>
+	 - GetBuffFluff : function: 00007FF6EA7648B0
+	 - DraggedItemGUID : property<int>
+	 - SetCheatItem : function: 00007FF6E9FE23C0
+	 - SetCheatAllItems : function: 00007FF6EA764940
+	 - GetDraggedItemGUID : function: 00007FF6EA764990
+	 - __name : CItemSessionManagerTextSource*MT
+	 - __index : function: 00007FF6EA7646D0
+ - GetRecipeAssetData : function: 00007FF6EA2AEE20
+ - Money : property<CMetaMoneyManager>
+	 - GetShareIncome : function: 00007FF6EA7C5C40
+	 - TradeIncome : property<int>
+	 - GetTradeIncome : function: 00007FF6EA7C5EE0
+	 - __index : function: 00007FF6EA7C56A0
+	 - GetMaintenanceIncome : function: 00007FF6EA7C5CA0
+	 - CharterShipIncome : property<int>
+	 - GetCharterShipIncome : function: 00007FF6EA7C5E80
+	 - GetSkyscraperMaintenanceIncome : function: 00007FF6EA7C5D00
+	 - RoyalTaxesIncome : property<int>
+	 - GetShareLoosings : function: 00007FF6EA7C5BE0
+	 - NewspaperIncome : property<int>
+	 - GetTotalIncome : function: 00007FF6EA79F150
+	 - GetRoyalTaxesIncome : function: 00007FF6EA7C5D60
+	 - TradeShipIncome : property<int>
+	 - GetTradeShipIncome : function: 00007FF6EA7C5DC0
+	 - SkyscraperMaintenanceIncome : property<int>
+	 - GetNewspaperIncome : function: 00007FF6EA7C5B80
+	 - ShareLoosings : property<int>
+	 - GetVisitorIncome : function: 00007FF6E9FFF760
+	 - GetWarShipIncome : function: 00007FF6EA7C5E20
+	 - TotalIncome : property<int>
+	 - ShareIncome : property<int>
+	 - GetPopulationIncome : function: 00007FF6EA7C5AF0
+	 - WarShipIncome : property<int>
+	 - VisitorIncome : property<int>
+	 - __name : CMetaMoneyManagerTextSource*MT
+	 - MaintenanceIncome : property<int>
+ - ScenarioItemTrade : property<CScenarioItemTradeManager>
+	 - CancelItemTransfer : function: 00007FF6EA5B9500
+	 - SpawnItemTraderAtSelection : function: 00007FF6EA5B9430
+	 - ConfirmItemTransfer : function: 00007FF6EA5B9480
+	 - __name : CScenarioItemTradeManagerTextSource*MT
+ - SessionCamera : property<CSessionCameraManager>
+	 - SetDebugLookAtPosZ : function: 00007FF6EA5D2350
+	 - CheatToGameObject : function: 00007FF6EA5D2100
+	 - SwitchControl : function: 00007FF6EA5D2260
+	 - SetDebugLookAtPosX : function: 00007FF6EA5D22D0
+	 - ToggleAllRewards : function: 00007FF6EA5D2210
+	 - ToWorldPos : function: 00007FF6EA5D1F80
+	 - JumpToEasterEgg : function: 00007FF6EA5D2170
+	 - __name : CSessionCameraManagerTextSource*MT
+	 - ToggleSuperSpeed : function: 00007FF6EA5D21C0
+ - GamepadActionManager : property<CGamepadActionManager>
+	 - GetGamepadActionTooltip : function: 00007FF6EA7061B0
+	 - GetGamepadButtonTooltip : function: 00007FF6EA7062D0
+	 - __name : CGamepadActionManagerTextSource*MT
+ - SavegameFetcher : property<CFetchSavegameFlow>
+	 - FetchSavegameErrorCode : property<rdsdk::CRDString>
+	 - GetFetchSavegameErrorCode : function: 00007FF6EA6E7B40
+	 - __name : CFetchSavegameFlowTextSource*MT
+	 - __index : function: 00007FF6EA6E7950
+ - GetAreaManager : function: 00007FF6EA2AC500
+ - AreaManager : property<CAreaManager>
+	 - NeedUnlock : property<CAreaNeedUnlockManager>
+		 - GetAdditionalNeedUnlockPopulation : function: 00007FF6EA000830
+		 - GetNeedLocked : function: 00007FF6EA000660
+		 - GetAdditionalNeedUnlockAmount : function: 00007FF6EA000910
+		 - GetHasAdditionalNeedUnlock : function: 00007FF6EA000750
+		 - GetNeedUnlockPopulation : function: 00007FF6E9FE22E0
+		 - __name : CAreaNeedUnlockManagerTextSource*MT
+	 - GetAreaFestival : function: 00007FF6E9FFD4C0
+	 - __index : function: 00007FF6E9FFCF60
+	 - AreaObjects : property<CAreaObjectManager>
+		 - GetObjectLists : function: 00007FF6EA002D30
+		 - SaveBuildingCountSnapshot : function: 00007FF6EA002CE0
+		 - ObjectLists : property<CFilteredObjectLists>
+			 - GetBuildingsWithGameLogicCount : function: 00007FF6EA6E84A0
+			 - __name : CFilteredObjectListsTextSource*MT
+		 - __name : CAreaObjectManagerTextSource*MT
+		 - __index : function: 00007FF6EA002AF0
+	 - GetAttractivity : function: 00007FF6E9FFD680
+	 - GetAreaObjects : function: 00007FF6E9FFD450
+	 - GetEcoSystem : function: 00007FF6E9FFD760
+	 - GetAreaMoney : function: 00007FF6E9FFD5A0
+	 - Attractivity : property<CAreaAttractivityManager>
+		 - Attractivity : property<int>
+		 - CityStatus : property<int>
+		 - GetNextCityStatusAttractivity : function: 00007FF6E9FDDEF0
+		 - GetCityStatus : function: 00007FF6E9FDDFE0
+		 - GetAttractivenessForCityLevel : function: 00007FF6E9FDDF50
+		 - CityStatusMissingAttractivity : property<int>
+		 - GetAttractivityType : function: 00007FF6E9FDDCD0
+		 - __index : function: 00007FF6E9FDD990
+		 - NextCityStatusAttractivity : property<int>
+		 - GetCityStatusMissingAttractivity : function: 00007FF6E9FDDE90
+		 - GetCultureStatusFluff : function: 00007FF6E9FDDE20
+		 - SetCheatChangeAttractivityNet : function: 00007FF6E9FDDD60
+		 - GetAttractivity : function: 00007FF6E9FDDC70
+		 - __name : CAreaAttractivityManagerTextSource*MT
+		 - CultureStatusFluff : property<rdsdk::CRDStringW>
+	 - AreaPopulation : property<CAreaPopulationManager>
+		 - GetHighestPopulationLevel : function: 00007FF6EA003E00
+		 - GetSatisfaction_ExcludeBonusNeeds : function: 00007FF6EA003F40
+		 - GetNeedAreaPopulationFulfilled : function: 00007FF6EA003D20
+		 - __index : function: 00007FF6EA003AE0
+		 - SetFillAllResidencesOnIsland : function: 00007FF6EA003E70
+		 - HighestPopulationLevel : property<CPopulationAsset>
+			 - __index : function: 00007FF6EA886D20
+			 - Workforce : property<CAsset>
+			 - GetWorkforce : function: 00007FF6EA886FE0
+			 - __name : CPopulationAssetTextSource*MT
+		 - GetSatisfaction_IncludeBonusNeeds : function: 00007FF6EA003EC0
+		 - GetPopulationCount : function: 00007FF6E9FE1CF0
+		 - GetSatisfaction : function: 00007FF6EA003FC0
+		 - __name : CAreaPopulationManagerTextSource*MT
+		 - PopulationCount : property<int>
+	 - GetNeedUnlock : function: 00007FF6E9FFD6F0
+	 - GetAreaPopulation : function: 00007FF6E9FFD530
+	 - EcoSystem : property<CAreaEcoSystemManager>
+		 - IllnessChance : property<float>
+		 - GetWaterQuality : function: 00007FF6E9FEC790
+		 - SoilQualityDelta : property<float>
+		 - GetQualityDelta : function: 00007FF6E9FECA40
+		 - __index : function: 00007FF6E9FEC370
+		 - IslandHealth : property<float>
+		 - GetAirQuality : function: 00007FF6E9FEC850
+		 - GetQualityMaximum : function: 00007FF6E9FEC9E0
+		 - AirQuality : property<float>
+		 - GetIllnessChance : function: 00007FF6E9FECC40
+		 - WaterQuality : property<float>
+		 - GetSoilQuality : function: 00007FF6E9FEC7F0
+		 - SoilQuality : property<float>
+		 - SetQualityPaused : function: 00007FF6E9FECD30
+		 - SetFeaturePaused : function: 00007FF6E9FECCA0
+		 - QualityMaximum : property<float>
+		 - GetIslandHealth : function: 00007FF6E9FECBE0
+		 - AirQualityDelta : property<float>
+		 - GetAirQualityDelta : function: 00007FF6E9FECB80
+		 - GetQuality : function: 00007FF6E9FEC960
+		 - GetSoilQualityDelta : function: 00007FF6E9FECB20
+		 - WaterQualityDelta : property<float>
+		 - GetWaterQualityDelta : function: 00007FF6E9FECAC0
+		 - __name : CAreaEcoSystemManagerTextSource*MT
+		 - SetQuality : function: 00007FF6E9FEC8B0
+	 - GetAreaVisitors : function: 00007FF6E9FFD610
+	 - Happiness : property<CAreaHappinessManager>
+		 - CurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : property<int>
+		 - GetGlobalNewspaperHappiness : function: 00007FF6E9FF57E0
+		 - AttractivenessHappiness : property<float>
+		 - PollutionHappiness : property<float>
+		 - __index : function: 00007FF6E9FF5440
+		 - GetWorkingConditionsHappiness : function: 00007FF6E9FF5A00
+		 - GetWarfareHappiness : function: 00007FF6E9FF5A80
+		 - GlobalNewspaperHappiness : property<float>
+		 - AverageHappiness : property<float>
+		 - GetAverageHappiness : function: 00007FF6E9FF5C50
+		 - WarfareHappiness : property<float>
+		 - GetHappinessImpact : function: 00007FF6E9FF5BD0
+		 - GetTotalNewspaperHappiness : function: 00007FF6E9FF58C0
+		 - GetCurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : function: 00007FF6E9FF5D30
+		 - GetAttractivenessHappiness : function: 00007FF6E9FF59A0
+		 - GetStressedWorkforce : function: 00007FF6E9FF5B40
+		 - GetPopulationNewspaperHappiness : function: 00007FF6E9FF5840
+		 - WarfareHappinessThreshold : property<float>
+		 - GetAverageHappinessByPopulation : function: 00007FF6E9FF5CB0
+		 - GetWarfareHappinessThreshold : function: 00007FF6E9FF5AE0
+		 - __name : CAreaHappinessManagerTextSource*MT
+		 - GetPollutionHappiness : function: 00007FF6E9FF5940
+	 - Railway : property<CAreaRailwayManager>
+		 - SetRandomSkin : function: 00007FF6EA006E10
+		 - SetToggleDebugVisualization : function: 00007FF6EA006DC0
+		 - __name : CAreaRailwayManagerTextSource*MT
+	 - AreaMoney : property<CAreaMoneyManager>
+		 - GetTotalMoneyIncome : function: 00007FF6E9FFF7C0
+		 - TotalMoneyIncome : property<int>
+		 - GetVisitorIncome : function: 00007FF6E9FFF760
+		 - VisitorIncome : property<int>
+		 - __name : CAreaMoneyManagerTextSource*MT
+		 - __index : function: 00007FF6E9FFF540
+	 - AreaVisitors : property<CAreaVisitors>
+		 - HasSpecialist : property<bool>
+		 - GetNextIntervalVisitorDelta : function: 00007FF6EA009020
+		 - GetHasVisitorPier : function: 00007FF6EA0090E0
+		 - GetHasSpecialist : function: 00007FF6EA0092D0
+		 - MaxVisitors : property<float>
+		 - GetRemainingIntervalTime : function: 00007FF6EA009080
+		 - GetVisitorPierUnlocked : function: 00007FF6EA009140
+		 - GetCurrentVisitors : function: 00007FF6EA008F60
+		 - EndInterval : function: 00007FF6EA008EB0
+		 - GetMaxVisitors : function: 00007FF6EA008F00
+		 - GetSpecialistSpawnProbability : function: 00007FF6EA009330
+		 - HasVisitorPier : property<bool>
+		 - DenySpecialistNet : function: 00007FF6EA0091F0
+		 - VisitorIncome : property<float>
+		 - VisitorPierUnlocked : property<bool>
+		 - GetVisitorIncome : function: 00007FF6EA008FC0
+		 - CurrentVisitors : property<float>
+		 - SpawnSpecialist : function: 00007FF6EA009280
+		 - SpecialistSpawnProbability : property<float>
+		 - RemainingIntervalTime : property<rdtime>
+		 - NextIntervalVisitorDelta : property<int>
+		 - __index : function: 00007FF6EA008AB0
+		 - __name : CAreaVisitorsTextSource*MT
+		 - AcceptSpecialistNet : function: 00007FF6EA0091A0
+	 - GetRailway : function: 00007FF6E9FFD3E0
+	 - GetHappiness : function: 00007FF6E9FFD370
+	 - __name : CAreaManagerTextSource*MT
+	 - AreaFestival : property<CAreaFestivalManager>
+		 - GetIsActive : function: 00007FF6E9FF2000
+		 - GetBonusAttractiveness : function: 00007FF6E9FF21D0
+		 - SetIncreasePool : function: 00007FF6E9FF20C0
+		 - GetProtectsFromIncidents : function: 00007FF6E9FF2230
+		 - IsActive : property<bool>
+		 - __index : function: 00007FF6E9FF1D80
+		 - GetRemainingDurationEstimation : function: 00007FF6E9FF2060
+		 - BonusAttractiveness : property<int>
+		 - ProtectsFromIncidents : property<bool>
+		 - SetStopFestival : function: 00007FF6E9FF2180
+		 - SetTriggerFestival : function: 00007FF6E9FF2130
+		 - __name : CAreaFestivalManagerTextSource*MT
+		 - RemainingDurationEstimation : property<rdtime>
+ - Quests : property<CQuestManager>
+	 - DebugQuestGUID : function: 00007FF6EA59A8E0
+	 - StartQuestForCurrentPlayerNet : function: 00007FF6EA59A710
+	 - CheatResetQuestNet : function: 00007FF6EA59ABF0
+	 - ResetTutorialQuestsNet : function: 00007FF6EA59A780
+	 - TriggerQuestConfirmationAcceptedNet : function: 00007FF6EA59A870
+	 - EnableQuestPoolForCurrentPlayer : function: 00007FF6EA59A9A0
+	 - CheatResetQuestByGUIDNet : function: 00007FF6EA59AC60
+	 - CheatEndPoolCooldownNet : function: 00007FF6EA59AA50
+	 - TriggerGiantApeEasterEgg : function: 00007FF6EA59ACD0
+	 - SetReachSelectedQuest : function: 00007FF6EA59A950
+	 - GetQuest : function: 00007FF6EA59A7D0
+	 - DebugParticipant : function: 00007FF6E9FD1820
+	 - CheatEndQuestTimerNet : function: 00007FF6EA59AB80
+	 - __name : CQuestManagerTextSource*MT
+	 - CheatEndQuestBlockingNet : function: 00007FF6EA59AAC0
+ - GetAiConstruction : function: 00007FF6EA2AC150
+ - Palace : property<CPropertyPalace>
+	 - GetCurrentParagonLevel : function: 00007FF6EAB9F440
+						 - AreaID : table: 000001EBD6F572A8
+						 - AreaID : table: 000001EBDB6CCB78
+						 - AreaID : table: 000001EBDB34C7C8
+						 - AreaID : table: 000001EBDCD6F7C8
+				 - AreaID : table: 000001EBDD2FFBE8
+	 - __index : function: 00007FF6EAB9F080
+	 - GetParagonProductivityBonus : function: 00007FF6EAB9F830
+	 - GetAttractivenesNeededForNextParagonLevel : function: 00007FF6EAB9F650
+	 - GetAttractivenessNeededToUnlockMinistry : function: 00007FF6EAB9F530
+	 - CurrentParagonLevel : property<int>
+	 - GetParagonModuleInfluenceBonus : function: 00007FF6EAB9F7A0
+	 - GetParagonSpecialistSpawnBonus : function: 00007FF6EAB9FA70
+	 - GetActiveBaseOrParagonEffect : function: 00007FF6EAB9F5C0
+	 - GetParagonAttractivenessBonus : function: 00007FF6EAB9F9E0
+	 - GetParagonServiceRangeBonus : function: 00007FF6EAB9F8C0
+	 - GetParagonIslandStorageBonus : function: 00007FF6EAB9F950
+	 - AttractivenesNeededForCurrentParagonLevel : property<int>
+	 - GetParagonWorforceBonus : function: 00007FF6EAB9F710
+	 - PalaceEffectRange : property<int>
+	 - GetBaseEffect : function: 00007FF6EAB9F4A0
+	 - AttractivenesNeededForNextParagonLevel : property<int>
+	 - GetPalaceEffectRange : function: 00007FF6EAB9F3E0
+	 - GetIsMinistryUnlocked : function: 00007FF6EAB9F350
+	 - __name : CPropertyPalaceTextSource*MT
+	 - GetAttractivenesNeededForCurrentParagonLevel : function: 00007FF6EAB9F6B0
+ - GetSavegame : function: 00007FF6EA2AF080
+ - Random : property<CSessionRandomManager>
+	 - SetGenerationGranularity : function: 00007FF6EA5DA9A0
+	 - GenerateSequence : function: 00007FF6EA5DA8D0
+	 - SetGenerationAmount : function: 00007FF6EA5DA920
+	 - __name : CSessionRandomManagerTextSource*MT
+ - GetPopulationAssetData : function: 00007FF6EA2AE500
+ - GetActiveTrade : function: 00007FF6EA2AC0E0
+ - GetAnd : function: 00007FF6EA2AFA80
+ - IsNintendoProControllerActive : property<bool>
+ - AreaResidenceConsumption : property<CAreaResidenceConsumptionManager>
+	 - GetIsDistributionPaused : function: 00007FF6E9FE1D80
+	 - __name : CAreaResidenceConsumptionManagerTextSource*MT
+ - GameSetup : property<CGameSetupManager>
+	 - SetDifficultyPreset : function: 00007FF6EA70C290
+	 - SettingsFileName : property<rdsdk::CRDStringW>
+	 - IsNextCampaignActive : property<bool>
+	 - IsMultiPlayerGame : property<bool>
+	 - IsCreativeMode : property<bool>
+	 - __index : function: 00007FF6EA70B570
+	 - GetSettingsName : property<rdsdk::CRDStringW>
+	 - GetIsMultiPlayerGame : function: 00007FF6EA70BBD0
+	 - SetLoadSettings : function: 00007FF6EA70C1A0
+	 - SetSetSettingsName : function: 00007FF6EA70C070
+	 - SetSaveSettings : function: 00007FF6EA70C1F0
+	 - GetRandomSeed : function: 00007FF6EA70BEE0
+	 - RandomSeed : property<int>
+	 - SetDifficultyNet : function: 00007FF6EA70B900
+	 - GetSettingsFileName : function: 00007FF6EA70BF90
+	 - SetInitNewRandomSeed : function: 00007FF6EA70BF40
+	 - GetGetSettingsName : function: 00007FF6EA70C000
+	 - GetIsCreativeMode : function: 00007FF6EA70BC90
+	 - GetIsNextCampaignActive : function: 00007FF6EA70BC30
+	 - GetIsDlcCommonlyAvailable : function: 00007FF6EA70BDE0
+	 - GetIsNextCreativeMode : function: 00007FF6EA70BCF0
+	 - GetIsDLCActive : function: 00007FF6EA70BD50
+	 - IsNextCreativeMode : property<bool>
+	 - SetRandomSeed : function: 00007FF6EA70BE70
+	 - SetSaveSettingsConsole : function: 00007FF6EA70C240
+	 - GetCompanyName : function: 00007FF6EA70B9C0
+	 - SetResetPlayerPossession : function: 00007FF6EA70BB10
+	 - __name : CGameSetupManagerTextSource*MT
+	 - SetSetPlayerPossession : function: 00007FF6EA70BA50
+ - GetAssetData : function: 00007FF6EA2AC9B0
+ - Season : property<CSeasonManager>
+	 - GetCurrentSeasonTradeBuff : function: 00007FF6EA5C5DD0
+	 - GetNextSeasonType : function: 00007FF6EA5C5C10
+	 - GetActiveSeason : function: 00007FF6EA5C5990
+	 - GetCurrentSeasonTradeGoodsName : function: 00007FF6EA5C5EF0
+	 - GetCurrentSeasonFluffText : function: 00007FF6EA5C5D60
+	 - __index : function: 00007FF6EA5C5570
+	 - GetNextSeason : function: 00007FF6EA5C59F0
+	 - GetCurrentSeasonAllGoods : function: 00007FF6EA5C5E60
+	 - SetEnabled : function: 00007FF6EA5C5900
+	 - GetCurrentSeasonTradeGoodsFluff : function: 00007FF6EA5C5F80
+	 - CurrentSeasonFluffText : property<rdsdk::CRDStringW>
+	 - ActiveSeason : property<int>
+	 - NextSeasonName : property<rdsdk::CRDStringW>
+	 - NextSeasonFluffText : property<rdsdk::CRDStringW>
+	 - SetCheatOverwriteNextSeason : function: 00007FF6EA5C5AF0
+	 - GetNextSeasonFluffText : function: 00007FF6EA5C5CF0
+	 - GetNextSeasonName : function: 00007FF6EA5C5C80
+	 - SetCheatEndCurrentSeasonIn20s : function: 00007FF6EA5C5A50
+	 - SetCheatToggleSkipVisualUpdates : function: 00007FF6EA5C5AA0
+	 - NextSeasonType : property<rdsdk::CRDStringW>
+	 - NextSeason : property<int>
+	 - RemainingSeasonTime : property<rdtime>
+	 - __name : CSeasonManagerTextSource*MT
+	 - GetRemainingSeasonTime : function: 00007FF6EA5C5BB0
+ - GetPalace : function: 00007FF6EA2AE920
+ - Expedition : property<CMetaPropertyExpeditionUser>
+	 - AddExpedition : function: 00007FF6EA7CF1B0
+	 - SetClearLabyrinth : function: 00007FF6EA7CEC50
+	 - SetCheatEndExpeditions : function: 00007FF6EA7CF6C0
+	 - SetRemoveLabyrinthRoom : function: 00007FF6EA7CED00
+	 - SetGenerateLabyrinthSizeX : function: 00007FF6EA7CEEE0
+	 - CheatSetCurrentDecision : function: 00007FF6EA6DDCB0
+	 - GetTracker : function: 00007FF6EA7CF4F0
+	 - GetExpeditionByShip : function: 00007FF6EA7CF450
+	 - AddLabyrinthConnection : property<bool>
+	 - GetAddLabyrinthRoom : function: 00007FF6EA7CECA0
+	 - Tracker : property<CExpedition>
+		 - TravelTimeLeft : property<rdtime>
+		 - EventCountdown : property<rdtime>
+		 - SetEndExpedition : function: 00007FF6EA6DDE90
+		 - SetCheatSetCurrentDecision : function: 00007FF6EA6DDCB0
+		 - GetDays : function: 00007FF6EA6DE200
+		 - GetOptionAttributeLevel : function: 00007FF6EA6DE340
+		 - ExpeditionShipStarting : property<bool>
+		 - SetCheatEndExpedition : function: 00007FF6EA6DDD20
+		 - ExpeditionShip : property<CGameObject>
+			 - TradeRouteVehicle : property<CPropertyTradeRouteVehicle>
+				 - OnCharterRoute : property<bool>
+				 - GetOnCharterRoute : function: 00007FF6EA588DA0
+				 - GetOnMailRoute : function: 00007FF6EA588E60
+				 - GetLoadingSpeedFactor : function: 00007FF6EA588EC0
+				 - __index : function: 00007FF6EA588920
+				 - LoadingSpeedFactor : property<float>
+				 - IsPaused : property<bool>
+				 - RouteName : property<rdsdk::CRDStringW>
+				 - OnOilRoute : property<bool>
+				 - GetOnOilRoute : function: 00007FF6EA588E00
+				 - GetRouteName : function: 00007FF6EA588C70
+				 - GetOnRegularRoute : function: 00007FF6EA588D40
+				 - GetIsPaused : function: 00007FF6EA588CE0
+				 - OnMailRoute : property<bool>
+				 - __name : CPropertyTradeRouteVehicleTextSource*MT
+				 - OnRegularRoute : property<bool>
+			 - GetTradeRouteVehicle : function: 00007FF6EA6F5400
+			 - Repair : property<CPropertyRepairCrane>
+				 - GetNewspaperProductivityIncrease : function: 00007FF6EA585820
+				 - RepairAmountPerSecond : property<float>
+				 - __index : function: 00007FF6EABA85E0
+				 - GetRepairAmount : function: 00007FF6EABA8850
+				 - GetRepairAmountPerSecond : function: 00007FF6EABA88B0
+				 - RepairAmount : property<int>
+				 - __name : CPropertyRepairCraneTextSource*MT
+				 - NewspaperProductivityIncrease : property<float>
+			 - Infectable : property<CPropertyIncidentInfectable>
+				 - GetRiotInfectionChance : function: 00007FF6EAB6D450
+				 - GetArcticIllnessInfectionChance : function: 00007FF6EAB6D5A0
+				 - ArcticIllnessInfectionChance : property<CIncidentChances>
+					 - TotalChance : property<float>
+					 - GetTotalChance : function: 00007FF6EA7346C0
+					 - __name : CIncidentChancesTextSource*MT
+					 - __index : function: 00007FF6EA7344E0
+				 - __index : function: 00007FF6EAB6CF80
+				 - RiotInfectionChance : property<CIncidentChances>
+				 - ExplosionInfectionChance : property<CIncidentChances>
+				 - GetIsInfected : function: 00007FF6EAB6D380
+				 - FireInfectionChance : property<CIncidentChances>
+				 - IsInfected : property<bool>
+				 - GetExplosionInfectionChance : function: 00007FF6EAB6D530
+				 - IsGettingHealed : property<bool>
+				 - GetIllnessInfectionChance : function: 00007FF6EAB6D4C0
+				 - GetFireInfectionChance : function: 00007FF6EAB6D3E0
+				 - ResetProtection : function: 00007FF6EAB6D310
+				 - GetIsGettingHealed : function: 00007FF6EAB6D2B0
+				 - __name : CPropertyIncidentInfectableTextSource*MT
+				 - IllnessInfectionChance : property<CIncidentChances>
+			 - River : property<CPropertyRiver>
+				 - SetMoveRiverLevel : function: 00007FF6EABBC440
+				 - __name : CPropertyRiverTextSource*MT
+			 - Downgradability : property<CUpgradabilityChecker>
+				 - UpgradeCosts : property<CBuildCost>
+					 - MoneyCost : property<int>
+					 - GetInfluencePayable : function: 00007FF6EA0147B0
+					 - InfluencePayback : property<int>
+					 - GetIsPayable : function: 00007FF6EA014690
+					 - __index : function: 00007FF6EA014240
+					 - HasInfluenceChanges : property<bool>
+					 - GetMoneyCost : function: 00007FF6EA0146F0
+					 - GetHasInfluenceChanges : function: 00007FF6EA014630
+					 - GetEmpty : function: 00007FF6EA0145D0
+					 - GetInfluencePayback : function: 00007FF6EA014810
+					 - IsPayable : property<bool>
+					 - GetInfluenceCost : function: 00007FF6EA014750
+					 - InfluenceUsageCost : property<int>
+					 - GetInfluenceUsageCost : function: 00007FF6EA014870
+					 - Empty : property<bool>
+					 - InfluencePayable : property<bool>
+					 - __name : CBuildCostTextSource*MT
+					 - InfluenceCost : property<int>
+				 - __index : function: 00007FF6EA231B60
+				 - UpgradeTargetGUID : property<int>
+				 - IsUpgradable : property<bool>
+				 - GetUpgradeTargetGUID : function: 00007FF6EA231E50
+				 - GetIsUpgradable : function: 00007FF6EA231DF0
+				 - __name : CUpgradabilityCheckerTextSource*MT
+				 - GetUpgradeCosts : function: 00007FF6EA1E12C0
+			 - GetIrrigationSouce : function: 00007FF6EA6F5A90
+			 - GetDistribution : function: 00007FF6EA6F48A0
+			 - GetIsKontor : function: 00007FF6EA6F5DD0
+			 - VisitorHarbor : property<CPropertyVisitorHarbor>
+				 - GetAreaVisitors : function: 00007FF6E9FFD610
+				 - AreaVisitors : property<CAreaVisitors>
+					 - HasSpecialist : property<bool>
+					 - GetNextIntervalVisitorDelta : function: 00007FF6EA009020
+					 - GetHasVisitorPier : function: 00007FF6EA0090E0
+					 - GetHasSpecialist : function: 00007FF6EA0092D0
+					 - MaxVisitors : property<float>
+					 - GetRemainingIntervalTime : function: 00007FF6EA009080
+					 - GetVisitorPierUnlocked : function: 00007FF6EA009140
+					 - GetCurrentVisitors : function: 00007FF6EA008F60
+					 - EndInterval : function: 00007FF6EA008EB0
+					 - GetMaxVisitors : function: 00007FF6EA008F00
+					 - GetSpecialistSpawnProbability : function: 00007FF6EA009330
+					 - HasVisitorPier : property<bool>
+					 - DenySpecialistNet : function: 00007FF6EA0091F0
+					 - VisitorIncome : property<float>
+					 - VisitorPierUnlocked : property<bool>
+					 - GetVisitorIncome : function: 00007FF6EA008FC0
+					 - CurrentVisitors : property<float>
+					 - SpawnSpecialist : function: 00007FF6EA009280
+					 - SpecialistSpawnProbability : property<float>
+					 - RemainingIntervalTime : property<rdtime>
+					 - NextIntervalVisitorDelta : property<int>
+					 - __index : function: 00007FF6EA008AB0
+					 - __name : CAreaVisitorsTextSource*MT
+					 - AcceptSpecialistNet : function: 00007FF6EA0091A0
+				 - __name : CPropertyVisitorHarborTextSource*MT
+				 - __index : function: 00007FF6EA58CA50
+			 - GetPirate : function: 00007FF6EA6F4FA0
+			 - Nameable : property<CPropertyNameable>
+				 - Name : property<rdsdk::CRDStringW>
+				 - SetName : function: 00007FF6EAB9C910
+				 - GetName : function: 00007FF6EA011E20
+				 - __name : CPropertyNameableTextSource*MT
+				 - __index : function: 00007FF6EAB9C730
+			 - Collectable : property<CPropertyCollectable>
+				 - IsTargetStoragePartiallyFull : property<bool>
+				 - CanBeCollected : property<bool>
+				 - __index : function: 00007FF6EAB504E0
+				 - GetIsTargetStorageFull : function: 00007FF6EAB507B0
+				 - IsTargetStorageFull : property<bool>
+				 - GetIsTargetStoragePartiallyFull : function: 00007FF6EAB50810
+				 - GetCanBeDropped : function: 00007FF6EAB50870
+				 - GetCanBeCollected : function: 00007FF6EAB50750
+				 - __name : CPropertyCollectableTextSource*MT
+				 - CanBeDropped : property<bool>
+			 - Mesh : property<CPropertyMesh>
+				 - SetShortenSails : function: 00007FF6EAB86CF0
+				 - SetVisible : function: 00007FF6EAB86D80
+				 - SetToggleDecalCondition : function: 00007FF6EAB86E10
+				 - SetLocalWind : function: 00007FF6EAB86C60
+				 - __name : CPropertyMeshTextSource*MT
+			 - GetItemContainer : function: 00007FF6EA6F51D0
+			 - GetBombarder : function: 00007FF6EA6F5BE0
+			 - GetInfectable : function: 00007FF6EA6F57F0
+			 - GetVisitorHarbor : function: 00007FF6EA6F5550
+			 - IsKontor : property<bool>
+			 - BusStop : property<CPropertyBusStop>
+				 - GetNeedSaturation : function: 00007FF6EAB4ED70
+				 - GetBusNeedDistanceSatisfaction : function: 00007FF6EAB4EC60
+				 - GetIsBusNeedSatisfactionReduced : function: 00007FF6EAB4ECE0
+				 - __name : CPropertyBusStopTextSource*MT
+			 - GetIncidentResolver : function: 00007FF6EA6F50F0
+			 - Dockland : property<CPropertyDockland>
+				 - GetLoadingSpeedBoost : function: 00007FF6EAB5BFC0
+				 - GetModuleStorageBonus : function: 00007FF6EAB5C020
+				 - LoadingSpeedBoost : property<float>
+				 - ModuleStorageBonus : property<int>
+				 - __name : CPropertyDocklandTextSource*MT
+				 - __index : function: 00007FF6EAB5BD70
+			 - SetChangeSkin : function: 00007FF6EA6F6210
+			 - DelayedConstruction : property<CPropertyDelayedConstruction>
+				 - GetRemainingConstructionTime : function: 00007FF6EAB5A3E0
+				 - RemainingConstructionTime : property<rdtime>
+				 - SetCheatReady : function: 00007FF6EAB5A440
+				 - __name : CPropertyDelayedConstructionTextSource*MT
+				 - __index : function: 00007FF6EAB5A200
+			 - IsBlueprunt : property<bool>
+			 - GetGUID : function: 00007FF6EA6F5F50
+			 - AreaManager : property<CAreaManager>
+				 - NeedUnlock : property<CAreaNeedUnlockManager>
+					 - GetAdditionalNeedUnlockPopulation : function: 00007FF6EA000830
+					 - GetNeedLocked : function: 00007FF6EA000660
+					 - GetAdditionalNeedUnlockAmount : function: 00007FF6EA000910
+					 - GetHasAdditionalNeedUnlock : function: 00007FF6EA000750
+					 - GetNeedUnlockPopulation : function: 00007FF6E9FE22E0
+					 - __name : CAreaNeedUnlockManagerTextSource*MT
+				 - GetAreaFestival : function: 00007FF6E9FFD4C0
+				 - __index : function: 00007FF6E9FFCF60
+				 - AreaObjects : property<CAreaObjectManager>
+					 - GetObjectLists : function: 00007FF6EA002D30
+					 - SaveBuildingCountSnapshot : function: 00007FF6EA002CE0
+					 - ObjectLists : property<CFilteredObjectLists>
+						 - GetBuildingsWithGameLogicCount : function: 00007FF6EA6E84A0
+						 - __name : CFilteredObjectListsTextSource*MT
+					 - __name : CAreaObjectManagerTextSource*MT
+					 - __index : function: 00007FF6EA002AF0
+				 - GetAttractivity : function: 00007FF6E9FFD680
+				 - GetAreaObjects : function: 00007FF6E9FFD450
+				 - GetEcoSystem : function: 00007FF6E9FFD760
+				 - GetAreaMoney : function: 00007FF6E9FFD5A0
+				 - Attractivity : property<CAreaAttractivityManager>
+					 - Attractivity : property<int>
+					 - CityStatus : property<int>
+					 - GetNextCityStatusAttractivity : function: 00007FF6E9FDDEF0
+					 - GetCityStatus : function: 00007FF6E9FDDFE0
+					 - GetAttractivenessForCityLevel : function: 00007FF6E9FDDF50
+					 - CityStatusMissingAttractivity : property<int>
+					 - GetAttractivityType : function: 00007FF6E9FDDCD0
+					 - __index : function: 00007FF6E9FDD990
+					 - NextCityStatusAttractivity : property<int>
+					 - GetCityStatusMissingAttractivity : function: 00007FF6E9FDDE90
+					 - GetCultureStatusFluff : function: 00007FF6E9FDDE20
+					 - SetCheatChangeAttractivityNet : function: 00007FF6E9FDDD60
+					 - GetAttractivity : function: 00007FF6E9FDDC70
+					 - __name : CAreaAttractivityManagerTextSource*MT
+					 - CultureStatusFluff : property<rdsdk::CRDStringW>
+				 - AreaPopulation : property<CAreaPopulationManager>
+					 - GetHighestPopulationLevel : function: 00007FF6EA003E00
+					 - GetSatisfaction_ExcludeBonusNeeds : function: 00007FF6EA003F40
+					 - GetNeedAreaPopulationFulfilled : function: 00007FF6EA003D20
+					 - __index : function: 00007FF6EA003AE0
+					 - SetFillAllResidencesOnIsland : function: 00007FF6EA003E70
+					 - HighestPopulationLevel : property<CPopulationAsset>
+						 - __index : function: 00007FF6EA886D20
+						 - Workforce : property<CAsset>
+						 - GetWorkforce : function: 00007FF6EA886FE0
+						 - __name : CPopulationAssetTextSource*MT
+					 - GetSatisfaction_IncludeBonusNeeds : function: 00007FF6EA003EC0
+					 - GetPopulationCount : function: 00007FF6E9FE1CF0
+					 - GetSatisfaction : function: 00007FF6EA003FC0
+					 - __name : CAreaPopulationManagerTextSource*MT
+					 - PopulationCount : property<int>
+				 - GetNeedUnlock : function: 00007FF6E9FFD6F0
+				 - GetAreaPopulation : function: 00007FF6E9FFD530
+				 - EcoSystem : property<CAreaEcoSystemManager>
+					 - IllnessChance : property<float>
+					 - GetWaterQuality : function: 00007FF6E9FEC790
+					 - SoilQualityDelta : property<float>
+					 - GetQualityDelta : function: 00007FF6E9FECA40
+					 - __index : function: 00007FF6E9FEC370
+					 - IslandHealth : property<float>
+					 - GetAirQuality : function: 00007FF6E9FEC850
+					 - GetQualityMaximum : function: 00007FF6E9FEC9E0
+					 - AirQuality : property<float>
+					 - GetIllnessChance : function: 00007FF6E9FECC40
+					 - WaterQuality : property<float>
+					 - GetSoilQuality : function: 00007FF6E9FEC7F0
+					 - SoilQuality : property<float>
+					 - SetQualityPaused : function: 00007FF6E9FECD30
+					 - SetFeaturePaused : function: 00007FF6E9FECCA0
+					 - QualityMaximum : property<float>
+					 - GetIslandHealth : function: 00007FF6E9FECBE0
+					 - AirQualityDelta : property<float>
+					 - GetAirQualityDelta : function: 00007FF6E9FECB80
+					 - GetQuality : function: 00007FF6E9FEC960
+					 - GetSoilQualityDelta : function: 00007FF6E9FECB20
+					 - WaterQualityDelta : property<float>
+					 - GetWaterQualityDelta : function: 00007FF6E9FECAC0
+					 - __name : CAreaEcoSystemManagerTextSource*MT
+					 - SetQuality : function: 00007FF6E9FEC8B0
+				 - Happiness : property<CAreaHappinessManager>
+					 - CurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : property<int>
+					 - GetGlobalNewspaperHappiness : function: 00007FF6E9FF57E0
+					 - AttractivenessHappiness : property<float>
+					 - PollutionHappiness : property<float>
+					 - __index : function: 00007FF6E9FF5440
+					 - GetWorkingConditionsHappiness : function: 00007FF6E9FF5A00
+					 - GetWarfareHappiness : function: 00007FF6E9FF5A80
+					 - GlobalNewspaperHappiness : property<float>
+					 - AverageHappiness : property<float>
+					 - GetAverageHappiness : function: 00007FF6E9FF5C50
+					 - WarfareHappiness : property<float>
+					 - GetHappinessImpact : function: 00007FF6E9FF5BD0
+					 - GetTotalNewspaperHappiness : function: 00007FF6E9FF58C0
+					 - GetCurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : function: 00007FF6E9FF5D30
+					 - GetAttractivenessHappiness : function: 00007FF6E9FF59A0
+					 - GetStressedWorkforce : function: 00007FF6E9FF5B40
+					 - GetPopulationNewspaperHappiness : function: 00007FF6E9FF5840
+					 - WarfareHappinessThreshold : property<float>
+					 - GetAverageHappinessByPopulation : function: 00007FF6E9FF5CB0
+					 - GetWarfareHappinessThreshold : function: 00007FF6E9FF5AE0
+					 - __name : CAreaHappinessManagerTextSource*MT
+					 - GetPollutionHappiness : function: 00007FF6E9FF5940
+				 - Railway : property<CAreaRailwayManager>
+					 - SetRandomSkin : function: 00007FF6EA006E10
+					 - SetToggleDebugVisualization : function: 00007FF6EA006DC0
+					 - __name : CAreaRailwayManagerTextSource*MT
+				 - AreaMoney : property<CAreaMoneyManager>
+					 - GetTotalMoneyIncome : function: 00007FF6E9FFF7C0
+					 - TotalMoneyIncome : property<int>
+					 - GetVisitorIncome : function: 00007FF6E9FFF760
+					 - VisitorIncome : property<int>
+					 - __name : CAreaMoneyManagerTextSource*MT
+					 - __index : function: 00007FF6E9FFF540
+				 - GetRailway : function: 00007FF6E9FFD3E0
+				 - GetHappiness : function: 00007FF6E9FFD370
+				 - __name : CAreaManagerTextSource*MT
+				 - AreaFestival : property<CAreaFestivalManager>
+					 - GetIsActive : function: 00007FF6E9FF2000
+					 - GetBonusAttractiveness : function: 00007FF6E9FF21D0
+					 - SetIncreasePool : function: 00007FF6E9FF20C0
+					 - GetProtectsFromIncidents : function: 00007FF6E9FF2230
+					 - IsActive : property<bool>
+					 - __index : function: 00007FF6E9FF1D80
+					 - GetRemainingDurationEstimation : function: 00007FF6E9FF2060
+					 - BonusAttractiveness : property<int>
+					 - ProtectsFromIncidents : property<bool>
+					 - SetStopFestival : function: 00007FF6E9FF2180
+					 - SetTriggerFestival : function: 00007FF6E9FF2130
+					 - __name : CAreaFestivalManagerTextSource*MT
+					 - RemainingDurationEstimation : property<rdtime>
+			 - Palace : property<CPropertyPalace>
+				 - GetCurrentParagonLevel : function: 00007FF6EAB9F440
+				 - GetObject : function: 00007FF6EA01ED20
+				 - Object : property<CGameObject>
+					 - TradeRouteVehicle : property<CPropertyTradeRouteVehicle>
+						 - OnCharterRoute : property<bool>
+						 - GetOnCharterRoute : function: 00007FF6EA588DA0
+						 - GetOnMailRoute : function: 00007FF6EA588E60
+						 - GetLoadingSpeedFactor : function: 00007FF6EA588EC0
+						 - __index : function: 00007FF6EA588920
+						 - LoadingSpeedFactor : property<float>
+						 - IsPaused : property<bool>
+						 - RouteName : property<rdsdk::CRDStringW>
+						 - OnOilRoute : property<bool>
+						 - GetOnOilRoute : function: 00007FF6EA588E00
+						 - GetRouteName : function: 00007FF6EA588C70
+						 - GetOnRegularRoute : function: 00007FF6EA588D40
+						 - GetIsPaused : function: 00007FF6EA588CE0
+						 - OnMailRoute : property<bool>
+						 - __name : CPropertyTradeRouteVehicleTextSource*MT
+						 - OnRegularRoute : property<bool>
+					 - GetTradeRouteVehicle : function: 00007FF6EA6F5400
+					 - Repair : property<CPropertyRepairCrane>
+						 - GetNewspaperProductivityIncrease : function: 00007FF6EA585820
+						 - RepairAmountPerSecond : property<float>
+						 - __index : function: 00007FF6EABA85E0
+						 - GetRepairAmount : function: 00007FF6EABA8850
+						 - GetRepairAmountPerSecond : function: 00007FF6EABA88B0
+						 - RepairAmount : property<int>
+						 - __name : CPropertyRepairCraneTextSource*MT
+						 - NewspaperProductivityIncrease : property<float>
+					 - Infectable : property<CPropertyIncidentInfectable>
+						 - GetRiotInfectionChance : function: 00007FF6EAB6D450
+						 - GetArcticIllnessInfectionChance : function: 00007FF6EAB6D5A0
+						 - ArcticIllnessInfectionChance : property<CIncidentChances>
+							 - TotalChance : property<float>
+							 - GetTotalChance : function: 00007FF6EA7346C0
+							 - __name : CIncidentChancesTextSource*MT
+							 - __index : function: 00007FF6EA7344E0
+						 - __index : function: 00007FF6EAB6CF80
+						 - RiotInfectionChance : property<CIncidentChances>
+						 - ExplosionInfectionChance : property<CIncidentChances>
+						 - GetIsInfected : function: 00007FF6EAB6D380
+						 - FireInfectionChance : property<CIncidentChances>
+						 - IsInfected : property<bool>
+						 - GetExplosionInfectionChance : function: 00007FF6EAB6D530
+						 - IsGettingHealed : property<bool>
+						 - GetIllnessInfectionChance : function: 00007FF6EAB6D4C0
+						 - GetFireInfectionChance : function: 00007FF6EAB6D3E0
+						 - ResetProtection : function: 00007FF6EAB6D310
+						 - GetIsGettingHealed : function: 00007FF6EAB6D2B0
+						 - __name : CPropertyIncidentInfectableTextSource*MT
+						 - IllnessInfectionChance : property<CIncidentChances>
+					 - River : property<CPropertyRiver>
+						 - SetMoveRiverLevel : function: 00007FF6EABBC440
+						 - __name : CPropertyRiverTextSource*MT
+					 - Downgradability : property<CUpgradabilityChecker>
+						 - UpgradeCosts : property<CBuildCost>
+							 - MoneyCost : property<int>
+							 - GetInfluencePayable : function: 00007FF6EA0147B0
+							 - InfluencePayback : property<int>
+							 - GetIsPayable : function: 00007FF6EA014690
+							 - __index : function: 00007FF6EA014240
+							 - HasInfluenceChanges : property<bool>
+							 - GetMoneyCost : function: 00007FF6EA0146F0
+							 - GetHasInfluenceChanges : function: 00007FF6EA014630
+							 - GetEmpty : function: 00007FF6EA0145D0
+							 - GetInfluencePayback : function: 00007FF6EA014810
+							 - IsPayable : property<bool>
+							 - GetInfluenceCost : function: 00007FF6EA014750
+							 - InfluenceUsageCost : property<int>
+							 - GetInfluenceUsageCost : function: 00007FF6EA014870
+							 - Empty : property<bool>
+							 - InfluencePayable : property<bool>
+							 - __name : CBuildCostTextSource*MT
+							 - InfluenceCost : property<int>
+						 - __index : function: 00007FF6EA231B60
+						 - UpgradeTargetGUID : property<int>
+						 - IsUpgradable : property<bool>
+						 - GetUpgradeTargetGUID : function: 00007FF6EA231E50
+						 - GetIsUpgradable : function: 00007FF6EA231DF0
+						 - __name : CUpgradabilityCheckerTextSource*MT
+						 - GetUpgradeCosts : function: 00007FF6EA1E12C0
+					 - GetIrrigationSouce : function: 00007FF6EA6F5A90
+					 - GetDistribution : function: 00007FF6EA6F48A0
+					 - GetIsKontor : function: 00007FF6EA6F5DD0
+					 - VisitorHarbor : property<CPropertyVisitorHarbor>
+						 - GetAreaVisitors : function: 00007FF6E9FFD610
+						 - AreaVisitors : property<CAreaVisitors>
+							 - HasSpecialist : property<bool>
+							 - GetNextIntervalVisitorDelta : function: 00007FF6EA009020
+							 - GetHasVisitorPier : function: 00007FF6EA0090E0
+							 - GetHasSpecialist : function: 00007FF6EA0092D0
+							 - MaxVisitors : property<float>
+							 - GetRemainingIntervalTime : function: 00007FF6EA009080
+							 - GetVisitorPierUnlocked : function: 00007FF6EA009140
+							 - GetCurrentVisitors : function: 00007FF6EA008F60
+							 - EndInterval : function: 00007FF6EA008EB0
+							 - GetMaxVisitors : function: 00007FF6EA008F00
+							 - GetSpecialistSpawnProbability : function: 00007FF6EA009330
+							 - HasVisitorPier : property<bool>
+							 - DenySpecialistNet : function: 00007FF6EA0091F0
+							 - VisitorIncome : property<float>
+							 - VisitorPierUnlocked : property<bool>
+							 - GetVisitorIncome : function: 00007FF6EA008FC0
+							 - CurrentVisitors : property<float>
+							 - SpawnSpecialist : function: 00007FF6EA009280
+							 - SpecialistSpawnProbability : property<float>
+							 - RemainingIntervalTime : property<rdtime>
+							 - NextIntervalVisitorDelta : property<int>
+							 - __index : function: 00007FF6EA008AB0
+							 - __name : CAreaVisitorsTextSource*MT
+							 - AcceptSpecialistNet : function: 00007FF6EA0091A0
+						 - __name : CPropertyVisitorHarborTextSource*MT
+						 - __index : function: 00007FF6EA58CA50
+					 - GetPirate : function: 00007FF6EA6F4FA0
+					 - Nameable : property<CPropertyNameable>
+						 - Name : property<rdsdk::CRDStringW>
+						 - SetName : function: 00007FF6EAB9C910
+						 - GetName : function: 00007FF6EA011E20
+						 - __name : CPropertyNameableTextSource*MT
+						 - __index : function: 00007FF6EAB9C730
+					 - Collectable : property<CPropertyCollectable>
+						 - IsTargetStoragePartiallyFull : property<bool>
+						 - CanBeCollected : property<bool>
+						 - __index : function: 00007FF6EAB504E0
+						 - GetIsTargetStorageFull : function: 00007FF6EAB507B0
+						 - IsTargetStorageFull : property<bool>
+						 - GetIsTargetStoragePartiallyFull : function: 00007FF6EAB50810
+						 - GetCanBeDropped : function: 00007FF6EAB50870
+						 - GetCanBeCollected : function: 00007FF6EAB50750
+						 - __name : CPropertyCollectableTextSource*MT
+						 - CanBeDropped : property<bool>
+					 - Mesh : property<CPropertyMesh>
+						 - SetShortenSails : function: 00007FF6EAB86CF0
+						 - SetVisible : function: 00007FF6EAB86D80
+						 - SetToggleDecalCondition : function: 00007FF6EAB86E10
+						 - SetLocalWind : function: 00007FF6EAB86C60
+						 - __name : CPropertyMeshTextSource*MT
+					 - GetItemContainer : function: 00007FF6EA6F51D0
+					 - GetBombarder : function: 00007FF6EA6F5BE0
+					 - GetInfectable : function: 00007FF6EA6F57F0
+					 - GetVisitorHarbor : function: 00007FF6EA6F5550
+					 - IsKontor : property<bool>
+					 - BusStop : property<CPropertyBusStop>
+						 - GetNeedSaturation : function: 00007FF6EAB4ED70
+						 - GetBusNeedDistanceSatisfaction : function: 00007FF6EAB4EC60
+						 - GetIsBusNeedSatisfactionReduced : function: 00007FF6EAB4ECE0
+						 - __name : CPropertyBusStopTextSource*MT
+					 - GetIncidentResolver : function: 00007FF6EA6F50F0
+					 - Dockland : property<CPropertyDockland>
+						 - GetLoadingSpeedBoost : function: 00007FF6EAB5BFC0
+						 - GetModuleStorageBonus : function: 00007FF6EAB5C020
+						 - LoadingSpeedBoost : property<float>
+						 - ModuleStorageBonus : property<int>
+						 - __name : CPropertyDocklandTextSource*MT
+						 - __index : function: 00007FF6EAB5BD70
+					 - SetChangeSkin : function: 00007FF6EA6F6210
+					 - DelayedConstruction : property<CPropertyDelayedConstruction>
+						 - GetRemainingConstructionTime : function: 00007FF6EAB5A3E0
+						 - RemainingConstructionTime : property<rdtime>
+						 - SetCheatReady : function: 00007FF6EAB5A440
+						 - __name : CPropertyDelayedConstructionTextSource*MT
+						 - __index : function: 00007FF6EAB5A200
+					 - IsBlueprunt : property<bool>
+					 - GetGUID : function: 00007FF6EA6F5F50
+					 - AreaManager : property<CAreaManager>
+						 - NeedUnlock : property<CAreaNeedUnlockManager>
+							 - GetAdditionalNeedUnlockPopulation : function: 00007FF6EA000830
+							 - GetNeedLocked : function: 00007FF6EA000660
+							 - GetAdditionalNeedUnlockAmount : function: 00007FF6EA000910
+							 - GetHasAdditionalNeedUnlock : function: 00007FF6EA000750
+							 - GetNeedUnlockPopulation : function: 00007FF6E9FE22E0
+							 - __name : CAreaNeedUnlockManagerTextSource*MT
+						 - GetAreaFestival : function: 00007FF6E9FFD4C0
+						 - __index : function: 00007FF6E9FFCF60
+						 - AreaObjects : property<CAreaObjectManager>
+							 - GetObjectLists : function: 00007FF6EA002D30
+							 - SaveBuildingCountSnapshot : function: 00007FF6EA002CE0
+							 - ObjectLists : property<CFilteredObjectLists>
+							 - __name : CAreaObjectManagerTextSource*MT
+							 - __index : function: 00007FF6EA002AF0
+						 - GetAttractivity : function: 00007FF6E9FFD680
+						 - GetAreaObjects : function: 00007FF6E9FFD450
+						 - GetEcoSystem : function: 00007FF6E9FFD760
+						 - GetAreaMoney : function: 00007FF6E9FFD5A0
+						 - Attractivity : property<CAreaAttractivityManager>
+							 - Attractivity : property<int>
+							 - CityStatus : property<int>
+							 - GetNextCityStatusAttractivity : function: 00007FF6E9FDDEF0
+							 - GetCityStatus : function: 00007FF6E9FDDFE0
+							 - GetAttractivenessForCityLevel : function: 00007FF6E9FDDF50
+							 - CityStatusMissingAttractivity : property<int>
+							 - GetAttractivityType : function: 00007FF6E9FDDCD0
+							 - __index : function: 00007FF6E9FDD990
+							 - NextCityStatusAttractivity : property<int>
+							 - GetCityStatusMissingAttractivity : function: 00007FF6E9FDDE90
+							 - GetCultureStatusFluff : function: 00007FF6E9FDDE20
+							 - SetCheatChangeAttractivityNet : function: 00007FF6E9FDDD60
+							 - GetAttractivity : function: 00007FF6E9FDDC70
+							 - __name : CAreaAttractivityManagerTextSource*MT
+							 - CultureStatusFluff : property<rdsdk::CRDStringW>
+						 - AreaPopulation : property<CAreaPopulationManager>
+							 - GetHighestPopulationLevel : function: 00007FF6EA003E00
+							 - GetSatisfaction_ExcludeBonusNeeds : function: 00007FF6EA003F40
+							 - GetNeedAreaPopulationFulfilled : function: 00007FF6EA003D20
+							 - __index : function: 00007FF6EA003AE0
+							 - SetFillAllResidencesOnIsland : function: 00007FF6EA003E70
+							 - HighestPopulationLevel : property<CPopulationAsset>
+							 - GetSatisfaction_IncludeBonusNeeds : function: 00007FF6EA003EC0
+							 - GetPopulationCount : function: 00007FF6E9FE1CF0
+							 - GetSatisfaction : function: 00007FF6EA003FC0
+							 - __name : CAreaPopulationManagerTextSource*MT
+							 - PopulationCount : property<int>
+						 - GetNeedUnlock : function: 00007FF6E9FFD6F0
+						 - GetAreaPopulation : function: 00007FF6E9FFD530
+						 - EcoSystem : property<CAreaEcoSystemManager>
+							 - IllnessChance : property<float>
+							 - GetWaterQuality : function: 00007FF6E9FEC790
+							 - SoilQualityDelta : property<float>
+							 - GetQualityDelta : function: 00007FF6E9FECA40
+							 - __index : function: 00007FF6E9FEC370
+							 - IslandHealth : property<float>
+							 - GetAirQuality : function: 00007FF6E9FEC850
+							 - GetQualityMaximum : function: 00007FF6E9FEC9E0
+							 - AirQuality : property<float>
+							 - GetIllnessChance : function: 00007FF6E9FECC40
+							 - WaterQuality : property<float>
+							 - GetSoilQuality : function: 00007FF6E9FEC7F0
+							 - SoilQuality : property<float>
+							 - SetQualityPaused : function: 00007FF6E9FECD30
+							 - SetFeaturePaused : function: 00007FF6E9FECCA0
+							 - QualityMaximum : property<float>
+							 - GetIslandHealth : function: 00007FF6E9FECBE0
+							 - AirQualityDelta : property<float>
+							 - GetAirQualityDelta : function: 00007FF6E9FECB80
+							 - GetQuality : function: 00007FF6E9FEC960
+							 - GetSoilQualityDelta : function: 00007FF6E9FECB20
+							 - WaterQualityDelta : property<float>
+							 - GetWaterQualityDelta : function: 00007FF6E9FECAC0
+							 - __name : CAreaEcoSystemManagerTextSource*MT
+							 - SetQuality : function: 00007FF6E9FEC8B0
+						 - Happiness : property<CAreaHappinessManager>
+							 - CurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : property<int>
+							 - GetGlobalNewspaperHappiness : function: 00007FF6E9FF57E0
+							 - AttractivenessHappiness : property<float>
+							 - PollutionHappiness : property<float>
+							 - __index : function: 00007FF6E9FF5440
+							 - GetWorkingConditionsHappiness : function: 00007FF6E9FF5A00
+							 - GetWarfareHappiness : function: 00007FF6E9FF5A80
+							 - GlobalNewspaperHappiness : property<float>
+							 - AverageHappiness : property<float>
+							 - GetAverageHappiness : function: 00007FF6E9FF5C50
+							 - WarfareHappiness : property<float>
+							 - GetHappinessImpact : function: 00007FF6E9FF5BD0
+							 - GetTotalNewspaperHappiness : function: 00007FF6E9FF58C0
+							 - GetCurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : function: 00007FF6E9FF5D30
+							 - GetAttractivenessHappiness : function: 00007FF6E9FF59A0
+							 - GetStressedWorkforce : function: 00007FF6E9FF5B40
+							 - GetPopulationNewspaperHappiness : function: 00007FF6E9FF5840
+							 - WarfareHappinessThreshold : property<float>
+							 - GetAverageHappinessByPopulation : function: 00007FF6E9FF5CB0
+							 - GetWarfareHappinessThreshold : function: 00007FF6E9FF5AE0
+							 - __name : CAreaHappinessManagerTextSource*MT
+							 - GetPollutionHappiness : function: 00007FF6E9FF5940
+						 - Railway : property<CAreaRailwayManager>
+							 - SetRandomSkin : function: 00007FF6EA006E10
+							 - SetToggleDebugVisualization : function: 00007FF6EA006DC0
+							 - __name : CAreaRailwayManagerTextSource*MT
+						 - AreaMoney : property<CAreaMoneyManager>
+							 - GetTotalMoneyIncome : function: 00007FF6E9FFF7C0
+							 - TotalMoneyIncome : property<int>
+							 - GetVisitorIncome : function: 00007FF6E9FFF760
+							 - VisitorIncome : property<int>
+							 - __name : CAreaMoneyManagerTextSource*MT
+							 - __index : function: 00007FF6E9FFF540
+						 - GetRailway : function: 00007FF6E9FFD3E0
+						 - GetHappiness : function: 00007FF6E9FFD370
+						 - __name : CAreaManagerTextSource*MT
+						 - AreaFestival : property<CAreaFestivalManager>
+							 - GetIsActive : function: 00007FF6E9FF2000
+							 - GetBonusAttractiveness : function: 00007FF6E9FF21D0
+							 - SetIncreasePool : function: 00007FF6E9FF20C0
+							 - GetProtectsFromIncidents : function: 00007FF6E9FF2230
+							 - IsActive : property<bool>
+							 - __index : function: 00007FF6E9FF1D80
+							 - GetRemainingDurationEstimation : function: 00007FF6E9FF2060
+							 - BonusAttractiveness : property<int>
+							 - ProtectsFromIncidents : property<bool>
+							 - SetStopFestival : function: 00007FF6E9FF2180
+							 - SetTriggerFestival : function: 00007FF6E9FF2130
+							 - __name : CAreaFestivalManagerTextSource*MT
+							 - RemainingDurationEstimation : property<rdtime>
+					 - Palace : property<CPropertyPalace>
+						 - GetCurrentParagonLevel : function: 00007FF6EAB9F440
+						 - GetObject : function: 00007FF6EA01ED20
+						 - Object : property<CGameObject>
+							 - TradeRouteVehicle : property<CPropertyTradeRouteVehicle>
+							 - GetTradeRouteVehicle : function: 00007FF6EA6F5400
+							 - Repair : property<CPropertyRepairCrane>
+							 - Infectable : property<CPropertyIncidentInfectable>
+							 - River : property<CPropertyRiver>
+							 - Downgradability : property<CUpgradabilityChecker>
+							 - GetIrrigationSouce : function: 00007FF6EA6F5A90
+							 - GetDistribution : function: 00007FF6EA6F48A0
+							 - GetIsKontor : function: 00007FF6EA6F5DD0
+							 - VisitorHarbor : property<CPropertyVisitorHarbor>
+							 - GetPirate : function: 00007FF6EA6F4FA0
+							 - Nameable : property<CPropertyNameable>
+							 - Collectable : property<CPropertyCollectable>
+							 - Mesh : property<CPropertyMesh>
+							 - GetItemContainer : function: 00007FF6EA6F51D0
+							 - GetBombarder : function: 00007FF6EA6F5BE0
+							 - GetInfectable : function: 00007FF6EA6F57F0
+							 - GetVisitorHarbor : function: 00007FF6EA6F5550
+							 - IsKontor : property<bool>
+							 - BusStop : property<CPropertyBusStop>
+							 - GetIncidentResolver : function: 00007FF6EA6F50F0
+							 - Dockland : property<CPropertyDockland>
+							 - SetChangeSkin : function: 00007FF6EA6F6210
+							 - DelayedConstruction : property<CPropertyDelayedConstruction>
+							 - IsBlueprunt : property<bool>
+							 - GetGUID : function: 00007FF6EA6F5F50
+							 - AreaManager : property<CAreaManager>
+							 - Palace : property<CPropertyPalace>
+							 - GetHacienda : function: 00007FF6EA6F5940
+							 - ItemCrafter : property<CPropertyItemCrafter>
+							 - GetAttackable : function: 00007FF6EA6F4520
+							 - ShipMaintenance : property<CPropertyShipMaintenance>
+							 - GetShipyard : function: 00007FF6EA6F5320
+							 - SetCycleSkins : function: 00007FF6EA6F6120
+							 - GetPalace : function: 00007FF6EA6F5860
+							 - SetMove : function: 00007FF6EA6F6020
+							 - ShipIncident : property<CPropertyShipIncident>
+							 - Shipyard : property<CPropertyShipyard>
+							 - SessionGuid : property<int>
+							 - GetWatered : function: 00007FF6EA6F5A20
+							 - GetDying : function: 00007FF6EA6F4910
+							 - GetConstructionAI : function: 00007FF6EA6F47C0
+							 - Pausable : property<CPropertyPausable>
+							 - GetLifetime : function: 00007FF6EA6F55C0
+							 - Warehouse : property<CPropertyWarehouse>
+							 - GetIsResidence : function: 00007FF6EA6F5CB0
+							 - GetCollectable : function: 00007FF6EA6F46E0
+							 - GetDockland : function: 00007FF6EA6F4980
+							 - GetStatic : function: 00007FF6EA6F5FB0
+							 - GetDelayedConstruction : function: 00007FF6EA6F4830
+							 - GetModule : function: 00007FF6EA6F4600
+							 - FloorStack : property<CPropertyFloorStackOwner>
+							 - IsWarehouse : property<bool>
+							 - GetWalking : function: 00007FF6EA6F5080
+							 - IrrigationSouce : property<CPropertyIrrigationSource>
+							 - __name : CGameObjectTextSource*MT
+							 - Sellable : property<CPropertySellable>
+							 - Maintenance : property<CPropertyMaintenance>
+							 - GetSellable : function: 00007FF6EA6F5780
+							 - Factory : property<CPropertyFactory7>
+							 - Walking : property<CPropertyWalking>
+							 - HasAlternativeGrassColor : property<bool>
+							 - GetRiver : function: 00007FF6EA6F4E50
+							 - GetCommandQueue : function: 00007FF6EA6F4750
+							 - Module : property<CPropertyBuildingModule>
+							 - GetRepair : function: 00007FF6EA6F4D70
+							 - IsMonument : property<bool>
+							 - GetShipIncident : function: 00007FF6EA6F5630
+							 - GetLogistic : function: 00007FF6EA6F59B0
+							 - GetBusStop : function: 00007FF6EA6F4670
+							 - CommandQueue : property<CPropertyCommandQueue>
+							 - GetUpgradability : function: 00007FF6EA6F6630
+							 - GetRandomMapObject : function: 00007FF6EA6F4F30
+							 - Electric : property<CPropertyElectrifiable>
+							 - Trader : property<CPropertyTrader>
+							 - Pier : property<CPropertyLoadingPier>
+							 - GetEcoProvider : function: 00007FF6EA6F5B70
+							 - ModuleOwner : property<CPropertyModuleOwner>
+							 - EcoProvider : property<CPropertyEcoSystemProvider>
+							 - GetDowngradability : function: 00007FF6EA6F66A0
+							 - ConstructionAI : property<CPropertyConstructionAI>
+							 - Upgradability : property<CUpgradabilityChecker>
+							 - GetIsCultureMainBuilding : function: 00007FF6EA6F6A60
+							 - GetMaintenance : function: 00007FF6EA6F5710
+							 - GetTrader : function: 00007FF6EA6F5470
+							 - Expedition : property<CExpedition>
+							 - GetExpedition : function: 00007FF6EA6F69F0
+							 - GetAreaManager : function: 00007FF6EA6F6980
+							 - Attackable : property<CPropertyAttackable>
+							 - GetArea : function: 00007FF6EA6F6910
+							 - GetSessionGuid : function: 00007FF6EA6F68B0
+							 - Hacienda : property<CPropertyHacienda>
+							 - GetShipMaintenance : function: 00007FF6EA6F56A0
+							 - Lifetime : property<CPropertyLifetime>
+							 - Watered : property<CPropertyWatered>
+							 - GetPausable : function: 00007FF6EA6F4D00
+							 - Renovatability : property<CRenovatabilityChecker>
+							 - GetRenovatability : function: 00007FF6EA6F6780
+							 - FloorAddability : property<CUpgradabilityChecker>
+							 - GetFloorAddability : function: 00007FF6EA6F6710
+							 - IsCultureMainBuilding : property<bool>
+							 - IncidentResolver : property<CPropertyIncidentResolver>
+							 - RandomMapObject : property<CPropertyRandomMapObject>
+							 - FreeArea : property<CPropertyFreeAreaProductivity>
+							 - __index : function: 00007FF6EA6F3230
+							 - SetDowngrade : function: 00007FF6EA6F6540
+							 - GetModuleOwner : function: 00007FF6EA6F5240
+							 - Monument : property<CPropertyMonument>
+							 - Static : property<CAsset>
+							 - Culture : property<CPropertyCulture>
+							 - GUID : property<int>
+							 - GetNameable : function: 00007FF6EA6F4C20
+							 - GetMotor : function: 00007FF6EA6F4B40
+							 - IsProduction : property<bool>
+							 - Distribution : property<CPropertyDistribution>
+							 - GetMonument : function: 00007FF6EA6F4EC0
+							 - IsResidence : property<bool>
+							 - GetHasVariations : function: 00007FF6EA6F5EF0
+							 - GetInfluenceSource : function: 00007FF6EA6F5160
+							 - GetHasAlternativeGrassColor : function: 00007FF6EA6F5E90
+							 - InfluenceSource : property<CPropertyInfluenceSource>
+							 - GetRecipeBuilding : function: 00007FF6EA6F5B00
+							 - Dying : property<CPropertyDying>
+							 - GetFloorStack : function: 00007FF6EA6F4AD0
+							 - GetIsBlueprunt : function: 00007FF6EA6F65D0
+							 - PalaceMinistry : property<CPropertyPalaceMinistry>
+							 - SetUpgrade : function: 00007FF6EA6F63D0
+							 - Area : property<CConstructionArea>
+							 - GetIsWarehouse : function: 00007FF6EA6F5D70
+							 - GetItemCrafter : function: 00007FF6EA6F54E0
+							 - GetIsMonument : function: 00007FF6EA6F5C50
+							 - GetResidence : function: 00007FF6EA6F4DE0
+							 - Pirate : property<CPropertyPirate>
+							 - Residence : property<CPropertyResidence7>
+							 - GetFactory : function: 00007FF6EA6F4A60
+							 - GetIsProduction : function: 00007FF6EA6F5D10
+							 - Attacker : property<CPropertyAttacker>
+							 - GetFreeArea : function: 00007FF6EA6F4C90
+							 - Bombarder : property<CPropertyBombarder>
+							 - HasVariations : property<bool>
+							 - RecipeBuilding : property<CPropertyRecipeBuilding>
+							 - GetMesh : function: 00007FF6EA6F4BB0
+							 - GetWarehouse : function: 00007FF6EA6F5010
+							 - GetAttacker : function: 00007FF6EA6F4590
+							 - Logistic : property<CLogisticNode>
+							 - GetCulture : function: 00007FF6EA6F52B0
+							 - ItemContainer : property<CPropertyItemContainer>
+							 - GetElectric : function: 00007FF6EA6F49F0
+							 - GetPalaceMinistry : function: 00007FF6EA6F58D0
+							 - GetPier : function: 00007FF6EA6F5390
+							 - Motor : property<CPropertyMotorizable>
+						 - __index : function: 00007FF6EAB9F080
+						 - GetParagonProductivityBonus : function: 00007FF6EAB9F830
+						 - GetAttractivenesNeededForNextParagonLevel : function: 00007FF6EAB9F650
+						 - GetAttractivenessNeededToUnlockMinistry : function: 00007FF6EAB9F530
+						 - CurrentParagonLevel : property<int>
+						 - GetParagonModuleInfluenceBonus : function: 00007FF6EAB9F7A0
+						 - GetParagonSpecialistSpawnBonus : function: 00007FF6EAB9FA70
+						 - GetActiveBaseOrParagonEffect : function: 00007FF6EAB9F5C0
+						 - GetParagonAttractivenessBonus : function: 00007FF6EAB9F9E0
+						 - GetParagonServiceRangeBonus : function: 00007FF6EAB9F8C0
+						 - GetParagonIslandStorageBonus : function: 00007FF6EAB9F950
+						 - AttractivenesNeededForCurrentParagonLevel : property<int>
+						 - GetParagonWorforceBonus : function: 00007FF6EAB9F710
+						 - PalaceEffectRange : property<int>
+						 - GetBaseEffect : function: 00007FF6EAB9F4A0
+						 - AttractivenesNeededForNextParagonLevel : property<int>
+						 - GetPalaceEffectRange : function: 00007FF6EAB9F3E0
+						 - GetIsMinistryUnlocked : function: 00007FF6EAB9F350
+						 - __name : CPropertyPalaceTextSource*MT
+						 - GetAttractivenesNeededForCurrentParagonLevel : function: 00007FF6EAB9F6B0
+					 - GetHacienda : function: 00007FF6EA6F5940
+					 - ItemCrafter : property<CPropertyItemCrafter>
+						 - GetCraftingCosts : function: 00007FF6EAB82930
+						 - __name : CPropertyItemCrafterTextSource*MT
+					 - GetAttackable : function: 00007FF6EA6F4520
+					 - ShipMaintenance : property<CPropertyShipMaintenance>
+						 - GetMaintenance : function: 00007FF6EA584520
+						 - Maintenance : property<int>
+						 - __name : CPropertyShipMaintenanceTextSource*MT
+						 - __index : function: 00007FF6EA584330
+					 - GetShipyard : function: 00007FF6EA6F5320
+					 - SetCycleSkins : function: 00007FF6EA6F6120
+					 - GetPalace : function: 00007FF6EA6F5860
+					 - SetMove : function: 00007FF6EA6F6020
+					 - ShipIncident : property<CPropertyShipIncident>
+						 - GetRemainingDuration : function: 00007FF6EABC1470
+						 - RemainingDuration : property<rdtime>
+						 - CheatEndInfection : function: 00007FF6EABC12D0
+						 - CheatEndAnyInfection : function: 00007FF6EABC1340
+						 - __index : function: 00007FF6EABC0F20
+						 - CheatInfect : function: 00007FF6EABC1210
+						 - CheatInfectRandom : function: 00007FF6EABC1280
+						 - GetActiveIncidentType : function: 00007FF6EABC11B0
+						 - ToggleDebugRenderRadius : function: 00007FF6EABC1420
+						 - ActiveIncidentType : property<int>
+						 - __name : CPropertyShipIncidentTextSource*MT
+						 - CheatIgnoreIncidentPriority : function: 00007FF6EABC1390
+					 - Shipyard : property<CPropertyShipyard>
+						 - GetBuildCostForShip : function: 00007FF6EA585780
+						 - GetCurrentConstructionGUID : function: 00007FF6EA585540
+						 - SetCheatSkipRemainingTime : function: 00007FF6EA585880
+						 - RemainingRelativeTime : property<rdtime>
+						 - GetIsCurrentConstructionGUID : function: 00007FF6EA5855A0
+						 - __index : function: 00007FF6EA585290
+						 - GetRemainingRelativeTime : function: 00007FF6EA585720
+						 - CurrentConstructionGUID : property<int>
+						 - GetProgress : function: 00007FF6EA585630
+						 - GetConstructionTime : function: 00007FF6EA585690
+						 - __name : CPropertyShipyardTextSource*MT
+						 - Progress : property<float>
+					 - SessionGuid : property<int>
+					 - GetWatered : function: 00007FF6EA6F5A20
+					 - GetDying : function: 00007FF6EA6F4910
+					 - GetConstructionAI : function: 00007FF6EA6F47C0
+					 - Pausable : property<CPropertyPausable>
+						 - GetIsPausedByQuest : function: 00007FF6EABA4FF0
+						 - IsPausedByQuest : property<bool>
+						 - TogglePause : function: 00007FF6EA727A50
+						 - __name : CPropertyPausableTextSource*MT
+						 - __index : function: 00007FF6EABA4DF0
+					 - GetLifetime : function: 00007FF6EA6F55C0
+					 - Warehouse : property<CPropertyWarehouse>
+						 - GetStorageBonus : function: 00007FF6EA592750
+						 - StorageBonusInclModules : property<int>
+						 - __index : function: 00007FF6EA592500
+						 - StrategicGood : property<int>
+						 - StorageBonus : property<int>
+						 - GetStorageBonusInclModules : function: 00007FF6EA592810
+						 - GetStrategicGood : function: 00007FF6EA5927B0
+						 - __name : CPropertyWarehouseTextSource*MT
+						 - GetStorageDifferenceToIslandStorage : function: 00007FF6EA592870
+					 - GetIsResidence : function: 00007FF6EA6F5CB0
+					 - GetCollectable : function: 00007FF6EA6F46E0
+					 - GetDockland : function: 00007FF6EA6F4980
+					 - GetStatic : function: 00007FF6EA6F5FB0
+					 - GetDelayedConstruction : function: 00007FF6EA6F4830
+					 - GetModule : function: 00007FF6EA6F4600
+					 - FloorStack : property<CPropertyFloorStackOwner>
+						 - SetChangeFloorSize : function: 00007FF6EAB68BB0
+						 - __name : CPropertyFloorStackOwnerTextSource*MT
+					 - IsWarehouse : property<bool>
+					 - GetWalking : function: 00007FF6EA6F5080
+					 - IrrigationSouce : property<CPropertyIrrigationSource>
+						 - GetBaseCapacity : function: 00007FF6EAB7A960
+						 - GetCurentCapacity : function: 00007FF6EAB7A840
+						 - CurrentDynamicCapacity : property<int>
+						 - GetMaxDynamicCapacity : function: 00007FF6EAB7A900
+						 - CurentCapacity : property<int>
+						 - __index : function: 00007FF6EAB7A5B0
+						 - GetCurrentDynamicCapacity : function: 00007FF6EAB7A8A0
+						 - BaseCapacity : property<int>
+						 - __name : CPropertyIrrigationSourceTextSource*MT
+						 - MaxDynamicCapacity : property<int>
+					 - __name : CGameObjectTextSource*MT
+					 - Sellable : property<CPropertySellable>
+						 - CanBeSoldToTrader : property<bool>
+						 - GetCurrentParticipantBuyPrice : function: 00007FF6EABBE350
+						 - SetOnSale : function: 00007FF6EABBE200
+						 - GetCanBeSoldToTrader : function: 00007FF6EABBE430
+						 - CurrentParticipantBuyPrice : property<CBuildCost>
+						 - GetSellPrice : function: 00007FF6EABBE3C0
+						 - GetOnSale : function: 00007FF6EABBE290
+						 - __index : function: 00007FF6EABBDF40
+						 - BuyNet : function: 00007FF6EABBE4E0
+						 - GetAffordableByCurrentParticipant : function: 00007FF6EABBE2F0
+						 - CheatBuy : function: 00007FF6EABBE490
+						 - OnSale : property<bool>
+						 - SellPrice : property<CBuildCost>
+						 - __name : CPropertySellableTextSource*MT
+						 - AffordableByCurrentParticipant : property<bool>
+					 - Maintenance : property<CPropertyMaintenance>
+						 - GetMaintenanceCost : function: 00007FF6EAB84CB0
+						 - SetToggleConsumerPriorityAlarm : function: 00007FF6EAB84DD0
+						 - __index : function: 00007FF6EAB84A80
+						 - IsAdditionalWorkforceFullySatisfied : property<bool>
+						 - DeltaInputSaturation : property<float>
+						 - GetStaticMaintenanceCost : function: 00007FF6EAB84D40
+						 - GetDeltaInputSaturation : function: 00007FF6EAB84E20
+						 - __name : CPropertyMaintenanceTextSource*MT
+						 - GetIsAdditionalWorkforceFullySatisfied : function: 00007FF6EAB84E80
+					 - GetSellable : function: 00007FF6EA6F5780
+					 - Factory : property<CPropertyFactory7>
+						 - GetHasNeededFertility : function: 00007FF6EA01EA80
+						 - GetProductivity : function: 00007FF6EAB62440
+						 - GetPostboxResidents : function: 00007FF6EAB62980
+						 - GetProductivityFarmFieldBoost : function: 00007FF6EAB62620
+						 - NewspaperProductivityByProductivityEffect : property<float>
+						 - ProductivityUpgrade : property<float>
+						 - GetEconomyModifier : function: 00007FF6EA76B4D0
+						 - TeleportsProducedGoodsDirectlyIntoAreaStorage : property<bool>
+						 - GetCurrentProductivity : function: 00007FF6EAB624A0
+						 - HasNeededFertility : property<bool>
+						 - GetTeleportsProducedGoodsDirectlyIntoAreaStorage : function: 00007FF6EAB62320
+						 - GetNeededFertility : function: 00007FF6EAB62800
+						 - NewspaperProductivityByArmamentEffect : property<float>
+						 - ProductivityFarmFieldBoost : property<float>
+						 - Productivity : property<float>
+						 - GetFillStorage : function: 00007FF6EAB622C0
+						 - GetNewspaperProductivityByArmamentEffect : function: 00007FF6EAB62680
+						 - ProductivityBoostPotential : property<float>
+						 - GetNewspaperProductivityByProductivityEffect : function: 00007FF6EAB626E0
+						 - FillStorage : property<bool>
+						 - GetProductivityUpgrade : function: 00007FF6EAB62500
+						 - __index : function: 00007FF6EAB61BE0
+						 - ToggleCheatFertility : function: 00007FF6EAB628D0
+						 - RelativeCycleTime : property<rdtime>
+						 - GetProductivityBoostPotential : function: 00007FF6EAB625C0
+						 - PostboxProductivity : property<float>
+						 - GetPostboxProductivity : function: 00007FF6EAB62920
+						 - NeedsAFertility : property<bool>
+						 - GetNeedsAFertility : function: 00007FF6EAB62870
+						 - GetCycleTime : function: 00007FF6EAB62380
+						 - NeededFertility : property<CAsset>
+						 - GetProductivityBase : function: 00007FF6EAB62560
+						 - NoWarehouseInRange : property<bool>
+						 - GetNoWarehouseInRange : function: 00007FF6EAB627A0
+						 - GetFullOutputStorage : function: 00007FF6EAB62740
+						 - ProductivityBase : property<float>
+						 - FullOutputStorage : property<bool>
+						 - PostboxResidents : property<int>
+						 - GetRelativeCycleTime : function: 00007FF6EAB623E0
+						 - CurrentProductivity : property<float>
+						 - __name : CPropertyFactory7TextSource*MT
+						 - CycleTime : property<rdtime>
+					 - Walking : property<CPropertyWalking>
+						 - BaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : property<float>
+						 - GetAffectedByWind : function: 00007FF6EA58DFB0
+						 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : function: 00007FF6EA58DEF0
+						 - BaseSpeedWithStaticSpeedFactors : property<float>
+						 - GetIsMoving : function: 00007FF6EA58DCE0
+						 - GetSessionTransferSpeedFactor : function: 00007FF6EA58E010
+						 - BaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : property<float>
+						 - SetUnsetIdleTickCount : function: 00007FF6EA58DC90
+						 - BaseSpeedWithUpgrades : property<float>
+						 - DebugStop : function: 00007FF6EA58DC40
+						 - GetBaseSpeedWithUpgrades_MaxWindSlowdown : function: 00007FF6EA58DDD0
+						 - GetBaseSpeedWithStaticSpeedFactors : function: 00007FF6EA58DE90
+						 - BaseSpeedWithUpgrades_MaxWindSlowdown : property<float>
+						 - SessionTransferSpeedFactor : property<float>
+						 - AffectedByWind : property<bool>
+						 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : function: 00007FF6EA58DF50
+						 - GetBaseSpeedWithUpgrades_MaxWindSpeedup : function: 00007FF6EA58DE30
+						 - BaseSpeedWithUpgrades_MaxWindSpeedup : property<float>
+						 - GetBaseSpeedWithUpgrades : function: 00007FF6EA58DD70
+						 - SetDebugGoto : function: 00007FF6EA58DB90
+						 - __name : CPropertyWalkingTextSource*MT
+						 - __index : function: 00007FF6EA58D7F0
+					 - HasAlternativeGrassColor : property<bool>
+					 - GetRiver : function: 00007FF6EA6F4E50
+					 - GetCommandQueue : function: 00007FF6EA6F4750
+					 - Module : property<CPropertyBuildingModule>
+						 - __name : CPropertyBuildingModuleTextSource*MT
+						 - __index : function: 00007FF6EA899FE0
+					 - GetRepair : function: 00007FF6EA6F4D70
+					 - IsMonument : property<bool>
+					 - GetShipIncident : function: 00007FF6EA6F5630
+					 - GetLogistic : function: 00007FF6EA6F59B0
+					 - GetBusStop : function: 00007FF6EA6F4670
+					 - CommandQueue : property<CPropertyCommandQueue>
+						 - GetUI_IsInATradeRoute : function: 00007FF6EAB53550
+						 - UI_IsBombarding : property<bool>
+						 - GetUI_IsBombarding : function: 00007FF6EAB53670
+						 - GetHasTradeRouteAssignment : function: 00007FF6EAB53250
+						 - GetUI_IsNonMoving : function: 00007FF6EAB53310
+						 - GetUI_HasLostTarget : function: 00007FF6EAB53610
+						 - __index : function: 00007FF6EAB52D10
+						 - UI_IsHoldingQuestObject : property<bool>
+						 - UI_IsInCombat : property<bool>
+						 - GetUI_IsLeavingTheSession : function: 00007FF6EAB534F0
+						 - HasTradeRouteAssignment : property<bool>
+						 - UI_IsInATradeRoute : property<bool>
+						 - UI_IsLeavingTheSession : property<bool>
+						 - GetHasExpeditionAssignment : function: 00007FF6EAB531F0
+						 - UI_IsPatrolling : property<bool>
+						 - GetUI_IsPatrolling : function: 00007FF6EAB53490
+						 - UI_IsEscorting : property<bool>
+						 - GetUI_IsHoldingQuestObject : function: 00007FF6EAB53430
+						 - HasPatrolAssignment : property<bool>
+						 - GetUI_IsChosenOrOutOnExpedition : function: 00007FF6EAB533D0
+						 - UI_IsChosenOrOutOnExpedition : property<bool>
+						 - UI_IsMoving : property<bool>
+						 - UI_HasLostTarget : property<bool>
+						 - GetUI_IsMoving : function: 00007FF6EAB532B0
+						 - GetUI_IsInCombat : function: 00007FF6EAB53370
+						 - GetUI_IsEscorting : function: 00007FF6EAB535B0
+						 - UI_IsNonMoving : property<bool>
+						 - HasExpeditionAssignment : property<bool>
+						 - __name : CPropertyCommandQueueTextSource*MT
+						 - GetHasPatrolAssignment : function: 00007FF6EAB53190
+					 - GetUpgradability : function: 00007FF6EA6F6630
+					 - GetRandomMapObject : function: 00007FF6EA6F4F30
+					 - Electric : property<CPropertyElectrifiable>
+						 - BoostFactor : property<float>
+						 - GetBoostFactor : function: 00007FF6EAB5FD90
+						 - GetIsElectrified : function: 00007FF6EAB5FD30
+						 - IsElectrified : property<bool>
+						 - __name : CPropertyElectrifiableTextSource*MT
+						 - __index : function: 00007FF6EAB5FB00
+					 - Trader : property<CPropertyTrader>
+						 - ForceBuild : function: 00007FF6EA58B6A0
+						 - ShipTradeFailed : function: 00007FF6EA58B630
+						 - ClearSellCooldown : function: 00007FF6EA58B5C0
+						 - __name : CPropertyTraderTextSource*MT
+					 - Pier : property<CPropertyLoadingPier>
+						 - TonsPerSec : property<float>
+						 - GetTonsPerSec : function: 00007FF6EAB83F00
+						 - __name : CPropertyLoadingPierTextSource*MT
+						 - __index : function: 00007FF6EAB83D20
+					 - GetEcoProvider : function: 00007FF6EA6F5B70
+					 - ModuleOwner : property<CPropertyModuleOwner>
+						 - ModuleCountIncludingPreviewExcludingNonWorking : property<int>
+						 - ModuleCount : property<int>
+						 - GetModuleLimitForGUID : function: 00007FF6EAB8A130
+						 - GetHasNonIrrigatedModulesBelowLimit : function: 00007FF6EAB8A760
+						 - GetModuleCount : function: 00007FF6EAB8A360
+						 - GetFertilizerModule : function: 00007FF6EAB8A220
+						 - DefaultModuleGUID : property<int>
+						 - GetAmountIrrigatedModules_CapAtLimit : function: 00007FF6EAB8A520
+						 - CosmeticModuleCountIncludingPreview : property<int>
+						 - GetRemainingBuildRights : function: 00007FF6EAB8A8E0
+						 - HasFertilizerModule : property<bool>
+						 - GetCosmeticModuleCountIncludingPreview : function: 00007FF6EAB8A6A0
+						 - GetPalaceModuleLimit : function: 00007FF6EAB8A040
+						 - GetModuleCountIncludeNonWorking_CapAtLimit : function: 00007FF6EAB8A640
+						 - GetModuleCountIncludingPreviewExcludingNonWorking : function: 00007FF6EAB8A820
+						 - HasNonIrrigatedModulesBelowLimit : property<bool>
+						 - GetModuleCountBP : function: 00007FF6EAB8A420
+						 - GetAmountNotIrrigatedModules : function: 00007FF6EAB8A580
+						 - CosmeticModuleLimit : property<int>
+						 - AmountIrrigatedModules_CapAtLimit : property<int>
+						 - MainModuleLimit : property<int>
+						 - __index : function: 00007FF6EAB89980
+						 - ModuleCountIncludingPreview : property<int>
+						 - GetCosmeticModuleLimit : function: 00007FF6EAB8A700
+						 - GetModuleCountIncludeNonWorking : function: 00007FF6EAB8A5E0
+						 - ModuleLimit : property<int>
+						 - GetModuleLimit : function: 00007FF6EAB89F80
+						 - GetAdditionalModule : function: 00007FF6EAB8A2F0
+						 - GetDefaultModuleGUID : function: 00007FF6EAB8A880
+						 - GetModuleCountIncludingPreview : function: 00007FF6EAB8A7C0
+						 - AdditionalModule : property<CGameObject>
+						 - AmountNotIrrigatedModules : property<int>
+						 - AmountIrrigatedModules : property<int>
+						 - FertilizerModule : property<CGameObject>
+						 - GetModuleCountForGUID : function: 00007FF6EAB8A0A0
+						 - GetMainModuleLimit : function: 00007FF6EAB89FE0
+						 - HasAdditionalModule : property<bool>
+						 - GetAmountIrrigatedModules : function: 00007FF6EAB8A4C0
+						 - ModuleCountIncludeNonWorking_CapAtLimit : property<int>
+						 - PalaceModuleCount : property<int>
+						 - GetHasFertilizerModule : function: 00007FF6EAB8A1C0
+						 - GetPalaceModuleCount : function: 00007FF6EAB8A3C0
+						 - GetHasAdditionalModule : function: 00007FF6EAB8A290
+						 - __name : CPropertyModuleOwnerTextSource*MT
+						 - PalaceModuleLimit : property<int>
+						 - ModuleCountIncludeNonWorking : property<int>
+					 - EcoProvider : property<CPropertyEcoSystemProvider>
+						 - MaxMonoCulture : property<int>
+						 - GetNegativeMonoCulture : function: 00007FF6EAB5E0D0
+						 - GetCurrentDelta : function: 00007FF6EAB5E010
+						 - __index : function: 00007FF6EAB5DD50
+						 - CurrentDelta : property<float>
+						 - GetPositiveMonoCulture : function: 00007FF6EAB5E070
+						 - GetMaxMonoCulture : function: 00007FF6EAB5E130
+						 - NegativeMonoCulture : property<float>
+						 - __name : CPropertyEcoSystemProviderTextSource*MT
+						 - PositiveMonoCulture : property<float>
+					 - GetDowngradability : function: 00007FF6EA6F66A0
+					 - ConstructionAI : property<CPropertyConstructionAI>
+						 - GrantSettlePermissionNet : function: 00007FF6EAB57D50
+						 - __name : CPropertyConstructionAITextSource*MT
+					 - Upgradability : property<CUpgradabilityChecker>
+					 - GetIsCultureMainBuilding : function: 00007FF6EA6F6A60
+					 - GetMaintenance : function: 00007FF6EA6F5710
+					 - GetTrader : function: 00007FF6EA6F5470
+					 - Expedition : property<CExpedition>
+						 - TravelTimeLeft : property<rdtime>
+						 - EventCountdown : property<rdtime>
+						 - SetEndExpedition : function: 00007FF6EA6DDE90
+						 - SetCheatSetCurrentDecision : function: 00007FF6EA6DDCB0
+						 - GetDays : function: 00007FF6EA6DE200
+						 - GetOptionAttributeLevel : function: 00007FF6EA6DE340
+						 - ExpeditionShipStarting : property<bool>
+						 - SetCheatEndExpedition : function: 00007FF6EA6DDD20
+						 - ExpeditionShip : property<CGameObject>
+						 - SetDiscardExpedition : function: 00007FF6EA6DE010
+						 - GetOptionAttributeLevelDescription : function: 00007FF6EA6DE3D0
+						 - ExpeditionShipReturning : property<bool>
+						 - SetCheatCurrentEvent : function: 00007FF6EA6DDC40
+						 - __index : function: 00007FF6EA6DD620
+						 - SetResolveDecision : function: 00007FF6EA6DDDD0
+						 - SetCheatEventCountdown : function: 00007FF6EA6DDBF0
+						 - Days : property<int>
+						 - SetOpenEventUI : function: 00007FF6EA6DE260
+						 - Morale : property<int>
+						 - GetRequirementConsumeAmount : function: 00007FF6EA6DE170
+						 - GetExpeditionShipReturning : function: 00007FF6EA6DDB30
+						 - GetMorale : function: 00007FF6EA6DDFB0
+						 - GetEventCountdown : function: 00007FF6EA6DDB90
+						 - GetThreatDescription : function: 00007FF6EA6DDA40
+						 - GetOptionAttributeSum : function: 00007FF6EA6DE2B0
+						 - GetMaxStartMoralePoints : function: 00007FF6EA6DDEE0
+						 - GetTravelTimeLeft : function: 00007FF6EA6DE460
+						 - SetMorale : function: 00007FF6EA6DDF40
+						 - GetRequirement : function: 00007FF6EA6DE0D0
+						 - GetExpeditionShip : function: 00007FF6EA6DE060
+						 - MaxStartMoralePoints : property<int>
+						 - GetCurrentEvent : function: 00007FF6EA6DDD70
+						 - __name : CExpeditionTextSource*MT
+						 - GetExpeditionShipStarting : function: 00007FF6EA6DDAD0
+						 - CurrentEvent : property<int>
+					 - GetExpedition : function: 00007FF6EA6F69F0
+					 - GetAreaManager : function: 00007FF6EA6F6980
+					 - Attackable : property<CPropertyAttackable>
+						 - MaxHitPoints : property<short>
+						 - GetMaxHitPoints : function: 00007FF6EA890250
+						 - SetAddDamagePercent : function: 00007FF6EA890310
+						 - GetIsUnderAttack : function: 00007FF6EA890520
+						 - __index : function: 00007FF6EA88FFB0
+						 - CheatRemainingEffectTime : function: 00007FF6EA890580
+						 - GetIsWhiteFlagActive : function: 00007FF6EA8904C0
+						 - IsWhiteFlagActive : property<bool>
+						 - GetStatusEffectChainStageCount : function: 00007FF6EA8907A0
+						 - GetIsPartOfActiveStatusEffectChain : function: 00007FF6EA8905F0
+						 - GetCurHitPoints : function: 00007FF6EA8902B0
+						 - GetStatusEffectChainStage : function: 00007FF6EA890710
+						 - IsUnderAttack : property<bool>
+						 - SetDebugInvincible : function: 00007FF6EA890430
+						 - CurHitPoints : property<short>
+						 - __name : CPropertyAttackableTextSource*MT
+						 - GetRemainingStatusEffectDuration : function: 00007FF6EA890680
+					 - GetArea : function: 00007FF6EA6F6910
+					 - GetSessionGuid : function: 00007FF6EA6F68B0
+					 - Hacienda : property<CPropertyHacienda>
+						 - NextRadiusRequirement : property<int>
+						 - GetIsPolicyUnlocked : function: 00007FF6EAB6B390
+						 - GetRequiredAttractivenessForPolicy : function: 00007FF6EAB6B420
+						 - GetNextRadiusRequirement : function: 00007FF6EAB6B4B0
+						 - __name : CPropertyHaciendaTextSource*MT
+						 - __index : function: 00007FF6EAB6B1B0
+					 - GetShipMaintenance : function: 00007FF6EA6F56A0
+					 - Lifetime : property<CPropertyLifetime>
+						 - GetRemainingTime : function: 00007FF6EAB83370
+						 - RemainingTime : property<rdtime>
+						 - __name : CPropertyLifetimeTextSource*MT
+						 - __index : function: 00007FF6EAB83190
+					 - Watered : property<CPropertyWatered>
+						 - RequiresWater : property<bool>
+						 - GetRequiresWater : function: 00007FF6EA5945A0
+						 - IsWatered : property<bool>
+						 - GetIsWatered : function: 00007FF6EA594540
+						 - __name : CPropertyWateredTextSource*MT
+						 - __index : function: 00007FF6EA594330
+					 - GetPausable : function: 00007FF6EA6F4D00
+					 - Renovatability : property<CRenovatabilityChecker>
+						 - Costs : property<CBuildCost>
+						 - GetCosts : function: 00007FF6EA01A4E0
+						 - GetIsRenovatable : function: 00007FF6EA5A6F30
+						 - IsRenovatable : property<bool>
+						 - __name : CRenovatabilityCheckerTextSource*MT
+						 - __index : function: 00007FF6EA5A6D00
+					 - GetRenovatability : function: 00007FF6EA6F6780
+					 - FloorAddability : property<CUpgradabilityChecker>
+					 - GetFloorAddability : function: 00007FF6EA6F6710
+					 - IsCultureMainBuilding : property<bool>
+					 - IncidentResolver : property<CPropertyIncidentResolver>
+						 - GetIsActionOnCooldown : function: 00007FF6EAB715C0
+						 - IsActionOnCooldown : property<bool>
+						 - ActionUpgradeHappinessBonus : property<float>
+						 - GetIsRiotInstitution : function: 00007FF6EAB71440
+						 - GetInfectionChanceIllness : function: 00007FF6EAB71090
+						 - GetActionAdditionalUnitAmount : function: 00007FF6EAB71150
+						 - IsSpecialActionActive : property<bool>
+						 - StandardUnitAsset : property<CAsset>
+						 - ActionNewspaperHappinessBonus : property<float>
+						 - GetIsIncidentNearby : function: 00007FF6EAB71560
+						 - InfectionChanceFire : property<float>
+						 - InfectionChanceIllness : property<float>
+						 - GetInfectionChance : function: 00007FF6EAB70F70
+						 - GetIsArcticIllnessInstitution : function: 00007FF6EAB71500
+						 - SpecialUnitAsset : property<CAsset>
+						 - InfectionChanceRiot : property<float>
+						 - GetResolverPopulationThreshold : function: 00007FF6EAB71210
+						 - RemainingActionCooldown : property<rdtime>
+						 - GetInfectionChanceRiot : function: 00007FF6EAB71030
+						 - GetIsPotentialAvailableSpecialUnitIndex : function: 00007FF6EAB71680
+						 - IsIncidentNearby : property<bool>
+						 - DoesAnybodyNearbyNeedHelp : property<bool>
+						 - ActionMaxAdditionalUnitAmount : property<int>
+						 - IsArcticIllnessInstitution : property<bool>
+						 - IsIllnessInstitution : property<bool>
+						 - __index : function: 00007FF6EAB705C0
+						 - ClearSpecialActionCooldown : function: 00007FF6EAB70E40
+						 - GetInfectionChanceFire : function: 00007FF6EAB70FD0
+						 - CanSendSpecialForces : property<bool>
+						 - ActionCooldown : property<rdtime>
+						 - IsRiotInstitution : property<bool>
+						 - GetStandardUnitAsset : function: 00007FF6EAB70F00
+						 - GetRemainingActionCooldown : function: 00007FF6EAB70D80
+						 - IsFireInstitution : property<bool>
+						 - GetCanSendSpecialForces : function: 00007FF6EAB70D20
+						 - GetIsFireInstitution : function: 00007FF6EAB713E0
+						 - GetActionUpgradeHappinessBonus : function: 00007FF6EAB71380
+						 - GetActionCooldown : function: 00007FF6EAB70DE0
+						 - GetActionNewspaperHappinessBonus : function: 00007FF6EAB71320
+						 - GetSpecialUnitAsset : function: 00007FF6EAB70E90
+						 - GetResolverHappinessThreshold : function: 00007FF6EAB712A0
+						 - GetDoesAnybodyNearbyNeedHelp : function: 00007FF6EAB71620
+						 - GetActionMaxAdditionalUnitAmount : function: 00007FF6EAB711B0
+						 - ActionAdditionalUnitAmount : property<int>
+						 - InfectionChance : property<float>
+						 - InfectionChanceArcticIllness : property<float>
+						 - GetInfectionChanceArcticIllness : function: 00007FF6EAB710F0
+						 - __name : CPropertyIncidentResolverTextSource*MT
+						 - GetIsIllnessInstitution : function: 00007FF6EAB714A0
+						 - GetIsSpecialActionActive : function: 00007FF6EAB70CC0
+					 - RandomMapObject : property<CPropertyRandomMapObject>
+						 - SetFiniteResourceAmount : function: 00007FF6EABA6700
+						 - ResourceCapacity : property<int>
+						 - GetResourceAmount : function: 00007FF6EABA66A0
+						 - ResourceAmount : property<int>
+						 - GetResourceCapacity : function: 00007FF6EABA6640
+						 - __name : CPropertyRandomMapObjectTextSource*MT
+						 - __index : function: 00007FF6EABA6420
+					 - FreeArea : property<CPropertyFreeAreaProductivity>
+						 - SetToggleGridDebugDraw : function: 00007FF6EAB69C60
+						 - TreeCount : property<int>
+						 - __index : function: 00007FF6EAB69940
+						 - GetNeededTreeCount : function: 00007FF6EAB69C00
+						 - GetTreeCount : function: 00007FF6EAB69BA0
+						 - __name : CPropertyFreeAreaProductivityTextSource*MT
+						 - NeededTreeCount : property<int>
+					 - __index : function: 00007FF6EA6F3230
+					 - SetDowngrade : function: 00007FF6EA6F6540
+					 - GetModuleOwner : function: 00007FF6EA6F5240
+					 - Monument : property<CPropertyMonument>
+						 - GetEventWorkforceByGUID : function: 00007FF6EAB94750
+						 - RemainingEventTime : property<rdtime>
+						 - GetNeededProduct : function: 00007FF6EAB93FF0
+						 - CurrentPhase : property<int>
+						 - RemainingTime : property<rdsdk::CRDStringW>
+						 - IsEventFinished : property<bool>
+						 - EventWorkforceUsed : property<int>
+						 - GetIsInConstructionState : function: 00007FF6EAB941D0
+						 - SetCheatSkipEventTime : function: 00007FF6EAB94540
+						 - __index : function: 00007FF6EAB935E0
+						 - GetEventWorkforceUsedByGUID : function: 00007FF6EAB94880
+						 - GetCurrentPhase : function: 00007FF6EAB94300
+						 - IsEventPreparing : property<bool>
+						 - GetIsEventPreparing : function: 00007FF6EAB943C0
+						 - GetAvailableProduct : function: 00007FF6EAB94080
+						 - GetUpgradeTarget : function: 00007FF6EAB93F80
+						 - UpgradeTarget : property<rdsdk::CRDStringW>
+						 - SetOpenExhibitionUI : function: 00007FF6EAB949A0
+						 - GetEventGoodsReductionPercent : function: 00007FF6EAB94910
+						 - GetEventMaxUsableWorkforceAmount : function: 00007FF6EAB947F0
+						 - GetEventGoodsRange : function: 00007FF6EAB94660
+						 - SetPauseUpgrade : function: 00007FF6EAB94180
+						 - EventWorkforce : property<CAsset>
+						 - GetRemainingEventTime : function: 00007FF6EAB944E0
+						 - IsEventRunning : property<bool>
+						 - GetIsEventRunning : function: 00007FF6EAB94420
+						 - MaxPhase : property<int>
+						 - GetMaxPhase : function: 00007FF6EAB94360
+						 - GetRemainingTime : function: 00007FF6EAB94110
+						 - SetCheatMicroPhase : function: 00007FF6EAB942B0
+						 - SetCheatUpgradeMicro : function: 00007FF6EAB94260
+						 - GetEventWorkforce : function: 00007FF6EAB94590
+						 - __name : CPropertyMonumentTextSource*MT
+						 - GetIsEventFinished : function: 00007FF6EAB94480
+						 - GetEventWorkforceUsed : function: 00007FF6EAB94600
+					 - Static : property<CAsset>
+					 - Culture : property<CPropertyCulture>
+						 - GetAttractivenessIncludingModules : function: 00007FF6EAB58E50
+						 - __index : function: 00007FF6EAB58B40
+						 - GetAttractiveness : function: 00007FF6EAB58D90
+						 - GetAttractivenessModules : function: 00007FF6EAB58DF0
+						 - AttractivenessIncludingModules : property<int>
+						 - Attractiveness : property<int>
+						 - __name : CPropertyCultureTextSource*MT
+						 - AttractivenessModules : property<int>
+					 - GUID : property<int>
+					 - GetNameable : function: 00007FF6EA6F4C20
+					 - GetMotor : function: 00007FF6EA6F4B40
+					 - IsProduction : property<bool>
+					 - Distribution : property<CPropertyDistribution>
+						 - GetDistributionAmount : function: 00007FF6EAB5B1A0
+						 - __name : CPropertyDistributionTextSource*MT
+					 - GetMonument : function: 00007FF6EA6F4EC0
+					 - IsResidence : property<bool>
+					 - GetHasVariations : function: 00007FF6EA6F5EF0
+					 - GetInfluenceSource : function: 00007FF6EA6F5160
+					 - GetHasAlternativeGrassColor : function: 00007FF6EA6F5E90
+					 - InfluenceSource : property<CPropertyInfluenceSource>
+						 - GetProvidedInfluence : function: 00007FF6EAB79960
+						 - ProvidedInfluence : property<int>
+						 - __name : CPropertyInfluenceSourceTextSource*MT
+						 - __index : function: 00007FF6EAB79770
+					 - GetRecipeBuilding : function: 00007FF6EA6F5B00
+					 - Dying : property<CPropertyDying>
+						 - PropertyID : property<int>
+						 - GetPropertyID : function: 00007FF6EAB5D0E0
+						 - __name : CPropertyDyingTextSource*MT
+						 - __index : function: 00007FF6EAB5CF00
+					 - GetFloorStack : function: 00007FF6EA6F4AD0
+					 - GetIsBlueprunt : function: 00007FF6EA6F65D0
+					 - PalaceMinistry : property<CPropertyPalaceMinistry>
+						 - SetDecreeTier : function: 00007FF6EAB9D760
+						 - SetMinistryType : function: 00007FF6EAB9D6F0
+						 - GetEffectRange : function: 00007FF6EAB9D7D0
+						 - EffectRange : property<int>
+						 - __name : CPropertyPalaceMinistryTextSource*MT
+						 - __index : function: 00007FF6EAB9D500
+					 - SetUpgrade : function: 00007FF6EA6F63D0
+					 - Area : property<CConstructionArea>
+						 - ID : property<AreaID>
+							 - AreaIndex : 4
+							 - SessionID : 8
+							 - IslandID : 39
+						 - GetPassiveTrade : function: 00007FF6EA79F860
+						 - IsBuyShareBlocked : property<bool>
+						 - GetIncomePerShare : function: 00007FF6EA79F0F0
+						 - BuyShareCooldownTime : property<int>
+						 - KontorID : property<GameObjectID>
+							 - AsyncObjectFlag : 0
+							 - AreaID : table: 000001EBDE805AF8
+							 - ObjectID : 3617332984
+							 - EditorChunkID : 0
+							 - EditorFlag : 0
+						 - WarTimer : property<rdtime>
+						 - GetBuyShareCooldownTime : function: 00007FF6EA79ECD0
+						 - OwnerName : property<rdsdk::CRDStringW>
+						 - GetReservationCost : function: 00007FF6EA79F410
+						 - MilitaryTakeoverChanceStart : property<int>
+						 - IsExplosionUnlocked : property<bool>
+						 - GetBuyShareCooldownRemaining : function: 00007FF6EA79EC70
+						 - GetTotalShareIncome : function: 00007FF6EA79EB50
+						 - HasTradeRights : property<bool>
+						 - GetIsTakeoverBlocked : function: 00007FF6EA79F210
+						 - GetOwnerName : function: 00007FF6EA79F080
+						 - GetIsBuyShareBlocked : function: 00007FF6EA79EDA0
+						 - __index : function: 00007FF6EA79DFE0
+						 - SetSellShare : function: 00007FF6EA79EEC0
+						 - Economy : property<CAreaEconomy>
+							 - GetNeedLocked : function: 00007FF6E9FE2200
+							 - GetDelta : function: 00007FF6E9FE2670
+							 - GetRegisteredDeltaProduction : function: 00007FF6E9FE26F0
+							 - GetEconomyModifier : function: 00007FF6E9FE2120
+							 - SetSelectStorageGoodDebug : function: 00007FF6E9FE2550
+							 - GetIsDistributionPaused : function: 00007FF6E9FE1D80
+							 - ClearIslandStorage : function: 00007FF6E9FE1CA0
+							 - Research : property<int>
+							 - GetDeltaSaturationUncapped : function: 00007FF6E9FE29F0
+							 - AddAmount : function: 00007FF6E9FE1B80
+							 - __index : function: 00007FF6E9FE1850
+							 - GetDeltaSaturation : function: 00007FF6E9FE2970
+							 - GetRegisteredDeltaConsumption : function: 00007FF6E9FE2830
+							 - SetCheatAddDelta : function: 00007FF6E9FE25C0
+							 - SetCheatChangeWorkforceNet : function: 00007FF6E9FE24C0
+							 - GetStorageTrend : function: 00007FF6E9FE2430
+							 - SetCheatItem : function: 00007FF6E9FE23C0
+							 - SetEconomyModifier : function: 00007FF6E9FE2000
+							 - GetSatisfaction : function: 00007FF6E9FE1E60
+							 - __name : CAreaEconomyTextSource*MT
+							 - GetResearch : function: 00007FF6E9FE1FA0
+						 - GetIsExplosionUnlocked : function: 00007FF6EA79F650
+						 - GetCityName : function: 00007FF6EA79F710
+						 - TotalShareIncome : property<float>
+						 - IsFireUnlocked : property<bool>
+						 - GetTakeoverChance : function: 00007FF6EA79EBB0
+						 - GetAmountOfShares : function: 00007FF6EA79EF90
+						 - GetWarTimer : function: 00007FF6EA79F990
+						 - SetHostileTakeover : function: 00007FF6EA79F270
+						 - GetIsRiotUnlocked : function: 00007FF6EA79F590
+						 - MilitaryTakeoverCurrentSurrenderChance : property<int>
+						 - GetID : function: 00007FF6EA79EAF0
+						 - SetBuyShare : function: 00007FF6EA79EE00
+						 - IsTakeoverBlocked : property<bool>
+						 - PassiveTrade : property<CPassiveTradeController>
+							 - GetDetailBuyPrice : function: 00007FF6EA87D4B0
+							 - GetSellPrice : function: 00007FF6EA87D540
+							 - GetHasOffer : function: 00007FF6EA87D8C0
+							 - GetMinimumStock : function: 00007FF6EA87D950
+							 - GetOffer : function: 00007FF6EA87D820
+							 - GetBuyPrice : function: 00007FF6EA87D420
+							 - __name : CPassiveTradeControllerTextSource*MT
+							 - GetDetailSellPrice : function: 00007FF6EA87D6B0
+						 - PercentOwnedShares : property<int>
+						 - GetKontorID : function: 00007FF6EA79F4D0
+						 - GetIsDuplicate : function: 00007FF6EA79FCC0
+						 - IncomePerShare : property<int>
+						 - SetOpenMilitaryResultScreen : function: 00007FF6EA79FB10
+						 - TakeoverChance : property<int>
+						 - ReserveIslandInt : function: 00007FF6EA79F2E0
+						 - GetEconomy : function: 00007FF6EA79F780
+						 - TotalIncome : property<int>
+						 - IsOwnedByAnyone : property<bool>
+						 - IsIllnessUnlocked : property<bool>
+						 - MilitaryTakeoverCurrentMorale : property<int>
+						 - IsNextWarBlocked : property<rdtime>
+						 - GetIsOwnedByAnyone : function: 00007FF6EA79F470
+						 - GetReservationOwnerName : function: 00007FF6EA79F3A0
+						 - GetMilitaryTakeoverChanceStart : function: 00007FF6EA79FAB0
+						 - GetIsIllnessUnlocked : function: 00007FF6EA79F5F0
+						 - GetOwnerProfile : function: 00007FF6EA79EFF0
+						 - AmountOfShares : property<int>
+						 - GetMilitaryTakeoverCurrentSurrenderChance : function: 00007FF6EA79FA50
+						 - GetMilitaryTakeoverInfluenceCost : function: 00007FF6EA79FBC0
+						 - GetMilitaryTakeoverCurrentMorale : function: 00007FF6EA79F9F0
+						 - IslandWarActive : property<bool>
+						 - CityName : property<rdsdk::CRDStringW>
+						 - GetIslandWarActive : function: 00007FF6EA79F930
+						 - SetResetCooldown : function: 00007FF6EA79ED30
+						 - GetHasTradeRights : function: 00007FF6EA79F8D0
+						 - GetVisitors : function: 00007FF6EA79F7F0
+						 - Visitors : property<CAreaVisitors>
+						 - GetPercentOwnedShares : function: 00007FF6EA79EF30
+						 - GetTakeoverMinimum : function: 00007FF6EA79EC10
+						 - MilitaryTakeoverSpareInfluenceCost : property<int>
+						 - TotalDebt : property<int>
+						 - BuyShareCooldownRemaining : property<int>
+						 - GetTotalIncome : function: 00007FF6EA79F150
+						 - IsRiotUnlocked : property<bool>
+						 - GetIsArcticIllnesUnlocked : function: 00007FF6EA79F6B0
+						 - IsArcticIllnesUnlocked : property<bool>
+						 - TakeoverMinimum : property<int>
+						 - ReservationCost : property<int>
+						 - GetMilitaryTakeoverSpareInfluenceCost : function: 00007FF6EA79FC60
+						 - GetIsFireUnlocked : function: 00007FF6EA79F530
+						 - GetTotalDebt : function: 00007FF6EA79F1B0
+						 - GetIsNextWarBlocked : function: 00007FF6EA79FB60
+						 - __name : CConstructionAreaTextSource*MT
+						 - ReservationOwnerName : property<rdsdk::CRDStringW>
+						 - ClearReservation : function: 00007FF6EA79F350
+					 - GetIsWarehouse : function: 00007FF6EA6F5D70
+					 - GetItemCrafter : function: 00007FF6EA6F54E0
+					 - GetIsMonument : function: 00007FF6EA6F5C50
+					 - GetResidence : function: 00007FF6EA6F4DE0
+					 - Pirate : property<CPropertyPirate>
+						 - DebugIncreaseAreaOfActivityRange : function: 00007FF6EABA5920
+						 - __name : CPropertyPirateTextSource*MT
+					 - Residence : property<CPropertyResidence7>
+						 - GetResidentCount : function: 00007FF6EABABA50
+						 - GetPopulationMovesIn : function: 00007FF6EABAC160
+						 - GetInfluence : function: 00007FF6EABACBA0
+						 - ResearchOutput : property<int>
+						 - GetTotalHappinessDebuffForNeed : function: 00007FF6EABABF00
+						 - GetResidentMaxFromBonusNeeds : function: 00007FF6EABAB990
+						 - GetGoodViewValue : function: 00007FF6EABAB860
+						 - GetDebuffAmountForCategory : function: 00007FF6EABAC070
+						 - GetPopulationMovesOut : function: 00007FF6EABAC100
+						 - GetOccupancy : function: 00007FF6EABABB00
+						 - GetMaxInfluence : function: 00007FF6EABACB40
+						 - Occupancy : property<float>
+						 - NegativeGoodViewInfluence : property<int>
+						 - GetMaxMallNeedsSupply : function: 00007FF6EABABDC0
+						 - GetMaxMoneyForGood : function: 00007FF6EABAC9A0
+						 - PopulationMovesOut : property<bool>
+						 - GetMaxSupplyForGood : function: 00007FF6EABAC820
+						 - CurrentMallNeedsSupply : property<int>
+						 - GetPopulationLevel : function: 00007FF6EABAB8C0
+						 - PopulationMovesIn : property<bool>
+						 - GoodViewStartValue : property<int>
+						 - __index : function: 00007FF6EABAAE50
+						 - GetMallNeedsCategoryCount : function: 00007FF6EABABD60
+						 - GetNegativeGoodViewInfluence : function: 00007FF6EABAB7A0
+						 - GetWorkforceOutput : function: 00007FF6EABAC460
+						 - HappinessWorkingCondition : property<float>
+						 - GetResearchOutput : function: 00007FF6EABAC4C0
+						 - GetMallNeedsSatisfaction : function: 00007FF6EABABC40
+						 - HappinessByBuffs : property<float>
+						 - HappinessByHotspots : property<float>
+						 - PositiveGoodViewInfluence : property<int>
+						 - ResidentLimitBySupply : property<int>
+						 - SetEconomyModifier : function: 00007FF6EA76B420
+						 - GetPositiveGoodViewInfluence : function: 00007FF6EABAB6E0
+						 - GetSatisfaction : function: 00007FF6EABABBC0
+						 - GetCurrentHeatForGood : function: 00007FF6EABAC620
+						 - GetHappinessByAttractivity : function: 00007FF6EABAC340
+						 - HappinessByNeeds : property<float>
+						 - SameHeightGoodViewInfluence : property<int>
+						 - GetGoodViewStartValue : function: 00007FF6EABAB800
+						 - ResidentMaxFromBonusNeeds : property<int>
+						 - SetCheatFill : function: 00007FF6EABABAB0
+						 - GetHappinessWorkingCondition : function: 00007FF6EABAC280
+						 - GetHappinessByHotspots : function: 00007FF6EABAC2E0
+						 - MallNeedsCategoryCount : property<int>
+						 - GetHappinessDebuffForNeedByCategory : function: 00007FF6EABABF90
+						 - Influence : property<int>
+						 - GetHappiness : function: 00007FF6EABAC1C0
+						 - ResidentMax : property<int>
+						 - GetHeatByUpgrades : function: 00007FF6EABACAE0
+						 - GetCurrentHappinessForGood : function: 00007FF6EABAC520
+						 - GetCurrentBaseHeat : function: 00007FF6EABACA80
+						 - CurrentHeatSatisfaction : property<float>
+						 - GetCurrentHeatSatisfaction : function: 00007FF6EABACA20
+						 - GetMallNeedsCategory : function: 00007FF6EABABCC0
+						 - GetMoneyOutput : function: 00007FF6EABAC400
+						 - GetSatisfactionTrend : function: 00007FF6EABABE80
+						 - GetMaxHappinessForGood : function: 00007FF6EABAC7A0
+						 - TargetResidentsFromBaseNeeds : property<int>
+						 - GetCurrentResearchForGood : function: 00007FF6EABAC720
+						 - GetCurrentMoneyForGood : function: 00007FF6EABAC6A0
+						 - GetCurrentSupplyForGood : function: 00007FF6EABAC5A0
+						 - HappinessByAttractivity : property<float>
+						 - CurrentBaseHeat : property<float>
+						 - GetHappinessByBuffs : function: 00007FF6EABAC3A0
+						 - GetSameHeightGoodViewInfluence : function: 00007FF6EABAB740
+						 - MoneyOutput : property<int>
+						 - MaxMallNeedsSupply : property<int>
+						 - GetMaxResearchForGood : function: 00007FF6EABAC920
+						 - GetCurrentMallNeedsSupply : function: 00007FF6EABABE20
+						 - PopulationLevel : property<CAsset>
+						 - ResidentCount : property<int>
+						 - GetResidentLimitBySupply : function: 00007FF6EABAB9F0
+						 - WorkforceOutput : property<float>
+						 - HeatByUpgrades : property<float>
+						 - GetHappinessByNeeds : function: 00007FF6EABAC220
+						 - Happiness : property<float>
+						 - MaxInfluence : property<int>
+						 - GetMaxHeatForGood : function: 00007FF6EABAC8A0
+						 - GetTargetResidentsFromBaseNeeds : function: 00007FF6EABABB60
+						 - GetResidentMax : function: 00007FF6EABAB930
+						 - GoodViewValue : property<int>
+						 - __name : CPropertyResidence7TextSource*MT
+					 - GetFactory : function: 00007FF6EA6F4A60
+					 - GetIsProduction : function: 00007FF6EA6F5D10
+					 - Attacker : property<CPropertyAttacker>
+						 - Damage : property<int>
+						 - ReloadTime : property<float>
+						 - GetDPS : function: 00007FF6EA895100
+						 - DPS : property<float>
+						 - __index : function: 00007FF6EA894CB0
+						 - NewspaperFireRateIncrease : property<float>
+						 - GetBaseDamage : function: 00007FF6EA894F80
+						 - GetReloadTime : function: 00007FF6EA895040
+						 - GetDamage : function: 00007FF6EA894FE0
+						 - BaseDamage : property<int>
+						 - __name : CPropertyAttackerTextSource*MT
+						 - GetNewspaperFireRateIncrease : function: 00007FF6EA8950A0
+					 - GetFreeArea : function: 00007FF6EA6F4C90
+					 - Bombarder : property<CPropertyBombarder>
+						 - SetArmed : function: 00007FF6EA8972C0
+						 - StartTargetMode : function: 00007FF6EA8973F0
+						 - CancelBombardement : function: 00007FF6EA897440
+						 - StartArming : function: 00007FF6EA897220
+						 - __index : function: 00007FF6EA897040
+						 - CancelArming : function: 00007FF6EA897270
+						 - ToggleConsumption : function: 00007FF6EA897490
+						 - GetShaftCount : function: 00007FF6EA8974E0
+						 - ShaftCount : property<int>
+						 - __name : CPropertyBombarderTextSource*MT
+						 - SetBarrageSize : function: 00007FF6EA897330
+					 - HasVariations : property<bool>
+					 - RecipeBuilding : property<CPropertyRecipeBuilding>
+						 - ChangeRecipe : function: 00007FF6EABA7A20
+						 - __name : CPropertyRecipeBuildingTextSource*MT
+					 - GetMesh : function: 00007FF6EA6F4BB0
+					 - GetWarehouse : function: 00007FF6EA6F5010
+					 - GetAttacker : function: 00007FF6EA6F4590
+					 - Logistic : property<CLogisticNode>
+						 - __name : CLogisticNodeTextSource*MT
+					 - GetCulture : function: 00007FF6EA6F52B0
+					 - ItemContainer : property<CPropertyItemContainer>
+						 - GetCanEquipItems : function: 00007FF6EAB7D250
+						 - SetAcceptGeneratedItem : function: 00007FF6EAB7CF10
+						 - GetStackLimit : function: 00007FF6EAB7CFB0
+						 - __index : function: 00007FF6EAB7C740
+						 - GetItemAlreadyExclusive : function: 00007FF6EAB7D160
+						 - SetEquipSlot : function: 00007FF6EAB7CB50
+						 - GetItemAlreadyEquipped : function: 00007FF6EAB7D0D0
+						 - GetDraggedItemAlreadyExclusive : function: 00007FF6EAB7D070
+						 - SetCheatItemInSocket : function: 00007FF6EAB7CDE0
+						 - SetResetSocketState : function: 00007FF6EAB7CEA0
+						 - StackLimit : property<int>
+						 - DraggedItemAlreadyExclusive : property<bool>
+						 - SetClearSlot : function: 00007FF6EAB7CAE0
+						 - GetDraggedItemAlreadyEquipped : function: 00007FF6EAB7D010
+						 - InteractingAreaID : property<AreaID>
+							 - AreaIndex : 6
+							 - SessionID : 56
+							 - IslandID : 54
+						 - SetDenyGeneratedItem : function: 00007FF6EAB7CF60
+						 - CanEquipItems : property<bool>
+						 - GetInteractingAreaID : function: 00007FF6EAB7D1F0
+						 - SetUnequipSocket : function: 00007FF6EAB7CC10
+						 - DraggedItemAlreadyEquipped : property<bool>
+						 - SetCheatItemInSlot : function: 00007FF6EAB7CA20
+						 - __name : CPropertyItemContainerTextSource*MT
+					 - GetElectric : function: 00007FF6EA6F49F0
+					 - GetPalaceMinistry : function: 00007FF6EA6F58D0
+					 - GetPier : function: 00007FF6EA6F5390
+					 - Motor : property<CPropertyMotorizable>
+						 - IsMotorized : property<bool>
+						 - GetIsMotorized : function: 00007FF6EAB9BD60
+						 - __name : CPropertyMotorizableTextSource*MT
+						 - __index : function: 00007FF6EAB9BB80
+				 - __index : function: 00007FF6EAB9F080
+				 - GetParagonProductivityBonus : function: 00007FF6EAB9F830
+				 - GetAttractivenesNeededForNextParagonLevel : function: 00007FF6EAB9F650
+				 - GetAttractivenessNeededToUnlockMinistry : function: 00007FF6EAB9F530
+				 - CurrentParagonLevel : property<int>
+				 - GetParagonModuleInfluenceBonus : function: 00007FF6EAB9F7A0
+				 - GetParagonSpecialistSpawnBonus : function: 00007FF6EAB9FA70
+				 - GetActiveBaseOrParagonEffect : function: 00007FF6EAB9F5C0
+				 - GetParagonAttractivenessBonus : function: 00007FF6EAB9F9E0
+				 - GetParagonServiceRangeBonus : function: 00007FF6EAB9F8C0
+				 - GetParagonIslandStorageBonus : function: 00007FF6EAB9F950
+				 - AttractivenesNeededForCurrentParagonLevel : property<int>
+				 - GetParagonWorforceBonus : function: 00007FF6EAB9F710
+				 - PalaceEffectRange : property<int>
+				 - GetBaseEffect : function: 00007FF6EAB9F4A0
+				 - AttractivenesNeededForNextParagonLevel : property<int>
+				 - GetPalaceEffectRange : function: 00007FF6EAB9F3E0
+				 - GetIsMinistryUnlocked : function: 00007FF6EAB9F350
+				 - __name : CPropertyPalaceTextSource*MT
+				 - GetAttractivenesNeededForCurrentParagonLevel : function: 00007FF6EAB9F6B0
+			 - GetHacienda : function: 00007FF6EA6F5940
+			 - ItemCrafter : property<CPropertyItemCrafter>
+				 - GetCraftingCosts : function: 00007FF6EAB82930
+				 - __name : CPropertyItemCrafterTextSource*MT
+			 - GetAttackable : function: 00007FF6EA6F4520
+			 - ShipMaintenance : property<CPropertyShipMaintenance>
+				 - GetMaintenance : function: 00007FF6EA584520
+				 - Maintenance : property<int>
+				 - __name : CPropertyShipMaintenanceTextSource*MT
+				 - __index : function: 00007FF6EA584330
+			 - GetShipyard : function: 00007FF6EA6F5320
+			 - SetCycleSkins : function: 00007FF6EA6F6120
+			 - GetPalace : function: 00007FF6EA6F5860
+			 - SetMove : function: 00007FF6EA6F6020
+			 - ShipIncident : property<CPropertyShipIncident>
+				 - GetRemainingDuration : function: 00007FF6EABC1470
+				 - RemainingDuration : property<rdtime>
+				 - CheatEndInfection : function: 00007FF6EABC12D0
+				 - CheatEndAnyInfection : function: 00007FF6EABC1340
+				 - __index : function: 00007FF6EABC0F20
+				 - CheatInfect : function: 00007FF6EABC1210
+				 - CheatInfectRandom : function: 00007FF6EABC1280
+				 - GetActiveIncidentType : function: 00007FF6EABC11B0
+				 - ToggleDebugRenderRadius : function: 00007FF6EABC1420
+				 - ActiveIncidentType : property<int>
+				 - __name : CPropertyShipIncidentTextSource*MT
+				 - CheatIgnoreIncidentPriority : function: 00007FF6EABC1390
+			 - Shipyard : property<CPropertyShipyard>
+				 - GetBuildCostForShip : function: 00007FF6EA585780
+				 - GetCurrentConstructionGUID : function: 00007FF6EA585540
+				 - SetCheatSkipRemainingTime : function: 00007FF6EA585880
+				 - RemainingRelativeTime : property<rdtime>
+				 - GetIsCurrentConstructionGUID : function: 00007FF6EA5855A0
+				 - __index : function: 00007FF6EA585290
+				 - GetRemainingRelativeTime : function: 00007FF6EA585720
+				 - CurrentConstructionGUID : property<int>
+				 - GetProgress : function: 00007FF6EA585630
+				 - GetConstructionTime : function: 00007FF6EA585690
+				 - __name : CPropertyShipyardTextSource*MT
+				 - Progress : property<float>
+			 - SessionGuid : property<int>
+			 - GetWatered : function: 00007FF6EA6F5A20
+			 - GetDying : function: 00007FF6EA6F4910
+			 - GetConstructionAI : function: 00007FF6EA6F47C0
+			 - Pausable : property<CPropertyPausable>
+				 - GetIsPausedByQuest : function: 00007FF6EABA4FF0
+				 - IsPausedByQuest : property<bool>
+				 - TogglePause : function: 00007FF6EA727A50
+				 - __name : CPropertyPausableTextSource*MT
+				 - __index : function: 00007FF6EABA4DF0
+			 - GetLifetime : function: 00007FF6EA6F55C0
+			 - Warehouse : property<CPropertyWarehouse>
+				 - GetStorageBonus : function: 00007FF6EA592750
+				 - StorageBonusInclModules : property<int>
+				 - __index : function: 00007FF6EA592500
+				 - StrategicGood : property<int>
+				 - StorageBonus : property<int>
+				 - GetStorageBonusInclModules : function: 00007FF6EA592810
+				 - GetStrategicGood : function: 00007FF6EA5927B0
+				 - __name : CPropertyWarehouseTextSource*MT
+				 - GetStorageDifferenceToIslandStorage : function: 00007FF6EA592870
+			 - GetIsResidence : function: 00007FF6EA6F5CB0
+			 - GetCollectable : function: 00007FF6EA6F46E0
+			 - GetDockland : function: 00007FF6EA6F4980
+			 - GetStatic : function: 00007FF6EA6F5FB0
+			 - GetDelayedConstruction : function: 00007FF6EA6F4830
+			 - GetModule : function: 00007FF6EA6F4600
+			 - FloorStack : property<CPropertyFloorStackOwner>
+				 - SetChangeFloorSize : function: 00007FF6EAB68BB0
+				 - __name : CPropertyFloorStackOwnerTextSource*MT
+			 - IsWarehouse : property<bool>
+			 - GetWalking : function: 00007FF6EA6F5080
+			 - IrrigationSouce : property<CPropertyIrrigationSource>
+				 - GetBaseCapacity : function: 00007FF6EAB7A960
+				 - GetCurentCapacity : function: 00007FF6EAB7A840
+				 - CurrentDynamicCapacity : property<int>
+				 - GetMaxDynamicCapacity : function: 00007FF6EAB7A900
+				 - CurentCapacity : property<int>
+				 - __index : function: 00007FF6EAB7A5B0
+				 - GetCurrentDynamicCapacity : function: 00007FF6EAB7A8A0
+				 - BaseCapacity : property<int>
+				 - __name : CPropertyIrrigationSourceTextSource*MT
+				 - MaxDynamicCapacity : property<int>
+			 - __name : CGameObjectTextSource*MT
+			 - Sellable : property<CPropertySellable>
+				 - CanBeSoldToTrader : property<bool>
+				 - GetCurrentParticipantBuyPrice : function: 00007FF6EABBE350
+				 - SetOnSale : function: 00007FF6EABBE200
+				 - GetCanBeSoldToTrader : function: 00007FF6EABBE430
+				 - CurrentParticipantBuyPrice : property<CBuildCost>
+				 - GetSellPrice : function: 00007FF6EABBE3C0
+				 - GetOnSale : function: 00007FF6EABBE290
+				 - __index : function: 00007FF6EABBDF40
+				 - BuyNet : function: 00007FF6EABBE4E0
+				 - GetAffordableByCurrentParticipant : function: 00007FF6EABBE2F0
+				 - CheatBuy : function: 00007FF6EABBE490
+				 - OnSale : property<bool>
+				 - SellPrice : property<CBuildCost>
+				 - __name : CPropertySellableTextSource*MT
+				 - AffordableByCurrentParticipant : property<bool>
+			 - Maintenance : property<CPropertyMaintenance>
+				 - GetMaintenanceCost : function: 00007FF6EAB84CB0
+				 - SetToggleConsumerPriorityAlarm : function: 00007FF6EAB84DD0
+				 - __index : function: 00007FF6EAB84A80
+				 - IsAdditionalWorkforceFullySatisfied : property<bool>
+				 - DeltaInputSaturation : property<float>
+				 - GetStaticMaintenanceCost : function: 00007FF6EAB84D40
+				 - GetDeltaInputSaturation : function: 00007FF6EAB84E20
+				 - __name : CPropertyMaintenanceTextSource*MT
+				 - GetIsAdditionalWorkforceFullySatisfied : function: 00007FF6EAB84E80
+			 - GetSellable : function: 00007FF6EA6F5780
+			 - Factory : property<CPropertyFactory7>
+				 - GetHasNeededFertility : function: 00007FF6EA01EA80
+				 - GetProductivity : function: 00007FF6EAB62440
+				 - GetPostboxResidents : function: 00007FF6EAB62980
+				 - GetProductivityFarmFieldBoost : function: 00007FF6EAB62620
+				 - NewspaperProductivityByProductivityEffect : property<float>
+				 - ProductivityUpgrade : property<float>
+				 - GetEconomyModifier : function: 00007FF6EA76B4D0
+				 - TeleportsProducedGoodsDirectlyIntoAreaStorage : property<bool>
+				 - GetCurrentProductivity : function: 00007FF6EAB624A0
+				 - HasNeededFertility : property<bool>
+				 - GetTeleportsProducedGoodsDirectlyIntoAreaStorage : function: 00007FF6EAB62320
+				 - GetNeededFertility : function: 00007FF6EAB62800
+				 - NewspaperProductivityByArmamentEffect : property<float>
+				 - ProductivityFarmFieldBoost : property<float>
+				 - Productivity : property<float>
+				 - GetFillStorage : function: 00007FF6EAB622C0
+				 - GetNewspaperProductivityByArmamentEffect : function: 00007FF6EAB62680
+				 - ProductivityBoostPotential : property<float>
+				 - GetNewspaperProductivityByProductivityEffect : function: 00007FF6EAB626E0
+				 - FillStorage : property<bool>
+				 - GetProductivityUpgrade : function: 00007FF6EAB62500
+				 - __index : function: 00007FF6EAB61BE0
+				 - ToggleCheatFertility : function: 00007FF6EAB628D0
+				 - RelativeCycleTime : property<rdtime>
+				 - GetProductivityBoostPotential : function: 00007FF6EAB625C0
+				 - PostboxProductivity : property<float>
+				 - GetPostboxProductivity : function: 00007FF6EAB62920
+				 - NeedsAFertility : property<bool>
+				 - GetNeedsAFertility : function: 00007FF6EAB62870
+				 - GetCycleTime : function: 00007FF6EAB62380
+				 - NeededFertility : property<CAsset>
+				 - GetProductivityBase : function: 00007FF6EAB62560
+				 - NoWarehouseInRange : property<bool>
+				 - GetNoWarehouseInRange : function: 00007FF6EAB627A0
+				 - GetFullOutputStorage : function: 00007FF6EAB62740
+				 - ProductivityBase : property<float>
+				 - FullOutputStorage : property<bool>
+				 - PostboxResidents : property<int>
+				 - GetRelativeCycleTime : function: 00007FF6EAB623E0
+				 - CurrentProductivity : property<float>
+				 - __name : CPropertyFactory7TextSource*MT
+				 - CycleTime : property<rdtime>
+			 - Walking : property<CPropertyWalking>
+				 - BaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : property<float>
+				 - GetAffectedByWind : function: 00007FF6EA58DFB0
+				 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSlowdown : function: 00007FF6EA58DEF0
+				 - BaseSpeedWithStaticSpeedFactors : property<float>
+				 - GetIsMoving : function: 00007FF6EA58DCE0
+				 - GetSessionTransferSpeedFactor : function: 00007FF6EA58E010
+				 - BaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : property<float>
+				 - SetUnsetIdleTickCount : function: 00007FF6EA58DC90
+				 - BaseSpeedWithUpgrades : property<float>
+				 - DebugStop : function: 00007FF6EA58DC40
+				 - GetBaseSpeedWithUpgrades_MaxWindSlowdown : function: 00007FF6EA58DDD0
+				 - GetBaseSpeedWithStaticSpeedFactors : function: 00007FF6EA58DE90
+				 - BaseSpeedWithUpgrades_MaxWindSlowdown : property<float>
+				 - SessionTransferSpeedFactor : property<float>
+				 - AffectedByWind : property<bool>
+				 - GetBaseSpeedWithStaticSpeedFactors_MaxWindSpeedup : function: 00007FF6EA58DF50
+				 - GetBaseSpeedWithUpgrades_MaxWindSpeedup : function: 00007FF6EA58DE30
+				 - BaseSpeedWithUpgrades_MaxWindSpeedup : property<float>
+				 - GetBaseSpeedWithUpgrades : function: 00007FF6EA58DD70
+				 - SetDebugGoto : function: 00007FF6EA58DB90
+				 - __name : CPropertyWalkingTextSource*MT
+				 - __index : function: 00007FF6EA58D7F0
+			 - HasAlternativeGrassColor : property<bool>
+			 - GetRiver : function: 00007FF6EA6F4E50
+			 - GetCommandQueue : function: 00007FF6EA6F4750
+			 - Module : property<CPropertyBuildingModule>
+				 - __name : CPropertyBuildingModuleTextSource*MT
+				 - __index : function: 00007FF6EA899FE0
+			 - GetRepair : function: 00007FF6EA6F4D70
+			 - IsMonument : property<bool>
+			 - GetShipIncident : function: 00007FF6EA6F5630
+			 - GetLogistic : function: 00007FF6EA6F59B0
+			 - GetBusStop : function: 00007FF6EA6F4670
+			 - CommandQueue : property<CPropertyCommandQueue>
+				 - GetUI_IsInATradeRoute : function: 00007FF6EAB53550
+				 - UI_IsBombarding : property<bool>
+				 - GetUI_IsBombarding : function: 00007FF6EAB53670
+				 - GetHasTradeRouteAssignment : function: 00007FF6EAB53250
+				 - GetUI_IsNonMoving : function: 00007FF6EAB53310
+				 - GetUI_HasLostTarget : function: 00007FF6EAB53610
+				 - __index : function: 00007FF6EAB52D10
+				 - UI_IsHoldingQuestObject : property<bool>
+				 - UI_IsInCombat : property<bool>
+				 - GetUI_IsLeavingTheSession : function: 00007FF6EAB534F0
+				 - HasTradeRouteAssignment : property<bool>
+				 - UI_IsInATradeRoute : property<bool>
+				 - UI_IsLeavingTheSession : property<bool>
+				 - GetHasExpeditionAssignment : function: 00007FF6EAB531F0
+				 - UI_IsPatrolling : property<bool>
+				 - GetUI_IsPatrolling : function: 00007FF6EAB53490
+				 - UI_IsEscorting : property<bool>
+				 - GetUI_IsHoldingQuestObject : function: 00007FF6EAB53430
+				 - HasPatrolAssignment : property<bool>
+				 - GetUI_IsChosenOrOutOnExpedition : function: 00007FF6EAB533D0
+				 - UI_IsChosenOrOutOnExpedition : property<bool>
+				 - UI_IsMoving : property<bool>
+				 - UI_HasLostTarget : property<bool>
+				 - GetUI_IsMoving : function: 00007FF6EAB532B0
+				 - GetUI_IsInCombat : function: 00007FF6EAB53370
+				 - GetUI_IsEscorting : function: 00007FF6EAB535B0
+				 - UI_IsNonMoving : property<bool>
+				 - HasExpeditionAssignment : property<bool>
+				 - __name : CPropertyCommandQueueTextSource*MT
+				 - GetHasPatrolAssignment : function: 00007FF6EAB53190
+			 - GetUpgradability : function: 00007FF6EA6F6630
+			 - GetRandomMapObject : function: 00007FF6EA6F4F30
+			 - Electric : property<CPropertyElectrifiable>
+				 - BoostFactor : property<float>
+				 - GetBoostFactor : function: 00007FF6EAB5FD90
+				 - GetIsElectrified : function: 00007FF6EAB5FD30
+				 - IsElectrified : property<bool>
+				 - __name : CPropertyElectrifiableTextSource*MT
+				 - __index : function: 00007FF6EAB5FB00
+			 - Trader : property<CPropertyTrader>
+				 - ForceBuild : function: 00007FF6EA58B6A0
+				 - ShipTradeFailed : function: 00007FF6EA58B630
+				 - ClearSellCooldown : function: 00007FF6EA58B5C0
+				 - __name : CPropertyTraderTextSource*MT
+			 - Pier : property<CPropertyLoadingPier>
+				 - TonsPerSec : property<float>
+				 - GetTonsPerSec : function: 00007FF6EAB83F00
+				 - __name : CPropertyLoadingPierTextSource*MT
+				 - __index : function: 00007FF6EAB83D20
+			 - GetEcoProvider : function: 00007FF6EA6F5B70
+			 - ModuleOwner : property<CPropertyModuleOwner>
+				 - ModuleCountIncludingPreviewExcludingNonWorking : property<int>
+				 - ModuleCount : property<int>
+				 - GetModuleLimitForGUID : function: 00007FF6EAB8A130
+				 - GetHasNonIrrigatedModulesBelowLimit : function: 00007FF6EAB8A760
+				 - GetModuleCount : function: 00007FF6EAB8A360
+				 - GetFertilizerModule : function: 00007FF6EAB8A220
+				 - DefaultModuleGUID : property<int>
+				 - GetAmountIrrigatedModules_CapAtLimit : function: 00007FF6EAB8A520
+				 - CosmeticModuleCountIncludingPreview : property<int>
+				 - GetRemainingBuildRights : function: 00007FF6EAB8A8E0
+				 - HasFertilizerModule : property<bool>
+				 - GetCosmeticModuleCountIncludingPreview : function: 00007FF6EAB8A6A0
+				 - GetPalaceModuleLimit : function: 00007FF6EAB8A040
+				 - GetModuleCountIncludeNonWorking_CapAtLimit : function: 00007FF6EAB8A640
+				 - GetModuleCountIncludingPreviewExcludingNonWorking : function: 00007FF6EAB8A820
+				 - HasNonIrrigatedModulesBelowLimit : property<bool>
+				 - GetModuleCountBP : function: 00007FF6EAB8A420
+				 - GetAmountNotIrrigatedModules : function: 00007FF6EAB8A580
+				 - CosmeticModuleLimit : property<int>
+				 - AmountIrrigatedModules_CapAtLimit : property<int>
+				 - MainModuleLimit : property<int>
+				 - __index : function: 00007FF6EAB89980
+				 - ModuleCountIncludingPreview : property<int>
+				 - GetCosmeticModuleLimit : function: 00007FF6EAB8A700
+				 - GetModuleCountIncludeNonWorking : function: 00007FF6EAB8A5E0
+				 - ModuleLimit : property<int>
+				 - GetModuleLimit : function: 00007FF6EAB89F80
+				 - GetAdditionalModule : function: 00007FF6EAB8A2F0
+				 - GetDefaultModuleGUID : function: 00007FF6EAB8A880
+				 - GetModuleCountIncludingPreview : function: 00007FF6EAB8A7C0
+				 - AdditionalModule : property<CGameObject>
+							 - IslandID : 121
+							 - AreaID : table: 000001EBDE73CCD8
+							 - ObjectID : 3731626424
+							 - IslandID : 101
+				 - AmountNotIrrigatedModules : property<int>
+				 - AmountIrrigatedModules : property<int>
+				 - FertilizerModule : property<CGameObject>
+							 - AreaIndex : 7
+							 - IslandID : 100
+							 - AreaID : table: 000001EBCCA01D48
+							 - ObjectID : 3609335288
+							 - IslandID : 51
+				 - GetModuleCountForGUID : function: 00007FF6EAB8A0A0
+				 - GetMainModuleLimit : function: 00007FF6EAB89FE0
+				 - HasAdditionalModule : property<bool>
+				 - GetAmountIrrigatedModules : function: 00007FF6EAB8A4C0
+				 - ModuleCountIncludeNonWorking_CapAtLimit : property<int>
+				 - PalaceModuleCount : property<int>
+				 - GetHasFertilizerModule : function: 00007FF6EAB8A1C0
+				 - GetPalaceModuleCount : function: 00007FF6EAB8A3C0
+				 - GetHasAdditionalModule : function: 00007FF6EAB8A290
+				 - __name : CPropertyModuleOwnerTextSource*MT
+				 - PalaceModuleLimit : property<int>
+				 - ModuleCountIncludeNonWorking : property<int>
+			 - EcoProvider : property<CPropertyEcoSystemProvider>
+				 - MaxMonoCulture : property<int>
+				 - GetNegativeMonoCulture : function: 00007FF6EAB5E0D0
+				 - GetCurrentDelta : function: 00007FF6EAB5E010
+				 - __index : function: 00007FF6EAB5DD50
+				 - CurrentDelta : property<float>
+				 - GetPositiveMonoCulture : function: 00007FF6EAB5E070
+				 - GetMaxMonoCulture : function: 00007FF6EAB5E130
+				 - NegativeMonoCulture : property<float>
+				 - __name : CPropertyEcoSystemProviderTextSource*MT
+				 - PositiveMonoCulture : property<float>
+			 - GetDowngradability : function: 00007FF6EA6F66A0
+			 - ConstructionAI : property<CPropertyConstructionAI>
+				 - GrantSettlePermissionNet : function: 00007FF6EAB57D50
+				 - __name : CPropertyConstructionAITextSource*MT
+			 - Upgradability : property<CUpgradabilityChecker>
+			 - GetIsCultureMainBuilding : function: 00007FF6EA6F6A60
+			 - GetMaintenance : function: 00007FF6EA6F5710
+			 - GetTrader : function: 00007FF6EA6F5470
+			 - Expedition : property<CExpedition>
+				 - TravelTimeLeft : property<rdtime>
+				 - EventCountdown : property<rdtime>
+				 - SetEndExpedition : function: 00007FF6EA6DDE90
+				 - SetCheatSetCurrentDecision : function: 00007FF6EA6DDCB0
+				 - GetDays : function: 00007FF6EA6DE200
+				 - GetOptionAttributeLevel : function: 00007FF6EA6DE340
+				 - ExpeditionShipStarting : property<bool>
+				 - SetCheatEndExpedition : function: 00007FF6EA6DDD20
+				 - ExpeditionShip : property<CGameObject>
+							 - IslandID : 52
+							 - AreaID : table: 000001EBDE8ECFB8
+							 - ObjectID : 3732303480
+							 - SessionID : 24
+							 - IslandID : 123
+				 - SetDiscardExpedition : function: 00007FF6EA6DE010
+				 - GetOptionAttributeLevelDescription : function: 00007FF6EA6DE3D0
+				 - ExpeditionShipReturning : property<bool>
+				 - SetCheatCurrentEvent : function: 00007FF6EA6DDC40
+				 - __index : function: 00007FF6EA6DD620
+				 - SetResolveDecision : function: 00007FF6EA6DDDD0
+				 - SetCheatEventCountdown : function: 00007FF6EA6DDBF0
+				 - Days : property<int>
+				 - SetOpenEventUI : function: 00007FF6EA6DE260
+				 - Morale : property<int>
+				 - GetRequirementConsumeAmount : function: 00007FF6EA6DE170
+				 - GetExpeditionShipReturning : function: 00007FF6EA6DDB30
+				 - GetMorale : function: 00007FF6EA6DDFB0
+				 - GetEventCountdown : function: 00007FF6EA6DDB90
+				 - GetThreatDescription : function: 00007FF6EA6DDA40
+				 - GetOptionAttributeSum : function: 00007FF6EA6DE2B0
+				 - GetMaxStartMoralePoints : function: 00007FF6EA6DDEE0
+				 - GetTravelTimeLeft : function: 00007FF6EA6DE460
+				 - SetMorale : function: 00007FF6EA6DDF40
+				 - GetRequirement : function: 00007FF6EA6DE0D0
+				 - GetExpeditionShip : function: 00007FF6EA6DE060
+				 - MaxStartMoralePoints : property<int>
+				 - GetCurrentEvent : function: 00007FF6EA6DDD70
+				 - __name : CExpeditionTextSource*MT
+				 - GetExpeditionShipStarting : function: 00007FF6EA6DDAD0
+				 - CurrentEvent : property<int>
+			 - GetExpedition : function: 00007FF6EA6F69F0
+			 - GetAreaManager : function: 00007FF6EA6F6980
+			 - Attackable : property<CPropertyAttackable>
+				 - MaxHitPoints : property<short>
+				 - GetMaxHitPoints : function: 00007FF6EA890250
+				 - SetAddDamagePercent : function: 00007FF6EA890310
+				 - GetIsUnderAttack : function: 00007FF6EA890520
+				 - __index : function: 00007FF6EA88FFB0
+				 - CheatRemainingEffectTime : function: 00007FF6EA890580
+				 - GetIsWhiteFlagActive : function: 00007FF6EA8904C0
+				 - IsWhiteFlagActive : property<bool>
+				 - GetStatusEffectChainStageCount : function: 00007FF6EA8907A0
+				 - GetIsPartOfActiveStatusEffectChain : function: 00007FF6EA8905F0
+				 - GetCurHitPoints : function: 00007FF6EA8902B0
+				 - GetStatusEffectChainStage : function: 00007FF6EA890710
+				 - IsUnderAttack : property<bool>
+				 - SetDebugInvincible : function: 00007FF6EA890430
+				 - CurHitPoints : property<short>
+				 - __name : CPropertyAttackableTextSource*MT
+				 - GetRemainingStatusEffectDuration : function: 00007FF6EA890680
+			 - GetArea : function: 00007FF6EA6F6910
+			 - GetSessionGuid : function: 00007FF6EA6F68B0
+			 - Hacienda : property<CPropertyHacienda>
+				 - NextRadiusRequirement : property<int>
+				 - GetIsPolicyUnlocked : function: 00007FF6EAB6B390
+				 - GetRequiredAttractivenessForPolicy : function: 00007FF6EAB6B420
+				 - GetNextRadiusRequirement : function: 00007FF6EAB6B4B0
+				 - __name : CPropertyHaciendaTextSource*MT
+				 - __index : function: 00007FF6EAB6B1B0
+			 - GetShipMaintenance : function: 00007FF6EA6F56A0
+			 - Lifetime : property<CPropertyLifetime>
+				 - GetRemainingTime : function: 00007FF6EAB83370
+				 - RemainingTime : property<rdtime>
+				 - __name : CPropertyLifetimeTextSource*MT
+				 - __index : function: 00007FF6EAB83190
+			 - Watered : property<CPropertyWatered>
+				 - RequiresWater : property<bool>
+				 - GetRequiresWater : function: 00007FF6EA5945A0
+				 - IsWatered : property<bool>
+				 - GetIsWatered : function: 00007FF6EA594540
+				 - __name : CPropertyWateredTextSource*MT
+				 - __index : function: 00007FF6EA594330
+			 - GetPausable : function: 00007FF6EA6F4D00
+			 - Renovatability : property<CRenovatabilityChecker>
+				 - Costs : property<CBuildCost>
+				 - GetCosts : function: 00007FF6EA01A4E0
+				 - GetIsRenovatable : function: 00007FF6EA5A6F30
+				 - IsRenovatable : property<bool>
+				 - __name : CRenovatabilityCheckerTextSource*MT
+				 - __index : function: 00007FF6EA5A6D00
+			 - GetRenovatability : function: 00007FF6EA6F6780
+			 - FloorAddability : property<CUpgradabilityChecker>
+			 - GetFloorAddability : function: 00007FF6EA6F6710
+			 - IsCultureMainBuilding : property<bool>
+			 - IncidentResolver : property<CPropertyIncidentResolver>
+				 - GetIsActionOnCooldown : function: 00007FF6EAB715C0
+				 - IsActionOnCooldown : property<bool>
+				 - ActionUpgradeHappinessBonus : property<float>
+				 - GetIsRiotInstitution : function: 00007FF6EAB71440
+				 - GetInfectionChanceIllness : function: 00007FF6EAB71090
+				 - GetActionAdditionalUnitAmount : function: 00007FF6EAB71150
+				 - IsSpecialActionActive : property<bool>
+				 - StandardUnitAsset : property<CAsset>
+				 - ActionNewspaperHappinessBonus : property<float>
+				 - GetIsIncidentNearby : function: 00007FF6EAB71560
+				 - InfectionChanceFire : property<float>
+				 - InfectionChanceIllness : property<float>
+				 - GetInfectionChance : function: 00007FF6EAB70F70
+				 - GetIsArcticIllnessInstitution : function: 00007FF6EAB71500
+				 - SpecialUnitAsset : property<CAsset>
+				 - InfectionChanceRiot : property<float>
+				 - GetResolverPopulationThreshold : function: 00007FF6EAB71210
+				 - RemainingActionCooldown : property<rdtime>
+				 - GetInfectionChanceRiot : function: 00007FF6EAB71030
+				 - GetIsPotentialAvailableSpecialUnitIndex : function: 00007FF6EAB71680
+				 - IsIncidentNearby : property<bool>
+				 - DoesAnybodyNearbyNeedHelp : property<bool>
+				 - ActionMaxAdditionalUnitAmount : property<int>
+				 - IsArcticIllnessInstitution : property<bool>
+				 - IsIllnessInstitution : property<bool>
+				 - __index : function: 00007FF6EAB705C0
+				 - ClearSpecialActionCooldown : function: 00007FF6EAB70E40
+				 - GetInfectionChanceFire : function: 00007FF6EAB70FD0
+				 - CanSendSpecialForces : property<bool>
+				 - ActionCooldown : property<rdtime>
+				 - IsRiotInstitution : property<bool>
+				 - GetStandardUnitAsset : function: 00007FF6EAB70F00
+				 - GetRemainingActionCooldown : function: 00007FF6EAB70D80
+				 - IsFireInstitution : property<bool>
+				 - GetCanSendSpecialForces : function: 00007FF6EAB70D20
+				 - GetIsFireInstitution : function: 00007FF6EAB713E0
+				 - GetActionUpgradeHappinessBonus : function: 00007FF6EAB71380
+				 - GetActionCooldown : function: 00007FF6EAB70DE0
+				 - GetActionNewspaperHappinessBonus : function: 00007FF6EAB71320
+				 - GetSpecialUnitAsset : function: 00007FF6EAB70E90
+				 - GetResolverHappinessThreshold : function: 00007FF6EAB712A0
+				 - GetDoesAnybodyNearbyNeedHelp : function: 00007FF6EAB71620
+				 - GetActionMaxAdditionalUnitAmount : function: 00007FF6EAB711B0
+				 - ActionAdditionalUnitAmount : property<int>
+				 - InfectionChance : property<float>
+				 - InfectionChanceArcticIllness : property<float>
+				 - GetInfectionChanceArcticIllness : function: 00007FF6EAB710F0
+				 - __name : CPropertyIncidentResolverTextSource*MT
+				 - GetIsIllnessInstitution : function: 00007FF6EAB714A0
+				 - GetIsSpecialActionActive : function: 00007FF6EAB70CC0
+			 - RandomMapObject : property<CPropertyRandomMapObject>
+				 - SetFiniteResourceAmount : function: 00007FF6EABA6700
+				 - ResourceCapacity : property<int>
+				 - GetResourceAmount : function: 00007FF6EABA66A0
+				 - ResourceAmount : property<int>
+				 - GetResourceCapacity : function: 00007FF6EABA6640
+				 - __name : CPropertyRandomMapObjectTextSource*MT
+				 - __index : function: 00007FF6EABA6420
+			 - FreeArea : property<CPropertyFreeAreaProductivity>
+				 - SetToggleGridDebugDraw : function: 00007FF6EAB69C60
+				 - TreeCount : property<int>
+				 - __index : function: 00007FF6EAB69940
+				 - GetNeededTreeCount : function: 00007FF6EAB69C00
+				 - GetTreeCount : function: 00007FF6EAB69BA0
+				 - __name : CPropertyFreeAreaProductivityTextSource*MT
+				 - NeededTreeCount : property<int>
+			 - __index : function: 00007FF6EA6F3230
+			 - SetDowngrade : function: 00007FF6EA6F6540
+			 - GetModuleOwner : function: 00007FF6EA6F5240
+			 - Monument : property<CPropertyMonument>
+				 - GetEventWorkforceByGUID : function: 00007FF6EAB94750
+				 - RemainingEventTime : property<rdtime>
+				 - GetNeededProduct : function: 00007FF6EAB93FF0
+				 - CurrentPhase : property<int>
+				 - RemainingTime : property<rdsdk::CRDStringW>
+				 - IsEventFinished : property<bool>
+				 - EventWorkforceUsed : property<int>
+				 - GetIsInConstructionState : function: 00007FF6EAB941D0
+				 - SetCheatSkipEventTime : function: 00007FF6EAB94540
+				 - __index : function: 00007FF6EAB935E0
+				 - GetEventWorkforceUsedByGUID : function: 00007FF6EAB94880
+				 - GetCurrentPhase : function: 00007FF6EAB94300
+				 - IsEventPreparing : property<bool>
+				 - GetIsEventPreparing : function: 00007FF6EAB943C0
+				 - GetAvailableProduct : function: 00007FF6EAB94080
+				 - GetUpgradeTarget : function: 00007FF6EAB93F80
+				 - UpgradeTarget : property<rdsdk::CRDStringW>
+				 - SetOpenExhibitionUI : function: 00007FF6EAB949A0
+				 - GetEventGoodsReductionPercent : function: 00007FF6EAB94910
+				 - GetEventMaxUsableWorkforceAmount : function: 00007FF6EAB947F0
+				 - GetEventGoodsRange : function: 00007FF6EAB94660
+				 - SetPauseUpgrade : function: 00007FF6EAB94180
+				 - EventWorkforce : property<CAsset>
+				 - GetRemainingEventTime : function: 00007FF6EAB944E0
+				 - IsEventRunning : property<bool>
+				 - GetIsEventRunning : function: 00007FF6EAB94420
+				 - MaxPhase : property<int>
+				 - GetMaxPhase : function: 00007FF6EAB94360
+				 - GetRemainingTime : function: 00007FF6EAB94110
+				 - SetCheatMicroPhase : function: 00007FF6EAB942B0
+				 - SetCheatUpgradeMicro : function: 00007FF6EAB94260
+				 - GetEventWorkforce : function: 00007FF6EAB94590
+				 - __name : CPropertyMonumentTextSource*MT
+				 - GetIsEventFinished : function: 00007FF6EAB94480
+				 - GetEventWorkforceUsed : function: 00007FF6EAB94600
+			 - Static : property<CAsset>
+			 - Culture : property<CPropertyCulture>
+				 - GetAttractivenessIncludingModules : function: 00007FF6EAB58E50
+				 - __index : function: 00007FF6EAB58B40
+				 - GetAttractiveness : function: 00007FF6EAB58D90
+				 - GetAttractivenessModules : function: 00007FF6EAB58DF0
+				 - AttractivenessIncludingModules : property<int>
+				 - Attractiveness : property<int>
+				 - __name : CPropertyCultureTextSource*MT
+				 - AttractivenessModules : property<int>
+			 - GUID : property<int>
+			 - GetNameable : function: 00007FF6EA6F4C20
+			 - GetMotor : function: 00007FF6EA6F4B40
+			 - IsProduction : property<bool>
+			 - Distribution : property<CPropertyDistribution>
+				 - GetDistributionAmount : function: 00007FF6EAB5B1A0
+				 - __name : CPropertyDistributionTextSource*MT
+			 - GetMonument : function: 00007FF6EA6F4EC0
+			 - IsResidence : property<bool>
+			 - GetHasVariations : function: 00007FF6EA6F5EF0
+			 - GetInfluenceSource : function: 00007FF6EA6F5160
+			 - GetHasAlternativeGrassColor : function: 00007FF6EA6F5E90
+			 - InfluenceSource : property<CPropertyInfluenceSource>
+				 - GetProvidedInfluence : function: 00007FF6EAB79960
+				 - ProvidedInfluence : property<int>
+				 - __name : CPropertyInfluenceSourceTextSource*MT
+				 - __index : function: 00007FF6EAB79770
+			 - GetRecipeBuilding : function: 00007FF6EA6F5B00
+			 - Dying : property<CPropertyDying>
+				 - PropertyID : property<int>
+				 - GetPropertyID : function: 00007FF6EAB5D0E0
+				 - __name : CPropertyDyingTextSource*MT
+				 - __index : function: 00007FF6EAB5CF00
+			 - GetFloorStack : function: 00007FF6EA6F4AD0
+			 - GetIsBlueprunt : function: 00007FF6EA6F65D0
+			 - PalaceMinistry : property<CPropertyPalaceMinistry>
+				 - SetDecreeTier : function: 00007FF6EAB9D760
+				 - SetMinistryType : function: 00007FF6EAB9D6F0
+				 - GetEffectRange : function: 00007FF6EAB9D7D0
+				 - EffectRange : property<int>
+				 - __name : CPropertyPalaceMinistryTextSource*MT
+				 - __index : function: 00007FF6EAB9D500
+			 - SetUpgrade : function: 00007FF6EA6F63D0
+			 - Area : property<CConstructionArea>
+				 - ID : property<AreaID>
+					 - SessionID : 56
+					 - IslandID : 121
+				 - GetPassiveTrade : function: 00007FF6EA79F860
+				 - IsBuyShareBlocked : property<bool>
+				 - GetIncomePerShare : function: 00007FF6EA79F0F0
+				 - BuyShareCooldownTime : property<int>
+				 - KontorID : property<GameObjectID>
+					 - AsyncObjectFlag : 0
+					 - AreaID : table: 000001EBDE79ADB8
+						 - AreaIndex : 0
+						 - SessionID : 43
+						 - IslandID : 7
+					 - ObjectID : 3733068536
+					 - EditorChunkID : 0
+					 - EditorFlag : 0
+				 - WarTimer : property<rdtime>
+				 - GetBuyShareCooldownTime : function: 00007FF6EA79ECD0
+				 - OwnerName : property<rdsdk::CRDStringW>
+				 - GetReservationCost : function: 00007FF6EA79F410
+				 - MilitaryTakeoverChanceStart : property<int>
+				 - IsExplosionUnlocked : property<bool>
+				 - GetBuyShareCooldownRemaining : function: 00007FF6EA79EC70
+				 - GetTotalShareIncome : function: 00007FF6EA79EB50
+				 - HasTradeRights : property<bool>
+				 - GetIsTakeoverBlocked : function: 00007FF6EA79F210
+				 - GetOwnerName : function: 00007FF6EA79F080
+				 - GetIsBuyShareBlocked : function: 00007FF6EA79EDA0
+				 - __index : function: 00007FF6EA79DFE0
+				 - SetSellShare : function: 00007FF6EA79EEC0
+				 - Economy : property<CAreaEconomy>
+					 - GetNeedLocked : function: 00007FF6E9FE2200
+					 - GetDelta : function: 00007FF6E9FE2670
+					 - GetRegisteredDeltaProduction : function: 00007FF6E9FE26F0
+					 - GetEconomyModifier : function: 00007FF6E9FE2120
+					 - SetSelectStorageGoodDebug : function: 00007FF6E9FE2550
+					 - GetIsDistributionPaused : function: 00007FF6E9FE1D80
+					 - ClearIslandStorage : function: 00007FF6E9FE1CA0
+					 - Research : property<int>
+					 - GetDeltaSaturationUncapped : function: 00007FF6E9FE29F0
+					 - AddAmount : function: 00007FF6E9FE1B80
+					 - __index : function: 00007FF6E9FE1850
+					 - GetDeltaSaturation : function: 00007FF6E9FE2970
+					 - GetRegisteredDeltaConsumption : function: 00007FF6E9FE2830
+					 - SetCheatAddDelta : function: 00007FF6E9FE25C0
+					 - SetCheatChangeWorkforceNet : function: 00007FF6E9FE24C0
+					 - GetStorageTrend : function: 00007FF6E9FE2430
+					 - SetCheatItem : function: 00007FF6E9FE23C0
+					 - SetEconomyModifier : function: 00007FF6E9FE2000
+					 - GetSatisfaction : function: 00007FF6E9FE1E60
+					 - __name : CAreaEconomyTextSource*MT
+					 - GetResearch : function: 00007FF6E9FE1FA0
+				 - GetIsExplosionUnlocked : function: 00007FF6EA79F650
+				 - GetCityName : function: 00007FF6EA79F710
+				 - TotalShareIncome : property<float>
+				 - IsFireUnlocked : property<bool>
+				 - GetTakeoverChance : function: 00007FF6EA79EBB0
+				 - GetAmountOfShares : function: 00007FF6EA79EF90
+				 - GetWarTimer : function: 00007FF6EA79F990
+				 - SetHostileTakeover : function: 00007FF6EA79F270
+				 - GetIsRiotUnlocked : function: 00007FF6EA79F590
+				 - MilitaryTakeoverCurrentSurrenderChance : property<int>
+				 - GetID : function: 00007FF6EA79EAF0
+				 - SetBuyShare : function: 00007FF6EA79EE00
+				 - IsTakeoverBlocked : property<bool>
+				 - PassiveTrade : property<CPassiveTradeController>
+					 - GetDetailBuyPrice : function: 00007FF6EA87D4B0
+					 - GetSellPrice : function: 00007FF6EA87D540
+					 - GetHasOffer : function: 00007FF6EA87D8C0
+					 - GetMinimumStock : function: 00007FF6EA87D950
+					 - GetOffer : function: 00007FF6EA87D820
+					 - GetBuyPrice : function: 00007FF6EA87D420
+					 - __name : CPassiveTradeControllerTextSource*MT
+					 - GetDetailSellPrice : function: 00007FF6EA87D6B0
+				 - PercentOwnedShares : property<int>
+				 - GetKontorID : function: 00007FF6EA79F4D0
+				 - GetIsDuplicate : function: 00007FF6EA79FCC0
+				 - IncomePerShare : property<int>
+				 - SetOpenMilitaryResultScreen : function: 00007FF6EA79FB10
+				 - TakeoverChance : property<int>
+				 - ReserveIslandInt : function: 00007FF6EA79F2E0
+				 - GetEconomy : function: 00007FF6EA79F780
+				 - TotalIncome : property<int>
+				 - IsOwnedByAnyone : property<bool>
+				 - IsIllnessUnlocked : property<bool>
+				 - MilitaryTakeoverCurrentMorale : property<int>
+				 - IsNextWarBlocked : property<rdtime>
+				 - GetIsOwnedByAnyone : function: 00007FF6EA79F470
+				 - GetReservationOwnerName : function: 00007FF6EA79F3A0
+				 - GetMilitaryTakeoverChanceStart : function: 00007FF6EA79FAB0
+				 - GetIsIllnessUnlocked : function: 00007FF6EA79F5F0
+				 - GetOwnerProfile : function: 00007FF6EA79EFF0
+				 - AmountOfShares : property<int>
+				 - GetMilitaryTakeoverCurrentSurrenderChance : function: 00007FF6EA79FA50
+				 - GetMilitaryTakeoverInfluenceCost : function: 00007FF6EA79FBC0
+				 - GetMilitaryTakeoverCurrentMorale : function: 00007FF6EA79F9F0
+				 - IslandWarActive : property<bool>
+				 - CityName : property<rdsdk::CRDStringW>
+				 - GetIslandWarActive : function: 00007FF6EA79F930
+				 - SetResetCooldown : function: 00007FF6EA79ED30
+				 - GetHasTradeRights : function: 00007FF6EA79F8D0
+				 - GetVisitors : function: 00007FF6EA79F7F0
+				 - Visitors : property<CAreaVisitors>
+				 - GetPercentOwnedShares : function: 00007FF6EA79EF30
+				 - GetTakeoverMinimum : function: 00007FF6EA79EC10
+				 - MilitaryTakeoverSpareInfluenceCost : property<int>
+				 - TotalDebt : property<int>
+				 - BuyShareCooldownRemaining : property<int>
+				 - GetTotalIncome : function: 00007FF6EA79F150
+				 - IsRiotUnlocked : property<bool>
+				 - GetIsArcticIllnesUnlocked : function: 00007FF6EA79F6B0
+				 - IsArcticIllnesUnlocked : property<bool>
+				 - TakeoverMinimum : property<int>
+				 - ReservationCost : property<int>
+				 - GetMilitaryTakeoverSpareInfluenceCost : function: 00007FF6EA79FC60
+				 - GetIsFireUnlocked : function: 00007FF6EA79F530
+				 - GetTotalDebt : function: 00007FF6EA79F1B0
+				 - GetIsNextWarBlocked : function: 00007FF6EA79FB60
+				 - __name : CConstructionAreaTextSource*MT
+				 - ReservationOwnerName : property<rdsdk::CRDStringW>
+				 - ClearReservation : function: 00007FF6EA79F350
+			 - GetIsWarehouse : function: 00007FF6EA6F5D70
+			 - GetItemCrafter : function: 00007FF6EA6F54E0
+			 - GetIsMonument : function: 00007FF6EA6F5C50
+			 - GetResidence : function: 00007FF6EA6F4DE0
+			 - Pirate : property<CPropertyPirate>
+				 - DebugIncreaseAreaOfActivityRange : function: 00007FF6EABA5920
+				 - __name : CPropertyPirateTextSource*MT
+			 - Residence : property<CPropertyResidence7>
+				 - GetResidentCount : function: 00007FF6EABABA50
+				 - GetPopulationMovesIn : function: 00007FF6EABAC160
+				 - GetInfluence : function: 00007FF6EABACBA0
+				 - ResearchOutput : property<int>
+				 - GetTotalHappinessDebuffForNeed : function: 00007FF6EABABF00
+				 - GetResidentMaxFromBonusNeeds : function: 00007FF6EABAB990
+				 - GetGoodViewValue : function: 00007FF6EABAB860
+				 - GetDebuffAmountForCategory : function: 00007FF6EABAC070
+				 - GetPopulationMovesOut : function: 00007FF6EABAC100
+				 - GetOccupancy : function: 00007FF6EABABB00
+				 - GetMaxInfluence : function: 00007FF6EABACB40
+				 - Occupancy : property<float>
+				 - NegativeGoodViewInfluence : property<int>
+				 - GetMaxMallNeedsSupply : function: 00007FF6EABABDC0
+				 - GetMaxMoneyForGood : function: 00007FF6EABAC9A0
+				 - PopulationMovesOut : property<bool>
+				 - GetMaxSupplyForGood : function: 00007FF6EABAC820
+				 - CurrentMallNeedsSupply : property<int>
+				 - GetPopulationLevel : function: 00007FF6EABAB8C0
+				 - PopulationMovesIn : property<bool>
+				 - GoodViewStartValue : property<int>
+				 - __index : function: 00007FF6EABAAE50
+				 - GetMallNeedsCategoryCount : function: 00007FF6EABABD60
+				 - GetNegativeGoodViewInfluence : function: 00007FF6EABAB7A0
+				 - GetWorkforceOutput : function: 00007FF6EABAC460
+				 - HappinessWorkingCondition : property<float>
+				 - GetResearchOutput : function: 00007FF6EABAC4C0
+				 - GetMallNeedsSatisfaction : function: 00007FF6EABABC40
+				 - HappinessByBuffs : property<float>
+				 - HappinessByHotspots : property<float>
+				 - PositiveGoodViewInfluence : property<int>
+				 - ResidentLimitBySupply : property<int>
+				 - SetEconomyModifier : function: 00007FF6EA76B420
+				 - GetPositiveGoodViewInfluence : function: 00007FF6EABAB6E0
+				 - GetSatisfaction : function: 00007FF6EABABBC0
+				 - GetCurrentHeatForGood : function: 00007FF6EABAC620
+				 - GetHappinessByAttractivity : function: 00007FF6EABAC340
+				 - HappinessByNeeds : property<float>
+				 - SameHeightGoodViewInfluence : property<int>
+				 - GetGoodViewStartValue : function: 00007FF6EABAB800
+				 - ResidentMaxFromBonusNeeds : property<int>
+				 - SetCheatFill : function: 00007FF6EABABAB0
+				 - GetHappinessWorkingCondition : function: 00007FF6EABAC280
+				 - GetHappinessByHotspots : function: 00007FF6EABAC2E0
+				 - MallNeedsCategoryCount : property<int>
+				 - GetHappinessDebuffForNeedByCategory : function: 00007FF6EABABF90
+				 - Influence : property<int>
+				 - GetHappiness : function: 00007FF6EABAC1C0
+				 - ResidentMax : property<int>
+				 - GetHeatByUpgrades : function: 00007FF6EABACAE0
+				 - GetCurrentHappinessForGood : function: 00007FF6EABAC520
+				 - GetCurrentBaseHeat : function: 00007FF6EABACA80
+				 - CurrentHeatSatisfaction : property<float>
+				 - GetCurrentHeatSatisfaction : function: 00007FF6EABACA20
+				 - GetMallNeedsCategory : function: 00007FF6EABABCC0
+				 - GetMoneyOutput : function: 00007FF6EABAC400
+				 - GetSatisfactionTrend : function: 00007FF6EABABE80
+				 - GetMaxHappinessForGood : function: 00007FF6EABAC7A0
+				 - TargetResidentsFromBaseNeeds : property<int>
+				 - GetCurrentResearchForGood : function: 00007FF6EABAC720
+				 - GetCurrentMoneyForGood : function: 00007FF6EABAC6A0
+				 - GetCurrentSupplyForGood : function: 00007FF6EABAC5A0
+				 - HappinessByAttractivity : property<float>
+				 - CurrentBaseHeat : property<float>
+				 - GetHappinessByBuffs : function: 00007FF6EABAC3A0
+				 - GetSameHeightGoodViewInfluence : function: 00007FF6EABAB740
+				 - MoneyOutput : property<int>
+				 - MaxMallNeedsSupply : property<int>
+				 - GetMaxResearchForGood : function: 00007FF6EABAC920
+				 - GetCurrentMallNeedsSupply : function: 00007FF6EABABE20
+				 - PopulationLevel : property<CAsset>
+				 - ResidentCount : property<int>
+				 - GetResidentLimitBySupply : function: 00007FF6EABAB9F0
+				 - WorkforceOutput : property<float>
+				 - HeatByUpgrades : property<float>
+				 - GetHappinessByNeeds : function: 00007FF6EABAC220
+				 - Happiness : property<float>
+				 - MaxInfluence : property<int>
+				 - GetMaxHeatForGood : function: 00007FF6EABAC8A0
+				 - GetTargetResidentsFromBaseNeeds : function: 00007FF6EABABB60
+				 - GetResidentMax : function: 00007FF6EABAB930
+				 - GoodViewValue : property<int>
+				 - __name : CPropertyResidence7TextSource*MT
+			 - GetFactory : function: 00007FF6EA6F4A60
+			 - GetIsProduction : function: 00007FF6EA6F5D10
+			 - Attacker : property<CPropertyAttacker>
+				 - Damage : property<int>
+				 - ReloadTime : property<float>
+				 - GetDPS : function: 00007FF6EA895100
+				 - DPS : property<float>
+				 - __index : function: 00007FF6EA894CB0
+				 - NewspaperFireRateIncrease : property<float>
+				 - GetBaseDamage : function: 00007FF6EA894F80
+				 - GetReloadTime : function: 00007FF6EA895040
+				 - GetDamage : function: 00007FF6EA894FE0
+				 - BaseDamage : property<int>
+				 - __name : CPropertyAttackerTextSource*MT
+				 - GetNewspaperFireRateIncrease : function: 00007FF6EA8950A0
+			 - GetFreeArea : function: 00007FF6EA6F4C90
+			 - Bombarder : property<CPropertyBombarder>
+				 - SetArmed : function: 00007FF6EA8972C0
+				 - StartTargetMode : function: 00007FF6EA8973F0
+				 - CancelBombardement : function: 00007FF6EA897440
+				 - StartArming : function: 00007FF6EA897220
+				 - __index : function: 00007FF6EA897040
+				 - CancelArming : function: 00007FF6EA897270
+				 - ToggleConsumption : function: 00007FF6EA897490
+				 - GetShaftCount : function: 00007FF6EA8974E0
+				 - ShaftCount : property<int>
+				 - __name : CPropertyBombarderTextSource*MT
+				 - SetBarrageSize : function: 00007FF6EA897330
+			 - HasVariations : property<bool>
+			 - RecipeBuilding : property<CPropertyRecipeBuilding>
+				 - ChangeRecipe : function: 00007FF6EABA7A20
+				 - __name : CPropertyRecipeBuildingTextSource*MT
+			 - GetMesh : function: 00007FF6EA6F4BB0
+			 - GetWarehouse : function: 00007FF6EA6F5010
+			 - GetAttacker : function: 00007FF6EA6F4590
+			 - Logistic : property<CLogisticNode>
+				 - __name : CLogisticNodeTextSource*MT
+			 - GetCulture : function: 00007FF6EA6F52B0
+			 - ItemContainer : property<CPropertyItemContainer>
+				 - GetCanEquipItems : function: 00007FF6EAB7D250
+				 - SetAcceptGeneratedItem : function: 00007FF6EAB7CF10
+				 - GetStackLimit : function: 00007FF6EAB7CFB0
+				 - __index : function: 00007FF6EAB7C740
+				 - GetItemAlreadyExclusive : function: 00007FF6EAB7D160
+				 - SetEquipSlot : function: 00007FF6EAB7CB50
+				 - GetItemAlreadyEquipped : function: 00007FF6EAB7D0D0
+				 - GetDraggedItemAlreadyExclusive : function: 00007FF6EAB7D070
+				 - SetCheatItemInSocket : function: 00007FF6EAB7CDE0
+				 - SetResetSocketState : function: 00007FF6EAB7CEA0
+				 - StackLimit : property<int>
+				 - DraggedItemAlreadyExclusive : property<bool>
+				 - SetClearSlot : function: 00007FF6EAB7CAE0
+				 - GetDraggedItemAlreadyEquipped : function: 00007FF6EAB7D010
+				 - InteractingAreaID : property<AreaID>
+					 - AreaIndex : 4
+					 - IslandID : 96
+				 - SetDenyGeneratedItem : function: 00007FF6EAB7CF60
+				 - CanEquipItems : property<bool>
+				 - GetInteractingAreaID : function: 00007FF6EAB7D1F0
+				 - SetUnequipSocket : function: 00007FF6EAB7CC10
+				 - DraggedItemAlreadyEquipped : property<bool>
+				 - SetCheatItemInSlot : function: 00007FF6EAB7CA20
+				 - __name : CPropertyItemContainerTextSource*MT
+			 - GetElectric : function: 00007FF6EA6F49F0
+			 - GetPalaceMinistry : function: 00007FF6EA6F58D0
+			 - GetPier : function: 00007FF6EA6F5390
+			 - Motor : property<CPropertyMotorizable>
+				 - IsMotorized : property<bool>
+				 - GetIsMotorized : function: 00007FF6EAB9BD60
+				 - __name : CPropertyMotorizableTextSource*MT
+				 - __index : function: 00007FF6EAB9BB80
+		 - SetDiscardExpedition : function: 00007FF6EA6DE010
+		 - GetOptionAttributeLevelDescription : function: 00007FF6EA6DE3D0
+		 - ExpeditionShipReturning : property<bool>
+		 - SetCheatCurrentEvent : function: 00007FF6EA6DDC40
+		 - __index : function: 00007FF6EA6DD620
+		 - SetResolveDecision : function: 00007FF6EA6DDDD0
+		 - SetCheatEventCountdown : function: 00007FF6EA6DDBF0
+		 - Days : property<int>
+		 - SetOpenEventUI : function: 00007FF6EA6DE260
+		 - Morale : property<int>
+		 - GetRequirementConsumeAmount : function: 00007FF6EA6DE170
+		 - GetExpeditionShipReturning : function: 00007FF6EA6DDB30
+		 - GetMorale : function: 00007FF6EA6DDFB0
+		 - GetEventCountdown : function: 00007FF6EA6DDB90
+		 - GetThreatDescription : function: 00007FF6EA6DDA40
+		 - GetOptionAttributeSum : function: 00007FF6EA6DE2B0
+		 - GetMaxStartMoralePoints : function: 00007FF6EA6DDEE0
+		 - GetTravelTimeLeft : function: 00007FF6EA6DE460
+		 - SetMorale : function: 00007FF6EA6DDF40
+		 - GetRequirement : function: 00007FF6EA6DE0D0
+		 - GetExpeditionShip : function: 00007FF6EA6DE060
+		 - MaxStartMoralePoints : property<int>
+		 - GetCurrentEvent : function: 00007FF6EA6DDD70
+		 - __name : CExpeditionTextSource*MT
+		 - GetExpeditionShipStarting : function: 00007FF6EA6DDAD0
+		 - CurrentEvent : property<int>
+	 - ExpeditionCount : property<int>
+	 - GetAddLabyrinthConnection : function: 00007FF6EA7CED50
+	 - SetGenerateLabyrinthMinRoomAmount : function: 00007FF6EA7CF030
+	 - SetDiscardExpeditionDirectly : function: 00007FF6EA7CF3E0
+	 - SetGenerateLabyrinthMinLayers : function: 00007FF6EA7CEE00
+	 - GetEvent : function: 00007FF6EA7CF5D0
+	 - SetDiscardExpeditionConditional : function: 00007FF6EA7CF370
+	 - SetGenerateLabyrinthMaxRoomAmount : function: 00007FF6EA7CF0A0
+	 - SetGenerateLabyrinth : function: 00007FF6EA7CEDB0
+	 - GetExpeditionCount : function: 00007FF6EA7CF310
+	 - SetGenerateLabyrinthMaxRoomSize : function: 00007FF6EA7CEFC0
+	 - SetDistributeExpedition : function: 00007FF6EA7CF2A0
+	 - GetFeedOptionMoraleCostFactor : function: 00007FF6EA7CF640
+	 - Event : property<CExpedition>
+							 - AreaIndex : 2
+							 - IslandID : 34
+							 - AreaID : table: 000001EBDDE54FD8
+							 - ObjectID : 3733671928
+							 - IslandID : 19
+							 - IslandID : 96
+							 - AreaID : table: 000001EBDE9500F8
+							 - ObjectID : 3735878520
+							 - IslandID : 66
+							 - IslandID : 75
+							 - AreaID : table: 000001EBDEA46C88
+							 - ObjectID : 3735964424
+							 - IslandID : 125
+							 - IslandID : 99
+							 - AreaID : table: 000001EBDEB0AA38
+							 - ObjectID : 3738230792
+							 - AreaIndex : 5
+							 - IslandID : 120
+					 - AreaIndex : 1
+					 - SessionID : 8
+					 - IslandID : 17
+					 - AreaID : table: 000001EBDEB758B8
+					 - ObjectID : 3736354296
+					 - IslandID : 95
+	 - SetGenerateLabyrinthMaxLayers : function: 00007FF6EA7CEE70
+	 - __index : function: 00007FF6EA7CE950
+	 - Overview : property<CExpedition>
+							 - IslandID : 91
+							 - AreaID : table: 000001EBDE4CE098
+							 - ObjectID : 3692205752
+							 - AreaIndex : 3
+							 - IslandID : 106
+							 - SessionID : 40
+							 - IslandID : 35
+							 - AreaID : table: 000001EBDF09D0E8
+							 - ObjectID : 3729850168
+							 - IslandID : 45
+							 - AreaIndex : 1
+							 - IslandID : 28
+							 - AreaID : table: 000001EBDF0B6C88
+							 - ObjectID : 3741398088
+							 - IslandID : 14
+							 - AreaID : table: 000001EBDF1D2108
+							 - ObjectID : 3737547832
+							 - IslandID : 40
+					 - AreaIndex : 6
+					 - AreaID : table: 000001EBDEC355B8
+					 - ObjectID : 3730440760
+					 - AreaIndex : 7
+					 - IslandID : 42
+	 - GetOverview : function: 00007FF6EA7CF560
+	 - AddLabyrinthRoom : property<bool>
+	 - SetGenerateLabyrinthSizeY : function: 00007FF6EA7CEF50
+	 - GetByGUID : function: 00007FF6EA7CF110
+	 - __name : CMetaPropertyExpeditionUserTextSource*MT
+ - Memorize : property<CMemorizeManager>
+	 - __name : CMemorizeManagerTextSource*MT
+ - AreaNeedUnlock : property<CAreaNeedUnlockManager>
+	 - GetAdditionalNeedUnlockPopulation : function: 00007FF6EA000830
+	 - GetNeedLocked : function: 00007FF6EA000660
+	 - GetAdditionalNeedUnlockAmount : function: 00007FF6EA000910
+	 - GetHasAdditionalNeedUnlock : function: 00007FF6EA000750
+	 - GetNeedUnlockPopulation : function: 00007FF6E9FE22E0
+	 - __name : CAreaNeedUnlockManagerTextSource*MT
+ - GetIsPassiveTradeFeatureEnabled : function: 00007FF6EA2AE3C0
+ - GetIsEcoImpactCausedBy : function: 00007FF6EA2AE6A0
+ - Text : property<CTextManager>
+	 - SetValidateAllTexts : function: 00007FF6EA1E30A0
+	 - __name : CTextManagerTextSource*MT
+ - GetText : function: 00007FF6EA2AF940
+ - Terrain : property<CTerrainManager>
+	 - ToggleRiverDebugDraw : function: 00007FF6EA1E2840
+	 - __name : CTerrainManagerTextSource*MT
+ - GetStreetOverlay : function: 00007FF6EA2AF7F0
+ - BuildPermits : property<CMetaPropertyBuildPermits>
+	 - GetNeedsBuildPermit : function: 00007FF6EA7C9BD0
+	 - CheatAddBuildingPermits : function: 00007FF6EA7C9C60
+	 - GetBuildPermits : function: 00007FF6EA7C9B40
+	 - __name : CMetaPropertyBuildPermitsTextSource*MT
+ - GetScenarios : function: 00007FF6EA2AF160
+ - Rewards : property<CRewardsManager>
+	 - GetIsClubReward : function: 00007FF6EA5B6300
+	 - __name : CRewardsManagerTextSource*MT
+ - MetaObjects : property<CMetaGameObjectManager>
+	 - CheatLookAtPosition : function: 00007FF6EA770140
+	 - CheatLookAtObject : function: 00007FF6EA770060
+	 - LookAtObject : function: 00007FF6EA7700D0
+	 - GetObject : function: 00007FF6EA76FFC0
+	 - __name : CMetaGameObjectManagerTextSource*MT
+ - GetArea : function: 00007FF6EA2AC490
+ - GetEconomyStatistic : function: 00007FF6EA2AD070
+ - GetDebugRender : function: 00007FF6EA2ACD60
+ - Stamp : property<CStampManager>
+	 - GetStampIcon : function: 00007FF6EA5EDA50
+	 - SetCreateStamp : function: 00007FF6EA5ED920
+	 - SetBuildStamp : function: 00007FF6EA5ED970
+	 - GetStampName : function: 00007FF6EA5ED9C0
+	 - __name : CStampManagerTextSource*MT
+ - GetSound : function: 00007FF6EA2AF710
+ - GetAreaCoast : function: 00007FF6EA2AF390
+ - GetGameClock : function: 00007FF6EA2AD2D0
+ - GetPlayerHasLostTargetShip : function: 00007FF6EA2AE640
+ - DifficultyHelper : property<CDifficultyHelper>
+	 - SetDifficultySelection : function: 00007FF6EA7BF7D0
+	 - SetDifficultySelectionAsBool : function: 00007FF6EA7BF920
+	 - GetDifficultySelectionAsBool : function: 00007FF6EA7BF9D0
+	 - GetDifficultySelection : function: 00007FF6EA7BF890
+	 - __name : CDifficultyHelperTextSource*MT
+ - GetMetaGameManager : function: 00007FF6EA2ADC90
+ - Records : property<CRecordingManager>
+	 - SetStartStopRecording : function: 00007FF6EA5A0CC0
+	 - SetSelectSubPage : function: 00007FF6EA5A0F90
+	 - SetNeverCleanUpFlag : function: 00007FF6EA5A0EB0
+	 - GetPlayer : function: 00007FF6EA5A0D10
+	 - SetFeatureEnabled : function: 00007FF6EA5A1000
+	 - __index : function: 00007FF6EA5A0AA0
+	 - SetSpawnEnemyShip : function: 00007FF6EA5A0F40
+	 - SetSelectedSavegameOption : function: 00007FF6EA5A0E40
+	 - GetRecorder : function: 00007FF6EA5A0D80
+	 - SetBackToTitleAndCleanUp : function: 00007FF6EA5A0DF0
+	 - Player : property<CRecordingPlayer>
+		 - SetCancelReplay : function: 00007FF6EA5A3FA0
+		 - GetStartPlayback : function: 00007FF6EA5A3E60
+		 - __index : function: 00007FF6EA5A3C80
+		 - SetEnableRerecording : function: 00007FF6EA5A4110
+		 - SetPlaybackDebugLog : function: 00007FF6EA5A3EC0
+		 - SetSelectedOption : function: 00007FF6EA5A3F30
+		 - SetSilentSuccessChecks : function: 00007FF6EA5A4080
+		 - SetEnableSuccessChecks : function: 00007FF6EA5A3FF0
+		 - __name : CRecordingPlayerTextSource*MT
+		 - StartPlayback : property<bool>
+	 - __name : CRecordingManagerTextSource*MT
+	 - Recorder : property<CGamePlayRecorder>
+		 - SetAddToComplexFilter : function: 00007FF6EA707710
+		 - SetRecordingName : function: 00007FF6EA707510
+		 - SetClearComplexFilter : function: 00007FF6EA7076C0
+		 - SetEnableEventStringChecks : function: 00007FF6EA707940
+		 - SetSaveFilter : function: 00007FF6EA7079F0
+		 - SetEnableVehicleChecks : function: 00007FF6EA7078B0
+		 - SetSelectSubPage : function: 00007FF6EA5A0F90
+		 - SetRemoveFromComplexFilter : function: 00007FF6EA7077D0
+		 - SetEditSimpleFilter : function: 00007FF6EA707610
+		 - __name : CGamePlayRecorderTextSource*MT
+		 - SetSelectComplexOption : function: 00007FF6EA707840
+ - GetEcoDeltaCausedBy : function: 00007FF6EA2AE730
+ - GetToolOneDataHelper : function: 00007FF6EA2AD5A0
+ - GetBlueprint : function: 00007FF6EA2ACA50
+ - Weather : property<CWeatherManager>
+	 - SetChangeWind : function: 00007FF6EA235870
+	 - ToggleWindRender : function: 00007FF6EA2358C0
+	 - SetToggleMirageEffect : function: 00007FF6EA235910
+	 - ForcePreset : function: 00007FF6EA2357B0
+	 - __name : CWeatherManagerTextSource*MT
+ - GetPopup : function: 00007FF6EA2AD610
+ - ToggleDebugInfo : function: 00007FF6EA2AD020
+ - GetExpedition : function: 00007FF6EA2ADEC0
+ - SessionParticipants : property<CSessionParticipantManager>
+	 - GetParticipant : function: 00007FF6EA5D9B80
+	 - SetCheatCreateSessionParticipant : function: 00007FF6EA5D9C20
+	 - __name : CSessionParticipantManagerTextSource*MT
+ - GetSessionTransfer : function: 00007FF6EA2AF630
+ - GetHappyDayEventManager : function: 00007FF6EA2AD6F0
+ - GetRandom : function: 00007FF6EA2AF5C0
+ - SessionTransfer : property<CSessionTransferManager>
+	 - GetTransferTimeLeft : function: 00007FF6EA5E7D80
+	 - GetTargetSession : function: 00007FF6EA5E7E10
+	 - GetIsTransfering : function: 00007FF6EA5E7CF0
+	 - __name : CSessionTransferManagerTextSource*MT
+ - GetSessionParticipants : function: 00007FF6EA2AF550
+ - Scenarios : property<CScenarioManager>
+	 - GetBadgeAchievedFirstTimeThisRun : function: 00007FF6EA5BB5F0
+	 - GetScenarioName : function: 00007FF6EA5BAFC0
+	 - GetMedalAchievedFirstTimeThisRun : function: 00007FF6EA5BB440
+	 - SaveAccount : function: 00007FF6EA5BB280
+	 - __index : function: 00007FF6EA5BAD80
+	 - GetMedalAchievedThisRun : function: 00007FF6EA5BB3B0
+	 - GetScenarioGUID : function: 00007FF6EA5BB050
+	 - ResetScenario : function: 00007FF6EA5BB2D0
+	 - GetMedalAchievedAtAll : function: 00007FF6EA5BB320
+	 - GGJ : property<CGreenGameJamHelper>
+		 - HarshSoilEventActive : property<bool>
+		 - GetHarshSoilEventActive : function: 00007FF6EA7260F0
+		 - HarshWaterEventActive : property<bool>
+		 - __index : function: 00007FF6EA725E50
+		 - HarshAirEventActive : property<bool>
+		 - GetHarshWaterEventActive : function: 00007FF6EA726150
+		 - GetHarshEventActive : function: 00007FF6EA7261B0
+		 - __name : CGreenGameJamHelperTextSource*MT
+		 - GetHarshAirEventActive : function: 00007FF6EA726090
+	 - SetMedalReached : function: 00007FF6EA5BB0B0
+	 - ScenarioGUID : property<int>
+	 - ResetLastSeenPromotion : function: 00007FF6EA5BB230
+	 - GetBadgeAchievedThisRun : function: 00007FF6EA5BB560
+	 - GetGGJ : function: 00007FF6EA5BB680
+	 - GetBadgeAchievedAtAll : function: 00007FF6EA5BB4D0
+	 - __name : CScenarioManagerTextSource*MT
+	 - SetResetBadges : function: 00007FF6EA5BB1C0
+ - GetScenarioWorkshop : function: 00007FF6EA2AF1D0
+ - FreeAreaProductivity : property<CSessionFreeAreaProductivityManager>
+	 - __name : CSessionFreeAreaProductivityManagerTextSource*MT
+ - GetFeedback : function: 00007FF6EA2AF470
+ - Daytime : property<CDaytimeManager>
+	 - SetDaytimeSetting : function: 00007FF6EA7B1C70
+	 - ToggleDaytimeAdvancing : function: 00007FF6EA7B1C20
+	 - GetDaytimeString : function: 00007FF6EA7B1D60
+	 - __index : function: 00007FF6EA7B19C0
+	 - SetDaytime : function: 00007FF6EA7B1CE0
+	 - DaytimeString : property<rdsdk::CRDStringW>
+	 - __name : CDaytimeManagerTextSource*MT
+	 - SetDaytimePreset : function: 00007FF6EA7B1BB0
+ - __name : CRootTextSource*MT
+ - GetOptions : function: 00007FF6EA2AE240
+ - Pause : property<CPauseManager>
+	 - IncreaseGameSpeed : function: 00007FF6EA6E9BE0
+	 - DecreaseGameSpeed : function: 00007FF6EA6E9C30
+	 - Toggle : function: 00007FF6EA883F90
+	 - SetSlowdown : function: 00007FF6EA8841C0
+	 - SetFastForward : function: 00007FF6EA884120
+	 - SetTripleFastForward : function: 00007FF6EA884170
+	 - __index : function: 00007FF6EA883DC0
+	 - SetContinued : function: 00007FF6EA884080
+	 - SetPlayed : function: 00007FF6EA8840D0
+	 - GetIsPaused : function: 00007FF6EA588CE0
+	 - IsPaused : property<bool>
+	 - SetPaused : function: 00007FF6EA883FE0
+	 - __name : CPauseManagerTextSource*MT
+	 - SetPausedInMenu : function: 00007FF6EA884030
+ - SetToggleEnable : function: 00007FF6EA2AE8D0
+ - AreaCoast : property<CSessionCoastManager>
+	 - __name : CSessionCoastManagerTextSource*MT
+ - Conditions : property<CConditionManager>
+	 - GetDesiredConditionAmount : function: 00007FF6EA782910
+	 - GetConditionContext : function: 00007FF6EA7829F0
+	 - GetConditionQuestArea : function: 00007FF6EA782AF0
+	 - RegisterTriggerForCurrentParticipant : function: 00007FF6EA782C00
+	 - GetCurrentConditionAmount : function: 00007FF6EA782830
+	 - __name : CConditionManagerTextSource*MT
+ - Achievements : property<CAchievementManager>
+	 - SetUnlockAll : function: 00007FF6E9FCD730
+	 - Points : property<int>
+	 - SetUnlockByCategory : function: 00007FF6E9FCD780
+	 - GetPoints : function: 00007FF6E9FCD6D0
+	 - __name : CAchievementManagerTextSource*MT
+	 - __index : function: 00007FF6E9FCD4F0
+ - GetStamp : function: 00007FF6EA2AF780
+ - GetSessionCamera : function: 00007FF6EA2AF320
+ - GetAssetForValue : function: 00007FF6EA2AF9B0
+ - Popup : property<CGenericPopupManager>
+	 - GetRefGUID : function: 00007FF6EA717300
+	 - RefGUID : property<int>
+	 - ClosePopup : function: 00007FF6EA717290
+	 - __name : CGenericPopupManagerTextSource*MT
+	 - __index : function: 00007FF6EA7170B0
+ - GetConditions : function: 00007FF6EA2ACC10
+ - GetSeason : function: 00007FF6EA2AF240
+ - GetBaseSpeed_MaxWindSpeedup : function: 00007FF6EA2AEB10
+ - Participants : property<CParticipantManager>
+	 - GetCanIgnoreCounterProposal : function: 00007FF6EA868C30
+	 - SetCancelAlliance : function: 00007FF6EA868F30
+	 - GetCeaseFireDuration : function: 00007FF6EA869F50
+	 - GetGetCurrentParticipantID : function: 00007FF6EA868120
+	 - GetNonAttackDuration : function: 00007FF6EA869EF0
+	 - GetCeasefireSuccess : function: 00007FF6EA869B00
+	 - GetParticipantName : function: 00007FF6EA868260
+	 - DiplomacyBaseUserIsCurrent : property<bool>
+	 - GetGiftGenerousSuccess : function: 00007FF6EA869A70
+	 - SetCloseBorders : function: 00007FF6EA868550
+	 - GetParticipantReputationTo : function: 00007FF6EA869330
+	 - SetChangeParticipantReputationTo : function: 00007FF6EA869410
+	 - GetRequestCeaseFireDebuffActive : function: 00007FF6EA869DD0
+	 - GetRequestNonAttackDebuffActive : function: 00007FF6EA869E60
+	 - SetOpenCounterProposal : function: 00007FF6EA8687F0
+	 - GetCurrentParticipantID : property<int>
+	 - GetRequestTradeRightsDebuffActive : function: 00007FF6EA869CB0
+	 - GetRequestAllianceDebuffActive : function: 00007FF6EA869D40
+	 - GetDoesNeedWar : function: 00007FF6EA869140
+	 - __index : function: 00007FF6EA867D70
+	 - GetIsCounterProposal : function: 00007FF6EA868D10
+	 - GetAllianceSuccess : function: 00007FF6EA869710
+	 - GetDiplomacyBaseUserIsCurrent : function: 00007FF6EA86A640
+	 - CheatDiplomacyTime : function: 00007FF6EA8687A0
+	 - CheatTotalWar : function: 00007FF6EA868660
+	 - GetParticipant : function: 00007FF6EA868080
+	 - CheatLetSelectedAIEnterNewSession : function: 00007FF6EA8684B0
+	 - GetRequestPeaceDebuffActive : function: 00007FF6EA869C20
+	 - GetRemainingCeaseFireDurationTo : function: 00007FF6EA86A1B0
+	 - GetTradeRightsSuccess : function: 00007FF6EA8695F0
+	 - GetSupportFleetSuccess : function: 00007FF6EA869680
+	 - GetGiftOrdinarySuccess : function: 00007FF6EA8699E0
+	 - CeaseFireDuration : property<rdtime>
+	 - GetRemainingCeaseFireDuration : function: 00007FF6EA86A120
+	 - SetAcceptCounterProposal : function: 00007FF6EA8688B0
+	 - SetCurrentParticipant : function: 00007FF6EA8683F0
+	 - NonAttackDuration : property<rdtime>
+	 - GetPeaceSuccess : function: 00007FF6EA869560
+	 - GetInsultSuccess : function: 00007FF6EA869830
+	 - CheatTotalAlliances : function: 00007FF6EA868700
+	 - Current : property<CMetaGameObject>
+		 - KontorOwner : property<CMetaPropertyKontorOwner>
+			 - GetImperialKontor : function: 00007FF6EA7DFE60
+			 - GetKontorSwitchCooldown : function: 00007FF6EA7DFED0
+			 - IsKontorSwitchCooldownFinished : property<bool>
+			 - KontorSwitchCooldown : property<rdtime>
+			 - __index : function: 00007FF6EA7DFBD0
+			 - ImperialKontor : property<CGameObject>
+						 - AreaIndex : 4
+						 - SessionID : 56
+						 - AreaID : table: 000001EBDED7D238
+							 - SessionID : 43
+							 - IslandID : 7
+						 - ObjectID : 3685918392
+						 - IslandID : 43
+			 - GetIsKontorSwitchCooldownFinished : function: 00007FF6EA7DFF30
+			 - __name : CMetaPropertyKontorOwnerTextSource*MT
+		 - Profile : property<CMetaPropertyProfile>
+			 - SetAndApplyCompanyLogo : function: 00007FF6EA7E2480
+			 - SetLevel : function: 00007FF6EA7E2660
+			 - AvatarPortrait : property<int>
+			 - AvatarPortraitIcon : property<rdsdk::CRDStringW>
+			 - GetAvatarPortraitIcon : function: 00007FF6EA7E22E0
+			 - SetCompanyName : function: 00007FF6EA7E2560
+			 - PopulationRequirementForNextLevel : property<int>
+			 - GetLevel : function: 00007FF6EA7E26D0
+			 - GetPopulationRequirementForCompanyLevel : function: 00007FF6EA7E2780
+			 - SetIncreaseLevel : function: 00007FF6EA7E2730
+			 - Level : property<int>
+			 - SetAvatarPortrait : function: 00007FF6EA7E24F0
+			 - SetAndApplyCompanyColor : function: 00007FF6EA7E2410
+			 - GetPopulationRequirementForNextLevel : function: 00007FF6EA7E2810
+			 - GetCompanyLogoGUID : function: 00007FF6EA7E23B0
+			 - GetAvatarPortrait : function: 00007FF6EA7E2350
+			 - CompanyName : property<rdsdk::CRDStringW>
+			 - GetCompanyName : function: 00007FF6EA7E2270
+			 - CompanyLogoGUID : property<int>
+			 - __name : CMetaPropertyProfileTextSource*MT
+			 - __index : function: 00007FF6EA7E1F50
+		 - __index : function: 00007FF6EA772250
+		 - GetConstructionAI2 : function: 00007FF6EA7726C0
+		 - Diplomacy : property<CMetaPropertyDiplomacy>
+			 - War : function: 00007FF6EA7CCD60
+			 - SendSmallGift : function: 00007FF6EA7CCE40
+			 - Alliance : function: 00007FF6EA7CCDD0
+			 - __name : CMetaPropertyDiplomacyTextSource*MT
+		 - GetBuyShares : function: 00007FF6EA772810
+		 - Highscore : property<CMetaPropertyHighscore>
+			 - HighscoreData : property<CHighscoreData>
+				 - FleetCategory : property<int>
+				 - GetShipMaintenanceScore : function: 00007FF6EA72BC00
+				 - GetAttractivenessCategory : function: 00007FF6EA72BA20
+				 - CompletedSetsScore : property<int>
+				 - GetTotalAttractivenessScore : function: 00007FF6EA72BF60
+				 - DiscoveredItemsScore : property<int>
+				 - GetTotalProductionScore : function: 00007FF6EA72BC60
+				 - ItemCategory : property<int>
+				 - GetProductionStorageCategory : function: 00007FF6EA72B900
+				 - GetSessionBalanceScore : function: 00007FF6EA72BB70
+				 - TotalProductionScore : property<int>
+				 - GetAirshipScore : function: 00007FF6EA72BF00
+				 - GetSocketedItemsScore : function: 00007FF6EA72BD80
+				 - GetCompletedSetsScore : function: 00007FF6EA72BD20
+				 - GetFleetCategory : function: 00007FF6EA72B960
+				 - GetDiscoveredItemsScore : function: 00007FF6EA72BDE0
+				 - EconomicCategory : property<int>
+				 - __index : function: 00007FF6EA72B190
+				 - ShipMaintenanceScore : property<int>
+				 - MilitaryShipScore : property<int>
+				 - TotalStorageScore : property<int>
+				 - GetHighscore : function: 00007FF6EA72B7A0
+				 - GetTotalStorageScore : function: 00007FF6EA72BCC0
+				 - AttractivenessCategory : property<int>
+				 - GetUrbanizationScore : function: 00007FF6EA72BFC0
+				 - UrbanizationScore : property<int>
+				 - TotalAttractivenessScore : property<int>
+				 - AirshipScore : property<int>
+				 - TradeShipScore : property<int>
+				 - ProductionStorageCategory : property<int>
+				 - GetTradeShipScore : function: 00007FF6EA72BEA0
+				 - SocketedItemsScore : property<int>
+				 - GetMilitaryShipScore : function: 00007FF6EA72BE40
+				 - GetPopulationScore : function: 00007FF6EA72BAE0
+				 - DifficultyFactor : property<float>
+				 - GetItemCategory : function: 00007FF6EA72B9C0
+				 - GetPopulationCategory : function: 00007FF6EA72B840
+				 - GetEconomicCategory : function: 00007FF6EA72B8A0
+				 - __name : CHighscoreDataTextSource*MT
+				 - PopulationCategory : property<int>
+				 - GetDifficultyFactor : function: 00007FF6EA72BA80
+			 - GetHighscoreData : function: 00007FF6EA7D6D20
+			 - HighscorePoints : property<int>
+			 - GetHighscorePoints : function: 00007FF6EA7D6CC0
+			 - __name : CMetaPropertyHighscoreTextSource*MT
+			 - __index : function: 00007FF6EA7D6A70
+		 - GetHighscore : function: 00007FF6EA772880
+		 - BuyShares : property<CMetaPropertyBuyShares>
+			 - SetCalcPrio : function: 00007FF6EA7CAF90
+			 - __name : CMetaPropertyBuySharesTextSource*MT
+		 - ConstructionAI2 : property<CMetaPropertyConstructionAI>
+			 - CheatEnterSession : function: 00007FF6EA7CBC20
+			 - GetMetaShipHandler : function: 00007FF6EA7CBB60
+			 - CheatEnterNextSession : function: 00007FF6EA7CBBD0
+			 - MetaShipHandler : property<CAIMetaShipHandler>
+				 - FulfillRequest : function: 00007FF6E9FDA680
+				 - ToggleShipLog : function: 00007FF6E9FDA610
+				 - ReleaseShip : function: 00007FF6E9FDA550
+				 - SkipRequest : function: 00007FF6E9FDA4E0
+				 - __name : CAIMetaShipHandlerTextSource*MT
+			 - __name : CMetaPropertyConstructionAITextSource*MT
+			 - __index : function: 00007FF6EA7CB970
+		 - GetProfile : function: 00007FF6EA7725E0
+		 - GetKontorOwner : function: 00007FF6EA7727A0
+		 - GetDiplomacy : function: 00007FF6EA772650
+		 - ProfileCounter : property<CMetaPropertyProfileCounter>
+			 - GetStats : function: 00007FF6EA7E1270
+			 - Stats : property<CCorporationStats>
+				 - GetCounter : function: 00007FF6EA7AFFF0
+				 - __name : CCorporationStatsTextSource*MT
+			 - __name : CMetaPropertyProfileCounterTextSource*MT
+			 - __index : function: 00007FF6EA7E1080
+		 - __name : CMetaGameObjectTextSource*MT
+		 - GetProfileCounter : function: 00007FF6EA772730
+	 - CheatCreateParticipant_IfNecessary : function: 00007FF6EA868380
+	 - GetTopLevelDiplomacyStateTo : function: 00007FF6EA86A560
+	 - SetCancelDoubleProtection : function: 00007FF6EA868FF0
+	 - GetGiftSmallSize : function: 00007FF6EA869950
+	 - GetTopLevelDiplomacyState : function: 00007FF6EA86A4D0
+	 - SetIgnoreCounterProposal : function: 00007FF6EA868AE0
+	 - GetCheckDiplomacyStateTo : function: 00007FF6EA86A370
+	 - SetCurrentParticipantFromSelection : function: 00007FF6EA868460
+	 - GetRemainingNonAttackDurationTo : function: 00007FF6EA86A040
+	 - SetRemoveParticipant : function: 00007FF6EA8681F0
+	 - CheatTotalTrade : function: 00007FF6EA8686B0
+	 - GetCheckDiplomacyState : function: 00007FF6EA86A290
+	 - GetParticipantReputation : function: 00007FF6EA8692A0
+	 - GetNonAttack : function: 00007FF6EA869B90
+	 - GetRemainingNonAttackDuration : function: 00007FF6EA869FB0
+	 - GetParticipantLogo : function: 00007FF6EA8682F0
+	 - GetGiftSmallSuccess : function: 00007FF6EA8698C0
+	 - GetCurrent : function: 00007FF6EA868180
+	 - SetDeclareWar : function: 00007FF6EA868E70
+	 - CheatCounterProposal : function: 00007FF6EA868500
+	 - CheatAlliance : function: 00007FF6EA868750
+	 - __name : CParticipantManagerTextSource*MT
+	 - GetFlatterSuccess : function: 00007FF6EA8697A0
+	 - GetCanAcceptCounterProposal : function: 00007FF6EA868A00
+ - ScenarioWorkshop : property<CScenarioWorkshopManager>
+	 - GetOwnedItemCount : function: 00007FF6EA5C0410
+	 - ResetRubberDots : function: 00007FF6EA5C0240
+	 - GetOwnedPackageCount : function: 00007FF6EA5C0380
+	 - CheatRubberDots : function: 00007FF6EA5C01D0
+	 - ResetSawGrandGalleryIntro : function: 00007FF6EA5C02E0
+	 - TryAddScenarioWorkshopPackagesToSession : function: 00007FF6EA5C0010
+	 - ResetScenarioWorkshopPackage : function: 00007FF6EA5C0160
+	 - IsGUIDPackageContent : function: 00007FF6EA5C04A0
+	 - ReRecover : function: 00007FF6EA5C0330
+	 - ResetBoughtItems : function: 00007FF6EA5C0290
+	 - __name : CScenarioWorkshopManagerTextSource*MT
+	 - TryBuyScenarioWorkshopPackage : function: 00007FF6EA5C00A0
+ - Objects : property<CGameObjectManager>
+	 - SetDebugObject : function: 00007FF6EA6EF0A0
+	 - GetObject : function: 00007FF6EA6EEE40
+	 - SetDebugObjectGUID : function: 00007FF6EA6EF110
+	 - SetSelectedAreaID : function: 00007FF6EA6EEDD0
+	 - GetObjectAnyState : function: 00007FF6EA6EEEE0
+	 - __name : CGameObjectManagerTextSource*MT
+	 - GetObjectByName : function: 00007FF6EA6EEF80
+ - Feedback : property<CSessionFeedbackManager>
+	 - SetUnHideFeedbackInArea : function: 00007FF6EA5D7400
+	 - SetHideFeedbackInArea : function: 00007FF6EA5D7150
+	 - ToggleCollectDebugTimestamps : function: 00007FF6EA5D7500
+	 - SetBehaviourFilter : function: 00007FF6EA5D7550
+	 - __name : CSessionFeedbackManagerTextSource*MT
+ - GetTarget : function: 00007FF6EA2AF860
+ - AreaProductDelta : property<CAreaProductDeltaManager>
+	 - GetDelta : function: 00007FF6E9FE2670
+	 - SetCheatAddDelta : function: 00007FF6E9FE25C0
+	 - GetDeltaSaturationUncapped : function: 00007FF6E9FE29F0
+	 - GetDeltaSaturation : function: 00007FF6E9FE2970
+	 - __name : CAreaProductDeltaManagerTextSource*MT
+ - Options : property<COptionsManager>
+	 - ControllerShortPressDurationValue : property<float>
+	 - GetControllerInvertAxisZoom : function: 00007FF6EA81EDC0
+	 - EnableAdvancedButtonMapping : property<bool>
+	 - SetControllerInvertAxisTilt : function: 00007FF6EA81EE20
+	 - ControllerVibrationIntensity : property<float>
+	 - GetControllerInvertAxisRotate : function: 00007FF6EA81ECD0
+	 - SetFreeCameraEnabled : function: 00007FF6EA81B980
+	 - SetSwapTriggerAndShoulderButtons : function: 00007FF6EA81DDF0
+	 - CameraScrollSensitivity : property<float>
+	 - GetTextLanguageName : function: 00007FF6EA81B080
+	 - CameraKeyboardSensitivityDisplayValue : property<float>
+	 - GetControllerLongPressDurationText : function: 00007FF6EA81E160
+	 - SetControllerInvertAxisRotate : function: 00007FF6EA81EC40
+	 - TextLanguage : property<int>
+	 - SetShadow : function: 00007FF6EA81A440
+	 - Object : property<int>
+	 - __index : function: 00007FF6EA817F90
+	 - GetUpscaling : function: 00007FF6EA81AAF0
+	 - SansSerifOnlyEnabled : property<bool>
+	 - SetEnableSelectionWheelStickySelection : function: 00007FF6EA81F810
+	 - GetShadow : function: 00007FF6EA81A4B0
+	 - SetIsMinimapRotationEnabled : function: 00007FF6EA81D4E0
+	 - CameraBuildModePanSpeedMultiplierValue : property<float>
+	 - GetCameraKeyboardSensitivity : function: 00007FF6EA81BEC0
+	 - ControllerInvertAxisMoveY : property<bool>
+	 - SetCameraKeyboardSensitivity : function: 00007FF6EA81BE40
+	 - LargeSubtitlesEnabled : property<bool>
+	 - GetHighContrastEnabled : function: 00007FF6EA81B740
+	 - Shader : property<int>
+	 - AudioLanguageName : property<rdsdk::CRDStringW>
+	 - GetCameraDragSensitivityDisplayValue : function: 00007FF6EA81BB60
+	 - GetBuildModeDragTypeStreet : function: 00007FF6EA81FB10
+	 - GetOptionsConfirmPopupTime : function: 00007FF6EA819A10
+	 - SetDirectX : function: 00007FF6EA819CC0
+	 - GetUIVolume : function: 00007FF6EA81ACB0
+	 - VisitorAutoAcceptEnabled : property<bool>
+	 - SetTextSize : function: 00007FF6EA81B4F0
+	 - SetCameraModifierToggleEnabled : function: 00007FF6EA81DC10
+	 - GetFeedback : function: 00007FF6EA81AA20
+	 - IsAsianLanguageInUse : property<bool>
+	 - SetEnableElectricityPoles : function: 00007FF6EA81CB30
+	 - SetControllerCameraZoomSpeedMultiplier : function: 00007FF6EA81F5F0
+	 - SetBuildModeDragTypeStreet : function: 00007FF6EA81FAA0
+	 - GetTextSize : function: 00007FF6EA81B560
+	 - GetControllerInnerDeadzoneLeftValue : function: 00007FF6EA81E460
+	 - SetCameraBuildModePanSpeedMultiplier : function: 00007FF6EA81F230
+	 - SetCameraAutoFastMoveEnabled : function: 00007FF6EA81D8A0
+	 - SetShader : function: 00007FF6EA81A2A0
+	 - GetFreeCameraEnabled : function: 00007FF6EA81BA10
+	 - SetIsMinimapUseIslandData : function: 00007FF6EA81D5D0
+	 - SetControllerVibrationIntensity : function: 00007FF6EA81F730
+	 - SetDiplomacyFilterEnabled : function: 00007FF6EA81C950
+	 - ControllerLongPressDuration : property<float>
+	 - GetControllerTriggerSensitivity : function: 00007FF6EA81DF60
+	 - GetCameraScrollSensitivity : function: 00007FF6EA81BD80
+	 - SolidTextBackgroundsEnabled : property<bool>
+	 - SetFeedback : function: 00007FF6EA81A9B0
+	 - SwapAnalogSticks : property<bool>
+	 - GetIsMinimapUseIslandData : function: 00007FF6EA81D660
+	 - IsMinimapUseIslandData : property<bool>
+	 - GetDiplomacyFilterEnabled : function: 00007FF6EA81C9E0
+	 - ControllerInvertAxisPanX : property<bool>
+	 - CameraAutoFastMoveAccelerationDelay : property<float>
+	 - __name : COptionsManagerTextSource*MT
+	 - GetIrrigationPlacementModeEnabled : function: 00007FF6EA81CCB0
+	 - HighContrastEnabled : property<bool>
+	 - GetControllerInvertAxisFpsY : function: 00007FF6EA81F090
+	 - MasterVolume : property<float>
+	 - SetControllerInvertAxisFpsY : function: 00007FF6EA81F000
+	 - GetAutoSaveLimit : function: 00007FF6EA81C1D0
+	 - SubtitlesEnabled : property<bool>
+	 - SetMusicVolume : function: 00007FF6EA81AD10
+	 - SetCoopPingBubbleEnabled : function: 00007FF6EA81CA40
+	 - ControllerCameraFastMoveSpeedMultiplierValue : property<float>
+	 - CoopPingBubbleEnabled : property<bool>
+	 - GetPosteffects : function: 00007FF6EA81A650
+	 - SetAudioNotificationSubtitleVisibility : function: 00007FF6EA81B7A0
+	 - GetControllerCameraRotateSpeedMultiplierValue : function: 00007FF6EA81F590
+	 - SetViewDistance : function: 00007FF6EA81A720
+	 - TutorialEnabled : property<bool>
+	 - GetUpgradeInfolayerEnabled : function: 00007FF6EA81C2C0
+	 - GetViewDistance : function: 00007FF6EA81A790
+	 - BuildGridEnabled : property<bool>
+	 - SetPosteffects : function: 00007FF6EA81A5E0
+	 - GetControllerShortPressDurationValue : function: 00007FF6EA81E2B0
+	 - GetEnableElectricityPoles : function: 00007FF6EA81CBC0
+	 - SetEdgeScrollingEnabled : function: 00007FF6EA81C590
+	 - OnLanguageConsoleButtonEvent : function: 00007FF6EA81FDF0
+	 - GetEdgeScrollingEnabled : function: 00007FF6EA81C620
+	 - AutoSaveLimit : property<int>
+	 - GetMasterVolume : function: 00007FF6EA81ABD0
+	 - GetControllerOuterDeadzoneLeft : function: 00007FF6EA81E680
+	 - SetExtendedCameraDistanceEnabled : function: 00007FF6EA81BA70
+	 - ControllerInnerDeadzoneLeftValue : property<float>
+	 - FreeCameraEnabled : property<bool>
+	 - SetSubtitlesEnabled : function: 00007FF6EA81B230
+	 - GetCameraModifierToggleEnabled : function: 00007FF6EA81DCA0
+	 - GetDirectX : function: 00007FF6EA819D30
+	 - GetLargeSubtitlesEnabled : function: 00007FF6EA81B490
+	 - GetCombatMusicDisabled : function: 00007FF6EA81D2A0
+	 - GetSubtitlesEnabled : function: 00007FF6EA81B2C0
+	 - GetIsMinimapRotationEnabled : function: 00007FF6EA81D570
+	 - Resolution : property<int>
+	 - GetControllerShortPressDurationText : function: 00007FF6EA81E310
+	 - SetSailButtonEnabled : property<bool>
+	 - SetForceAlternativeGrassColorMode : function: 00007FF6EA81D0D0
+	 - GetInfolayerEnabled : function: 00007FF6EA81C0A0
+	 - GetNewspaperFilterEnabled : function: 00007FF6EA81C8F0
+	 - ControllerTriggerSensitivityValue : property<float>
+	 - SetRightclickMenuEnabled : function: 00007FF6EA81B890
+	 - Water : property<int>
+	 - GetWindowMode : function: 00007FF6EA819C60
+	 - UpgradeInfolayerEnabled : property<bool>
+	 - SetSFXVolume : function: 00007FF6EA81AED0
+	 - ControllerLongPressDurationText : property<rdsdk::CRDStringW>
+	 - SetWindowMode : function: 00007FF6EA819BF0
+	 - GetGraphicsQuality : function: 00007FF6EA819ED0
+	 - GetSFXVolume : function: 00007FF6EA81AF50
+	 - ControllerInvertAxisFpsX : property<bool>
+	 - ControllerInnerDeadzoneLeft : property<float>
+	 - OptionsConfirmPopupTime : property<int>
+	 - SetGraphicsQuality : function: 00007FF6EA819E60
+	 - GetCameraScrollSensitivityDisplayValue : function: 00007FF6EA81BCA0
+	 - ControllerShortPressDurationText : property<rdsdk::CRDStringW>
+	 - SetAutoBlueprintEnabled : function: 00007FF6EA81C410
+	 - ControllerInvertAxisTilt : property<bool>
+	 - CameraKeyboardSensitivity : property<float>
+	 - ControllerCameraPanSpeedMultiplier : property<float>
+	 - ShipSelectionToggleEnabled : property<bool>
+	 - SetAutoSaveLimit : function: 00007FF6EA81C160
+	 - GetTerrain : function: 00007FF6EA81A860
+	 - SetSansSerifOnlyEnabled : function: 00007FF6EA81CEF0
+	 - Terrain : property<int>
+	 - GetResolution : function: 00007FF6EA819B90
+	 - GetControllerInvertAxisPanX : function: 00007FF6EA81EAF0
+	 - AudioNotificationSubtitleVisibility : property<bool>
+	 - ControllerOuterDeadzoneRight : property<float>
+	 - ControllerCameraZoomSpeedMultiplierValue : property<float>
+	 - VoiceVolume : property<float>
+	 - GetSansSerifOnlyEnabled : function: 00007FF6EA81CF80
+	 - GetShipSelectionToggleEnabled : function: 00007FF6EA81DD90
+	 - SubtitleBackgroundOpacity : property<float>
+	 - SetShipSelectionToggleEnabled : function: 00007FF6EA81DD00
+	 - ExpeditionFilterEnabled : property<bool>
+	 - SetControllerOuterDeadzoneRight : function: 00007FF6EA81E740
+	 - GetIsAsianLanguageInUse : function: 00007FF6EA819A70
+	 - GetExpeditionFilterEnabled : function: 00007FF6EA81C800
+	 - GetRightclickMenuEnabled : function: 00007FF6EA81B920
+	 - BuildModeDragTypeDefault : property<int>
+	 - SetGraphicAdapter : function: 00007FF6EA819D90
+	 - GetControllerOuterDeadzoneRight : function: 00007FF6EA81E7C0
+	 - Texture : property<int>
+	 - GetEnableAdvancedButtonMapping : function: 00007FF6EA81FCD0
+	 - SetSwapAnalogSticks : function: 00007FF6EA81D7B0
+	 - SetBuildGridEnabled : function: 00007FF6EA81BF20
+	 - BuildModeDragTypeFields : property<int>
+	 - GetAlternativeGrassColorMode : function: 00007FF6EA81D070
+	 - SetControllerCameraFastMoveSpeedMultiplier : function: 00007FF6EA81F370
+	 - GetBuildModeDragTypeFields : function: 00007FF6EA81FBE0
+	 - SetSetSailButtonEnabled : function: 00007FF6EA81D3F0
+	 - NewspaperFilterEnabled : property<bool>
+	 - SetTexture : function: 00007FF6EA81A1D0
+	 - SetBuildModeDragTypeFields : function: 00007FF6EA81FB70
+	 - GetSetSailButtonEnabled : function: 00007FF6EA81D480
+	 - GetSubtitleBackgroundOpacity : function: 00007FF6EA81B3A0
+	 - CameraAutoFastMoveAccelerationDelayValue : property<float>
+	 - GetBuildGridEnabled : function: 00007FF6EA81BFB0
+	 - BuildModeDragTypeStreet : property<int>
+	 - GetControllerCameraRotateSpeedMultiplier : function: 00007FF6EA81F530
+	 - GetControllerCameraZoomSpeedMultiplierValue : function: 00007FF6EA81F6D0
+	 - RadialMenuMaxEntries : property<int>
+	 - GetRadialMenuMaxEntries : function: 00007FF6EA81F970
+	 - SetRadialMenuMaxEntries : function: 00007FF6EA81F900
+	 - GetAudioLanguageName : function: 00007FF6EA81B1C0
+	 - EnableSelectionWheelStickySelection : property<bool>
+	 - GetEnableSelectionWheelStickySelection : function: 00007FF6EA81F8A0
+	 - GetControllerVibrationIntensity : function: 00007FF6EA81F7B0
+	 - SetBuildModeDragTypeDefault : function: 00007FF6EA81F9D0
+	 - ControllerCameraZoomSpeedMultiplier : property<float>
+	 - GetControllerCameraZoomSpeedMultiplier : function: 00007FF6EA81F670
+	 - SetLargeSubtitlesEnabled : function: 00007FF6EA81B400
+	 - VSync : property<bool>
+	 - SetCombatMusicDisabled : function: 00007FF6EA81D210
+	 - ControllerCameraRotateSpeedMultiplierValue : property<float>
+	 - ControllerInvertAxisPanY : property<bool>
+	 - GetCameraDragSensitivity : function: 00007FF6EA81BC40
+	 - ControllerCameraRotateSpeedMultiplier : property<float>
+	 - GetControllerInvertAxisPanY : function: 00007FF6EA81EBE0
+	 - TextLanguageName : property<rdsdk::CRDStringW>
+	 - GetBuildModeDragTypeDefault : function: 00007FF6EA81FA40
+	 - SetControllerCameraRotateSpeedMultiplier : function: 00007FF6EA81F4B0
+	 - GetControllerCameraFastMoveSpeedMultiplierValue : function: 00007FF6EA81F450
+	 - SetTutorialEnabled : function: 00007FF6EA81C500
+	 - GetProductionFlyoutsDisabled : function: 00007FF6EA81D390
+	 - GetGamma : function: 00007FF6EA819FB0
+	 - GetSwapTriggerAndShoulderButtons : function: 00007FF6EA81DE80
+	 - GetControllerCameraFastMoveSpeedMultiplier : function: 00007FF6EA81F3F0
+	 - SetProductionFlyoutsDisabled : function: 00007FF6EA81D300
+	 - ControllerInvertAxisRotate : property<bool>
+	 - GetCameraBuildModePanSpeedMultiplierValue : function: 00007FF6EA81F310
+	 - SetAudioLanguage : function: 00007FF6EA81B0F0
+	 - GetCameraBuildModePanSpeedMultiplier : function: 00007FF6EA81F2B0
+	 - SetMasterVolume : function: 00007FF6EA81AB50
+	 - ControllerCameraPanSpeedMultiplierValue : property<float>
+	 - GetVSync : function: 00007FF6EA81A0A0
+	 - GraphicsQuality : property<int>
+	 - SetGamma : function: 00007FF6EA819F30
+	 - GetCameraKeyboardSensitivityDisplayValue : function: 00007FF6EA81BDE0
+	 - GetControllerCameraPanSpeedMultiplierValue : function: 00007FF6EA81F1D0
+	 - GetControllerCameraPanSpeedMultiplier : function: 00007FF6EA81F170
+	 - SetControllerCameraPanSpeedMultiplier : function: 00007FF6EA81F0F0
+	 - ControllerInvertAxisFpsY : property<bool>
+	 - EnableStampFeature : property<bool>
+	 - GetControllerInvertAxisFpsX : function: 00007FF6EA81EFA0
+	 - GetControllerInvertAxisTilt : function: 00007FF6EA81EEB0
+	 - SetControllerInvertAxisPanY : function: 00007FF6EA81EB50
+	 - SetControllerInvertAxisFpsX : function: 00007FF6EA81EF10
+	 - ControllerInvertAxisZoom : property<bool>
+	 - SetControllerInvertAxisZoom : function: 00007FF6EA81ED30
+	 - CameraBuildModePanSpeedMultiplier : property<float>
+	 - GetCameraAutoFastMoveAccelerationDurationValue : function: 00007FF6EA81DBB0
+	 - ExtendedCameraDistanceEnabled : property<bool>
+	 - GetControllerInvertAxisMoveY : function: 00007FF6EA81EA00
+	 - Upscaling : property<int>
+	 - AutoSaveInterval : property<int>
+	 - SetControllerInvertAxisMoveY : function: 00007FF6EA81E970
+	 - ControllerInvertAxisMoveX : property<bool>
+	 - ControllerInnerDeadzoneRight : property<float>
+	 - SetControllerInvertAxisPanX : function: 00007FF6EA81EA60
+	 - SetToggleFullscreen : function: 00007FF6EA819AD0
+	 - TransparentChatEnabled : property<bool>
+	 - ControllerCameraFastMoveSpeedMultiplier : property<float>
+	 - GetControllerOuterDeadzoneRightValue : function: 00007FF6EA81E820
+	 - SetResolution : function: 00007FF6EA819B20
+	 - ShortcutInUse : property<rdsdk::CRDStringW>
+	 - RomanLettersOnlyEnabled : property<bool>
+	 - ControllerOuterDeadzoneLeftValue : property<float>
+	 - GetControllerLongPressDurationValue : function: 00007FF6EA81E100
+	 - SetSolidTextBackgroundsEnabled : function: 00007FF6EA81B5C0
+	 - GetWater : function: 00007FF6EA81A580
+	 - GetControllerShortPressDuration : function: 00007FF6EA81E250
+	 - SetAntiAlias : function: 00007FF6EA81A100
+	 - SetControllerOuterDeadzoneLeft : function: 00007FF6EA81E600
+	 - ControllerInnerDeadzoneRightValue : property<float>
+	 - Posteffects : property<int>
+	 - SetVisitorAutoAcceptEnabled : function: 00007FF6EA81CD10
+	 - GetControllerInnerDeadzoneRightValue : function: 00007FF6EA81E5A0
+	 - GetControllerInnerDeadzoneRight : function: 00007FF6EA81E540
+	 - IsMinimapRotationEnabled : property<bool>
+	 - Feedback : property<int>
+	 - SetControllerInnerDeadzoneRight : function: 00007FF6EA81E4C0
+	 - GetEnableStampFeature : function: 00007FF6EA81D750
+	 - GetControllerInnerDeadzoneLeft : function: 00007FF6EA81E400
+	 - GetAntiAlias : function: 00007FF6EA81A170
+	 - TextSize : property<int>
+	 - ControllerShortPressDuration : property<float>
+	 - ControllerOuterDeadzoneLeft : property<float>
+	 - SetControllerShortPressDuration : function: 00007FF6EA81E1D0
+	 - GetSolidTextBackgroundsEnabled : function: 00007FF6EA81B650
+	 - SetWater : function: 00007FF6EA81A510
+	 - ControllerLongPressDurationValue : property<float>
+	 - GetControllerOuterDeadzoneLeftValue : function: 00007FF6EA81E6E0
+	 - GetControllerLongPressDuration : function: 00007FF6EA81E0A0
+	 - Lighting : property<int>
+	 - GetFixSunPosition : function: 00007FF6EA81A950
+	 - GetVisitorAutoAcceptEnabled : function: 00007FF6EA81CDA0
+	 - GetTexture : function: 00007FF6EA81A240
+	 - CameraDragSensitivity : property<float>
+	 - GetVoiceVolume : function: 00007FF6EA81AE70
+	 - CameraScrollSensitivityDisplayValue : property<float>
+	 - GetControllerTriggerSensitivityValue : function: 00007FF6EA81DFC0
+	 - ControllerTriggerSensitivity : property<float>
+	 - MusicVolume : property<float>
+	 - SetControllerTriggerSensitivity : function: 00007FF6EA81DEE0
+	 - GraphicAdapter : property<int>
+	 - SFXVolume : property<float>
+	 - DirectX : property<int>
+	 - SetUIVolume : function: 00007FF6EA81AC30
+	 - ControllerOuterDeadzoneRightValue : property<float>
+	 - GetAudioLanguage : function: 00007FF6EA81B160
+	 - CameraAutoFastMoveAccelerationDurationValue : property<float>
+	 - OnButtonRemappingElementEvent : function: 00007FF6EA81FD30
+	 - GetGraphicAdapter : function: 00007FF6EA819E00
+	 - CameraAutoFastMoveAccelerationDuration : property<float>
+	 - GetCameraAutoFastMoveAccelerationDuration : function: 00007FF6EA81DB50
+	 - GetAutoSaveInterval : function: 00007FF6EA81C100
+	 - SetCameraAutoFastMoveAccelerationDelay : function: 00007FF6EA81D990
+	 - GetCameraAutoFastMoveAccelerationDelayValue : function: 00007FF6EA81DA70
+	 - SetTextLanguage : function: 00007FF6EA81AFB0
+	 - ViewDistance : property<int>
+	 - SetSubtitleBackgroundOpacity : function: 00007FF6EA81B320
+	 - SetHighContrastEnabled : function: 00007FF6EA81B6B0
+	 - GetCommandInUse : function: 00007FF6EA8199A0
+	 - SetAutoSaveInterval : function: 00007FF6E9FCB600
+	 - GetCameraAutoFastMoveAccelerationDelay : function: 00007FF6EA81DA10
+	 - GetTutorialEnabled : function: 00007FF6E9FCB670
+	 - SetVoiceVolume : function: 00007FF6EA81ADF0
+	 - CameraAutoFastMoveEnabled : property<bool>
+	 - GetCameraAutoFastMoveEnabled : function: 00007FF6EA81D930
+	 - GetTextLanguage : function: 00007FF6EA81B020
+	 - SetIncidentMusicDisabled : function: 00007FF6EA81D120
+	 - DiplomacyFilterEnabled : property<bool>
+	 - SetControllerLongPressDuration : function: 00007FF6EA81E020
+	 - GetObject : function: 00007FF6EA787920
+	 - SetTerrain : function: 00007FF6EA81A7F0
+	 - GetSwapAnalogSticks : function: 00007FF6EA81D840
+	 - Gamma : property<float>
+	 - SetObject : function: 00007FF6EA81A6B0
+	 - SetCameraAutoFastMoveAccelerationDuration : function: 00007FF6EA81DAD0
+	 - SetEnableAdvancedButtonMapping : function: 00007FF6EA81FC40
+	 - GetIncidentMusicDisabled : function: 00007FF6EA81D1B0
+	 - CommandInUse : property<rdsdk::CRDStringW>
+	 - SetEnableStampFeature : function: 00007FF6EA81D6C0
+	 - SetAlternativeGrassColorMode : function: 00007FF6EA81CFE0
+	 - ProductionFlyoutsDisabled : property<bool>
+	 - SetExpeditionFilterEnabled : function: 00007FF6EA81C770
+	 - SetVSync : function: 00007FF6EA81A010
+	 - GetShortcutInUse : function: 00007FF6EA819930
+	 - SetUpgradeInfolayerEnabled : function: 00007FF6EA81C230
+	 - UIVolume : property<float>
+	 - SetCameraDragSensitivity : function: 00007FF6EA81BBC0
+	 - WindowMode : property<int>
+	 - GetControllerInvertAxisMoveX : function: 00007FF6EA81E910
+	 - CameraDragSensitivityDisplayValue : property<float>
+	 - CameraModifierToggleEnabled : property<bool>
+	 - CombatMusicDisabled : property<bool>
+	 - SetControllerInvertAxisMoveX : function: 00007FF6EA81E880
+	 - IncidentMusicDisabled : property<bool>
+	 - GetShader : function: 00007FF6EA81A310
+	 - SetInfolayerEnabled : function: 00007FF6EA81C010
+	 - IrrigationPlacementModeEnabled : property<bool>
+	 - AlternativeGrassColorMode : property<bool>
+	 - SetLighting : function: 00007FF6EA81A370
+	 - FixSunPosition : property<bool>
+	 - SetConstructionHighlightEnabled : function: 00007FF6EA81C320
+	 - GetRomanLettersOnlyEnabled : function: 00007FF6EA81CE90
+	 - SetRomanLettersOnlyEnabled : function: 00007FF6EA81CE00
+	 - SetIrrigationPlacementModeEnabled : function: 00007FF6EA81CC20
+	 - EnableElectricityPoles : property<bool>
+	 - SetFixSunPosition : function: 00007FF6EA81A8C0
+	 - GetCoopPingBubbleEnabled : function: 00007FF6EA81CAD0
+	 - GetAudioNotificationSubtitleVisibility : function: 00007FF6EA81B830
+	 - AudioLanguage : property<int>
+	 - GetMusicVolume : function: 00007FF6EA81AD90
+	 - SetControllerInnerDeadzoneLeft : function: 00007FF6EA81E380
+	 - SetNewspaperFilterEnabled : function: 00007FF6EA81C860
+	 - InfolayerEnabled : property<bool>
+	 - GetTransparentChatEnabled : function: 00007FF6EA81C710
+	 - SetTransparentChatEnabled : function: 00007FF6EA81C680
+	 - AntiAlias : property<int>
+	 - EdgeScrollingEnabled : property<bool>
+	 - AutoBlueprintEnabled : property<bool>
+	 - GetLighting : function: 00007FF6EA81A3E0
+	 - GetAutoBlueprintEnabled : function: 00007FF6EA81C4A0
+	 - GetConstructionHighlightEnabled : function: 00007FF6EA81C3B0
+	 - ConstructionHighlightEnabled : property<bool>
+	 - SetCameraScrollSensitivity : function: 00007FF6EA81BD00
+	 - SetUpscaling : function: 00007FF6EA81AA80
+	 - GetExtendedCameraDistanceEnabled : function: 00007FF6EA81BB00
+	 - Shadow : property<int>
+	 - SwapTriggerAndShoulderButtons : property<bool>
+	 - RightclickMenuEnabled : property<bool>
+ - GetRefOid : function: 00007FF6EA2AD8A0
+ - GetAreaFetch : function: 00007FF6EA2AC3B0
+ - MetaIncidents : property<CMetaIncidentManager>
+	 - TogglePause : function: 00007FF6EA727A50
+	 - __name : CMetaIncidentManagerTextSource*MT
+ - Input : property<CInputManager>
+	 - GetDebugModeEnabled : function: 00007FF6EA73DF90
+	 - DebugModeEnabled : property<bool>
+	 - SetDebugModeEnabled : function: 00007FF6EA73DF00
+	 - __name : CInputManagerTextSource*MT
+	 - __index : function: 00007FF6EA73DD20
+ - Notifications : property<CNotificationManager>
+	 - JumpToLastNotification : function: 00007FF6EA7FD110
+	 - GetCurrent : function: 00007FF6EA7FCE80
+	 - SetPlayTime : function: 00007FF6EA7FD0A0
+	 - GetByID : function: 00007FF6EA7FCEF0
+	 - Current : property<INotification>
+		 - GetValue : function: 00007FF6EA244CA0
+		 - __name : INotificationTextSource*MT
+	 - __name : CNotificationManagerTextSource*MT
+	 - __index : function: 00007FF6EA7FCC90
+ - GetSessionTransferSpeedFactorForGUID : function: 00007FF6EA2AEB90
+ - StreetOverlay : property<CStreetOverlayManager>
+	 - ToggleEnableStatus : function: 00007FF6EA1DFCB0
+	 - ToggleInfoLayerVisibility : function: 00007FF6EA1DFC60
+	 - __name : CStreetOverlayManagerTextSource*MT
+ - GetMemorize : function: 00007FF6EA2ADC20
+ - GetGameObject : function: 00007FF6EA2AD3B0
+ - Research : property<CResearchManager>
+	 - GetItemCraftingMinimumWorkforceAmount : function: 00007FF6EA5A9000
+	 - GetCraftingProduct : function: 00007FF6EA5A8C10
+	 - SetDonateItemsInStorage : function: 00007FF6EA5A9790
+	 - GetIsCraftingInProcess : function: 00007FF6EA5A8BB0
+	 - GetGodlikeAmount : function: 00007FF6EA5A9410
+	 - GetDonationValueOfItemUnderCursor : function: 00007FF6EA5A99A0
+	 - GetResearchCraftingCostPayable : function: 00007FF6EA5A8E40
+	 - SetCraftOrAddToQueue : function: 00007FF6EA5A8A80
+	 - GetDonationStorageValueOverflow : function: 00007FF6EA5A9890
+	 - SetSelectRecipes : function: 00007FF6EA5A8780
+	 - FertilitySwapAffectedBuildingType : property<int>
+	 - GetItemCraftingResearchCosts : function: 00007FF6EA5A8CD0
+	 - GetItemCraftingResearchCostsNotQueued : function: 00007FF6EA5A8DB0
+	 - GetFertilitySwapAffectedBuildingType : function: 00007FF6EA5A9B60
+	 - FertilitySwapAffectedBuildingAmount : property<int>
+	 - GetFertilitySwapAffectedBuildingAmount : function: 00007FF6EA5A9B00
+	 - GetItemCraftingMinimumWorkforceTime : function: 00007FF6EA5A9150
+	 - SetAddToDonationStorage : function: 00007FF6EA5A9580
+	 - DonationValueOfItemUnderCursor : property<int>
+	 - IsItemUnderCursorDonatable : property<bool>
+	 - GetAmountOfResearchedRecipesInPool : function: 00007FF6EA5A88F0
+	 - GetIsItemUnderCursorDonatable : function: 00007FF6EA5A9940
+	 - GetResearchCraftingCostOverCap : function: 00007FF6EA5A8F20
+	 - DonationStorageValue : property<int>
+	 - DonationStorageValueOverflow : property<int>
+	 - __index : function: 00007FF6EA5A83D0
+	 - SetDonateItemUnderCursor : function: 00007FF6EA5A98F0
+	 - CraftingProduct : property<int>
+	 - SetRemoveQueuedEntry : function: 00007FF6EA5A8B40
+	 - GetIsGodlikePermit : function: 00007FF6EA5A94A0
+	 - SetAddGodlikeCheat : function: 00007FF6EA5A93A0
+	 - CraftingTimeLeft : property<rdtime>
+	 - SetResearchRecipes : function: 00007FF6EA5A87F0
+	 - GetCraftingMinimumWorkforceAvailable : function: 00007FF6EA5A9090
+	 - GetItemCraftingMaximumWorkforceAmount : function: 00007FF6EA5A91E0
+	 - SetClearDonationStorage : function: 00007FF6EA5A97E0
+	 - SetRemoveFromDonationStorage : function: 00007FF6EA5A96D0
+	 - GetDonationValueOfItem : function: 00007FF6EA5A9A00
+	 - GetAvailableWorkforce : function: 00007FF6EA5A9300
+	 - SetSkipCraftingTimeCheat : function: 00007FF6EA5A9530
+	 - GetDonationStorageValue : function: 00007FF6EA5A9830
+	 - IsCraftingInProcess : property<bool>
+	 - SetTransferCraftedItems : function: 00007FF6EA5A8AF0
+	 - GetAmountOfResearchedRecipes : function: 00007FF6EA5A8860
+	 - GetAmountOfRecipesInTotal : function: 00007FF6EA5A8980
+	 - SetCheatAllRecipes : function: 00007FF6EA5A8A10
+	 - GetItemCraftingMaximumWorkforceTime : function: 00007FF6EA5A9270
+	 - __name : CResearchManagerTextSource*MT
+	 - SetResearchCenterWorkforceAmount : function: 00007FF6EA5A9A90
+	 - GetCraftingTimeLeft : function: 00007FF6EA5A8C70
+ - GetModInfo : function: 00007FF6EA2AE010
+ - GetDaytime : function: 00007FF6EA2ACCF0
+ - GetResearch : function: 00007FF6EA2AEFA0
+ - Regrow : property<CRegrowManager>
+	 - __name : CRegrowManagerTextSource*MT
+ - GetRegrow : function: 00007FF6EA2AEF30
+ - GetDesyncRecover : function: 00007FF6EA2ACDD0
+ - GetWorkforceTransferManager : function: 00007FF6EA2B00A0
+ - GetQuests : function: 00007FF6EA2AEDB0
+ - GetInput : function: 00007FF6EA2AD900
+ - GetBaseSpeed_MaxWindSlowdown : function: 00007FF6EA2AEA90
+ - GetLoadingSpeedFactorForGUID : function: 00007FF6EA2AE990
+ - DebugRender : property<CDebugRenderManager>
+	 - WritePerformanceTracking : function: 00007FF6EA7B54E0
+	 - StartSamplingContext : function: 00007FF6EA7B4DF0
+	 - ListTypes : function: 00007FF6EA7B4BF0
+	 - ToggleHeatProviders : function: 00007FF6EA7B4A50
+	 - OnClickEvent : function: 00007FF6EA7B4580
+	 - LocalSizeRandomArea : property<float>
+	 - GetLocalSizeRandomArea : function: 00007FF6EA7B4830
+	 - SetMemoryDebugBreakContext : function: 00007FF6EA7B4AF0
+	 - SetMemoryDebugBreakType : function: 00007FF6EA7B4CF0
+	 - SetMainSizeRandomArea : function: 00007FF6EA7B46D0
+	 - CreateMemorySnapshot : function: 00007FF6EA7B5530
+	 - SetLocalSizeRandomArea : function: 00007FF6EA7B47B0
+	 - StopSamplingContext : function: 00007FF6EA7B4EF0
+	 - ToggleHeated : function: 00007FF6EA7B4AA0
+	 - ChanceRandomArea : property<float>
+	 - __index : function: 00007FF6EA7B4210
+	 - GetChanceRandomArea : function: 00007FF6EA7B49F0
+	 - GetMainSizeRandomArea : function: 00007FF6EA7B4750
+	 - GetLocalInfluenceRandomArea : function: 00007FF6EA7B4910
+	 - SetMemoryAllocationSamplingContext : function: 00007FF6EA7B51F0
+	 - MainSizeRandomArea : property<float>
+	 - ToggleMemResourcesVisibility : function: 00007FF6EA7B5780
+	 - SetToggleShowQuestHint : function: 00007FF6EA7B4530
+	 - SetLocalInfluenceRandomArea : function: 00007FF6EA7B4890
+	 - SelectMemorySnapshot : function: 00007FF6EA7B5580
+	 - SetMemoryAllocationSamplingPeriod : function: 00007FF6EA7B50F0
+	 - LocalInfluenceRandomArea : property<float>
+	 - StopPerformanceTracking : function: 00007FF6EA7B5490
+	 - StartPerformanceTracking : function: 00007FF6EA7B5440
+	 - SaveMemoryInfo : function: 00007FF6EA7B53F0
+	 - SetMemoryDisplayThreshold : function: 00007FF6EA7B52F0
+	 - SeedRandomArea : property<float>
+	 - SetChanceRandomArea : function: 00007FF6EA7B4970
+	 - SetSeedRandomArea : function: 00007FF6EA7B45F0
+	 - ToggleMemTreeVisibility : function: 00007FF6EA7B5680
+	 - __name : CDebugRenderManagerTextSource*MT
+	 - SetMemoryAllocationSamplingMax : function: 00007FF6EA7B4FF0
+	 - GetSeedRandomArea : function: 00007FF6EA7B4670
+ - GetEcoQualityIcon : function: 00007FF6EA2AE840
+ - GetEcoQualityIndexCausedBy : function: 00007FF6EA2AE7B0
+ - GameClock : property<CGameClock>
+	 - SetSetGameSpeed : function: 00007FF6EA6E9B70
+	 - CorporationTime : property<CorporationTime>
+	 - __index : function: 00007FF6EA6E98E0
+	 - ToggleAsSlowAsPossible : function: 00007FF6EA6E9B20
+	 - GetCorporationTime : function: 00007FF6EA6E9AC0
+	 - __name : CGameClockTextSource*MT
+ - PlayerHasLostTargetShip : property<bool>
+ - GetDifficultyHelper : function: 00007FF6EA2ACE40
+ - Sound : property<CSoundManager>
+	 - ToggleGlobalPersistentEvents : function: 00007FF6EA5EAC60
+	 - GetPlayCameraSoundEffect : function: 00007FF6EA5EAAA0
+	 - ResetDebugEmitterFilter : function: 00007FF6EA5EADC0
+	 - ToggleProfiling : function: 00007FF6EA5EABC0
+	 - SetDebugEmitterFilter : function: 00007FF6EA5EACB0
+	 - GetStopCameraSoundEffect : function: 00007FF6EA5EAB30
+	 - SetCheatPlaySound : function: 00007FF6EA5EAE10
+	 - __name : CSoundManagerTextSource*MT
+	 - ToggleAdvancedDebug : function: 00007FF6EA5EAC10
+ - GetProductAssetData : function: 00007FF6EA2AE5A0
+ - GetCooldown : function: 00007FF6EA2AF400
+ - GetMetaIncidents : function: 00007FF6EA2ADD70
+ - GetMilitary : function: 00007FF6EA2ADFA0
+ - GetTradeRoute : function: 00007FF6EA2AFE00
+ - GetRailway : function: 00007FF6EA2AC8D0
+ - WinLose : property<CWinLoseManager>
+	 - LoseCurrentPlayer : function: 00007FF6EA2372B0
+	 - CheatScenarioFinished : function: 00007FF6EA237350
+	 - WinCurrentPlayer : function: 00007FF6EA237300
+	 - DefeatCurrentPlayer : function: 00007FF6EA237260
+	 - __name : CWinLoseManagerTextSource*MT
+ - GetPath : function: 00007FF6EA2AE420
+ - AccountSettings : property<CAccountSettings>
+	 - __name : CAccountSettingsTextSource*MT
+	 - __index : function: 00007FF6E9FCB430
+ - Incidents : property<CIncidentManager>
+	 - GetInfectionChanceSourceNotificationText : function: 00007FF6EA735660
+	 - SetDebugIncidentType : function: 00007FF6EA735310
+	 - SetDebugRenderMode : function: 00007FF6EA7352A0
+	 - CheatUnlockAllIncidents : function: 00007FF6EA735570
+	 - SetDebugMode : function: 00007FF6EA735230
+	 - ToggleRenderFlag : function: 00007FF6EA7353F0
+	 - GetIncident : function: 00007FF6EA7355C0
+	 - DebugIncidentLookAt : function: 00007FF6EA735380
+	 - ToggleDontSendResolver : function: 00007FF6EA7354B0
+	 - ToggleUnlockIncident : function: 00007FF6EA735500
+	 - __name : CIncidentManagerTextSource*MT
+	 - ToggleSpreading : function: 00007FF6EA735460
+ - GetSelection : function: 00007FF6EA2AF2B0
+ - GetParticipants : function: 00007FF6EA2AE350
+ - GetPalaceDecreeData : function: 00007FF6EA2AE2B0
+ - Cooldown : property<CSessionCooldownManager>
+	 - GetMonumentEventAreaName : function: 00007FF6EA5D5DA0
+	 - GetMonumentEventBlocked : function: 00007FF6EA5D5D40
+	 - MonumentEventBlocked : property<bool>
+	 - __index : function: 00007FF6EA5D5A70
+	 - GetMonumentEventRemainingCooldown : function: 00007FF6EA5D5CE0
+	 - MonumentEventRemainingCooldown : property<rdtime>
+	 - __name : CSessionCooldownManagerTextSource*MT
+	 - MonumentEventAreaName : property<rdsdk::CRDStringW>
+ - GetHappiness : function: 00007FF6EA2AC420
+ - Online : property<COnlineManager>
+	 - UbiservicesErrorCode : property<rdsdk::CRDString>
+	 - UbiservicesAvailability : property<bool>
+	 - LastLeftPlayer : property<rdsdk::CRDString>
+	 - UbiservicesErrorText : property<int>
+	 - CancelJoin : function: 00007FF6EA807F60
+	 - GetInternetAvailability : function: 00007FF6EA807140
+	 - RoutingAvailability : property<bool>
+	 - MatchMakingAvailability : property<bool>
+	 - GetStormAvailability : function: 00007FF6EA807590
+	 - GetUbiservicesErrorText : function: 00007FF6EA8074C0
+	 - StormErrorText : property<int>
+	 - GetPunchErrorCode : function: 00007FF6EA8078B0
+	 - GetPunchAvailability : function: 00007FF6EA8077F0
+	 - GetUbiservicesAvailability : function: 00007FF6EA807460
+	 - PunchErrorCode : property<rdsdk::CRDString>
+	 - FirstPartySignedIn : property<bool>
+	 - RendezVousErrorText : property<int>
+	 - __index : function: 00007FF6EA806860
+	 - GetMatchMakingAvailability : function: 00007FF6EA807270
+	 - LastError : property<rdsdk::CRDString>
+	 - GetLastLeftPlayer : function: 00007FF6EA807990
+	 - GetInternetErrorText : function: 00007FF6EA8071A0
+	 - GetPing : function: 00007FF6EA807D70
+	 - GetLastInviter : function: 00007FF6EA807A00
+	 - RoutingErrorText : property<int>
+	 - AcceptInvite : function: 00007FF6EA808000
+	 - LastInviter : property<rdsdk::CRDString>
+	 - GetStormErrorCode : function: 00007FF6EA807650
+	 - PunchAvailability : property<bool>
+	 - GetLastError : function: 00007FF6EA807920
+	 - InternetErrorCode : property<rdsdk::CRDString>
+	 - GetUbiservicesErrorCode : function: 00007FF6EA807520
+	 - GetLastSwapRequester : function: 00007FF6EA807A70
+	 - GetFirstPartyAvailability : function: 00007FF6EA8072D0
+	 - AnimatedEllipsis : property<rdsdk::CRDString>
+	 - GetNATType : function: 00007FF6EA807C90
+	 - GetStormErrorText : function: 00007FF6EA8075F0
+	 - RendezVousErrorCode : property<rdsdk::CRDString>
+	 - StormErrorCode : property<rdsdk::CRDString>
+	 - Ping : property<int>
+	 - GetInternetErrorCode : function: 00007FF6EA807200
+	 - GetRoutingErrorText : function: 00007FF6EA807720
+	 - InternetErrorText : property<int>
+	 - VoiceChat : property<CVoiceChat>
+		 - IsSpeakerMuted : property<bool>
+		 - GetIsIgnored : function: 00007FF6EA234310
+		 - GetIsSpeakerMuted : function: 00007FF6EA2342B0
+		 - GetIsMicMuted : function: 00007FF6EA234250
+		 - IsMicMuted : property<bool>
+		 - __name : CVoiceChatTextSource*MT
+		 - __index : function: 00007FF6EA234040
+	 - LastSwapRequester : property<rdsdk::CRDString>
+	 - GetFormerUsername : function: 00007FF6EA807ED0
+	 - GetFirstPartySignedIn : function: 00007FF6EA807330
+	 - GetRendezVousErrorText : function: 00007FF6EA807390
+	 - GetPlayerTeam : function: 00007FF6EA807C00
+	 - DeclineInvite : function: 00007FF6EA808050
+	 - SetLoadMPSession : function: 00007FF6EA807FB0
+	 - GetRoutingAvailability : function: 00007FF6EA8076C0
+	 - GetUsername : function: 00007FF6EA807E40
+	 - GetRoutingErrorCode : function: 00007FF6EA807780
+	 - GetVoiceChat : function: 00007FF6EA807DD0
+	 - GetRendezVousErrorCode : function: 00007FF6EA8073F0
+	 - GetAnimatedEllipsis : function: 00007FF6EA807D00
+	 - PunchErrorText : property<int>
+	 - GetPunchErrorText : function: 00007FF6EA807850
+	 - NATType : property<rdsdk::CRDString>
+	 - GetPlayerColor : function: 00007FF6EA807B70
+	 - InternetAvailability : property<bool>
+	 - FirstPartyAvailability : property<bool>
+	 - GetPlayerName : function: 00007FF6EA807AE0
+	 - __name : COnlineManagerTextSource*MT
+	 - RoutingErrorCode : property<rdsdk::CRDString>
+	 - StormAvailability : property<bool>
+ - DlcUpgrade : property<CCorporationDlcUpgradeManager>
+	 - GetUpgradeDifficultyBool : function: 00007FF6EA7AE150
+	 - SetUpgradeDifficultyBool : function: 00007FF6EA7AE0A0
+	 - SetToggleDLCActivation : function: 00007FF6EA7AE1E0
+	 - GetUpgradeDifficultyChoice : function: 00007FF6EA7AE010
+	 - SetUpgradeDifficultyChoice : function: 00007FF6EA7ADF50
+	 - __name : CCorporationDlcUpgradeManagerTextSource*MT
+ - GetNotifications : function: 00007FF6EA2AE160
+ - Cheat : property<CCheatManager>
+	 - SetTriggerCheatByNameWithArgs : function: 00007FF6EA774BA0
+	 - ToggleInGameDebugCheatPage : function: 00007FF6EA774EE0
+	 - AICheats : property<CAIGlobalCheatHandler>
+		 - ToggleStatisticsGraph : function: 00007FF6E9FD7AD0
+		 - ToggleStatisticsLocal : function: 00007FF6E9FD7BB0
+		 - ToggleBenchmarkMode : function: 00007FF6E9FD7A10
+		 - SetDebugBuildMode : function: 00007FF6E9FD7930
+		 - ToggleStatisticsFlag : function: 00007FF6E9FD7B40
+		 - ToggleDebugOption : function: 00007FF6E9FD79A0
+		 - __name : CAIGlobalCheatHandlerTextSource*MT
+		 - ToggleStatisticsMarker : function: 00007FF6E9FD7A60
+	 - GetAICheats : function: 00007FF6EA774FA0
+	 - GlobalCheats : property<CGlobalCheats>
+		 - GetIsUndiscoveredDisabled : function: 00007FF6EA7195B0
+		 - ToggleIgnoreFertilities : function: 00007FF6EA719560
+		 - IgnoreBuildingCosts : property<bool>
+		 - IncidentsDisabled : property<bool>
+		 - ToggleLOSDebugView : function: 00007FF6EA719DC0
+		 - GetDeferExpensiveEconomy : function: 00007FF6EA719920
+		 - ToggleIncidents : function: 00007FF6EA7196C0
+		 - EnableHardFarms : function: 00007FF6EA71A020
+		 - LoadLivePP : function: 00007FF6EA71A110
+		 - GetIsElectricityCheated : function: 00007FF6EA719C00
+		 - ToggleGearPerfProfiler : function: 00007FF6EA71A0C0
+		 - GetIsWinLoseConditionsDisabled : function: 00007FF6EA719EB0
+		 - DisableWinLoseConditions : function: 00007FF6EA719F10
+		 - ToggleBlockBannerNotifications : function: 00007FF6EA71A160
+		 - IsStartWithConstructionAIDebuggingEnabled : property<bool>
+		 - GetIgnoreFertilities : function: 00007FF6EA719500
+		 - IsElectricityCheated : property<bool>
+		 - ToggleElectricity : function: 00007FF6EA719C60
+		 - GetEconomySpeed : function: 00007FF6EA719AA0
+		 - ToggleExtendedDebugging : function: 00007FF6EA719F60
+		 - ToggleMemoryTracking : function: 00007FF6EA71A070
+		 - IsWinLoseConditionsDisabled : property<bool>
+		 - ToggleDeferExpensiveQuestSystem : function: 00007FF6EA719B00
+		 - ToggleConstructionAIEnabled : function: 00007FF6EA719820
+		 - IsProductivityCheated : property<bool>
+		 - EnableRealWindSystem : function: 00007FF6EA719FD0
+		 - ToggleIgnoreBuildingCosts : function: 00007FF6EA7194B0
+		 - GetIsLOSDebugView : function: 00007FF6EA719D60
+		 - GetIsProductivityCheated : function: 00007FF6EA719B50
+		 - ToggleAttackDebugView : function: 00007FF6EA719D10
+		 - __index : function: 00007FF6EA718FB0
+		 - IsAttackDebugView : property<bool>
+		 - ConstructionAIEnabled : property<bool>
+		 - DeferExpensiveEconomy : property<bool>
+		 - IsLOSDebugView : property<bool>
+		 - ToggleProductivity : function: 00007FF6EA719BB0
+		 - ToggleUpgradeCheck : function: 00007FF6EA719E60
+		 - EconomySpeed : property<float>
+		 - IsUndiscoveredDisabled : property<bool>
+		 - DisableUndiscovered : function: 00007FF6EA719610
+		 - StartWithConstructionAIDebugging : function: 00007FF6EA7198D0
+		 - ToggleDeferExpensiveEconomy : function: 00007FF6EA719980
+		 - SuperShipSpeedEnabled : property<bool>
+		 - SetEconomySpeed : function: 00007FF6EA719A20
+		 - IgnoreFertilities : property<bool>
+		 - ToggleSuperShipSpeed : function: 00007FF6EA719770
+		 - GetIsStartWithConstructionAIDebuggingEnabled : function: 00007FF6EA719870
+		 - GetConstructionAIEnabled : function: 00007FF6EA7197C0
+		 - ToggleFluidResidentSettleBehaviour : function: 00007FF6EA7199D0
+		 - GetIsAttackDebugView : function: 00007FF6EA719CB0
+		 - GetIgnoreBuildingCosts : function: 00007FF6EA719450
+		 - ToggleUnlockAllForHumans : function: 00007FF6EA719E10
+		 - __name : CGlobalCheatsTextSource*MT
+		 - GetIncidentsDisabled : function: 00007FF6EA719660
+		 - GetSuperShipSpeedEnabled : function: 00007FF6EA719710
+	 - __index : function: 00007FF6EA774790
+	 - SetTriggerCheatWithArgs : function: 00007FF6EA774D40
+	 - GetGlobalCheats : function: 00007FF6EA774F30
+	 - SetTriggerCheatByName : function: 00007FF6EA774A30
+	 - SetIncreaseCheatCount : function: 00007FF6EA7749C0
+	 - SetSetCheatCategory : function: 00007FF6EA774E70
+	 - __name : CCheatManagerTextSource*MT
+	 - SetTriggerCheat : function: 00007FF6EA774B30
+ - GetLoadingPier : function: 00007FF6EA2ADBB0
+ - GetNewspaper : function: 00007FF6EA2AE0F0
+ - Newspaper : property<CNewspaperManager>
+	 - GetIsPartOfNewspaper : function: 00007FF6EA7F5520
+	 - GetSpecialEditionContext : function: 00007FF6EA7F5BB0
+	 - GetFindArticle : function: 00007FF6EA7F5480
+	 - Publish : function: 00007FF6EA7F5600
+	 - GetActiveEffectValueText : function: 00007FF6EA7F5990
+	 - GetGetNewspaper : function: 00007FF6EA7F53E0
+	 - GetActiveEffectName : function: 00007FF6EA7F5A20
+	 - GetHappinessImpactByPropaganda : function: 00007FF6EA7F5B30
+	 - GetActiveEffectValue : function: 00007FF6EA7F5670
+	 - GetActiveEffectValuePropagandaSensitive : function: 00007FF6EA7F57B0
+	 - ShowLatestNewspaperUI : function: 00007FF6EA7F55B0
+	 - SpecialEditionContext : property<CNewspaperContext>
+		 - GetOwnerName : function: 00007FF6EA79F080
+		 - OwnerName : property<rdsdk::CRDStringW>
+		 - TownName : property<rdsdk::CRDStringW>
+		 - __index : function: 00007FF6EA7F04D0
+		 - ObjectName : property<rdsdk::CRDStringW>
+		 - ParticipantName : property<rdsdk::CRDStringW>
+		 - GetParticipantName : function: 00007FF6EA7F07E0
+		 - GetObjectName : function: 00007FF6EA7F08C0
+		 - __name : CNewspaperContextTextSource*MT
+		 - GetTownName : function: 00007FF6EA7F0850
+	 - CreateNewspaper : function: 00007FF6EA7F5390
+	 - GetRiotImpactByPropaganda : function: 00007FF6EA7F5AB0
+	 - __index : function: 00007FF6EA7F5130
+	 - __name : CNewspaperManagerTextSource*MT
+	 - AddNewsArticle : function: 00007FF6EA7F5320
+ - GetAchievements : function: 00007FF6EA2AC070
+ - Mods : property<CModManager>
+	 - RequestEmailAuthCode : function: 00007FF6EA7E80A0
+	 - GetUpdateInfo : property<rdsdk::CRDString>
+	 - IsModInstalled : function: 00007FF6EA7E8380
+	 - __index : function: 00007FF6EA7E7E40
+	 - ExecuteDebugCommand : function: 00007FF6EA7E84A0
+	 - AuthenticateUserEmail : function: 00007FF6EA7E81A0
+	 - IsModSubscribed : function: 00007FF6EA7E82F0
+	 - ListMods : function: 00007FF6EA7E82A0
+	 - __name : CModManagerTextSource*MT
+	 - GetModName : function: 00007FF6EA7E8410
+ - Animals : property<CAnimalManager>
+	 - SetDebugCommand : function: 00007FF6E9FDCB10
+	 - __name : CAnimalManagerTextSource*MT
+ - AiConstruction : property<CAIConstructionManager>
+	 - GetCheats : function: 00007FF6E9FD7190
+	 - Cheats : property<CAICheatHandler>
+		 - ToggleIslandRole : function: 00007FF6E9FD1750
+		 - OverwriteNextConstructionRequest : function: 00007FF6E9FD1890
+		 - SetSkinGuid : function: 00007FF6E9FD1AE0
+		 - ResetQuickBuildFilter : function: 00007FF6E9FD1940
+		 - SetQuickBuildFilter : function: 00007FF6E9FD1990
+		 - SetFakeNoSpaceFilter : function: 00007FF6E9FD1EA0
+		 - ResetFakeNoSpaceFilter : function: 00007FF6E9FD1E50
+		 - SetDebugParticipant : function: 00007FF6E9FD1820
+		 - SetFakeNoSpace : function: 00007FF6E9FD1DA0
+		 - ResetBuildUntilFilter : function: 00007FF6E9FD1C50
+		 - SetBuildUntilFilter : function: 00007FF6E9FD1CA0
+		 - ResetSkins : function: 00007FF6E9FD1A90
+		 - SetBuildUntil : function: 00007FF6E9FD1BA0
+		 - __name : CAICheatHandlerTextSource*MT
+		 - SetDebugCommand : function: 00007FF6E9FD16E0
+	 - __name : CAIConstructionManagerTextSource*MT
+	 - __index : function: 00007FF6E9FD6FA0
+ - ModInfo : property<CModInfo>
+	 - GetIcon : function: 00007FF6EA00DCA0
+	 - GetText : function: 00007FF6EA00DD10
+	 - Text : property<rdsdk::CRDStringW>
+	 - Icon : property<rdsdk::CRDStringW>
+	 - __name : CModInfoTextSource*MT
+	 - __index : function: 00007FF6EA7E75C0
+ - AreaPopulation : property<CAreaPopulationManager>
+	 - GetHighestPopulationLevel : function: 00007FF6EA003E00
+	 - GetSatisfaction_ExcludeBonusNeeds : function: 00007FF6EA003F40
+	 - GetNeedAreaPopulationFulfilled : function: 00007FF6EA003D20
+	 - __index : function: 00007FF6EA003AE0
+	 - SetFillAllResidencesOnIsland : function: 00007FF6EA003E70
+	 - HighestPopulationLevel : property<CPopulationAsset>
+		 - __index : function: 00007FF6EA886D20
+		 - Workforce : property<CAsset>
+		 - GetWorkforce : function: 00007FF6EA886FE0
+		 - __name : CPopulationAssetTextSource*MT
+	 - GetSatisfaction_IncludeBonusNeeds : function: 00007FF6EA003EC0
+	 - GetPopulationCount : function: 00007FF6E9FE1CF0
+	 - GetSatisfaction : function: 00007FF6EA003FC0
+	 - __name : CAreaPopulationManagerTextSource*MT
+ - GetMods : function: 00007FF6EA2AE080
+ - Military : property<CMilitaryManager>
+	 - ToggleDebugDraw : function: 00007FF6EA7E6BB0
+	 - __name : CMilitaryManagerTextSource*MT
+ - WorkforceTransferManager : property<CWorkforceTransferManager>
+	 - GetAvailableWorkforce : function: 00007FF6EA23B560
+	 - GetIsAddedToWorkforcePool : function: 00007FF6EA23B430
+	 - GetEmployedWorkforceOnArea : function: 00007FF6EA23B830
+	 - GetProvidedWorkforceOnArea : function: 00007FF6EA23B720
+	 - GetTransferedWorkforce : function: 00007FF6EA23B610
+	 - __name : CWorkforceTransferManagerTextSource*MT
+	 - GetHasActiveWorkforcePool : function: 00007FF6EA23B4D0
+ - Blueprint : property<CBlueprintManager>
+	 - GetUpgradeCostSelected : function: 00007FF6EA00F9D0
+	 - UpgradeCanBeBuiltPicked : property<bool>
+	 - UpgradeCostSelected : property<CBuildCost>
+	 - GetUpgradeCostPicked : function: 00007FF6EA00FA40
+	 - GetUpgradeCostSelectedMainBuildingOnly : function: 00007FF6EA00F8F0
+	 - GetUpgradeCanBeBuiltPicked : function: 00007FF6EA00FB10
+	 - __index : function: 00007FF6EA00F5F0
+	 - GetUpgradeCostPickedMainBuildingOnly : function: 00007FF6EA00F960
+	 - UpgradeCanBeBuiltSelected : property<bool>
+	 - UpgradeCostPicked : property<CBuildCost>
+	 - UpgradeCostPickedMainBuildingOnly : property<CBuildCost>
+	 - UpgradeCostSelectedMainBuildingOnly : property<CBuildCost>
+	 - __name : CBlueprintManagerTextSource*MT
+	 - GetUpgradeCanBeBuiltSelected : function: 00007FF6EA00FAB0
+ - GetFestivalManager : function: 00007FF6EA2AC310
+ - Target : property<CTargetManager>
+	 - DestructionCosts : property<CBuildCost>
+	 - UpgradeContainsOnlyStreets : property<bool>
+	 - DestructionPayback : property<CBuildCost>
+	 - UpgradeCosts : property<CBuildCost>
+	 - __index : function: 00007FF6EA1E0F00
+	 - IsBlueprint : property<bool>
+	 - GetIsBlueprint : function: 00007FF6EA1E1390
+	 - GetUpgradeCosts : function: 00007FF6EA1E12C0
+	 - GetDestructionPayback : function: 00007FF6EA1E11E0
+	 - GetUpgradeContainsOnlyStreets : function: 00007FF6EA1E1330
+	 - __name : CTargetManagerTextSource*MT
+	 - GetDestructionCosts : function: 00007FF6EA1E1250
+ - GetNot : function: 00007FF6EA2AFB50
+ - GetBuildPermits : function: 00007FF6EA2ADE50
+ - GetMoney : function: 00007FF6EA2ADDE0
+ - GetMetaInfluence : function: 00007FF6EA2ADF30
+ - DesyncRecover : property<CDesyncRecoverFlow>
+	 - __name : CDesyncRecoverFlowTextSource*MT
+ - FullscreenMovieQueueManager : property<CFullscreenMovieQueueManager>
+	 - SetEnqueueMovieGUID : function: 00007FF6EA6E8E40
+	 - __name : CFullscreenMovieQueueManagerTextSource*MT
+ - GetCameraSequenceManager : function: 00007FF6EA2ACB30
+ - GetEconomy : function: 00007FF6EA2ACFB0
+ - Railway : property<CAreaRailwayManager>
+	 - SetRandomSkin : function: 00007FF6EA006E10
+	 - SetToggleDebugVisualization : function: 00007FF6EA006DC0
+	 - __name : CAreaRailwayManagerTextSource*MT
+ - MetaGameManager : property<CMetaGameManager>
+	 - GetActiveSessionGUIDOfPeerInt : function: 00007FF6EA76F590
+	 - __name : CMetaGameManagerTextSource*MT
+ - GetGame : function: 00007FF6EA2AD340
+ - RefOid : property<GameObjectID>
+	 - AsyncObjectFlag : 0
+	 - AreaID : table: 000001EBDEEA5168
+		 - AreaIndex : 1
+		 - SessionID : 2
+		 - IslandID : 6
+	 - ObjectID : 15
+	 - EditorChunkID : 0
+	 - EditorFlag : 0
+ - GetMetaObjects : function: 00007FF6EA2ADD00
+ - Game : property<CGameManager>
+	 - SetSaveGameWithPopup : function: 00007FF6EA76DDB0
+	 - SetDebugSaveWithoutProperty : function: 00007FF6EA6EC6C0
+	 - SetDebugUploadSnapshot : function: 00007FF6EA6EC420
+	 - SetSaveGame : function: 00007FF6EA76DE00
+	 - GetLocaHelper : function: 00007FF6EA6EBAA0
+	 - __index : function: 00007FF6EA6EB8B0
+	 - SetEnableShowAssertDialog : function: 00007FF6EA6EC540
+	 - PushSavegameQuota : function: 00007FF6EA76DE50
+	 - LocaHelper : property<CLocaHelper>
+		 - SetSelectProfile : function: 00007FF6EA766FA0
+		 - __name : CLocaHelperTextSource*MT
+	 - SetPerformanceTimerGuid : function: 00007FF6EA6EC3B0
+	 - SetDebugDownloadSnapshot : function: 00007FF6EA6EC4B0
+	 - __name : CGameManagerTextSource*MT
+	 - SetStartSessionLoad : function: 00007FF6EA6EC5D0
+ - classtable : this
+ - CameraSequenceManager : property<CCameraSequenceManager>
+	 - SetStartCameraSequence : function: 00007FF6EA022850
+	 - __name : CCameraSequenceManagerTextSource*MT
+ - GetAchievementAssetData : function: 00007FF6EA2ABFD0
+ - GetAreaNeedUnlock : function: 00007FF6EA2AC610
+ - GetObjects : function: 00007FF6EA2AD450
+ - GetDlcUpgrade : function: 00007FF6EA2ACC80
+ - AreaFetch : property<CAreaFetchManager>
+	 - __name : CAreaFetchManagerTextSource*MT
+ - GetAreaManagerByIslandGUID : function: 00007FF6EA2AC570
+ - GetBuildMode : function: 00007FF6EA2ACAC0
+ - InfoTip : property<CInfoTipManager>
+	 - IsRefOidSet : property<bool>
+	 - GetIsContextValueSet : function: 00007FF6EA73B480
+	 - GetContextValue : function: 00007FF6EA73B350
+	 - GetCheckInfoTipSource : function: 00007FF6EA73B230
+	 - __index : function: 00007FF6EA73AEC0
+	 - IsContextEmpty : property<bool>
+	 - GetIsRefOidSet : function: 00007FF6EA73B1D0
+	 - GetIsContextEmpty : function: 00007FF6EA73B5A0
+	 - SetSetRefOid : function: 00007FF6EA73B150
+	 - __name : CInfoTipManagerTextSource*MT
+	 - SetSetRefGuid : function: 00007FF6EA73B0E0
+ - Area : property<CAreaLoader>
+	 - GetArea : function: 00007FF6E9FFAD10
+	 - AreaFromContext : property<CConstructionArea>
+		 - ID : property<AreaID>
+			 - AreaIndex : 6
+			 - SessionID : 32
+			 - IslandID : 95
+		 - GetPassiveTrade : function: 00007FF6EA79F860
+		 - IsBuyShareBlocked : property<bool>
+		 - GetIncomePerShare : function: 00007FF6EA79F0F0
+		 - BuyShareCooldownTime : property<int>
+		 - KontorID : property<GameObjectID>
+			 - AsyncObjectFlag : 0
+			 - AreaID : table: 000001EBDEEA75A8
+				 - AreaIndex : 0
+				 - SessionID : 39
+				 - IslandID : 0
+			 - ObjectID : 2214320096
+			 - EditorChunkID : 0
+			 - EditorFlag : 0
+		 - WarTimer : property<rdtime>
+		 - GetBuyShareCooldownTime : function: 00007FF6EA79ECD0
+		 - GetReservationCost : function: 00007FF6EA79F410
+		 - MilitaryTakeoverChanceStart : property<int>
+		 - IsExplosionUnlocked : property<bool>
+		 - GetBuyShareCooldownRemaining : function: 00007FF6EA79EC70
+		 - GetTotalShareIncome : function: 00007FF6EA79EB50
+		 - HasTradeRights : property<bool>
+		 - GetIsTakeoverBlocked : function: 00007FF6EA79F210
+		 - GetIsBuyShareBlocked : function: 00007FF6EA79EDA0
+		 - __index : function: 00007FF6EA79DFE0
+		 - SetSellShare : function: 00007FF6EA79EEC0
+		 - Economy : property<CAreaEconomy>
+			 - GetNeedLocked : function: 00007FF6E9FE2200
+			 - GetDelta : function: 00007FF6E9FE2670
+			 - GetRegisteredDeltaProduction : function: 00007FF6E9FE26F0
+			 - GetAttractivity : function: 00007FF6E9FDDC70
+			 - GetEconomyModifier : function: 00007FF6E9FE2120
+			 - CultureStatusFluff : property<rdsdk::CRDStringW>
+			 - SetSelectStorageGoodDebug : function: 00007FF6E9FE2550
+			 - CityStatusMissingAttractivity : property<int>
+			 - NextCityStatusAttractivity : property<int>
+			 - GetIsDistributionPaused : function: 00007FF6E9FE1D80
+			 - ClearIslandStorage : function: 00007FF6E9FE1CA0
+			 - Research : property<int>
+			 - GetNextCityStatusAttractivity : function: 00007FF6E9FDDEF0
+			 - GetDeltaSaturationUncapped : function: 00007FF6E9FE29F0
+			 - AddAmount : function: 00007FF6E9FE1B80
+			 - GetCityStatusMissingAttractivity : function: 00007FF6E9FDDE90
+			 - __index : function: 00007FF6E9FE1850
+			 - GetDeltaSaturation : function: 00007FF6E9FE2970
+			 - GetPopulationCount : function: 00007FF6E9FE1CF0
+			 - GetCultureStatusFluff : function: 00007FF6E9FDDE20
+			 - GetRegisteredDeltaConsumption : function: 00007FF6E9FE2830
+			 - SetCheatAddDelta : function: 00007FF6E9FE25C0
+			 - SetCheatChangeWorkforceNet : function: 00007FF6E9FE24C0
+			 - GetStorageTrend : function: 00007FF6E9FE2430
+			 - GetCityStatus : function: 00007FF6E9FDDFE0
+			 - Attractivity : property<int>
+			 - GetNeedUnlockPopulation : function: 00007FF6E9FE22E0
+			 - SetCheatItem : function: 00007FF6E9FE23C0
+			 - GetAttractivityType : function: 00007FF6E9FDDCD0
+			 - PopulationCount : property<int>
+			 - SetEconomyModifier : function: 00007FF6E9FE2000
+			 - GetSatisfaction : function: 00007FF6E9FE1E60
+			 - CityStatus : property<int>
+			 - __name : CAreaEconomyTextSource*MT
+			 - GetResearch : function: 00007FF6E9FE1FA0
+		 - GetIsExplosionUnlocked : function: 00007FF6EA79F650
+		 - GetCityName : function: 00007FF6EA79F710
+		 - TotalShareIncome : property<float>
+		 - IsFireUnlocked : property<bool>
+		 - GetTakeoverChance : function: 00007FF6EA79EBB0
+		 - GetAmountOfShares : function: 00007FF6EA79EF90
+		 - GetWarTimer : function: 00007FF6EA79F990
+		 - Happiness : property<CAreaHappinessManager>
+			 - CurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : property<int>
+			 - GetGlobalNewspaperHappiness : function: 00007FF6E9FF57E0
+			 - AttractivenessHappiness : property<float>
+			 - PollutionHappiness : property<float>
+			 - __index : function: 00007FF6E9FF5440
+			 - GetWorkingConditionsHappiness : function: 00007FF6E9FF5A00
+			 - GetWarfareHappiness : function: 00007FF6E9FF5A80
+			 - GlobalNewspaperHappiness : property<float>
+			 - AverageHappiness : property<float>
+			 - GetAverageHappiness : function: 00007FF6E9FF5C50
+			 - WarfareHappiness : property<float>
+			 - GetHappinessImpact : function: 00007FF6E9FF5BD0
+			 - GetTotalNewspaperHappiness : function: 00007FF6E9FF58C0
+			 - GetCurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : function: 00007FF6E9FF5D30
+			 - GetAttractivenessHappiness : function: 00007FF6E9FF59A0
+			 - GetStressedWorkforce : function: 00007FF6E9FF5B40
+			 - GetPopulationNewspaperHappiness : function: 00007FF6E9FF5840
+			 - WarfareHappinessThreshold : property<float>
+			 - GetAverageHappinessByPopulation : function: 00007FF6E9FF5CB0
+			 - GetWarfareHappinessThreshold : function: 00007FF6E9FF5AE0
+			 - __name : CAreaHappinessManagerTextSource*MT
+			 - GetPollutionHappiness : function: 00007FF6E9FF5940
+		 - SetHostileTakeover : function: 00007FF6EA79F270
+		 - GetIsRiotUnlocked : function: 00007FF6EA79F590
+		 - MilitaryTakeoverCurrentSurrenderChance : property<int>
+		 - GetID : function: 00007FF6EA79EAF0
+		 - SetBuyShare : function: 00007FF6EA79EE00
+		 - IsTakeoverBlocked : property<bool>
+		 - PassiveTrade : property<CPassiveTradeController>
+		 - PercentOwnedShares : property<int>
+		 - GetKontorID : function: 00007FF6EA79F4D0
+		 - GetIsDuplicate : function: 00007FF6EA79FCC0
+		 - IncomePerShare : property<int>
+		 - SetOpenMilitaryResultScreen : function: 00007FF6EA79FB10
+		 - TakeoverChance : property<int>
+		 - ReserveIslandInt : function: 00007FF6EA79F2E0
+		 - GetEconomy : function: 00007FF6EA79F780
+		 - TotalIncome : property<int>
+		 - IsOwnedByAnyone : property<bool>
+		 - IsIllnessUnlocked : property<bool>
+		 - MilitaryTakeoverCurrentMorale : property<int>
+		 - IsNextWarBlocked : property<rdtime>
+		 - GetIsOwnedByAnyone : function: 00007FF6EA79F470
+		 - GetReservationOwnerName : function: 00007FF6EA79F3A0
+		 - GetMilitaryTakeoverChanceStart : function: 00007FF6EA79FAB0
+		 - GetIsIllnessUnlocked : function: 00007FF6EA79F5F0
+		 - GetOwnerProfile : function: 00007FF6EA79EFF0
+		 - AmountOfShares : property<int>
+		 - GetMilitaryTakeoverCurrentSurrenderChance : function: 00007FF6EA79FA50
+		 - GetMilitaryTakeoverInfluenceCost : function: 00007FF6EA79FBC0
+		 - GetMilitaryTakeoverCurrentMorale : function: 00007FF6EA79F9F0
+		 - IslandWarActive : property<bool>
+		 - CityName : property<rdsdk::CRDStringW>
+		 - GetIslandWarActive : function: 00007FF6EA79F930
+		 - SetResetCooldown : function: 00007FF6EA79ED30
+		 - GetHasTradeRights : function: 00007FF6EA79F8D0
+		 - GetHappiness : function: 00007FF6E9FFD370
+		 - GetVisitors : function: 00007FF6EA79F7F0
+		 - Visitors : property<CAreaVisitors>
+			 - HasSpecialist : property<bool>
+			 - GetNextIntervalVisitorDelta : function: 00007FF6EA009020
+			 - GetHasVisitorPier : function: 00007FF6EA0090E0
+			 - GetHasSpecialist : function: 00007FF6EA0092D0
+			 - MaxVisitors : property<float>
+			 - GetRemainingIntervalTime : function: 00007FF6EA009080
+			 - GetVisitorPierUnlocked : function: 00007FF6EA009140
+			 - GetCurrentVisitors : function: 00007FF6EA008F60
+			 - EndInterval : function: 00007FF6EA008EB0
+			 - GetMaxVisitors : function: 00007FF6EA008F00
+			 - GetSpecialistSpawnProbability : function: 00007FF6EA009330
+			 - HasVisitorPier : property<bool>
+			 - DenySpecialistNet : function: 00007FF6EA0091F0
+			 - VisitorIncome : property<float>
+			 - VisitorPierUnlocked : property<bool>
+			 - GetVisitorIncome : function: 00007FF6EA008FC0
+			 - CurrentVisitors : property<float>
+			 - SpawnSpecialist : function: 00007FF6EA009280
+			 - SpecialistSpawnProbability : property<float>
+			 - RemainingIntervalTime : property<rdtime>
+			 - NextIntervalVisitorDelta : property<int>
+			 - __index : function: 00007FF6EA008AB0
+			 - __name : CAreaVisitorsTextSource*MT
+			 - AcceptSpecialistNet : function: 00007FF6EA0091A0
+		 - GetPercentOwnedShares : function: 00007FF6EA79EF30
+		 - GetTakeoverMinimum : function: 00007FF6EA79EC10
+		 - MilitaryTakeoverSpareInfluenceCost : property<int>
+		 - TotalDebt : property<int>
+		 - BuyShareCooldownRemaining : property<int>
+		 - GetTotalIncome : function: 00007FF6EA79F150
+		 - IsRiotUnlocked : property<bool>
+		 - GetIsArcticIllnesUnlocked : function: 00007FF6EA79F6B0
+		 - IsArcticIllnesUnlocked : property<bool>
+		 - TakeoverMinimum : property<int>
+		 - ReservationCost : property<int>
+		 - GetMilitaryTakeoverSpareInfluenceCost : function: 00007FF6EA79FC60
+		 - GetIsFireUnlocked : function: 00007FF6EA79F530
+		 - GetTotalDebt : function: 00007FF6EA79F1B0
+		 - GetIsNextWarBlocked : function: 00007FF6EA79FB60
+		 - __name : CConstructionAreaTextSource*MT
+		 - ReservationOwnerName : property<rdsdk::CRDStringW>
+		 - ClearReservation : function: 00007FF6EA79F350
+	 - GetAreaFromContext : function: 00007FF6E9FFADC0
+	 - GetIsCurrentAreaValidIsland : function: 00007FF6E9FFAF10
+	 - Current : property<CConstructionArea>
+			 - AreaID : table: 000001EBDEEADD18
+	 - __index : function: 00007FF6E9FFA9C0
+	 - GetCurrent : function: 00007FF6E9FFAE30
+	 - GetAreaFromID : function: 00007FF6E9FFAC70
+	 - IsCurrentAreaValidIsland : property<bool>
+	 - CurrentSelectedArea : property<CConstructionArea>
+			 - AreaID : table: 000001EBDEEB4A78
+	 - __name : CAreaLoaderTextSource*MT
+	 - GetCurrentSelectedArea : function: 00007FF6E9FFAEA0
+ - ShortcutManager : property<CShortcutManager>
+	 - GetShortcutTooltip : function: 00007FF6EA5E9610
+	 - GetHasShortcutTooltip : function: 00007FF6EA5E9730
+	 - __name : CShortcutManagerTextSource*MT
+ - GetAnimals : function: 00007FF6EA2AC230
+ - GetDiscovery : function: 00007FF6EA2ACEB0
+ - GetIsGamepadModeActive : function: 00007FF6EA2AD970
+ - LoadingPier : property<CLoadingPierManager>
+	 - UpdateHarborQueuePointsDebug : function: 00007FF6EA765F80
+	 - SetDebugDrawing : function: 00007FF6EA765EF0
+	 - __name : CLoadingPierManagerTextSource*MT
+ - GetToolOneManager : function: 00007FF6EA2AFCB0
+ - GetGameSetup : function: 00007FF6EA2AD530
+ - Attractivity : property<CAreaAttractivityManager>
+	 - Attractivity : property<int>
+	 - CityStatus : property<int>
+	 - GetNextCityStatusAttractivity : function: 00007FF6E9FDDEF0
+	 - GetCityStatus : function: 00007FF6E9FDDFE0
+	 - GetAttractivenessForCityLevel : function: 00007FF6E9FDDF50
+	 - CityStatusMissingAttractivity : property<int>
+	 - GetAttractivityType : function: 00007FF6E9FDDCD0
+	 - __index : function: 00007FF6E9FDD990
+	 - NextCityStatusAttractivity : property<int>
+	 - GetCityStatusMissingAttractivity : function: 00007FF6E9FDDE90
+	 - GetCultureStatusFluff : function: 00007FF6E9FDDE20
+	 - SetCheatChangeAttractivityNet : function: 00007FF6E9FDDD60
+	 - GetAttractivity : function: 00007FF6E9FDDC70
+	 - __name : CAreaAttractivityManagerTextSource*MT
+	 - CultureStatusFluff : property<rdsdk::CRDStringW>
+ - GetItem : function: 00007FF6EA2ADB40
+ - GetAreaProductDelta : function: 00007FF6EA2AC860
+ - Savegame : property<CSavegameManager>
+	 - DownloadLiveSavegames : function: 00007FF6EA5B7210
+	 - UpdateLiveSavegames : function: 00007FF6EA5B7150
+	 - GetTimeSinceSaving : function: 00007FF6EA5B7280
+	 - TimeSinceSaving : property<double>
+	 - SortLiveSavegames : function: 00007FF6EA5B71A0
+	 - __index : function: 00007FF6EA5B6E30
+	 - ResetLiveSavegamesSourceFolder : function: 00007FF6EA5B7100
+	 - __name : CSavegameManagerTextSource*MT
+	 - SetLiveSavegamesSourceFolder : function: 00007FF6EA5B7000
+ - GetSavegameFetcher : function: 00007FF6EA2AD1F0
+ - Account : property<CAccountManager>
+	 - __name : CAccountManagerTextSource*MT
+ - Happiness : property<CAreaHappinessManager>
+	 - CurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : property<int>
+	 - GetGlobalNewspaperHappiness : function: 00007FF6E9FF57E0
+	 - AttractivenessHappiness : property<float>
+	 - PollutionHappiness : property<float>
+	 - __index : function: 00007FF6E9FF5440
+	 - GetWorkingConditionsHappiness : function: 00007FF6E9FF5A00
+	 - GetWarfareHappiness : function: 00007FF6E9FF5A80
+	 - GlobalNewspaperHappiness : property<float>
+	 - AverageHappiness : property<float>
+	 - GetAverageHappiness : function: 00007FF6E9FF5C50
+	 - WarfareHappiness : property<float>
+	 - GetHappinessImpact : function: 00007FF6E9FF5BD0
+	 - GetTotalNewspaperHappiness : function: 00007FF6E9FF58C0
+	 - GetCurrentlyRequiredAttractivenessForNeutralAttractivenessHappiness : function: 00007FF6E9FF5D30
+	 - GetAttractivenessHappiness : function: 00007FF6E9FF59A0
+	 - GetStressedWorkforce : function: 00007FF6E9FF5B40
+	 - GetPopulationNewspaperHappiness : function: 00007FF6E9FF5840
+	 - WarfareHappinessThreshold : property<float>
+	 - GetAverageHappinessByPopulation : function: 00007FF6E9FF5CB0
+	 - GetWarfareHappinessThreshold : function: 00007FF6E9FF5AE0
+	 - __name : CAreaHappinessManagerTextSource*MT
+	 - GetPollutionHappiness : function: 00007FF6E9FF5940
+ - GetAccountSettings : function: 00007FF6EA2ABF60
+ - GetRefGuid : function: 00007FF6EA2AD840
+ - GUI : property<CGUIManager>
+	 - SetTogglePause : function: 00007FF6EA727A50
+	 - __name : CGUIManagerTextSource*MT
+ - GetGUI : function: 00007FF6EA2AD680
+ - Path : property<CPathManager>
+	 - SetQuickBalanceParam : function: 00007FF6EA882AC0
+	 - SetDebugLayer : function: 00007FF6EA882A50
+	 - __name : CPathManagerTextSource*MT
+ - GetIsNintendoProControllerActive : function: 00007FF6EA2AD9D0
+ - Discovery : property<CDiscoveryManager>
+	 - HideAll : function: 00007FF6EA7C14A0
+	 - ShowAll : function: 00007FF6EA7C1450
+	 - ShowParticipant : function: 00007FF6EA7C14F0
+	 - HideParticipant : function: 00007FF6EA7C1560
+	 - __name : CDiscoveryManagerTextSource*MT
+ - GetAiUnit : function: 00007FF6EA2AC1C0
+ - BuildMode : property<CBuildModeManager>
+	 - IsMoveMode : property<bool>
+	 - GetBuildMode : function: 00007FF6EA01A550
+	 - GetCosts : function: 00007FF6EA01A4E0
+	 - CurrentBuildMode : property<int>
+	 - GetIsMoveMode : function: 00007FF6EA01A6E0
+	 - HasPipetteBuildings : property<bool>
+	 - GridDrawer : property<CBuildModeGridDrawer>
+		 - GetIsPipeConnected : function: 00007FF6EA017E40
+		 - MaxConnectedPipes : property<int>
+		 - __index : function: 00007FF6EA017BC0
+		 - GetMaxConnectedPipes : function: 00007FF6EA017F60
+		 - GetArePipesAboveCapacity : function: 00007FF6EA017EA0
+		 - IsPipeConnected : property<bool>
+		 - GetCurrentlyConnectedPipes : function: 00007FF6EA017F00
+		 - CurrentlyConnectedPipes : property<int>
+		 - __name : CBuildModeGridDrawerTextSource*MT
+		 - ArePipesAboveCapacity : property<bool>
+	 - GetIsStreetMode : function: 00007FF6EA01A680
+	 - GetCurrentBuildMode : function: 00007FF6EA01A5C0
+	 - PipetteBuildingsCount : property<int>
+	 - GetPipetteBuildingsCount : function: 00007FF6EA01A860
+	 - IsStreetMode : property<bool>
+	 - GetHasPipetteBuildings : function: 00007FF6EA01A800
+	 - GetIsRailwayMode : function: 00007FF6EA01A740
+	 - IsTreeMode : property<bool>
+	 - GetIsTreeMode : function: 00007FF6EA01A7A0
+	 - Costs : property<CBuildCost>
+	 - IsRailwayMode : property<bool>
+	 - GetGridDrawer : function: 00007FF6EA01A8C0
+	 - GetIsDefaultMode : function: 00007FF6EA01A620
+	 - IsDefaultMode : property<bool>
+	 - __index : function: 00007FF6EA01A090
+	 - __name : CBuildModeManagerTextSource*MT
+	 - BuildMode : property<CBuildModeObject>
+		 - GetIsMainModule : function: 00007FF6EA01ECC0
+		 - IsNotAdjacent : property<bool>
+		 - Object : property<CGameObject>
+							 - IslandID : 67
+							 - AreaID : table: 000001EBDEA46D28
+							 - ObjectID : 3738153912
+							 - IslandID : 126
+							 - AreaID : table: 000001EBDE56FA98
+							 - ObjectID : 3731608120
+							 - IslandID : 81
+							 - AreaID : table: 000001EBDE996BC8
+							 - ObjectID : 3691038776
+							 - IslandID : 61
+							 - AreaID : table: 000001EBD78B5EC8
+							 - ObjectID : 3740364632
+					 - AreaIndex : 3
+					 - IslandID : 33
+					 - AreaID : table: 000001EBDB5F6358
+					 - ObjectID : 3619541064
+					 - IslandID : 104
+		 - __index : function: 00007FF6EA01E4B0
+		 - GetIsMove : function: 00007FF6EA01EAE0
+		 - GetIsNotAdjacent : function: 00007FF6EA01EB40
+		 - IsSnapped : property<bool>
+		 - GetObject : function: 00007FF6EA01ED20
+		 - GetIsSnapped : function: 00007FF6EA01E960
+		 - IsIrrigationMissing : property<bool>
+		 - IsMove : property<bool>
+		 - GetIsTerrainTypeValid : function: 00007FF6EA01E9C0
+		 - GetIsIrrigationMissing : function: 00007FF6EA01EBA0
+		 - GetIsModuleLimitReached : function: 00007FF6EA01EC60
+		 - IsInBlueprintMode : property<bool>
+		 - IsAreaBlocked : property<bool>
+		 - GetIsAreaBlocked : function: 00007FF6EA01EC00
+		 - IsMainModule : property<bool>
+		 - IsModuleLimitReached : property<bool>
+		 - IsOverlappingSameGUIDRadius : property<bool>
+		 - GetIsInBlueprintMode : function: 00007FF6EA01E900
+		 - GetIsOverlappingSameGUIDRadius : function: 00007FF6EA01EA20
+		 - __name : CBuildModeObjectTextSource*MT
+		 - IsTerrainTypeValid : property<bool>

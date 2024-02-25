@@ -1,13 +1,25 @@
 # Fertilities [^1]
 Fertilities are defined for every island and depend on the type of island.
-Types of islands:
-1. Starter
-2. Small
-3. Medium
-4. Normal
-5. Large
+Types of islands [^2]:
+1. Normal
+2. Starter
+3. Decoration
+4. ThirdParty
+5. PirateIsland
+6. CliffIsland
+Difficulty of islands[^3]:
+1. Normal
+2. Hard
+Size of islands [^4]:
+1. Small
+2. Medium
+3. Large
 >A starter island for example always has potatoes and oil.
+[^2]: Dataset: IslandType (Id: 431) 
+[^3]: Dataset: IslandDifficulty (Id: 429) 
+[^4]: Dataset: IslandSize (Id: 430)
 ## Generation
+
 When a region is unlocked (e.g. start of the game > Old World, New World at Artisans, etc.) A list of islands is choosen by the game. With the choice of those islands the game also defines the fertilities. Those can not be changed after this point unless you start a new game. 
 Which islands the game chooses depends on the settings you choose at the setup of the game. If you choose a harder setting, the game will take other types of islands. Again, once you choose that setting at that point, no way to change it after that point unless you start a new game.
 Every setting has different combinations of islands AND fertilities.Those combinations are combines in POOLS and those islands in those pools use FERTILITYSETS.
