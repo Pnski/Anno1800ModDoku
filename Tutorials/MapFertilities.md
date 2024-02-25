@@ -7,7 +7,7 @@
 # Fertilities [^1]
 --Fertilities are defined for every island and depend on the type of island.
 ## Datamine
-<div>
+<div align="center">
     <table>
         <tr><td>
             Types of islands [^2]:
@@ -25,7 +25,7 @@
             <ul><li>Low</li>
             <li>Medium</li>
             <li>High</li></ul>
-        </tr>
+        </td></tr>
     </table>
 </div>    
 
