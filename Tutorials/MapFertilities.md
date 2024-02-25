@@ -1,9 +1,9 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Fertilities \[^1\]](#fertilities-1)
-  - [Datamine \[^2\]](#datamine-2)
+- [Fertilities](#fertilities)
+  - [Datamine](#datamine)
   - [Fertility Sets](#fertility-sets)
-    - [Example ^3](#example-3)
+    - [Example](#example)
   - [Generation](#generation)
     - [ResourceSetCondition](#resourcesetcondition)
     - [AllowedRegion](#allowedregion)
@@ -14,10 +14,12 @@
   - [dunno part 2](#dunno-part-2)
   - [Restrictions](#restrictions)
 
-# Fertilities [^1]
+# Fertilities
+[^1]
 [^1]: Original by Hier0nimus; Got permission to copy this via discord. Rewritten and modified by me.
 --Fertilities are defined for every island and depend on the type of island.
-## Datamine [^2]
+## Datamine
+[^2]
 In this section we take first a look at possible (vanilla) datasets, as a basis to learn which combinations might be possible. Datasets can be easy looked up at [a1800.net](http://a1800.net/). For further investigation it is given to always have the vanilla version.
 <div align="center">
     <table>
@@ -44,7 +46,8 @@ In this section we take first a look at possible (vanilla) datasets, as a basis 
 
 ## Fertility Sets
 Taking a look inside the assets.xml or on [a1800.net](http://a1800.net/?itemSearch=FertilitySet&prevSearch=) shows that there are 121 different fertily sets. Every set has its own combinations of the possible datasets, combined with a certain amount of fertilities.
-### Example [^3]
+### Example
+[^3]
 [^3]: [a1800.net](http://a1800.net/?itemSearch=141508)
 ```xml
 <Asset>
