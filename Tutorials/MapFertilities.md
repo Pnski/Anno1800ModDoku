@@ -15,7 +15,7 @@
     - [Removing Fertilities](#removing-fertilities)
 
 # Fertilities
-[^1]
+Short introduction on how fertilities are determined and a little how they are included into the map generation[^1].
 [^1]: Original by Hier0nimus; Got permission to copy this via discord. Rewritten and modified by me.
 --Fertilities are defined for every island and depend on the type of island.
 ## Datamine
@@ -41,6 +41,7 @@ In this section we take first a look at possible (vanilla) datasets[^2], as a ba
         </td></tr>
     </table>
 </div>
+
 [^2]: Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)
 
 ## Fertility Sets
@@ -82,7 +83,7 @@ Depending on the seed and difficultysettings at the start of the game are island
 Which islands the game chooses depends on the difficulty settings choosen at the setup of the game. Each setup combination has its own map pool to chose from, thus it uses the pool from the `fertilitysets`.
 >A starter island for example always has potatoes and oil.
 ### ResourceSetCondition
-Looking at the [Example ^3](#example-3) `<ResourceSetCondition>` defines the conditions for this set.
+Looking at the [Example](#example-3) `<ResourceSetCondition>` defines the conditions for this set.
 ### AllowedRegion
 `<AllowedRegion>Moderate</AllowedRegion>` The region this set is used is in the moderate region, which is Old World and Cape. It is possible to add the New World, Arctic, New World and/or Enbesa here, this would make those fertilities also there available. 
 ### AllowedIslandDifficulty
