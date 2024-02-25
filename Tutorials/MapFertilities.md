@@ -7,7 +7,7 @@
 # Fertilities [^1]
 --Fertilities are defined for every island and depend on the type of island.
 ## Datamine
-<div align="center">
+<div>
     <table>
         <tr><td>
             Types of islands [^2]:
@@ -19,14 +19,14 @@
             6. CliffIsland
         </td>
         <td>
-            Difficulty of islands[^3]:
-            1. Normal
-            2. Hard
+            Difficulty of islands [^3]:
+            7. Normal
+            8. Hard
 
             Resource Amount [^4]:
-            1. Low
-            2. Medium
-            3. High
+            9. Low
+            10. Medium
+            11. High
         </td>
         </tr>
     </table>
