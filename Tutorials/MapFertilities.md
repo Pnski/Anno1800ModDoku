@@ -38,8 +38,8 @@ In this section we take first a look at possible (vanilla) datasets, as a basis 
             <ul><li>Low</li>
             <li>Medium</li>
             <li>High</li></ul>
-        </td></tr>
-    </table>[^2]
+        </td></tr><tfoot>[^2]</tfoot>
+    </table>
 </div>
 [^2]: Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)
 
