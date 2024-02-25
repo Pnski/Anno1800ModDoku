@@ -39,8 +39,8 @@ In this section we take first a look at possible (vanilla) datasets, as a basis 
             <li>Medium</li>
             <li>High</li></ul>
         </td></tr>
-    </table>
-</div>[^2]
+    </table>[^2]
+</div>
 [^2]: Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)
 
 ## Fertility Sets
