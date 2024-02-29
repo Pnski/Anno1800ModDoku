@@ -86,10 +86,10 @@ Which islands the game chooses depends on the difficulty settings choosen at the
 Looking at the [Example](#example-3) `<ResourceSetCondition>` defines the conditions for this set.
 ### AllowedRegion
 `<AllowedRegion>Moderate</AllowedRegion>` The region this set is used is in the moderate region, which is Old World and Cape. It is possible to add the New World, Arctic, New World and/or Enbesa here, this would make those fertilities also there available. 
-### AllowedIslandDifficulty
+### AllowedIslandType
 `<AllowedIslandType>Normal;Starter</AllowedIslandType>` tells on which island types this set is used. `Normal` or `Starter`. The starter island is the one a harbor is build when choosing starting conditions "Harbour". Normal are the island which have the same size as the starter island but have some things less because starter islands are given some fixed things like oil and potatoes.
 ### AllowedIslandDifficulty
-`<AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>` tells on which diffifulty setting this fertilityset is used. This example will not be used when choosing the "easy" settings.
+`<AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>` tells on which diffifulty setting this fertilityset is used.
 ### AllowedResourceAmounts
 `<AllowedResourceAmounts>Low</AllowedResourceAmounts>` Here we see another setting that is defined when you setup the game, the Allowed resources. When this setting is set to LOW, this fertilityset will be used. Otherwise if you would habe choosen PLENTY and the other I can not remember at the moment. This set will not be given to an island.
 ## Modding Fertility Sets
