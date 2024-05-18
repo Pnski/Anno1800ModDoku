@@ -10,6 +10,7 @@
 1600019997 | Rickroll | 0.0.1
 1600019996 | PreEmptive | 0.0.1
 1600019995 | GodFertilities | 0.0.1
+1600019994 | All Achievements | 0.0.1
 
 ## UniqueType
 
@@ -21,3 +22,4 @@
 1600000004 | balancePatch | 0.0.1 | deep water
 1600000005 | balancePatch | 0.0.1 | india
 1600000006 | balancePatch | 0.0.1 | sacred plants
+1600000007 | Anno1800Logos | 0.0.1 | logo (1)
