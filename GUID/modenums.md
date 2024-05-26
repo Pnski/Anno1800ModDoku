@@ -31,7 +31,5 @@
 1600000013 | Ultimate Docklands | 0.0.1 | Text NW
 1600000014 | Ultimate Docklands | 0.0.1 | Text Arctic
 1600000015 | Ultimate Docklands | 0.0.1 | Text Arctic
-1600000016 | Ultimate Docklands | 0.0.1 | Text Colossus
-1600000017 | Ultimate Docklands | 0.0.1 | Text Colossus
-1600000018 | Ultimate Docklands | 0.0.1 | Text Horizon
-1600000019 | Ultimate Docklands | 0.0.1 | Text Horizon
+1600000016 | Ultimate Docklands | 0.0.1 | Text Mods
+1600000017 | Ultimate Docklands | 0.0.1 | Text Mods
