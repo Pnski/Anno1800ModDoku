@@ -23,3 +23,15 @@
 1600000005 | balancePatch | 0.0.1 | india
 1600000006 | balancePatch | 0.0.1 | sacred plants
 1600000007 | Anno1800Logos | 0.0.1 | logo (1)
+1600000008 | Ultimate Docklands | 0.0.1 | Text Building
+1600000009 | Ultimate Docklands | 0.0.1 | Text Building
+1600000010 | Ultimate Docklands | 0.0.1 | Text OW
+1600000011 | Ultimate Docklands | 0.0.1 | Text OW
+1600000012 | Ultimate Docklands | 0.0.1 | Text NW
+1600000013 | Ultimate Docklands | 0.0.1 | Text NW
+1600000014 | Ultimate Docklands | 0.0.1 | Text Arctic
+1600000015 | Ultimate Docklands | 0.0.1 | Text Arctic
+1600000016 | Ultimate Docklands | 0.0.1 | Text Colossus
+1600000017 | Ultimate Docklands | 0.0.1 | Text Colossus
+1600000018 | Ultimate Docklands | 0.0.1 | Text Horizon
+1600000019 | Ultimate Docklands | 0.0.1 | Text Horizon
