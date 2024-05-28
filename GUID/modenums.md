@@ -33,7 +33,4 @@
 1600000015 | Ultimate Docklands | 0.0.1 | Text Arctic
 1600000016 | Ultimate Docklands | 0.0.1 | Text Mods
 1600000017 | Ultimate Docklands | 0.0.1 | Text Mods
-1600000018 | SchoonerSounds | 0.0.1 | Play_AsYouWish
-1600000019 | SchoonerSounds | 0.0.1 | Play_AtOnceSire
-1600000020 | SchoonerSounds | 0.0.1 | Play_AtYourService
-1600000021 | SchoonerSounds | 0.0.1 | BNK_VO_WC2
+1600000018 | SchoonerSounds | 0.0.1 | BNK_VO_WC2
