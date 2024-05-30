@@ -33,4 +33,10 @@
 1600000015 | Ultimate Docklands | 0.0.1 | Text Arctic
 1600000016 | Ultimate Docklands | 0.0.1 | Text Mods
 1600000017 | Ultimate Docklands | 0.0.1 | Text Mods
-1600000018 | SchoonerSounds | 0.0.1 | BNK_VO_WC2
+1600000018 | ShipWC2Sounds | 0.0.1 | BNK_VO_WC2
+1600000019 | Ultimate Docklands | 0.0.6 | Product List Enbe S.A.
+1600000020 | Ultimate Docklands | 0.0.6 | Product List Building
+1600000021 | Ultimate Docklands | 0.0.6 | Product List OW
+1600000022 | Ultimate Docklands | 0.0.6 | Product List NW
+1600000023 | Ultimate Docklands | 0.0.6 | Product List Arctic
+1600000024 | Ultimate Docklands | 0.0.6 | Product List Modding
