@@ -40,3 +40,9 @@
 1600000022 | Ultimate Docklands | 0.0.6 | Product List NW
 1600000023 | Ultimate Docklands | 0.0.6 | Product List Arctic
 1600000024 | Ultimate Docklands | 0.0.6 | Product List Modding
+1600000025 | MoreFestivalTypes_Nyk | 0.0.1 | Festivalname: Mens Health
+1600000026 | MoreFestivalTypes_Nyk | 0.0.1 | Festivalname: Christmas Day
+1600000027 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff1: Mens Health
+1600000028 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff2: Mens Health
+1600000029 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff1: Christmas Day
+1600000030 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff2: Christmas Day
