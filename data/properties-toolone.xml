@@ -11892,6 +11892,12 @@
           <DataType>Boolean</DataType>
           <Name>SkyDayListener</Name>
         </ValueDefinition>
+        <ValueDefinition>
+          <DataType>Choice</DataType>
+          <Name>LocalFeedbackObjectSizeCategory</Name>
+          <DataSet>FeedbackSizeCategory</DataSet>
+          <Description>Only relevant if this object is used as local feedback somewhere to determine its clippind distance</Description>
+        </ValueDefinition>
       </Property>
       <Property>
         <Name>MetaGameObjectReference</Name>
@@ -13755,6 +13761,7 @@
           <ChangeGUIDEffectDuration>850</ChangeGUIDEffectDuration>
           <ConstructionEffectScale>1</ConstructionEffectScale>
           <LogoMode>Disabled</LogoMode>
+          <LocalFeedbackObjectSizeCategory>Person</LocalFeedbackObjectSizeCategory>
         </Mesh>
         <MetaGameObjectReference />
         <MetaPersistent />
