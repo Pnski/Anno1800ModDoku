@@ -52,3 +52,7 @@
 1600000034 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff1: Aurora Borealis
 1600000035 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff2: Aurora Borealis
 1600000036 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff: Aurora Borealis - Description
+1600000037 | Keybinds_Nyk | 0.0.1 | Keybind Description - Toggle Upgradeable
+1600000038 | Keybinds_Nyk | 0.0.1 | Keybind Description - Toggle IgnoreCosts
+1600000039 | Keybinds_Nyk | 0.0.1 | Keybind Description - Add 1M
+1600000040 | Keybinds_Nyk | 0.0.1 | Keybind Description - StopCurrentFestival+StartNew
