@@ -56,3 +56,5 @@
 1600000038 | Keybinds_Nyk | 0.0.1 | Keybind Description - Toggle IgnoreCosts
 1600000039 | Keybinds_Nyk | 0.0.1 | Keybind Description - Add 1M
 1600000040 | Keybinds_Nyk | 0.0.1 | Keybind Description - StopCurrentFestival+StartNew
+1600000041 | Keybinds_Nyk | 0.0.1 | Keybind Description - Increase Workforce
+1600000042 | Keybinds_Nyk | 0.0.1 | Keybind Description - Decrease Workforce
