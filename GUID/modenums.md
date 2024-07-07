@@ -48,13 +48,19 @@
 1600000030 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff1: Christmas Day
 1600000031 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff2: Christmas Day
 1600000032 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff: Christmas Day - Description
-1600000033 | MoreFestivalTypes_Nyk | 0.0.1 | Festivalname: Aurora Borealis
-1600000034 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff1: Aurora Borealis
-1600000035 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff2: Aurora Borealis
-1600000036 | MoreFestivalTypes_Nyk | 0.0.1 | FestivalBuff: Aurora Borealis - Description
+1600000033 | MoreFestivalTypes_Nyk | 0.0.2 | Festivalname: Aurora Borealis
+1600000034 | MoreFestivalTypes_Nyk | 0.0.2 | FestivalBuff1: Aurora Borealis
+1600000035 | MoreFestivalTypes_Nyk | 0.0.2 | FestivalBuff2: Aurora Borealis
+1600000036 | MoreFestivalTypes_Nyk | 0.0.2 | FestivalBuff: Aurora Borealis - Description
 1600000037 | Keybinds_Nyk | 0.0.1 | Keybind Description - Toggle Upgradeable
 1600000038 | Keybinds_Nyk | 0.0.1 | Keybind Description - Toggle IgnoreCosts
 1600000039 | Keybinds_Nyk | 0.0.1 | Keybind Description - Add 1M
 1600000040 | Keybinds_Nyk | 0.0.1 | Keybind Description - StopCurrentFestival+StartNew
-1600000041 | Keybinds_Nyk | 0.0.1 | Keybind Description - Increase Workforce
-1600000042 | Keybinds_Nyk | 0.0.1 | Keybind Description - Decrease Workforce
+1600000041 | Keybinds_Nyk | 0.0.2 | Keybind Description - Increase Workforce
+1600000042 | Keybinds_Nyk | 0.0.2 | Keybind Description - Decrease Workforce
+1600000043 | Skins_Duck | 0.0.1 | Skin Small
+1600000044 | Skins_Duck | 0.0.1 | Skin Medium
+1600000045 | Skins_Duck | 0.0.1 | Skin Big/Normal
+1600000046 | CycleShipSkins | 0.0.1 | CycleShipSkins HotkeyDescription
+1600000047 | DevtoolConsole | 1.0.5 | Benchmark ON
+1600000048 | DevtoolConsole | 1.0.5 | Benchmark OFF
