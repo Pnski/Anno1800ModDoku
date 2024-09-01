@@ -11,6 +11,7 @@
 1600019996 | PreEmptive | 0.0.1
 1600019995 | GodFertilities | 0.0.1
 1600019994 | All Achievements | 0.0.1
+1600019993 | cheatai | 0.0.1
 
 ## UniqueType
 
